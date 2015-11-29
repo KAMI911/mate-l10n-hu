@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gabor Kelemen <kelemeng at mate dot hu>, 2008, 2009
+# Rezső Páder <rezso@rezso.net>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-09 13:06+0200\n"
+"PO-Revision-Date: 2014-01-21 20:12+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../polkitgtkmate/polkitlockbutton.c:455
+msgid "Action Identifier"
+msgstr "Műveletazonosító"
+
+#: ../polkitgtkmate/polkitlockbutton.c:456
+msgid "The action identifier to use for the button"
+msgstr "A gomb műveletazonosítója"
+
+#: ../polkitgtkmate/polkitlockbutton.c:472
+msgid "Is Authorized"
+msgstr "Van felhatalmazása"
+
+#: ../polkitgtkmate/polkitlockbutton.c:473
+msgid "Whether the process is authorized"
+msgstr "A folyamatnak van-e felhatalmazása"
+
+#: ../polkitgtkmate/polkitlockbutton.c:488
+msgid "Is Visible"
+msgstr "Látható"
+
+#: ../polkitgtkmate/polkitlockbutton.c:489
+msgid "Whether the widget is visible"
+msgstr "Látható legyen-e a felületi elem"
+
+#: ../polkitgtkmate/polkitlockbutton.c:504
+msgid "Can Obtain"
+msgstr "Kérhet"
+
+#: ../polkitgtkmate/polkitlockbutton.c:505
+msgid "Whether authorization can be obtained"
+msgstr "Kérhető-e felhatalmazás"
+
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
+msgid "Unlock Text"
+msgstr "Feloldási szöveg"
+
+#: ../polkitgtkmate/polkitlockbutton.c:521
+msgid "The text to display when prompting the user to unlock."
+msgstr "A felhasználó feloldásra kérésekor megjelenítendő szöveg."
+
+#: ../polkitgtkmate/polkitlockbutton.c:522
+msgid "Click to make changes"
+msgstr "Kattintson a módosításhoz"
+
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
+msgid "Unlock Tooltip"
+msgstr "Feloldási buboréksúgó"
+
+#: ../polkitgtkmate/polkitlockbutton.c:538
+msgid "The tooltip to display when prompting the user to unlock."
+msgstr "A felhasználó feloldásra kérésekor megjelenítendő buboréksúgó."
+
+#: ../polkitgtkmate/polkitlockbutton.c:539
+msgid "Authentication is needed to make changes."
+msgstr "Hitelesítés szükséges a módosítások végrehajtásához."
+
+#: ../polkitgtkmate/polkitlockbutton.c:554
+msgid "Lock Text"
+msgstr "Zárolási szöveg"
+
+#: ../polkitgtkmate/polkitlockbutton.c:555
+msgid "The text to display when prompting the user to lock."
+msgstr "A felhasználó zárolásra kéréskor megjelenítendő szöveg."
+
+#: ../polkitgtkmate/polkitlockbutton.c:556
+msgid "Click to prevent changes"
+msgstr "Kattintson a módosítás megakadályozásához"
+
+#: ../polkitgtkmate/polkitlockbutton.c:571
+msgid "Lock Tooltip"
+msgstr "Zárolási buboréksúgó"
+
+#: ../polkitgtkmate/polkitlockbutton.c:572
+msgid "The tooltip to display when prompting the user to lock."
+msgstr "A felhasználó zárolásra kéréskor megjelenítendő buboréksúgó."
+
+#: ../polkitgtkmate/polkitlockbutton.c:573
+msgid "To prevent further changes, click the lock."
+msgstr "További módosítások megakadályozásához kattintson a lakatra."
+
+#: ../polkitgtkmate/polkitlockbutton.c:588
+msgid "Lock Down Text"
+msgstr "Zárolási szöveg"
+
+#: ../polkitgtkmate/polkitlockbutton.c:589
+msgid ""
+"The text to display when prompting the user to lock down the action for all "
+"users."
+msgstr "A felhasználó művelet zárolására kérésekor megjelenítendő szöveg."
+
+#: ../polkitgtkmate/polkitlockbutton.c:590
+msgid "Click to lock down"
+msgstr "Kattintson a zároláshoz"
+
+#: ../polkitgtkmate/polkitlockbutton.c:605
+msgid "Lock Down Tooltip"
+msgstr "Zárolási buboréksúgó"
+
+#: ../polkitgtkmate/polkitlockbutton.c:606
+msgid ""
+"The tooltip to display when prompting the user to lock down the action for "
+"all users."
+msgstr "A felhasználó művelet zárolására kérésekor megjelenítendő szöveg."
+
+#: ../polkitgtkmate/polkitlockbutton.c:607
+msgid ""
+"To prevent users without administrative privileges from making changes, "
+"click the lock."
+msgstr "Kattintson a lakatra a rendszergazdai jogosultságok nélküli felhasználók eltiltásához a módosításoktól."
+
+#: ../polkitgtkmate/polkitlockbutton.c:623
+msgid ""
+"The text to display when the user cannot obtain authorization through "
+"authentication."
+msgstr "A megjelenítendő szöveg, ha a felhasználó nem kaphat felhatalmazást hitelesítés útján."
+
+#: ../polkitgtkmate/polkitlockbutton.c:624
+msgid "Not authorized to make changes"
+msgstr "Nincs jogosultsága módosítások végrehajtására"
+
+#: ../polkitgtkmate/polkitlockbutton.c:640
+msgid ""
+"The tooltip to display when the user cannot obtain authorization through "
+"authentication."
+msgstr "A megjelenítendő szöveg, ha a felhasználó nem kaphat felhatalmazást hitelesítés útján."
+
+#: ../polkitgtkmate/polkitlockbutton.c:641
+msgid "System policy prevents changes. Contact your system administator."
+msgstr "A rendszer házirendje megakadályozza a módosításokat. Keresse meg rendszergazdáját."
+
+#: ../src/main.c:128
+msgid "Click the icon to drop all elevated privileges"
+msgstr "Kattintson az ikonra a megemelt jogosultságok eldobásához"
+
+#: ../src/polkitmateauthenticationdialog.c:159
+msgid "Select user..."
+msgstr "Válasszon felhasználót…"
+
+#: ../src/polkitmateauthenticationdialog.c:194
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../src/polkitmateauthenticationdialog.c:532
+msgid "_Authenticate"
+msgstr "_Hitelesítés"
+
+#: ../src/polkitmateauthenticationdialog.c:571
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as one of the users below is required to perform this action."
+msgstr "Egy alkalmazás olyan műveletet próbál végrehajtani, amely speciális jogosultságot igényel. A következő felhasználók egyikeként való hitelesítés szükséges a művelet végrehajtásához."
+
+#: ../src/polkitmateauthenticationdialog.c:579
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "Egy alkalmazás olyan műveletet próbál végrehajtani, amely speciális jogosultságot igényel. A művelet végrehajtásához hitelesítés szükséges."
+
+#: ../src/polkitmateauthenticationdialog.c:585
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the super user is required to perform this action."
+msgstr "Egy alkalmazás olyan műveletet próbál végrehajtani, amely speciális jogosultságot igényel. Adminisztrátorként való hitelesítés szükséges a művelet végrehajtásához."
+
+#: ../src/polkitmateauthenticationdialog.c:620
+#: ../src/polkitmateauthenticator.c:299
+msgid "_Password:"
+msgstr "Jel_szó:"
+
+#. Details
+#: ../src/polkitmateauthenticationdialog.c:638
+msgid "<small><b>_Details</b></small>"
+msgstr "<small><b>_Részletek</b></small>"
+
+#: ../src/polkitmateauthenticationdialog.c:691
+msgid "<small><b>Action:</b></small>"
+msgstr "<small><b>Művelet:</b></small>"
+
+#: ../src/polkitmateauthenticationdialog.c:694
+#, c-format
+msgid "Click to edit %s"
+msgstr "Kattintson %s művelet jogosultságbeállításainak módosításához"
+
+#: ../src/polkitmateauthenticationdialog.c:708
+msgid "<small><b>Vendor:</b></small>"
+msgstr "<small><b>Gyártó:</b></small>"
+
+#: ../src/polkitmateauthenticationdialog.c:710
+#, c-format
+msgid "Click to open %s"
+msgstr "Kattintson %s megnyitásához"
+
+#: ../src/polkitmateauthenticationdialog.c:873
+msgid "Authenticate"
+msgstr "Hitelesítés"
+
+#: ../src/polkitmateauthenticator.c:295
+#, c-format
+msgid "_Password for %s:"
+msgstr "%s jel_szava:"
+
+#: ../src/polkitmateauthenticator.c:456
+msgid "Authentication Failure"
+msgstr "Hitelesítési hiba"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+msgid "PolicyKit Authentication Agent"
+msgstr "PolicyKit hitelesítési ügynök"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr "PolicyKit hitelesítési ügynök a MATE Desktophoz"

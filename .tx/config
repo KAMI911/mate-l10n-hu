@@ -1,0 +1,167 @@
+[main]
+host = https://www.transifex.com
+
+[MATE.libmatekbd]
+file_filter = po/libmatekbd_<lang>.po
+source_file = po/libmatekbd.pot
+source_lang = en
+ 
+[MATE.libmatekeyring]
+file_filter = po/libmatekeyring_<lang>.po
+source_file = po/libmatekeyring.pot
+source_lang = en
+ 
+[MATE.libmateweather]
+file_filter = po/libmateweather_<lang>.po
+source_file = po/libmateweather.pot
+source_lang = en
+ 
+[MATE.libmatewnck]
+file_filter = po/libmatewnck_<lang>.po
+source_file = po/libmatewnck.pot
+source_lang = en
+ 
+[MATE.mate-applets]
+file_filter = po/mate-applets_<lang>.po
+source_file = po/mate-applets.pot
+source_lang = en
+ 
+[MATE.mate-backgrounds]
+file_filter = po/mate-backgrounds_<lang>.po
+source_file = po/mate-backgrounds.pot
+source_lang = en
+ 
+[MATE.mate-bluetooth]
+file_filter = po/mate-bluetooth_<lang>.po
+source_file = po/mate-bluetooth.pot
+source_lang = en
+ 
+[MATE.mate-calc]
+file_filter = po/mate-calc_<lang>.po
+source_file = po/mate-calc.pot
+source_lang = en
+ 
+[MATE.mate-control-center]
+file_filter = po/mate-control-center_<lang>.po
+source_file = po/mate-control-center.pot
+source_lang = en
+ 
+[MATE.mate-desktop]
+file_filter = po/mate-desktop_<lang>.po
+source_file = po/mate-desktop.pot
+source_lang = en
+ 
+[MATE.mate-dialogs]
+file_filter = po/mate-dialogs_<lang>.po
+source_file = po/mate-dialogs.pot
+source_lang = en
+ 
+[MATE.mate-doc-utils]
+file_filter = po/mate-doc-utils_<lang>.po
+source_file = po/mate-doc-utils.pot
+source_lang = en
+ 
+[MATE.atril]
+file_filter = po/atril_<lang>.po
+source_file = po/atril.pot
+source_lang = en
+ 
+[MATE.engrampa]
+file_filter = po/engrampa_<lang>.po
+source_file = po/engrampa.pot
+source_lang = en
+ 
+[MATE.caja-sendto]
+file_filter = po/caja-sendto_<lang>.po
+source_file = po/caja-sendto.pot
+source_lang = en
+ 
+[MATE.caja]
+file_filter = po/caja_<lang>.po
+source_file = po/caja.pot
+source_lang = en
+ 
+[MATE.mate-icon-theme]
+file_filter = po/mate-icon-theme_<lang>.po
+source_file = po/mate-icon-theme.pot
+source_lang = en
+ 
+[MATE.eom]
+file_filter = po/eom_<lang>.po
+source_file = po/eom.pot
+source_lang = en
+ 
+[MATE.mate-keyring]
+file_filter = po/mate-keyring_<lang>.po
+source_file = po/mate-keyring.pot
+source_lang = en
+ 
+[MATE.mate-menus]
+file_filter = po/mate-menus_<lang>.po
+source_file = po/mate-menus.pot
+source_lang = en
+ 
+[MATE.mate-notification-daemon]
+file_filter = po/mate-notification-daemon_<lang>.po
+source_file = po/mate-notification-daemon.pot
+source_lang = en
+ 
+[MATE.mate-panel]
+file_filter = po/mate-panel_<lang>.po
+source_file = po/mate-panel.pot
+source_lang = en
+ 
+[MATE.mate-polkit]
+file_filter = po/mate-polkit_<lang>.po
+source_file = po/mate-polkit.pot
+source_lang = en
+ 
+[MATE.mate-power-manager]
+file_filter = po/mate-power-manager_<lang>.po
+source_file = po/mate-power-manager.pot
+source_lang = en
+ 
+[MATE.mate-screensaver]
+file_filter = po/mate-screensaver_<lang>.po
+source_file = po/mate-screensaver.pot
+source_lang = en
+ 
+[MATE.mate-session-manager]
+file_filter = po/mate-session-manager_<lang>.po
+source_file = po/mate-session-manager.pot
+source_lang = en
+ 
+[MATE.mate-settings-daemon]
+file_filter = po/mate-settings-daemon_<lang>.po
+source_file = po/mate-settings-daemon.pot
+source_lang = en
+ 
+[MATE.mate-system-monitor]
+file_filter = po/mate-system-monitor_<lang>.po
+source_file = po/mate-system-monitor.pot
+source_lang = en
+ 
+[MATE.mate-system-tools]
+file_filter = po/mate-system-tools_<lang>.po
+source_file = po/mate-system-tools.pot
+source_lang = en
+ 
+[MATE.mate-terminal]
+file_filter = po/mate-terminal_<lang>.po
+source_file = po/mate-terminal.pot
+source_lang = en
+ 
+[MATE.pluma]
+file_filter = po/pluma_<lang>.po
+source_file = po/pluma.pot
+source_lang = en
+ 
+[MATE.mate-themes]
+file_filter = po/mate-themes_<lang>.po
+source_file = po/mate-themes.pot
+source_lang = en
+ 
+[MATE.marco]
+file_filter = po/marco_<lang>.po
+source_file = po/marco.pot
+source_lang = en
