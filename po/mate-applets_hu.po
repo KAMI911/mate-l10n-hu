@@ -1,37 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Andras Timar <timar at mate dot hu>, 2001-2003.
-# Emese Kovacs <emese at mate dot hu>, 2000-2002.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2004-2010.
-# Gabor Sari <saga at mate dot hu>, 2003.
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014.
-# kami911 <kami911@gmail.com>, 2014, 2015.
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
-# Mate ORY <orymate at gmail d0t com>, 2006.
-# Rezső Páder <rezso@rezso.net>, 2013,2015.
-# Szabolcs Ban <shooby at mate dot hu>, 1999-2003.
+# Andras Timar <timar at mate dot hu>, 2001-2003
+# Emese Kovacs <emese at mate dot hu>, 2000-2002
+# Gabor Kelemen <kelemeng at mate dot hu>, 2004-2010
+# Gabor Sari <saga at mate dot hu>, 2003
+# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
+# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
+# kami911 <kami911@gmail.com>, 2014
+# kami911 <kami911@gmail.com>, 2014-2015
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Rezső Páder <rezso@rezso.net>, 2013,2015
+# Szabolcs Ban <shooby at mate dot hu>, 1999-2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:28+0300\n"
-"PO-Revision-Date: 2015-11-29 20:03+0100\n"
-"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-11-29 19:26+0000\n"
+"Last-Translator: kami911 <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: ../accessx-status/applet.c:147
 msgid "Shows the state of AccessX features such as latched modifiers"
-msgstr ""
-"Az AccessX szolgáltatások, mint a lezárt módosítóbillentyűk állapotát "
-"jeleníti meg"
+msgstr "Az AccessX szolgáltatások, mint a lezárt módosítóbillentyűk állapotát jeleníti meg"
 
 #. about.set_authors("Raphael Slinckx <raphael@slinckx.net>\nEnrico Minack
 #. <enrico-minack@gmx.de>")
@@ -46,10 +46,7 @@ msgstr ""
 #: ../stickynotes/stickynotes_applet_callbacks.c:379
 #: ../timerapplet/timerapplet.c:260 ../trashapplet/src/trashapplet.c:437
 msgid "translator-credits"
-msgstr ""
-"Bán Szabolcs <shooby at mate dot hu>\nDvornik László <dvornik at mate dot hu>"
-"\nKelemen Gábor <kelemeng at mate dot hu>\nKovács Emese <emese at mate dot hu>"
-"\nSári Gábor <saga at mate dot hu>\nTímár András <timar at mate dot hu>"
+msgstr "Bán Szabolcs <shooby at mate dot hu>\nDvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate dot hu>\nKovács Emese <emese at mate dot hu>\nSári Gábor <saga at mate dot hu>\nTímár András <timar at mate dot hu>"
 
 #: ../accessx-status/applet.c:167
 #, c-format
@@ -63,8 +60,7 @@ msgstr "Billentyűzetbeállítások megnyitása"
 #: ../accessx-status/applet.c:209
 #, c-format
 msgid "There was an error launching the keyboard preferences dialog: %s"
-msgstr ""
-"Hiba történt a billentyűzet tulajdonságai párbeszédablak indításakor: %s"
+msgstr "Hiba történt a billentyűzet tulajdonságai párbeszédablak indításakor: %s"
 
 #: ../accessx-status/applet.c:224
 msgid "_Keyboard Accessibility Preferences"
@@ -100,9 +96,7 @@ msgstr "AccessX állapota"
 
 #: ../accessx-status/applet.c:1021 ../accessx-status/applet.c:1160
 msgid "Shows keyboard status when accessibility features are used."
-msgstr ""
-"A billentyűzet állapotát jeleníti meg, ha az akadálymentesítési "
-"szolgáltatások használatban vannak."
+msgstr "A billentyűzet állapotát jeleníti meg, ha az akadálymentesítési szolgáltatások használatban vannak."
 
 #: ../accessx-status/applet.c:1056
 msgid "XKB Extension is not enabled"
@@ -124,9 +118,7 @@ msgstr "Billentyűzet-akadálymentesítés állapota"
 
 #: ../accessx-status/applet.c:1334
 msgid "Displays current state of keyboard accessibility features"
-msgstr ""
-"A billentyűzet akadálymentesítési szolgáltatásainak jelenlegi állapotát "
-"jeleníti meg"
+msgstr "A billentyűzet akadálymentesítési szolgáltatásainak jelenlegi állapotát jeleníti meg"
 
 #: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:1
 msgid "AccessX Status Applet Factory"
@@ -138,8 +130,7 @@ msgstr "Billentyűzet-akadálymentesítés állapota factory"
 
 #: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:4
 msgid "Shows the status of keyboard accessibility features"
-msgstr ""
-"A billentyűzet akadálymentesítési szolgáltatásainak állapotát jeleníti meg"
+msgstr "A billentyűzet akadálymentesítési szolgáltatásainak állapotát jeleníti meg"
 
 #: ../battstat/battstat_applet.c:68 ../charpick/charpick.c:729
 #: ../command/command.c:77 ../cpufreq/src/cpufreq-applet.c:135
@@ -250,12 +241,8 @@ msgid ""
 "You have %d minute of battery power remaining (%d%% of the total capacity)."
 msgid_plural ""
 "You have %d minutes of battery power remaining (%d%% of the total capacity)."
-msgstr[0] ""
-"%d percre elegendő akkumulátortöltöttség van hátra (a teljes kapacitás %d "
-"százaléka)."
-msgstr[1] ""
-"%d percre elegendő akkumulátortöltöttség van hátra (a teljes kapacitás %d "
-"százaléka)."
+msgstr[0] "%d percre elegendő akkumulátortöltöttség van hátra (a teljes kapacitás %d százaléka)."
+msgstr[1] "%d percre elegendő akkumulátortöltöttség van hátra (a teljes kapacitás %d százaléka)."
 
 #. TRANSLATORS: this is a list, it is left as a single string
 #. * to allow you to make it appear like a list would in your
@@ -265,10 +252,7 @@ msgid ""
 "To avoid losing your work:\n"
 " • plug your laptop into external power, or\n"
 " • save open documents and shut your laptop down."
-msgstr ""
-"A munkája elvesztésének elkerülése érdekében:\n • csatlakoztassa laptopját "
-"külső áramforrásra vagy\n • mentse el a megnyitott dokumentumokat és "
-"kapcsolja ki a laptopot."
+msgstr "A munkája elvesztésének elkerülése érdekében:\n • csatlakoztassa laptopját külső áramforrásra vagy\n • mentse el a megnyitott dokumentumokat és kapcsolja ki a laptopot."
 
 #. TRANSLATORS: this is a list, it is left as a single string
 #. * to allow you to make it appear like a list would in your
@@ -279,10 +263,7 @@ msgid ""
 " • suspend your laptop to save power,\n"
 " • plug your laptop into external power, or\n"
 " • save open documents and shut your laptop down."
-msgstr ""
-"A munkája elvesztésének elkerülése érdekében:\n • energiatakarékosságból "
-"függessze fel laptopját,\n • csatlakoztassa laptopját külső áramforrásra "
-"vagy\n • mentse el a megnyitott dokumentumokat és kapcsolja ki a laptopot."
+msgstr "A munkája elvesztésének elkerülése érdekében:\n • energiatakarékosságból függessze fel laptopját,\n • csatlakoztassa laptopját külső áramforrásra vagy\n • mentse el a megnyitott dokumentumokat és kapcsolja ki a laptopot."
 
 #: ../battstat/battstat_applet.c:583
 msgid "Your battery is running low"
@@ -313,8 +294,7 @@ msgstr "Hiba történt a súgó megjelenítésekor: %s"
 
 #: ../battstat/battstat_applet.c:1201
 msgid "This utility shows the status of your laptop battery."
-msgstr ""
-"Ez a kisalkalmazás a laptop akkumulátorának töltöttségi állapotát jelzi."
+msgstr "Ez a kisalkalmazás a laptop akkumulátorának töltöttségi állapotát jelzi."
 
 #. true
 #: ../battstat/battstat_applet.c:1203
@@ -398,24 +378,17 @@ msgstr "Piros szín szintje"
 msgid ""
 "The battery level below which the battery is displayed as red. Also the "
 "value at which the low battery warning is displayed."
-msgstr ""
-"Az az akkumulátorszint, ami alatt az elem narancssárga színnel lesz "
-"megjelenítve. Egyben az az érték, amelynél a „Gyenge akkumulátor” "
-"figyelmeztetés megjelenik."
+msgstr "Az az akkumulátorszint, ami alatt az elem narancssárga színnel lesz megjelenítve. Egyben az az érték, amelynél a „Gyenge akkumulátor” figyelmeztetés megjelenik."
 
 #: ../battstat/org.mate.panel.applet.battstat.gschema.xml.in.h:3
 msgid "Warn on low time rather than low percentage"
-msgstr ""
-"Akkor figyelmeztessen, ha kevés idő van hátra, és ne akkor, ha a töltöttség "
-"százalékosan alacsony"
+msgstr "Akkor figyelmeztessen, ha kevés idő van hátra, és ne akkor, ha a töltöttség százalékosan alacsony"
 
 #: ../battstat/org.mate.panel.applet.battstat.gschema.xml.in.h:4
 msgid ""
 "Use the value defined in red_value as a time remaining to show the warning "
 "dialog rather than a percentage."
-msgstr ""
-"A red_value kulcsban megadott, és nem a százalékos érték használata hátralévő "
-"időként a figyelmeztető ablak megjelenítéséhez."
+msgstr "A red_value kulcsban megadott, és nem a százalékos érték használata hátralévő időként a figyelmeztető ablak megjelenítéséhez."
 
 #: ../battstat/org.mate.panel.applet.battstat.gschema.xml.in.h:5
 msgid "Low Battery Notification"
@@ -449,9 +422,7 @@ msgstr "Fentről lefelé számoljon"
 msgid ""
 "Show the battery meter draining from the top of the battery. Only "
 "implemented for traditional battery view."
-msgstr ""
-"Az akkumulátor-töltöttségének kijelzése az elem tetejétől csökkenjen. Csak a "
-"hagyományos akkumulátornézetnél van megvalósítva."
+msgstr "Az akkumulátor-töltöttségének kijelzése az elem tetejétől csökkenjen. Csak a hagyományos akkumulátornézetnél van megvalósítva."
 
 #: ../battstat/org.mate.panel.applet.battstat.gschema.xml.in.h:13
 msgid "Upright (small) battery"
@@ -475,8 +446,7 @@ msgstr "Az idő/százalék címke megjelenítése"
 
 #: ../battstat/org.mate.panel.applet.battstat.gschema.xml.in.h:18
 msgid "0 for no label, 1 for percentage and 2 for time remaining."
-msgstr ""
-"0, ha nincs címke, 1 a százalékos és 2 a hátralévő idő megjelenítéséhez."
+msgstr "0, ha nincs címke, 1 a százalékos és 2 a hátralévő idő megjelenítéséhez."
 
 #. TRANSLATOR: this is a selectable item in a drop-down menu to end
 #. * this sentence:
@@ -529,9 +499,7 @@ msgstr "%s speciális karakter beszúrása"
 msgid ""
 "Mate Panel applet for selecting strange characters that are not on my "
 "keyboard. Released under GNU General Public Licence."
-msgstr ""
-"MATE panel-kisalkalmazás azon karakterek kiválasztására, amelyek nincsenek a "
-"billentyűzetén. GNU GPL alatt terjeszthető."
+msgstr "MATE panel-kisalkalmazás azon karakterek kiválasztására, amelyek nincsenek a billentyűzetén. GNU GPL alatt terjeszthető."
 
 #: ../charpick/charpick.c:758 ../charpick/charpick.c:772
 #: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:2
@@ -556,10 +524,7 @@ msgstr "A kisalkalmazás indításakor megjelenített karakterek"
 msgid ""
 "The string that the user had selected when the applet was last used. This "
 "string will be displayed when the user starts the applet."
-msgstr ""
-"A felhasználó által a kisalkalmazás utolsó futtatásakor kiválasztott "
-"karakterlánc. Ez a karakterlánc meg lesz jelenítve, ha a felhasználó "
-"elindítja a kisalkalmazást."
+msgstr "A felhasználó által a kisalkalmazás utolsó futtatásakor kiválasztott karakterlánc. Ez a karakterlánc meg lesz jelenítve, ha a felhasználó elindítja a kisalkalmazást."
 
 #: ../charpick/org.mate.panel.applet.charpick.gschema.xml.in.h:3
 #: ../charpick/properties.c:383
@@ -736,9 +701,7 @@ msgstr "Figyelendő CPU"
 msgid ""
 "Set the CPU to monitor. In a single processor system you don't have to "
 "change it."
-msgstr ""
-"Beállítja a megfigyelendő CPU-t. Egyprocesszoros rendszereken nem kell "
-"megváltoztatni."
+msgstr "Beállítja a megfigyelendő CPU-t. Egyprocesszoros rendszereken nem kell megváltoztatni."
 
 #: ../cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in.h:3
 msgid "Mode to show cpu usage"
@@ -749,10 +712,7 @@ msgid ""
 "A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
 "the applet in text mode (not to show the pixmap) and 2 to show the applet in"
 " graphic and text mode."
-msgstr ""
-"A 0 érték hatására a kisalkalmazás grafikus módban jelenik meg (csak kép), 1 "
-"hatására csak szöveg jelenik meg (a kép nem), 2 hatására pedig mind szöveges, "
-"mind grafikus módban megjelenik."
+msgstr "A 0 érték hatására a kisalkalmazás grafikus módban jelenik meg (csak kép), 1 hatására csak szöveg jelenik meg (a kép nem), 2 hatására pedig mind szöveges, mind grafikus módban megjelenik."
 
 #: ../cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in.h:5
 msgid "The type of text to display (if the text is enabled)."
@@ -762,9 +722,7 @@ msgstr "A megjelenítendő szöveg típusa (ha a szöveg engedélyezve van)."
 msgid ""
 "A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 "
 "to show percentage instead of frequency."
-msgstr ""
-"A 0 érték a CPU órajelének, az 1 az órajel és az egységek, a 2 pedig a "
-"százalékos arány megjelenítését jelenti."
+msgstr "A 0 érték a CPU órajelének, az 1 az órajel és az egységek, a 2 pedig a százalékos arány megjelenítését jelenti."
 
 #: ../cpufreq/src/cpufreq-applet.c:679 ../cpufreq/src/cpufreq-prefs.c:365
 msgid "Could not open help document"
@@ -806,10 +764,7 @@ msgstr "A CPU órajelének változtatása nem támogatott"
 msgid ""
 "You will not be able to modify the frequency of your machine.  Your machine "
 "may be misconfigured or not have hardware support for CPU frequency scaling."
-msgstr ""
-"Nem lesz képes a gépének órajelét módosítani. Lehetséges, hogy a gépe hibásan "
-"van beállítva vagy nem rendelkezik a CPU órajelének változtatásához szükséges "
-"hardvertámogatással."
+msgstr "Nem lesz képes a gépének órajelét módosítani. Lehetséges, hogy a gépe hibásan van beállítva vagy nem rendelkezik a CPU órajelének változtatásához szükséges hardvertámogatással."
 
 #: ../cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in.h:1
 msgid "Change CPU Frequency scaling"
@@ -1093,9 +1048,7 @@ msgstr "URL megadása"
 #: ../mateweather/mateweather-pref.c:295
 msgid ""
 "Failed to load the Locations XML database.  Please report this as a bug."
-msgstr ""
-"Nem sikerült betölteni a helyiségek XML adatbázisát. Kérem jelentse ezt a "
-"hibát."
+msgstr "Nem sikerült betölteni a helyiségek XML adatbázisát. Kérem jelentse ezt a hibát."
 
 #: ../mateweather/mateweather-pref.c:825
 msgid "Weather Preferences"
@@ -1497,9 +1450,7 @@ msgstr "Részvények"
 msgid ""
 "<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
 "<b>Source: </b> Yahoo!</small></i>"
-msgstr ""
-"<i><small><b>Megjegyzés:</b> Az ajánlatok legalább 15 perc késésben "
-"vannak.\n<b>Forrás: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>Megjegyzés:</b> Az ajánlatok legalább 15 perc késésben vannak.\n<b>Forrás: </b> Yahoo!</small></i>"
 
 #: ../invest-applet/data/prefs-dialog.ui.h:6
 msgid "Currency"
@@ -1543,9 +1494,7 @@ msgstr "<b>A tőzsdei ajánlatok jelenleg nem érhetők el</b>"
 msgid ""
 "The server could not be contacted. The computer is either offline or the "
 "servers are down. Try again later."
-msgstr ""
-"A kiszolgáló nem érhető el. A számítógép offline vagy a kiszolgálók nem "
-"működnek. Próbálkozzon később."
+msgstr "A kiszolgáló nem érhető el. A számítógép offline vagy a kiszolgálók nem működnek. Próbálkozzon később."
 
 #: ../invest-applet/invest/chart.py:167
 #, python-format
@@ -1653,9 +1602,7 @@ msgstr "Nyereség %"
 msgid ""
 "A system load monitor capable of displaying graphs for CPU, ram, and swap "
 "space use, plus network traffic."
-msgstr ""
-"Rendszerterhelés-figyelő, amely képes a processzor, a memória és lapozófájl "
-"használatáról, valamint a hálózati forgalomról grafikonokat rajzolni."
+msgstr "Rendszerterhelés-figyelő, amely képes a processzor, a memória és lapozófájl használatáról, valamint a hálózati forgalomról grafikonokat rajzolni."
 
 #: ../multiload/main.c:128
 msgid "Start system-monitor"
@@ -1799,9 +1746,7 @@ msgstr "Grafikon mérete"
 msgid ""
 "For horizontal panels, the width of the graphs in pixels. For vertical "
 "panels, this is the height of the graphs."
-msgstr ""
-"A vízszintes paneloknál megadja a grafikai elemek szélességét pixelben, "
-"a függőleges paneloknál megadja a grafikai elemek magasságát pixelben."
+msgstr "A vízszintes paneloknál megadja a grafikai elemek szélességét pixelben, a függőleges paneloknál megadja a grafikai elemek magasságát pixelben."
 
 #: ../multiload/org.mate.panel.applet.multiload.gschema.xml.in.h:10
 msgid "Graph color for user-related CPU activity"
@@ -2096,9 +2041,7 @@ msgstr "Néhány panelelem többé már nem érhető el"
 msgid ""
 "One or more panel items (also referred to as applets) are no longer "
 "available in the MATE desktop."
-msgstr ""
-"Egy vagy több panelelem (vagy kisalkalmazás) nem érhető el többé a MATE "
-"asztali környezetben."
+msgstr "Egy vagy több panelelem (vagy kisalkalmazás) nem érhető el többé a MATE asztali környezetben."
 
 #: ../null_applet/null_applet.c:154
 msgid "These items will now be removed from your configuration:"
@@ -2216,8 +2159,7 @@ msgstr "_Cetlik elrejtése az asztalra kattintáskor"
 
 #: ../stickynotes/stickynotes.ui.h:22
 msgid "Choose whether to hide all notes when selecting on the desktop"
-msgstr ""
-"Válassza ki, hogy a az asztal kiválasztásakor elrejtendő-e az összes cetli"
+msgstr "Válassza ki, hogy a az asztal kiválasztásakor elrejtendő-e az összes cetli"
 
 #: ../stickynotes/stickynotes.ui.h:23
 msgid "Force _default color and font on notes"
@@ -2225,8 +2167,7 @@ msgstr "_Alapértelmezett színek és betűk a cetliken"
 
 #: ../stickynotes/stickynotes.ui.h:24
 msgid "Choose if the default style is forced on all notes"
-msgstr ""
-"Jelölje be, ha az alapértelmezett stílust akarja használni minden cetlin"
+msgstr "Jelölje be, ha az alapértelmezett stílust akarja használni minden cetlin"
 
 #: ../stickynotes/stickynotes.ui.h:25
 msgid "_Put notes on all workspaces"
@@ -2340,9 +2281,7 @@ msgstr "Új cetlik alapértelmezett színe"
 msgid ""
 "Default color for new sticky notes. This should be in html hex "
 "specification, for example \"#30FF50\"."
-msgstr ""
-"Új ragadós cetlik alapértelmezett színe. Ezt html hexa kódként kell megadni, "
-"például „#30FF50”."
+msgstr "Új ragadós cetlik alapértelmezett színe. Ezt html hexa kódként kell megadni, például „#30FF50”."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:7
 msgid "Default color for font"
@@ -2352,9 +2291,7 @@ msgstr "Betűkészlet alapértelmezett színe"
 msgid ""
 "Default font color for new sticky notes. This should be in html hex "
 "specification, for example \"#000000\"."
-msgstr ""
-"Új ragadós cetlik alapértelmezett színe. Ezt html hexa kódként kell megadni, "
-"például „#30FF50”."
+msgstr "Új ragadós cetlik alapértelmezett színe. Ezt html hexa kódként kell megadni, például „#30FF50”."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:9
 msgid "Default font for new notes"
@@ -2364,9 +2301,7 @@ msgstr "Új cetlik alapértelmezett betűkészlete"
 msgid ""
 "Default font for new sticky notes. This should be a Pango Font Name, for "
 "example \"Sans Italic 10\"."
-msgstr ""
-"Új ragadós cetlik alapértelmezett betűkészlete. Ez egy Pango betűkészletnév "
-"kell legyen, például „Sans Italic 10”."
+msgstr "Új ragadós cetlik alapértelmezett betűkészlete. Ez egy Pango betűkészletnév kell legyen, például „Sans Italic 10”."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:11
 msgid "Sticky notes' workspace stickyness"
@@ -2376,9 +2311,7 @@ msgstr "Ragadós cetlik munkaterületre ragadóssága"
 msgid ""
 "Specifies whether the sticky notes are visible on ALL workspaces on the "
 "desktop, or not."
-msgstr ""
-"Megadja, hogy a ragadós cetlik láthatóak-e az asztal MINDEN munkaterületén "
-"vagy sem."
+msgstr "Megadja, hogy a ragadós cetlik láthatóak-e az asztal MINDEN munkaterületén vagy sem."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:13
 msgid "Sticky notes' locked state"
@@ -2397,10 +2330,7 @@ msgid ""
 "By default, sticky notes are given the current date as the title when they "
 "are created. This format is used; anything that can be parsed by strftime() "
 "is valid."
-msgstr ""
-"Alapértelmezésben a ragadós cetlik létrehozásukkor a jelenlegi dátumot kapják "
-"címként. Ez ennek a formátumnak a használatával áll elő, bármi, amit az "
-"strftime() fel tud dolgozni, érvényes."
+msgstr "Alapértelmezésben a ragadós cetlik létrehozásukkor a jelenlegi dátumot kapják címként. Ez ennek a formátumnak a használatával áll elő, bármi, amit az strftime() fel tud dolgozni, érvényes."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:17
 msgid "Whether to use the default system color"
@@ -2410,9 +2340,7 @@ msgstr "Használja-e az alapértelmezett rendszerszíneket"
 msgid ""
 "If this option is disabled, a custom color can be used as the default color "
 "for all sticky notes."
-msgstr ""
-"Ha ez az opció le van tiltva, egyéni szín használható alapértelmezett "
-"színként az összes ragadós cetlihez."
+msgstr "Ha ez az opció le van tiltva, egyéni szín használható alapértelmezett színként az összes ragadós cetlihez."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:19
 msgid "Whether to use the default system font"
@@ -2422,22 +2350,17 @@ msgstr "Használja-e az alapértelmezett rendszerbetűkészletet"
 msgid ""
 "If this option is disabled, a custom font can be used as the default font "
 "for all sticky notes."
-msgstr ""
-"Ha ez az opció le van tiltva, egyéni betűkészlet használható alapértelmezett "
-"betűkészletként az összes ragadós cetlihez."
+msgstr "Ha ez az opció le van tiltva, egyéni betűkészlet használható alapértelmezett betűkészletként az összes ragadós cetlihez."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:21
 msgid "Whether to force the default color and font on all notes"
-msgstr ""
-"Kényszerítse-e az alapértelmezett színt és betűkészletet az összes cetlire"
+msgstr "Kényszerítse-e az alapértelmezett színt és betűkészletet az összes cetlire"
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:22
 msgid ""
 "If this option is enabled, the custom colors and fonts that have been "
 "assigned to individual notes will be ignored."
-msgstr ""
-"Ha ez az opció engedélyezve van, az egyes cetlikhez rendelt egyéni színek és "
-"betűkészletek mellőzve lesznek."
+msgstr "Ha ez az opció engedélyezve van, az egyes cetlikhez rendelt egyéni színek és betűkészletek mellőzve lesznek."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:23
 msgid "Whether to hide all notes when the desktop is selected"
@@ -2447,9 +2370,7 @@ msgstr "Cetlik elrejtése az asztal kiválasztásakor"
 msgid ""
 "If this option is enabled, selecting the desktop in any way will "
 "automatically hide all the open notes."
-msgstr ""
-"Ha ez engedélyezve van, akkor az asztal kiválasztása automatikusan elrejti az "
-"összes megnyitott cetlit."
+msgstr "Ha ez engedélyezve van, akkor az asztal kiválasztása automatikusan elrejti az összes megnyitott cetlit."
 
 #: ../stickynotes/org.mate.stickynotes.gschema.xml.in.h:25
 msgid "Whether to ask for confirmation when deleting a note"
@@ -2596,9 +2517,7 @@ msgstr "Hiba a Caja indítása közben:\n%s"
 msgid ""
 "A MATE trash bin that lives in your panel. You can use it to view the trash "
 "or drag and drop items into the trash."
-msgstr ""
-"Egy MATE kuka, amely a panelen él. A Kuka tartalmának megtekintésére vagy "
-"elemek Kukába dobására használhatja."
+msgstr "Egy MATE kuka, amely a panelen él. A Kuka tartalmának megtekintésére vagy elemek Kukába dobására használhatja."
 
 #: ../trashapplet/src/trashapplet.c:457
 msgid "Delete Immediately?"
@@ -2637,9 +2556,7 @@ msgstr "Ki akarja üríteni az összes elemet a Kukából?"
 msgid ""
 "If you choose to empty the trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
-msgstr ""
-"Ha a Kuka kiürítését választja, minden elem véglegesen elvész. Ne feledje, "
-"hogy egyenként is törölheti őket."
+msgstr "Ha a Kuka kiürítését választja, minden elem véglegesen elvész. Ne feledje, hogy egyenként is törölheti őket."
 
 #: ../trashapplet/trashapplet-empty-progress.ui.h:1
 msgid "Emptying the Trash"
@@ -2648,5 +2565,3 @@ msgstr "A Kuka ürítése"
 #: ../trashapplet/trashapplet-empty-progress.ui.h:2
 msgid "From:"
 msgstr "Innen:"
-
-

@@ -1,25 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Falu.Me, 2015.
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014.
-# Rezső Páder <rezso@rezso.net>, 2013.
-# Kálmán "KAMI" Szalai <kami911@gmail.com>, 2015.
+# Falu.Me, 2015
+# Falu.Me, 2015
+# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
+# kami911 <kami911@gmail.com>, 2015
+# Rezső Páder <rezso@rezso.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 17:18+0200\n"
-"PO-Revision-Date: 2015-11-29 20:13+0100\n"
-"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-11-29 19:23+0000\n"
+"Last-Translator: kami911 <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:1
 msgid "Use Default Font"
@@ -31,11 +32,7 @@ msgid ""
 "instead of a font specific to pluma. If this option is turned off, then the "
 "font named in the \"Editor Font\" option will be used instead of the system "
 "font."
-msgstr ""
-"A rendszer alapértelmezett rögzített szélességű betűkészletének használata "
-"szövegszerkesztésre a plumaben beállított betűkészlet helyett. Ha ez a "
-"beállítás ki van kapcsolva, a „Szerkesztő betűkészlete” beállítás lesz "
-"felhasználva a rendszer betűkészlete helyett."
+msgstr "A rendszer alapértelmezett rögzített szélességű betűkészletének használata szövegszerkesztésre a plumaben beállított betűkészlet helyett. Ha ez a beállítás ki van kapcsolva, a „Szerkesztő betűkészlete” beállítás lesz felhasználva a rendszer betűkészlete helyett."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:3
 msgctxt "editor-font"
@@ -50,9 +47,7 @@ msgstr "Szerkesztő betűkészlete"
 msgid ""
 "A custom font that will be used for the editing area. This will only take "
 "effect if the \"Use Default Font\" option is turned off."
-msgstr ""
-"A szerkesztőterülethez használt egyéni betűkészlet. Ez csak akkor lép "
-"érvénybe, ha az „Alapértelmezett betűkészlet használata” ki van kapcsolva."
+msgstr "A szerkesztőterülethez használt egyéni betűkészlet. Ez csak akkor lép érvénybe, ha az „Alapértelmezett betűkészlet használata” ki van kapcsolva."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:6
 msgid "Style Scheme"
@@ -70,9 +65,7 @@ msgstr "Biztonsági mentések létrehozása"
 msgid ""
 "Whether pluma should create backup copies for the files it saves. You can "
 "set the backup file extension with the \"Backup Copy Extension\" option."
-msgstr ""
-"A biztonsági mentések ki/bekapcsolása. A biztonsági mentés kiterjesztését "
-"beállíthatja a „Biztonsági mentés kiterjesztése” beállításnál."
+msgstr "A biztonsági mentések ki/bekapcsolása. A biztonsági mentés kiterjesztését beállíthatja a „Biztonsági mentés kiterjesztése” beállításnál."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:10
 msgid "Autosave"
@@ -83,9 +76,7 @@ msgid ""
 "Whether pluma should automatically save modified files after a time "
 "interval. You can set the time interval with the \"Autosave Interval\" "
 "option."
-msgstr ""
-"A módosított fájlok automatikus mentésének ki/bekapcsolása. Az automatikus "
-"mentés időközét beállíthatja az „Automatikus mentés időköze” beállítással."
+msgstr "A módosított fájlok automatikus mentésének ki/bekapcsolása. Az automatikus mentés időközét beállíthatja az „Automatikus mentés időköze” beállítással."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:12
 msgid "Autosave Interval"
@@ -95,9 +86,7 @@ msgstr "Automatikus mentés időköze"
 msgid ""
 "Number of minutes after which pluma will automatically save modified files. "
 "This will only take effect if the \"Autosave\" option is turned on."
-msgstr ""
-"Az automatikus mentés időközének megadása (percekben). Csak akkor lép "
-"érvénybe ha az „Automatikus mentés” beállítás be van kapcsolva."
+msgstr "Az automatikus mentés időközének megadása (percekben). Csak akkor lép érvénybe ha az „Automatikus mentés” beállítás be van kapcsolva."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:14
 msgid "Writable VFS schemes"
@@ -107,9 +96,7 @@ msgstr "Írható VFS sémák"
 msgid ""
 "List of VFS schemes pluma supports in write mode. The 'file' scheme is "
 "writable by default."
-msgstr ""
-"A pluma által írás módban támogatott VFS sémák felsorolása. A 'file' séma "
-"alapértelmezetten írható."
+msgstr "A pluma által írás módban támogatott VFS sémák felsorolása. A 'file' séma alapértelmezetten írható."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:16
 msgid "Maximum Number of Undo Actions"
@@ -119,9 +106,7 @@ msgstr "Visszavonási műveletek maximális száma"
 msgid ""
 "Maximum number of actions that pluma will be able to undo or redo. Use "
 "\"-1\" for unlimited number of actions."
-msgstr ""
-"A pluma által visszavonható/újra elvégezhető műveletek maximális száma. "
-"Végtelen műveletszám engedélyezéséhez használja a „-1” értéket."
+msgstr "A pluma által visszavonható/újra elvégezhető műveletek maximális száma. Végtelen műveletszám engedélyezéséhez használja a „-1” értéket."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:18
 msgid "Line Wrapping Mode"
@@ -134,12 +119,7 @@ msgid ""
 "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
 " the values are case-sensitive, so make sure they appear exactly as "
 "mentioned here."
-msgstr ""
-"Meghatározza a hosszú sorok törését a szerkesztőterületen. Használja a "
-"„GTK_WRAP_NONE” értéket, ha ne legyen törés, a „GTK_WRAP_WORD” értéket a "
-"szóhatároknál történő töréshez és a „GTK_WRAP_CHAR” értéket az egyes "
-"karaktereknél történő töréshez. Megjegyzés: ezek az értékek kisbetű/nagybetű "
-"érzékenyek, pontosan úgy használja őket, ahogy itt vannak."
+msgstr "Meghatározza a hosszú sorok törését a szerkesztőterületen. Használja a „GTK_WRAP_NONE” értéket, ha ne legyen törés, a „GTK_WRAP_WORD” értéket a szóhatároknál történő töréshez és a „GTK_WRAP_CHAR” értéket az egyes karaktereknél történő töréshez. Megjegyzés: ezek az értékek kisbetű/nagybetű érzékenyek, pontosan úgy használja őket, ahogy itt vannak."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:20
 msgid "Tab Size"
@@ -220,13 +200,7 @@ msgid ""
 "pressed, \"BEFORE\" to move to the start/end of the text before moving to "
 "the start/end of the line and \"ALWAYS\" to always move to the start/end of "
 "the text instead of the start/end of the line."
-msgstr ""
-"Megadja a kurzor mozgásának módját a Home és End billentyűk lenyomásakor. A "
-"„DISABLED” használatakor mindig a sor elejére/végére mozognak, az „AFTER” "
-"esetén az első lenyomásukkor a sor elejére/végére és második alkalommal "
-"szöveg elejére/végére az üres hely karakterek kihagyásával, a „BEFORE” esetén "
-"a szöveg elejére/végére a sor elejére/végére mozgás előtt, és „ALWAYS” esetén "
-"mindig a szöveg elejére/végére mozognak a sor elejére/végére mozgás helyett."
+msgstr "Megadja a kurzor mozgásának módját a Home és End billentyűk lenyomásakor. A „DISABLED” használatakor mindig a sor elejére/végére mozognak, az „AFTER” esetén az első lenyomásukkor a sor elejére/végére és második alkalommal szöveg elejére/végére az üres hely karakterek kihagyásával, a „BEFORE” esetén a szöveg elejére/végére a sor elejére/végére mozgás előtt, és „ALWAYS” esetén mindig a szöveg elejére/végére mozognak a sor elejére/végére mozgás helyett."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:38
 msgid "Restore Previous Cursor Position"
@@ -275,13 +249,7 @@ msgid ""
 "\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons."
 " Note that the values are case-sensitive, so make sure they appear exactly "
 "as mentioned here."
-msgstr ""
-"Az eszköztár gombjainak stílusa. Lehetséges értékei: „PLUMA_TOOLBAR_SYSTEM” a "
-"rendszer alapértelmezett stílusának használatához, „PLUMA_TOOLBAR_ICONS” csak "
-"ikon megjelenítéséhez, „PLUMA_TOOLBAR_ICONS_AND_TEXT” szöveg és ikon "
-"megjelenítéséhez és „PLUMA_TOOLBAR_ICONS_BOTH_HORIZ” a fontos szövegek az "
-"ikonok melletti megjelenítéséhez. Megjegyzés: ezek az értékek "
-"kisbetű/nagybetű érzékenyek, pontosan úgy használja, ahogy itt le vannak írva."
+msgstr "Az eszköztár gombjainak stílusa. Lehetséges értékei: „PLUMA_TOOLBAR_SYSTEM” a rendszer alapértelmezett stílusának használatához, „PLUMA_TOOLBAR_ICONS” csak ikon megjelenítéséhez, „PLUMA_TOOLBAR_ICONS_AND_TEXT” szöveg és ikon megjelenítéséhez és „PLUMA_TOOLBAR_ICONS_BOTH_HORIZ” a fontos szövegek az ikonok melletti megjelenítéséhez. Megjegyzés: ezek az értékek kisbetű/nagybetű érzékenyek, pontosan úgy használja, ahogy itt le vannak írva."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:48
 msgid "Status Bar is Visible"
@@ -297,7 +265,8 @@ msgid "Side Pane is Visible"
 msgstr "Az oldalsó ablaktábla látható"
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:51
-msgid "Whether the side pane at the left of editing windows should be visible."
+msgid ""
+"Whether the side pane at the left of editing windows should be visible."
 msgstr "Megjelenjen-e a szerkesztőablakok bal oldalán az oldalsó ablaktábla."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:52
@@ -317,15 +286,15 @@ msgstr "Legutóbbi fájlok maximális értéke"
 msgid ""
 "Specifies the maximum number of recently opened files that will be displayed"
 " in the \"Recent Files\" submenu."
-msgstr ""
-"Meghatározza a „Legutóbbi fájlok” almenüben megjelenített fájlok számát."
+msgstr "Meghatározza a „Legutóbbi fájlok” almenüben megjelenített fájlok számát."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:56
 msgid "Print Syntax Highlighting"
 msgstr "Szintaxiskiemelés nyomtatása"
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:57
-msgid "Whether pluma should print syntax highlighting when printing documents."
+msgid ""
+"Whether pluma should print syntax highlighting when printing documents."
 msgstr "Nyomtatáskor a szintaxiskiemelés ki/bekapcsolása."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:58
@@ -333,7 +302,8 @@ msgid "Print Header"
 msgstr "Fejléc nyomtatása"
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:59
-msgid "Whether pluma should include a document header when printing documents."
+msgid ""
+"Whether pluma should include a document header when printing documents."
 msgstr "Nyomtatáskor a dokumentumok fejlécének ki/bekapcsolása."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:60
@@ -347,12 +317,7 @@ msgid ""
 "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
 " the values are case-sensitive, so make sure they appear exactly as "
 "mentioned here."
-msgstr ""
-"Meghatározza a hosszú sorok törését a nyomtatásnál. Használja a "
-"„GTK_WRAP_NONE” értéket, ha ne legyen törés, a „GTK_WRAP_WORD” értéket a "
-"szóhatároknál történő töréshez és a „GTK_WRAP_CHAR” értéket az egyes "
-"karaktereknél történő töréshez. Megjegyzés: ezek az értékek kisbetű/nagybetű "
-"érzékenyek, pontosan úgy használja őket, ahogy itt vannak."
+msgstr "Meghatározza a hosszú sorok törését a nyomtatásnál. Használja a „GTK_WRAP_NONE” értéket, ha ne legyen törés, a „GTK_WRAP_WORD” értéket a szóhatároknál történő töréshez és a „GTK_WRAP_CHAR” értéket az egyes karaktereknél történő töréshez. Megjegyzés: ezek az értékek kisbetű/nagybetű érzékenyek, pontosan úgy használja őket, ahogy itt vannak."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:62
 msgid "Print Line Numbers"
@@ -363,9 +328,7 @@ msgid ""
 "If this value is 0, then no line numbers will be inserted when printing a "
 "document. Otherwise, pluma will print line numbers every such number of "
 "lines."
-msgstr ""
-"Ha ez az érték 0, a sorok száma nem kerül beillesztésre nyomtatáskor. Egyéb "
-"esetben a pluma ennyi soronként nyomtatja a sorok számát."
+msgstr "Ha ez az érték 0, a sorok száma nem kerül beillesztésre nyomtatáskor. Egyéb esetben a pluma ennyi soronként nyomtatja a sorok számát."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:64
 msgctxt "print-font-body-pango"
@@ -379,8 +342,7 @@ msgstr "Törzs betűkészlete nyomtatáskor"
 #: ../data/org.mate.pluma.gschema.xml.in.h:66
 msgid ""
 "Specifies the font to use for a document's body when printing documents."
-msgstr ""
-"Meghatározza nyomtatáskor a dokumentum törzséhez használt betűkészletet."
+msgstr "Meghatározza nyomtatáskor a dokumentum törzséhez használt betűkészletet."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:67
 msgctxt "print-font-header-pango"
@@ -395,9 +357,7 @@ msgstr "Fejléc betűkészlete nyomtatáskor"
 msgid ""
 "Specifies the font to use for page headers when printing a document. This "
 "will only take effect if the \"Print Header\" option is turned on."
-msgstr ""
-"Meghatározza nyomtatáskor az oldal fejlécéhez használt betűkészletet. Csak "
-"akkor lép érvénybe, ha a „Nyomtatási fejléc” be van kapcsolva."
+msgstr "Meghatározza nyomtatáskor az oldal fejlécéhez használt betűkészletet. Csak akkor lép érvénybe, ha a „Nyomtatási fejléc” be van kapcsolva."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:70
 msgctxt "print-font-numbers-pango"
@@ -412,9 +372,7 @@ msgstr "Sorok számának betűkészlete nyomtatáskor"
 msgid ""
 "Specifies the font to use for line numbers when printing. This will only "
 "take effect if the \"Print Line Numbers\" option is non-zero."
-msgstr ""
-"Meghatározza nyomtatáskor a sorok számához használt betűkészletet. Csak akkor "
-"lép érvénybe, ha a „Sorok számának kiírása” be van állítva."
+msgstr "Meghatározza nyomtatáskor a sorok számához használt betűkészletet. Csak akkor lép érvénybe, ha a „Sorok számának kiírása” be van állítva."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:73
 msgctxt "auto-detected"
@@ -430,10 +388,7 @@ msgid ""
 "Sorted list of encodings used by pluma for automatically detecting the "
 "encoding of a file. \"CURRENT\" represents the current locale encoding. Only"
 " recognized encodings are used."
-msgstr ""
-"A pluma által fájlok kódolásának automatikus felismerésére használt kódolások "
-"rendezett listája. A „CURRENT” jelenti a jelenlegi locale kódolását. Csak a "
-"felismert kódolások kerülnek felhasználásra."
+msgstr "A pluma által fájlok kódolásának automatikus felismerésére használt kódolások rendezett listája. A „CURRENT” jelenti a jelenlegi locale kódolását. Csak a felismert kódolások kerülnek felhasználásra."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:76
 msgctxt "shown-in-menu"
@@ -448,9 +403,7 @@ msgstr "Menüben megjelenített kódolások"
 msgid ""
 "List of encodings shown in the Character Encoding menu in open/save file "
 "selector. Only recognized encodings are used."
-msgstr ""
-"A „Fájl megnyitása/mentése” fájlválasztó ablakokban megjelenő kódolások "
-"listája. Kizárólag az ismert kódolások használhatók."
+msgstr "A „Fájl megnyitása/mentése” fájlválasztó ablakokban megjelenő kódolások listája. Kizárólag az ismert kódolások használhatók."
 
 #: ../data/org.mate.pluma.gschema.xml.in.h:79
 msgid "History for \"search for\" entries"
@@ -476,10 +429,7 @@ msgstr "Aktív bővítmények"
 msgid ""
 "List of active plugins. It contains the \"Location\" of the active plugins. "
 "See the .pluma-plugin file for obtaining the \"Location\" of a given plugin."
-msgstr ""
-"Az aktív bővítmények listája. Az aktív bővítmények helyét („Location”) "
-"tartalmazza. Lásd a .pluma-plugin fájlt az adott bővítményhez tartozó "
-"„Location” értékért."
+msgstr "Az aktív bővítmények listája. Az aktív bővítmények helyét („Location”) tartalmazza. Lásd a .pluma-plugin fájlt az adott bővítményhez tartozó „Location” értékért."
 
 #: ../data/pluma.appdata.xml.in.h:1
 msgid "A Text Editor for the MATE desktop environment"
@@ -495,19 +445,7 @@ msgid ""
 "plugin system, which currently includes support for spell checking, "
 "comparing files, viewing CVS ChangeLogs, and adjusting indentation levels. "
 "</p>"
-msgstr ""
-"<p> A Pluma egy kicsi de hatékony szövegszerkesztő a MATE asztali "
-"környezethez. "
-"Rendelkezik a legtöbb általánosan használt szerkesztési funkcióval és teljes "
-"mértékben "
-"támogatja a nemzetközi szövegek kezelését az Unicode segítségével. "
-"Olyan haladó szolgáltatásokat is nyújt, mint a szintaxis kiemelés, "
-"automatikus behúzások "
-"kezelése a forráskód fájlokban, a nyomtatást és a több dokumentum egyablakos "
-"szerkesztését.</p> <p>A Pluma rugalmas bővítménykezelő rendszerének hála "
-"helyesírás-ellenőrzés, fájl-összehasonlítás, CVS változtatási naplók olvasása "
-"és a behúzási "
-"szintek megváltoztatása képességekkel is felruházható.</p>"
+msgstr "<p> A Pluma egy kicsi de hatékony szövegszerkesztő a MATE asztali környezethez. Rendelkezik a legtöbb általánosan használt szerkesztési funkcióval és teljes mértékben támogatja a nemzetközi szövegek kezelését az Unicode segítségével. Olyan haladó szolgáltatásokat is nyújt, mint a szintaxis kiemelés, automatikus behúzások kezelése a forráskód fájlokban, a nyomtatást és a több dokumentum egyablakos szerkesztését.</p> <p>A Pluma rugalmas bővítménykezelő rendszerének hála helyesírás-ellenőrzés, fájl-összehasonlítás, CVS változtatási naplók olvasása és a behúzási szintek megváltoztatása képességekkel is felruházható.</p>"
 
 #: ../data/pluma.desktop.in.in.h:1
 msgid "Pluma"
@@ -549,18 +487,13 @@ msgid ""
 msgid_plural ""
 "If you don't save, changes from the last %ld seconds will be permanently "
 "lost."
-msgstr[0] ""
-"Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen "
-"elvesznek."
-msgstr[1] ""
-"Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen "
-"elvesznek."
+msgstr[0] "Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen elvesznek."
+msgstr[1] "Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:420
 msgid ""
 "If you don't save, changes from the last minute will be permanently lost."
-msgstr ""
-"Ha nem menti, akkor az elmúlt percben történt változások véglegesen elvesznek."
+msgstr "Ha nem menti, akkor az elmúlt percben történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:426
 #, c-format
@@ -570,12 +503,8 @@ msgid ""
 msgid_plural ""
 "If you don't save, changes from the last minute and %ld seconds will be "
 "permanently lost."
-msgstr[0] ""
-"Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt "
-"változások véglegesen elvesznek."
-msgstr[1] ""
-"Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt "
-"változások véglegesen elvesznek."
+msgstr[0] "Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt változások véglegesen elvesznek."
+msgstr[1] "Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:436
 #, c-format
@@ -585,17 +514,13 @@ msgid ""
 msgid_plural ""
 "If you don't save, changes from the last %ld minutes will be permanently "
 "lost."
-msgstr[0] ""
-"Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen "
-"elvesznek."
-msgstr[1] ""
-"Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen "
-"elvesznek."
+msgstr[0] "Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen elvesznek."
+msgstr[1] "Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:451
-msgid "If you don't save, changes from the last hour will be permanently lost."
-msgstr ""
-"Ha nem menti, akkor az elmúlt órában történt változások véglegesen elvesznek."
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "Ha nem menti, akkor az elmúlt órában történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:457
 #, c-format
@@ -605,12 +530,8 @@ msgid ""
 msgid_plural ""
 "If you don't save, changes from the last hour and %d minutes will be "
 "permanently lost."
-msgstr[0] ""
-"Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások "
-"véglegesen elvesznek."
-msgstr[1] ""
-"Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások "
-"véglegesen elvesznek."
+msgstr[0] "Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások véglegesen elvesznek."
+msgstr[1] "Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:472
 #, c-format
@@ -618,12 +539,8 @@ msgid ""
 "If you don't save, changes from the last %d hour will be permanently lost."
 msgid_plural ""
 "If you don't save, changes from the last %d hours will be permanently lost."
-msgstr[0] ""
-"Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen "
-"elvesznek."
-msgstr[1] ""
-"Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen "
-"elvesznek."
+msgstr[0] "Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen elvesznek."
+msgstr[1] "Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:516
 #, c-format
@@ -649,7 +566,8 @@ msgstr[1] "%d dokumentum változásai véglegesen elvesznek."
 
 #: ../pluma/dialogs/pluma-close-confirmation-dialog.c:708
 #, c-format
-msgid "There is %d document with unsaved changes. Save changes before closing?"
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d documents with unsaved changes. Save changes before closing?"
 msgstr[0] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
@@ -695,8 +613,7 @@ msgstr "A kódolás jele_njen meg a menüben:"
 
 #: ../pluma/dialogs/pluma-preferences-dialog.c:574
 msgid "Click on this button to select the font to be used by the editor"
-msgstr ""
-"Nyomja meg ezt a gombot a szerkesztőben használt betűkészlet kiválasztásához"
+msgstr "Nyomja meg ezt a gombot a szerkesztőben használt betűkészlet kiválasztásához"
 
 #: ../pluma/dialogs/pluma-preferences-dialog.c:584
 #, c-format
@@ -928,9 +845,7 @@ msgstr "Az alkalmazás verziószámának megjelenítése"
 msgid ""
 "Set the character encoding to be used to open the files listed on the "
 "command line"
-msgstr ""
-"A parancssorban felsorolt fájlok megnyitásához használandó karakterkódolás "
-"beállítása"
+msgstr "A parancssorban felsorolt fájlok megnyitásához használandó karakterkódolás beállítása"
 
 #: ../pluma/pluma.c:107
 msgid "ENCODING"
@@ -967,9 +882,7 @@ msgstr "– Szövegfájlok szerkesztése"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\nAdja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók "
-"teljes listájáért.\n"
+msgstr "%s\nAdja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók teljes listájáért.\n"
 
 #: ../pluma/pluma-commands-file.c:250
 #, c-format
@@ -1024,10 +937,8 @@ msgid ""
 msgid_plural ""
 "Changes made to the document in the last %ld seconds will be permanently "
 "lost."
-msgstr[0] ""
-"A dokumentum elmúlt %ld másodpercben történt változásai véglegesen elvesznek."
-msgstr[1] ""
-"A dokumentum elmúlt %ld másodpercben történt változásai véglegesen elvesznek."
+msgstr[0] "A dokumentum elmúlt %ld másodpercben történt változásai véglegesen elvesznek."
+msgstr[1] "A dokumentum elmúlt %ld másodpercben történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1150
 msgid ""
@@ -1042,12 +953,8 @@ msgid ""
 msgid_plural ""
 "Changes made to the document in the last minute and %ld seconds will be "
 "permanently lost."
-msgstr[0] ""
-"A dokumentum elmúlt egy percben és %ld másodpercben történt véglegesen "
-"változásai elvesznek."
-msgstr[1] ""
-"A dokumentum elmúlt egy percben és %ld másodpercben történt változásai "
-"véglegesen elvesznek."
+msgstr[0] "A dokumentum elmúlt egy percben és %ld másodpercben történt véglegesen változásai elvesznek."
+msgstr[1] "A dokumentum elmúlt egy percben és %ld másodpercben történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1166
 #, c-format
@@ -1057,13 +964,12 @@ msgid ""
 msgid_plural ""
 "Changes made to the document in the last %ld minutes will be permanently "
 "lost."
-msgstr[0] ""
-"A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
-msgstr[1] ""
-"A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
+msgstr[0] "A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
+msgstr[1] "A dokumentum elmúlt %ld percben történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1181
-msgid "Changes made to the document in the last hour will be permanently lost."
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
 msgstr "A dokumentum elmúlt órában történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1187
@@ -1074,12 +980,8 @@ msgid ""
 msgid_plural ""
 "Changes made to the document in the last hour and %d minutes will be "
 "permanently lost."
-msgstr[0] ""
-"A dokumentum elmúlt egy órában és %d percben történt változásai véglegesen "
-"elvesznek."
-msgstr[1] ""
-"A dokumentum elmúlt egy órában és %d percben történt változásai véglegesen "
-"elvesznek."
+msgstr[0] "A dokumentum elmúlt egy órában és %d percben történt változásai véglegesen elvesznek."
+msgstr[1] "A dokumentum elmúlt egy órában és %d percben történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1202
 #, c-format
@@ -1087,10 +989,8 @@ msgid ""
 "Changes made to the document in the last %d hour will be permanently lost."
 msgid_plural ""
 "Changes made to the document in the last %d hours will be permanently lost."
-msgstr[0] ""
-"A dokumentum elmúlt %d órában történt változásai véglegesen elvesznek."
-msgstr[1] ""
-"A dokumentum elmúlt %d órában történt változásai véglegesen elvesznek."
+msgstr[0] "A dokumentum elmúlt %d órában történt változásai véglegesen elvesznek."
+msgstr[1] "A dokumentum elmúlt %d órában történt változásai véglegesen elvesznek."
 
 #: ../pluma/pluma-commands-file.c:1228
 msgid "_Revert"
@@ -1098,16 +998,11 @@ msgstr "_Visszaállítás"
 
 #: ../pluma/pluma-commands-help.c:84
 msgid "pluma is a small and lightweight text editor for the MATE Desktop"
-msgstr ""
-"A pluma egy kicsi és könnyű szövegszerkesztő a MATE asztali környezethez"
+msgstr "A pluma egy kicsi és könnyű szövegszerkesztő a MATE asztali környezethez"
 
 #: ../pluma/pluma-commands-help.c:95
 msgid "translator-credits"
-msgstr ""
-"Bán Szabolcs <shooby at mate dot hu>\nDoma Péter <zelin at pointernet dot hu>"
-"\nDvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate "
-"dot hu>\nKovács Emese <emese at mate dot hu>\nŐry Máté <orymate at gmail dot "
-"com>\nSári Gábor <saga at mate dot hu>\nTímár András <timar at mate dot hu>"
+msgstr "Bán Szabolcs <shooby at mate dot hu>\nDoma Péter <zelin at pointernet dot hu>\nDvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate dot hu>\nKovács Emese <emese at mate dot hu>\nŐry Máté <orymate at gmail dot com>\nSári Gábor <saga at mate dot hu>\nTímár András <timar at mate dot hu>"
 
 #: ../pluma/pluma-commands-search.c:115
 #, c-format
@@ -1348,18 +1243,14 @@ msgstr "„%s” érvénytelen hely."
 msgid ""
 "Host %s could not be found. Please check that your proxy settings are "
 "correct and try again."
-msgstr ""
-"„%s” nevű gép nem található. Ellenőrizze a proxy beállítások helyességét, és "
-"próbálja újra."
+msgstr "„%s” nevű gép nem található. Ellenőrizze a proxy beállítások helyességét, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:288
 #, c-format
 msgid ""
 "Hostname was invalid. Please check that you typed the location correctly and"
 " try again."
-msgstr ""
-"A gépnév érvénytelen. Ellenőrizze, hogy pontosan írta-e be a helyet, és "
-"próbálja újra."
+msgstr "A gépnév érvénytelen. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:296
 #, c-format
@@ -1410,9 +1301,7 @@ msgstr "Ne _legyen szerkesztve"
 msgid ""
 "The number of followed links is limited and the actual file could not be "
 "found within this limit."
-msgstr ""
-"A követett hivatkozások száma korlátozott és a tényleges fájl nem található "
-"ezen a korláton belül."
+msgstr "A követett hivatkozások száma korlátozott és a tényleges fájl nem található ezen a korláton belül."
 
 #: ../pluma/pluma-io-error-message-area.c:593
 msgid "You do not have the permissions necessary to open the file."
@@ -1440,9 +1329,7 @@ msgstr "Hiba történt a fájl (%s) megnyitásakor."
 msgid ""
 "The file you opened has some invalid characters. If you continue editing "
 "this file you could make this document useless."
-msgstr ""
-"A megnyitott fájl érvénytelen karaktereket tartalmazott. Ha folytatja a fájl "
-"szerkesztését, az használhatatlanná teheti a dokumentumot."
+msgstr "A megnyitott fájl érvénytelen karaktereket tartalmazott. Ha folytatja a fájl szerkesztését, az használhatatlanná teheti a dokumentumot."
 
 #: ../pluma/pluma-io-error-message-area.c:613
 msgid "You can also choose another character encoding and try again."
@@ -1472,9 +1359,7 @@ msgstr "A fájl („%s”) nem menthető %s karakterkódolás használatával."
 msgid ""
 "The document contains one or more characters that cannot be encoded using "
 "the specified character encoding."
-msgstr ""
-"A dokumentumban a megadott karakterkódolás használatával nem kódolható "
-"karakter van."
+msgstr "A dokumentumban a megadott karakterkódolás használatával nem kódolható karakter van."
 
 #: ../pluma/pluma-io-error-message-area.c:782
 #, c-format
@@ -1485,9 +1370,7 @@ msgstr "Ez a fájl (%s) már meg van nyitva egy másik pluma ablakban."
 msgid ""
 "pluma opened this instance of the file in a non-editable way. Do you want to"
 " edit it anyway?"
-msgstr ""
-"A pluma ezt a fájlt csak olvasható módban nyitotta meg. Mindenképpen "
-"szerkeszti?"
+msgstr "A pluma ezt a fájlt csak olvasható módban nyitotta meg. Mindenképpen szerkeszti?"
 
 #: ../pluma/pluma-io-error-message-area.c:855
 #: ../pluma/pluma-io-error-message-area.c:950
@@ -1510,10 +1393,9 @@ msgid "The file %s has been modified since reading it."
 msgstr "A(z) %s fájl változott az utolsó beolvasása óta."
 
 #: ../pluma/pluma-io-error-message-area.c:891
-msgid "If you save it, all the external changes could be lost. Save it anyway?"
-msgstr ""
-"Ha most elmenti ezt a változatot, minden külső módosítás el fog veszni. "
-"Biztosan menti?"
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr "Ha most elmenti ezt a változatot, minden külső módosítás el fog veszni. Biztosan menti?"
 
 #: ../pluma/pluma-io-error-message-area.c:971
 #, c-format
@@ -1530,11 +1412,7 @@ msgid ""
 "pluma could not back up the old copy of the file before saving the new one. "
 "You can ignore this warning and save the file anyway, but if an error occurs"
 " while saving, you could lose the old copy of the file. Save anyway?"
-msgstr ""
-"A pluma nem tudja elkészíteni a régi másolat biztonsági mentését az új "
-"mentése előtt. Figyelmen kívül hagyhatja ezt a figyelmeztetést, és mentheti a "
-"fájlt, de ha hiba lép fel a mentésnél, elvesztheti a fájl régi másolatát. "
-"Mindenképp menti?"
+msgstr "A pluma nem tudja elkészíteni a régi másolat biztonsági mentését az új mentése előtt. Figyelmen kívül hagyhatja ezt a figyelmeztetést, és mentheti a fájlt, de ha hiba lép fel a mentésnél, elvesztheti a fájl régi másolatát. Mindenképp menti?"
 
 #. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
 #: ../pluma/pluma-io-error-message-area.c:1050
@@ -1542,50 +1420,38 @@ msgstr ""
 msgid ""
 "pluma cannot handle %s locations in write mode. Please check that you typed "
 "the location correctly and try again."
-msgstr ""
-"A pluma nem tudja kezelni a(z) %s típusú helyeket írás módban. Ellenőrizze, "
-"hogy pontosan írta-e be a helyet, és próbálja újra."
+msgstr "A pluma nem tudja kezelni a(z) %s típusú helyeket írás módban. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1058
 msgid ""
 "pluma cannot handle this location in write mode. Please check that you typed"
 " the location correctly and try again."
-msgstr ""
-"A pluma nem tudja ezt a helyet írás módban kezelni. Ellenőrizze, hogy "
-"pontosan írta-e be a helyet, és próbálja újra."
+msgstr "A pluma nem tudja ezt a helyet írás módban kezelni. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1067
 #, c-format
 msgid ""
 "%s is not a valid location. Please check that you typed the location "
 "correctly and try again."
-msgstr ""
-"A(z) „%s” egy érvénytelen hely. Ellenőrizze, hogy pontosan írta-e be a "
-"helyet, és próbálja újra."
+msgstr "A(z) „%s” egy érvénytelen hely. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1073
 msgid ""
 "You do not have the permissions necessary to save the file. Please check "
 "that you typed the location correctly and try again."
-msgstr ""
-"Nincs jogosultsága a fájl mentéséhez erre a helyre. Ellenőrizze, hogy "
-"pontosan írta-e be a helyet, és próbálja újra."
+msgstr "Nincs jogosultsága a fájl mentéséhez erre a helyre. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1079
 msgid ""
 "There is not enough disk space to save the file. Please free some disk space"
 " and try again."
-msgstr ""
-"Nincs elég hely a lemezen a fájl mentéséhez. Szabadítson fel egy kis helyet, "
-"és próbálja újra."
+msgstr "Nincs elég hely a lemezen a fájl mentéséhez. Szabadítson fel egy kis helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1084
 msgid ""
 "You are trying to save the file on a read-only disk. Please check that you "
 "typed the location correctly and try again."
-msgstr ""
-"Egy csak olvasható lemezre próbált fájlt menteni. Ellenőrizze, hogy pontosan "
-"írta-e be a helyet, és próbálja újra."
+msgstr "Egy csak olvasható lemezre próbált fájlt menteni. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #: ../pluma/pluma-io-error-message-area.c:1090
 msgid "A file with the same name already exists. Please use a different name."
@@ -1595,19 +1461,14 @@ msgstr "Egy ugyanilyen nevű fájl már létezik. Használjon más nevet."
 msgid ""
 "The disk where you are trying to save the file has a limitation on length of"
 " the file names. Please use a shorter name."
-msgstr ""
-"Az a lemez, amire a fájlt próbálja menteni, nem kezeli a hosszú fájlneveket. "
-"Használjon rövidebb nevet."
+msgstr "Az a lemez, amire a fájlt próbálja menteni, nem kezeli a hosszú fájlneveket. Használjon rövidebb nevet."
 
 #: ../pluma/pluma-io-error-message-area.c:1102
 msgid ""
 "The disk where you are trying to save the file has a limitation on file "
 "sizes. Please try saving a smaller file or saving it to a disk that does not"
 " have this limitation."
-msgstr ""
-"Az a lemez, amelyre a fájlt próbálja menteni, fájlméret-korlátozással "
-"rendelkezik. Próbáljon meg kisebb fájlt menteni, vagy egy olyan lemezre "
-"mentsen, amelyen nincs korlátozás."
+msgstr "Az a lemez, amelyre a fájlt próbálja menteni, fájlméret-korlátozással rendelkezik. Próbáljon meg kisebb fájlt menteni, vagy egy olyan lemezre mentsen, amelyen nincs korlátozás."
 
 #: ../pluma/pluma-io-error-message-area.c:1118
 #, c-format
@@ -1841,9 +1702,7 @@ msgstr[1] "%d lapon vannak hibák"
 #: ../pluma/pluma-style-scheme-manager.c:220
 #, c-format
 msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
-msgstr ""
-"A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() hívás "
-"meghiúsult: %s"
+msgstr "A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() hívás meghiúsult: %s"
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
@@ -2358,9 +2217,7 @@ msgstr "Statisztika a dokumentumról"
 msgid ""
 "Analyzes the current document and reports the number of words, lines, "
 "characters and non-space characters in it."
-msgstr ""
-"Az aktuális dokumentum elemzése, és a szavak, sorok, karakterek és nem szóköz "
-"karakterek számának jelentése"
+msgstr "Az aktuális dokumentum elemzése, és a szavak, sorok, karakterek és nem szóköz karakterek számának jelentése"
 
 #: ../plugins/docinfo/docinfo.ui.h:2
 msgid "_Update"
@@ -2619,8 +2476,7 @@ msgstr "Parancs futtatása"
 
 #: ../plugins/externaltools/data/run-command.desktop.in.h:2
 msgid "Execute a custom command and put its output in a new document"
-msgstr ""
-"Egyéni parancs végrehajtása és kimenetének elhelyezése új dokumentumban"
+msgstr "Egyéni parancs végrehajtása és kimenetének elhelyezése új dokumentumban"
 
 #: ../plugins/externaltools/data/search-recursive.desktop.in.h:1
 msgid "Search"
@@ -2648,11 +2504,7 @@ msgid ""
 "document given that the file browser hasn't been used yet. (Thus this "
 "generally applies to opening a document from the command line or opening it "
 "with Caja, etc.)"
-msgstr ""
-"Ha ez a beállítás igaz, akkor a fájlböngésző bővítmény az első megnyitott "
-"dokumentum könyvtárát jeleníti meg, ha a fájlböngésző még nem volt "
-"használatban (így ez általánosságban például a parancssorból vagy a Cajaból "
-"megnyitott dokumentumokra érvényes)."
+msgstr "Ha ez a beállítás igaz, akkor a fájlböngésző bővítmény az első megnyitott dokumentum könyvtárát jeleníti meg, ha a fájlböngésző még nem volt használatban (így ez általánosságban például a parancssorból vagy a Cajaból megnyitott dokumentumokra érvényes)."
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:3
 msgid "File Browser Filter Mode"
@@ -2664,11 +2516,7 @@ msgid ""
 "values are: none (filter nothing), hidden (filter hidden files), binary "
 "(filter binary files) and hidden_and_binary (filter both hidden and binary "
 "files)."
-msgstr ""
-"Ez az érték meghatározza, hogy mely fájlok kerülnek kiszűrésre a "
-"fájlböngészőből. A lehetséges értékek: none (nem szűr semmit), hidden "
-"(rejtett fájlok szűrése), binary (bináris fájlok szűrése) és "
-"hidden_and_binary (mind a rejtett, mind a bináris fájlok szűrése)."
+msgstr "Ez az érték meghatározza, hogy mely fájlok kerülnek kiszűrésre a fájlböngészőből. A lehetséges értékek: none (nem szűr semmit), hidden (rejtett fájlok szűrése), binary (bináris fájlok szűrése) és hidden_and_binary (mind a rejtett, mind a bináris fájlok szűrése)."
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:5
 msgid "File Browser Filter Pattern"
@@ -2678,9 +2526,7 @@ msgstr "Fájlböngésző szűrőminta"
 msgid ""
 "The filter pattern to filter the file browser with. This filter works on top"
 " of the filter_mode."
-msgstr ""
-"A fájlböngésző szűrésére használandó szűrőminta. Ez a szűrő a filter_mode "
-"kulcs felett működik."
+msgstr "A fájlböngésző szűrésére használandó szűrőminta. Ez a szűrő a filter_mode kulcs felett működik."
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:7
 msgid "Open With Tree View"
@@ -2690,8 +2536,7 @@ msgstr "Megnyitás fanézettel"
 msgid ""
 "Open the tree view when the file browser plugin gets loaded instead of the "
 "bookmarks view"
-msgstr ""
-"A fanézet megnyitása a fájlböngésző bővítménnyel a könyvjelzők nézet helyett"
+msgstr "A fanézet megnyitása a fájlböngésző bővítménnyel a könyvjelzők nézet helyett"
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:9
 msgid "File Browser Root Directory"
@@ -2701,9 +2546,7 @@ msgstr "Fájlböngésző gyökérkönyvtár"
 msgid ""
 "The file browser root directory to use when loading the file browser plugin "
 "and onload/tree_view is TRUE."
-msgstr ""
-"A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az "
-"onload/tree_view kulcs értéke igaz."
+msgstr "A fájlböngésző betöltésekor használandó gyökérkönyvtár, ha az onload/tree_view kulcs értéke igaz."
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:11
 msgid "File Browser Virtual Root Directory"
@@ -2714,10 +2557,7 @@ msgid ""
 "The file browser virtual root directory to use when loading the file browser"
 " plugin when onload/tree_view is TRUE. The virtual root must always be below"
 " the actual root."
-msgstr ""
-"A fájlböngésző betöltésekor használandó virtuális gyökérkönyvtár, ha az "
-"onload/tree_view kulcs értéke igaz. A virtuális gyökérkönyvtárnak mindig a "
-"valódi gyökér alatt kell lennie."
+msgstr "A fájlböngésző betöltésekor használandó virtuális gyökérkönyvtár, ha az onload/tree_view kulcs értéke igaz. A virtuális gyökérkönyvtárnak mindig a valódi gyökér alatt kell lennie."
 
 #: ../plugins/filebrowser/org.mate.pluma.plugins.filebrowser.gschema.xml.in.h:13
 msgid "Enable Restore of Remote Locations"
@@ -2819,9 +2659,7 @@ msgstr "(Üres)"
 msgid ""
 "The renamed file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
-msgstr ""
-"Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a "
-"szűrőbeállításokat"
+msgstr "Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a szűrőbeállításokat"
 
 #. Translators: This is the default name of new files created by the file
 #. browser pane.
@@ -2833,9 +2671,7 @@ msgstr "fájl"
 msgid ""
 "The new file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
-msgstr ""
-"Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a "
-"szűrőbeállításokat"
+msgstr "Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a szűrőbeállításokat"
 
 #. Translators: This is the default name of new directories created by the
 #. file browser pane.
@@ -2847,9 +2683,7 @@ msgstr "könyvtár"
 msgid ""
 "The new directory is currently filtered out. You need to adjust your filter "
 "settings to make the directory visible"
-msgstr ""
-"Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a "
-"szűrőbeállításokat"
+msgstr "Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a szűrőbeállításokat"
 
 #: ../plugins/filebrowser/pluma-file-browser-widget.c:711
 msgid "Bookmarks"
@@ -3095,8 +2929,7 @@ msgstr "_Tab aktiváló:"
 #: ../plugins/snippets/snippets/snippets.ui.h:11
 #: ../plugins/snippets/snippets/Manager.py:689
 msgid "Single word the snippet is activated with after pressing Tab"
-msgstr ""
-"Az a szó, amely után a Tab billentyűt lenyomva a töredék aktiválásra kerül"
+msgstr "Az a szó, amely után a Tab billentyűt lenyomva a töredék aktiválásra kerül"
 
 #: ../plugins/snippets/snippets/snippets.ui.h:12
 msgid "Shortcut key with which the snippet is activated"
@@ -3139,9 +2972,7 @@ msgstr "A kijelölt töredék visszaállítása"
 msgid ""
 "This is not a valid Tab trigger. Triggers can either contain letters or a "
 "single (non-alphanumeric) character like: {, [, etc."
-msgstr ""
-"Ez nem egy érvényes Tab-aktiváló. Az aktiválók betűket vagy egyetlen, nem "
-"betű vagy szám karaktert, például {, [ stb. tartalmazhatnak."
+msgstr "Ez nem egy érvényes Tab-aktiváló. Az aktiválók betűket vagy egyetlen, nem betű vagy szám karaktert, például {, [ stb. tartalmazhatnak."
 
 #: ../plugins/snippets/snippets/Manager.py:779
 #, python-format
@@ -3193,8 +3024,7 @@ msgstr "Az exportálás sikeresen befejeződött"
 #: ../plugins/snippets/snippets/Manager.py:865
 #: ../plugins/snippets/snippets/Manager.py:932
 msgid "Do you want to include selected <b>system</b> snippets in your export?"
-msgstr ""
-"Fel kívánja venni a kiválasztott <b>rendszertöredékeket</b> az exportálásba?"
+msgstr "Fel kívánja venni a kiválasztott <b>rendszertöredékeket</b> az exportálásba?"
 
 #: ../plugins/snippets/snippets/Manager.py:880
 #: ../plugins/snippets/snippets/Manager.py:950
@@ -3266,9 +3096,7 @@ msgstr "A(z) „%s” fájl nem egy érvényes töredékarchívum"
 msgid ""
 "Execution of the Python command (%s) exceeds the maximum time, execution "
 "aborted."
-msgstr ""
-"A Python parancs (%s) végrehajtása túllépi a maximálisan engedélyezett időt, "
-"a végrehajtás megszakítva."
+msgstr "A Python parancs (%s) végrehajtása túllépi a maximálisan engedélyezett időt, a végrehajtás megszakítva."
 
 #: ../plugins/snippets/snippets/Placeholder.py:602
 #, python-format
@@ -5143,4 +4971,3 @@ msgstr "Dátum/idő beszúrásakor…"
 #: ../plugins/time/pluma-time-setup-dialog.ui.h:4
 msgid "_Prompt for a format"
 msgstr "_Formátum bekérése"
-

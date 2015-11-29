@@ -1,24 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Falu.Me, 2015.
-# Rezső Páder <rezso@rezso.net>, 2013-2015.
-# Kálmán "KAMI" Szalai <kami911@gmail.com>, 2015.
+# Falu.Me, 2015
+# Falu.Me, 2015
+# kami911 <kami911@gmail.com>, 2015
+# Rezső Páder <rezso@rezso.net>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 14:50+0300\n"
-"PO-Revision-Date: 2015-11-28 22:01+0100\n"
-"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-11-28 21:01+0000\n"
+"Last-Translator: kami911 <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: ../src/50-marco-desktop-key.xml.in.h:1
 msgid "Desktop"
@@ -399,13 +400,7 @@ msgid ""
 "(right click). The middle and right click operations may be swapped using "
 "the \"resize_with_right_button\" key. Modifier is expressed as "
 "\"&lt;Alt&gt;\" or \"&lt;Super&gt;\" for example."
-msgstr ""
-"Ezen billentyű nyomva tartása mellett az ablakra kattintva az ablak "
-"mozgatható (bal gomb) átméretezhető (középső gomb) vagy megjeleníthető az "
-"ablakmenü (jobb gomb). A bal és jobb műveletek felcserélhetők a "
-"„resize_with_right_button” kulcs segítségével. A módosítót például a "
-"következő módon "
-"lehet megadni: \"&lt;Alt&gt;\" vagy \"&lt;Super&gt;\"."
+msgstr "Ezen billentyű nyomva tartása mellett az ablakra kattintva az ablak mozgatható (bal gomb) átméretezhető (középső gomb) vagy megjeleníthető az ablakmenü (jobb gomb). A bal és jobb műveletek felcserélhetők a „resize_with_right_button” kulcs segítségével. A módosítót például a következő módon lehet megadni: \"&lt;Alt&gt;\" vagy \"&lt;Super&gt;\"."
 
 #: ../src/org.mate.marco.gschema.xml.h:3
 msgid "Whether to resize with the right button"
@@ -416,10 +411,7 @@ msgid ""
 "Set this to true to resize with the right button and show a menu with the "
 "middle button while holding down the key given in \"mouse_button_modifier\";"
 " set it to false to make it work the opposite way around."
-msgstr ""
-"Állítsa igazra a „mouse_button_modifier” kulcsban megadott billentyű "
-"lenyomva tartása közben a jobb gombbal való átméretezéshez és a középső "
-"gombbal a menü megjelenítéséhez, állítsa hamisra az ellentétes működéshez."
+msgstr "Állítsa igazra a „mouse_button_modifier” kulcsban megadott billentyű lenyomva tartása közben a jobb gombbal való átméretezéshez és a középső gombbal a menü megjelenítéséhez, állítsa hamisra az ellentétes működéshez."
 
 #: ../src/org.mate.marco.gschema.xml.h:5
 msgid "Arrangement of buttons on the titlebar"
@@ -434,14 +426,7 @@ msgid ""
 "silently ignored so that buttons can be added in future marco versions "
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
-msgstr ""
-"A címsor gombjainak igazítása. Az értéknek szövegnek kell lennie, mint "
-"például „menu:minimize,maximize,spacer,close”; a kettőspont választja el az "
-"ablak jobb és bal sarkát, a gombneveket pedig vesszők. Kettőzött gombok nem "
-"megengedettek. Az ismeretlen gombnevek jelzés nélkül figyelmen kívül lesznek "
-"hagyva, így a jövőbeli marco verziókkal készült gombsorok visszafelé "
-"kompatibilisek maradnak. A speciális spacer címkével némi hely szúrható két "
-"szomszédos gomb közé."
+msgstr "A címsor gombjainak igazítása. Az értéknek szövegnek kell lennie, mint például „menu:minimize,maximize,spacer,close”; a kettőspont választja el az ablak jobb és bal sarkát, a gombneveket pedig vesszők. Kettőzött gombok nem megengedettek. Az ismeretlen gombnevek jelzés nélkül figyelmen kívül lesznek hagyva, így a jövőbeli marco verziókkal készült gombsorok visszafelé kompatibilisek maradnak. A speciális spacer címkével némi hely szúrható két szomszédos gomb közé."
 
 #: ../src/org.mate.marco.gschema.xml.h:7
 msgid "Window focus mode"
@@ -454,13 +439,7 @@ msgid ""
 "them, \"sloppy\" means windows are focused when the mouse enters the window,"
 " and \"mouse\" means windows are focused when the mouse enters the window "
 "and unfocused when the mouse leaves the window."
-msgstr ""
-"Az ablakfókusz módja jelzi, hogy az ablakokat hogyan tehetőek aktívvá. Három "
-"lehetséges értéke van; „click” azt jelenti, hogy rá kell kattintani az adott "
-"ablakra hogy aktív legyen, „sloppy” azt jelenti, hogy az ablak aktív lesz, "
-"amint az egér az ablak fölé ér és a „mouse” azt jelenti, hogy az ablak aktív "
-"lesz, amint az egér az ablak fölé ér és nem lesz az, ha az egér elhagyja az "
-"ablakot."
+msgstr "Az ablakfókusz módja jelzi, hogy az ablakokat hogyan tehetőek aktívvá. Három lehetséges értéke van; „click” azt jelenti, hogy rá kell kattintani az adott ablakra hogy aktív legyen, „sloppy” azt jelenti, hogy az ablak aktív lesz, amint az egér az ablak fölé ér és a „mouse” azt jelenti, hogy az ablak aktív lesz, amint az egér az ablak fölé ér és nem lesz az, ha az egér elhagyja az ablakot."
 
 #: ../src/org.mate.marco.gschema.xml.h:9
 msgid "Control how new windows get focus"
@@ -472,12 +451,7 @@ msgid ""
 "focus. It has two possible values; \"smart\" applies the user's normal focus"
 " mode, and \"strict\" results in windows started from a terminal not being "
 "given focus."
-msgstr ""
-"Ez a beállítás az újonnan létrehozott ablakok fókuszba kerülésének "
-"irányítására biztosít további lehetőséget. Két lehetséges értéke van: a "
-"„smart” (intelligens) a felhasználó normál fókuszmódját alkalmazza, a "
-"„strict” (korlátozott) hatására pedig a terminálból indított ablakok nem "
-"kapnak fókuszt."
+msgstr "Ez a beállítás az újonnan létrehozott ablakok fókuszba kerülésének irányítására biztosít további lehetőséget. Két lehetséges értéke van: a „smart” (intelligens) a felhasználó normál fókuszmódját alkalmazza, a „strict” (korlátozott) hatására pedig a terminálból indított ablakok nem kapnak fókuszt."
 
 #: ../src/org.mate.marco.gschema.xml.h:11
 msgid "Whether raising should be a side-effect of other user interactions"
@@ -503,26 +477,7 @@ msgid ""
 "with this setting disabled, tell them it is _their_ fault for breaking their"
 " window manager and that they need to change this option back to true or "
 "live with the \"bug\" they requested."
-msgstr ""
-"Ezen érték hamisra állítása hibás viselkedést eredményezhet, ezért nem "
-"javasolt az alapértelmezett igaz érték módosítása. Számos művelet (például a "
-"kattintás a kliens területén, az ablak mozgatása vagy átméretezése) "
-"mellékhatásként előtérbe hozzák az ablakot. Ezen beállítás – nem javasolt – "
-"hamisra állításával az előtérbe hozást elválaszthatja más felhasználói "
-"műveletektől és figyelmen kívül hagyhatja az alkalmazások által generált "
-"előtérbe hozási kéréseket. Ha ez az érték hamis, az ablakok akkor is "
-"előtérbe hozhatók az Alt+bal gombbal kattintással az ablakban bárhová, "
-"normál kattintással az ablak díszítésein vagy a lapozók speciális "
-"üzeneteivel, például aktiválási kérésekkel a feladatlista "
-"kisalkalmazásoktól. Ez a beállítás jelenleg le van tiltva a „kattintás "
-"fókuszhoz” módban. Ne feledje, hogy az ablakok előtérbe hozási módjainak "
-"listája a „raise_on_click” kulcs hamis értéke esetén nem tartalmazza az "
-"alkalmazások ablak-előtérbe hozási programkéréseit, az ilyen kérések a kérés "
-"okától függetlenül figyelmen kívül maradnak. Ha alkalmazásfejlesztőként a "
-"felhasználói arra panaszkodnak, hogy az alkalmazás nem működik ezen "
-"beállítás letiltásakor, akkor vissza kell állítaniuk ezen beállítás igaz "
-"értékét. További információkért nézze meg a "
-"http://bugzilla.gnome.org/show_bug.cgi.id=445447#c6 oldalt."
+msgstr "Ezen érték hamisra állítása hibás viselkedést eredményezhet, ezért nem javasolt az alapértelmezett igaz érték módosítása. Számos művelet (például a kattintás a kliens területén, az ablak mozgatása vagy átméretezése) mellékhatásként előtérbe hozzák az ablakot. Ezen beállítás – nem javasolt – hamisra állításával az előtérbe hozást elválaszthatja más felhasználói műveletektől és figyelmen kívül hagyhatja az alkalmazások által generált előtérbe hozási kéréseket. Ha ez az érték hamis, az ablakok akkor is előtérbe hozhatók az Alt+bal gombbal kattintással az ablakban bárhová, normál kattintással az ablak díszítésein vagy a lapozók speciális üzeneteivel, például aktiválási kérésekkel a feladatlista kisalkalmazásoktól. Ez a beállítás jelenleg le van tiltva a „kattintás fókuszhoz” módban. Ne feledje, hogy az ablakok előtérbe hozási módjainak listája a „raise_on_click” kulcs hamis értéke esetén nem tartalmazza az alkalmazások ablak-előtérbe hozási programkéréseit, az ilyen kérések a kérés okától függetlenül figyelmen kívül maradnak. Ha alkalmazásfejlesztőként a felhasználói arra panaszkodnak, hogy az alkalmazás nem működik ezen beállítás letiltásakor, akkor vissza kell állítaniuk ezen beállítás igaz értékét. További információkért nézze meg a http://bugzilla.gnome.org/show_bug.cgi.id=445447#c6 oldalt."
 
 #: ../src/org.mate.marco.gschema.xml.h:13
 msgid "Action on title bar double-click"
@@ -582,13 +537,7 @@ msgid ""
 "the focused window will be automatically raised after a delay specified by "
 "the auto_raise_delay key. This is not related to clicking on a window to "
 "raise it, nor to entering a window during drag-and-drop."
-msgstr ""
-"Ha igazra van állítva és a fókuszmód a „sloppy” vagy „mouse” egyike, akkor a "
-"fókuszba került ablak automatikusan az előtérbe lesz hozva az "
-"auto_raise_delay "
-"kulcsban megadott késleltetés letelte után. Ez nem kapcsolódik az "
-"ablakra kattintáshoz annak előtérbe hozása érdekében, sem az ablakra "
-"mutatáshoz fogd és ejtsd művelet során."
+msgstr "Ha igazra van állítva és a fókuszmód a „sloppy” vagy „mouse” egyike, akkor a fókuszba került ablak automatikusan az előtérbe lesz hozva az auto_raise_delay kulcsban megadott késleltetés letelte után. Ez nem kapcsolódik az ablakra kattintáshoz annak előtérbe hozása érdekében, sem az ablakra mutatáshoz fogd és ejtsd művelet során."
 
 #: ../src/org.mate.marco.gschema.xml.h:21
 msgid "Delay in milliseconds for the auto raise option"
@@ -598,9 +547,7 @@ msgstr "Az automatikus előtérbe hozás opció késleltetése ezredmásodpercbe
 msgid ""
 "The time delay before raising a window if auto_raise is set to true. The "
 "delay is given in thousandths of a second."
-msgstr ""
-"Késleltetés (ezredmásodpercben) az ablak automatikus előtérbe hozása előtt, "
-"ha az auto_raise kulcs engedélyezett."
+msgstr "Késleltetés (ezredmásodpercben) az ablak automatikus előtérbe hozása előtt, ha az auto_raise kulcs engedélyezett."
 
 #: ../src/org.mate.marco.gschema.xml.h:23
 msgid "Current theme"
@@ -620,9 +567,7 @@ msgstr "A rendszer szabvány betűkészletének használata az ablak címsorába
 msgid ""
 "If true, ignore the titlebar_font option, and use the standard application "
 "font for window titles."
-msgstr ""
-"Ha igazra van állítva, a titlebar_font kulcs figyelmen kívül marad, és a "
-"szabvány alkalmazás betűkészletet használja az ablakok címsoraihoz."
+msgstr "Ha igazra van állítva, a titlebar_font kulcs figyelmen kívül marad, és a szabvány alkalmazás betűkészletet használja az ablakok címsoraihoz."
 
 #: ../src/org.mate.marco.gschema.xml.h:27
 msgid "Window title font"
@@ -634,11 +579,7 @@ msgid ""
 "from the description will only be used if the titlebar_font_size option is "
 "set to 0. Also, this option is disabled if the titlebar_uses_desktop_font "
 "option is set to true."
-msgstr ""
-"Betűkészlet-leíró karakterlánc, amely meghatározza az ablak címsorának "
-"betűkészletét. A leírás méret része csak akkor érvényesül, "
-"ha a titlebar_font_size kulcs értéke 0. Ez az opció le van tiltva, "
-"ha a titlebar_uses_desktop_font értéke igaz."
+msgstr "Betűkészlet-leíró karakterlánc, amely meghatározza az ablak címsorának betűkészletét. A leírás méret része csak akkor érvényesül, ha a titlebar_font_size kulcs értéke 0. Ez az opció le van tiltva, ha a titlebar_uses_desktop_font értéke igaz."
 
 #: ../src/org.mate.marco.gschema.xml.h:29
 msgid "Number of workspaces"
@@ -649,10 +590,7 @@ msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
 "workspaces."
-msgstr ""
-"A munkaterületek száma. Az értéknek nullánál nagyobbnak kell lennie, és "
-"maximális értéke rögzített, megakadályozandó az asztali környezet "
-"használhatatlanná tételét túl sok munkaterület véletlen beállításával."
+msgstr "A munkaterületek száma. Az értéknek nullánál nagyobbnak kell lennie, és maximális értéke rögzített, megakadályozandó az asztali környezet használhatatlanná tételét túl sok munkaterület véletlen beállításával."
 
 #: ../src/org.mate.marco.gschema.xml.h:31
 msgid "Workspace wrap style"
@@ -679,9 +617,7 @@ msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
 "environments."
-msgstr ""
-"Látható jelzést ad, amikor egy alkalmazás vagy a rendszer „hangjelzést” adna "
-"ki; ez hasznos lehet a nagyothallók számára vagy zajos környezetben."
+msgstr "Látható jelzést ad, amikor egy alkalmazás vagy a rendszer „hangjelzést” adna ki; ez hasznos lehet a nagyothallók számára vagy zajos környezetben."
 
 #: ../src/org.mate.marco.gschema.xml.h:35
 msgid "System Bell is Audible"
@@ -691,10 +627,7 @@ msgstr "A rendszercsengő hallható"
 msgid ""
 "Determines whether applications or the system can generate audible 'beeps'; "
 "may be used in conjunction with 'visual bell' to allow silent 'beeps'."
-msgstr ""
-"Meghatározza, hogy az alkalmazások vagy a rendszer kiadhatnak-e hallható "
-"hangjelzéseket, hasznos lehet a „látható rendszercsengővel” együtt "
-"alkalmazni, mert ennek segítségével lehetségesek a „néma hangjelzések” is."
+msgstr "Meghatározza, hogy az alkalmazások vagy a rendszer kiadhatnak-e hallható hangjelzéseket, hasznos lehet a „látható rendszercsengővel” együtt alkalmazni, mert ennek segítségével lehetségesek a „néma hangjelzések” is."
 
 #: ../src/org.mate.marco.gschema.xml.h:37
 msgid "Visual Bell Type"
@@ -709,14 +642,7 @@ msgid ""
 "the bell signal to flash. If the application which sent the bell is unknown "
 "(as is usually the case for the default \"system beep\"), the currently "
 "focused window's titlebar is flashed."
-msgstr ""
-"Meghatározza, hogy a Marco ablakkezelő hogyan jelenítse meg látható módon, "
-"ha a rendszer hangjelzése (esetleg másik alkalmazás „hangjelzése”) megszólal. "
-"Jelenleg két érvényes értéke van: a „fullscreen”, amely a teljes "
-"képernyő fekete-fehér villanását okozza, illetve a „frame_flash”, amely a "
-"címsor villanását okozza a jelzést kiváltó alkalmazásnál. Ha ez az "
-"alkalmazás ismeretlen (amely általános a rendszer alapértelmezett "
-"„hangjelzése” esetén), akkor a jelenleg aktív ablak címsora fog felvillanni."
+msgstr "Meghatározza, hogy a Marco ablakkezelő hogyan jelenítse meg látható módon, ha a rendszer hangjelzése (esetleg másik alkalmazás „hangjelzése”) megszólal. Jelenleg két érvényes értéke van: a „fullscreen”, amely a teljes képernyő fekete-fehér villanását okozza, illetve a „frame_flash”, amely a címsor villanását okozza a jelzést kiváltó alkalmazásnál. Ha ez az alkalmazás ismeretlen (amely általános a rendszer alapértelmezett „hangjelzése” esetén), akkor a jelenleg aktív ablak címsora fog felvillanni."
 
 #: ../src/org.mate.marco.gschema.xml.h:39
 msgid "Compositing Manager"
@@ -734,15 +660,11 @@ msgstr "Gyors alkalmazásváltás engedélyezve"
 msgid ""
 "Whether or not fast alt-tabbing is used when the compositing manager is "
 "enabled."
-msgstr ""
-"Engedélyezve legyen-e a a gyors alkalmazásváltás a kompozíciókezelő "
-"használatakor."
+msgstr "Engedélyezve legyen-e a a gyors alkalmazásváltás a kompozíciókezelő használatakor."
 
 #: ../src/org.mate.marco.gschema.xml.h:43
 msgid "If true, trade off usability for less resource usage"
-msgstr ""
-"Ha ez be van állítva, a kisebb erőforrásigény érdekében a könnyű "
-"használhatóságból áldoz fel"
+msgstr "Ha ez be van állítva, a kisebb erőforrásigény érdekében a könnyű használhatóságból áldoz fel"
 
 #: ../src/org.mate.marco.gschema.xml.h:44
 msgid ""
@@ -751,19 +673,12 @@ msgid ""
 "usability for many users, but may allow legacy applications to continue "
 "working, and may also be a useful tradeoff for terminal servers. However, "
 "the wireframe feature is disabled when accessibility is on."
-msgstr ""
-"Ha ez be van állítva, akkor a marco a felhasználónak kevesebb "
-"visszajelzést ad drótvázak használatával, animációk kikapcsolásával, vagy "
-"egyéb módon. Ez a használhatóság jelentős csökkentése sok felhasználó "
-"számára, de lehetővé teszi az örökölt alkalmazásoknak a működés folytatását "
-"és terminál kiszolgálóknak is hasznos engedmény lehet. Azonban a drótváz "
-"szolgáltatás ki van kapcsolva, ha az akadálymentesítés be van kapcsolva."
+msgstr "Ha ez be van állítva, akkor a marco a felhasználónak kevesebb visszajelzést ad drótvázak használatával, animációk kikapcsolásával, vagy egyéb módon. Ez a használhatóság jelentős csökkentése sok felhasználó számára, de lehetővé teszi az örökölt alkalmazásoknak a működés folytatását és terminál kiszolgálóknak is hasznos engedmény lehet. Azonban a drótváz szolgáltatás ki van kapcsolva, ha az akadálymentesítés be van kapcsolva."
 
 #: ../src/org.mate.marco.gschema.xml.h:45
-msgid "(Not implemented) Navigation works in terms of applications not windows"
-msgstr ""
-"(Nincs megvalósítva) A navigáció az alkalmazások és nem az ablakok szintjén "
-"működik"
+msgid ""
+"(Not implemented) Navigation works in terms of applications not windows"
+msgstr "(Nincs megvalósítva) A navigáció az alkalmazások és nem az ablakok szintjén működik"
 
 #: ../src/org.mate.marco.gschema.xml.h:46
 msgid ""
@@ -774,21 +689,11 @@ msgid ""
 "application-based mode, focus clicks are not passed through to windows in "
 "other applications. Application-based mode is, however, largely "
 "unimplemented at the moment."
-msgstr ""
-"Ha ez be van állítva, akkor a Marco ablakkezelő inkább az alkalmazások és nem "
-"az "
-"ablakok szintjén működik. A koncepció egy kicsit elvont, de összességében az "
-"alkalmazás alapú beállítás inkább mac-es és kevésbé windowsos. Ha fókuszba "
-"kerül valamelyik ablak az alkalmazás alapú módban, akkor az alkalmazás "
-"minden ablaka előtérbe kerül. Szintén ebben az üzemmódban a kattintások nem "
-"jutnak át más alkalmazások ablakain. Az alkalmazás alapú üzemmód azonban "
-"jelenleg nagyrészt nincs megvalósítva."
+msgstr "Ha ez be van állítva, akkor a Marco ablakkezelő inkább az alkalmazások és nem az ablakok szintjén működik. A koncepció egy kicsit elvont, de összességében az alkalmazás alapú beállítás inkább mac-es és kevésbé windowsos. Ha fókuszba kerül valamelyik ablak az alkalmazás alapú módban, akkor az alkalmazás minden ablaka előtérbe kerül. Szintén ebben az üzemmódban a kattintások nem jutnak át más alkalmazások ablakain. Az alkalmazás alapú üzemmód azonban jelenleg nagyrészt nincs megvalósítva."
 
 #: ../src/org.mate.marco.gschema.xml.h:47
 msgid "Disable misfeatures that are required by old or broken applications"
-msgstr ""
-"Azon hibás funkciók letiltása, amelyeket régi vagy hibás alkalmazások "
-"használnak"
+msgstr "Azon hibás funkciók letiltása, amelyeket régi vagy hibás alkalmazások használnak"
 
 #: ../src/org.mate.marco.gschema.xml.h:48
 msgid ""
@@ -796,12 +701,7 @@ msgid ""
 "manager misfeatures. This option puts Marco in a rigorously correct mode, "
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
-msgstr ""
-"Néhány alkalmazás a szabványokat olyan módon veszi semmibe, hogy az"
-"a Marco ablakkezelő hibás viselkedését okozza. Ez a lehetőség az ablakkezelőt "
-"kérlelhetetlenül helyes módba kapcsolja, amely sokkal konzisztensebb "
-"felhasználói felületet eredményez, feltéve hogy nem kell hibásan működő "
-"alkalmazásokat futtatnia."
+msgstr "Néhány alkalmazás a szabványokat olyan módon veszi semmibe, hogy aza Marco ablakkezelő hibás viselkedését okozza. Ez a lehetőség az ablakkezelőt kérlelhetetlenül helyes módba kapcsolja, amely sokkal konzisztensebb felhasználói felületet eredményez, feltéve hogy nem kell hibásan működő alkalmazásokat futtatnia."
 
 #: ../src/org.mate.marco.gschema.xml.h:49
 msgid "Determines if new windows are created on the center of the screen"
@@ -811,10 +711,7 @@ msgstr "Új ablakok középre helyezése"
 msgid ""
 "If set to true, new windows are opened in the center of the screen. "
 "Otherwise, they are opened at the top left of the screen."
-msgstr ""
-"Ha ez be van állítva, akkor az újonnan megnyíló ablakok "
-"a képernyő közepén jelenik meg. Ellenkező esetben "
-"az ablakok a bal felső sarokban jelennek meg."
+msgstr "Ha ez be van állítva, akkor az újonnan megnyíló ablakok a képernyő közepén jelenik meg. Ellenkező esetben az ablakok a bal felső sarokban jelennek meg."
 
 #: ../src/org.mate.marco.gschema.xml.h:51
 msgid "Whether to enable side-by-side tiling"
@@ -825,11 +722,7 @@ msgid ""
 "If enabled, dropping windows on screen edges maximizes them vertically and "
 "resizes them horizontally to cover half of the available area. Drag-dropping"
 " to the top maximizes the window."
-msgstr ""
-"Ha engedélyezett, akkor a képernyőélekre húzott ablakok függőlegesen "
-"maximalizálva lesznek, vízszintesen pedig az elérhető terület felét fogják "
-"elfoglalni. Az ablakok felső képernyőszélre húzása teljesen maximalizálja "
-"azokat."
+msgstr "Ha engedélyezett, akkor a képernyőélekre húzott ablakok függőlegesen maximalizálva lesznek, vízszintesen pedig az elérhető terület felét fogják elfoglalni. Az ablakok felső képernyőszélre húzása teljesen maximalizálja azokat."
 
 #: ../src/org.mate.marco.gschema.xml.h:53
 msgid "Window placement mode"
@@ -901,8 +794,7 @@ msgstr "Váltás az összes munkaterület ablakai között felugró ablakkal"
 
 #: ../src/org.mate.marco.gschema.xml.h:83
 msgid "Move backward between windows on all workspaces, using a popup window"
-msgstr ""
-"Váltás visszafelé az összes munkaterület ablakai között felugró ablakkal"
+msgstr "Váltás visszafelé az összes munkaterület ablakai között felugró ablakkal"
 
 #: ../src/org.mate.marco.gschema.xml.h:85
 msgid "Move backward between panels and the desktop, using a popup window"
@@ -975,9 +867,7 @@ msgstr "<tt>%s</tt> nem válaszol."
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
-msgstr ""
-"Várhat egy kicsit a folytatódására, vagy kikényszerítheti az alkalmazás "
-"teljes kilépését."
+msgstr "Várhat egy kicsit a folytatódására, vagy kikényszerítheti az alkalmazás teljes kilépését."
 
 #: ../src/core/delete.c:110
 msgid "_Wait"
@@ -1008,9 +898,7 @@ msgid ""
 "Lost connection to the display '%s';\n"
 "most likely the X server was shut down or you killed/destroyed\n"
 "the window manager.\n"
-msgstr ""
-"Elvesztettem a kapcsolatot a(z) „%s” képernyővel;\na legvalószínűbb hogy az X "
-"kiszolgáló leállt vagy Ön kilőtte/megsemmisítette\naz ablakkezelőt.\n"
+msgstr "Elvesztettem a kapcsolatot a(z) „%s” képernyővel;\na legvalószínűbb hogy az X kiszolgáló leállt vagy Ön kilőtte/megsemmisítette\naz ablakkezelőt.\n"
 
 #: ../src/core/errors.c:311
 #, c-format
@@ -1022,9 +910,7 @@ msgstr "Végzetes IO hiba %d (%s) a(z) „%s” képernyőn.\n"
 msgid ""
 "Some other program is already using the key %s with modifiers %x as a "
 "binding\n"
-msgstr ""
-"Valamely másik program már használja a(z) %s billentyűt %x módosítókkal "
-"összekötve\n"
+msgstr "Valamely másik program már használja a(z) %s billentyűt %x módosítókkal összekötve\n"
 
 #. Displayed when a keybinding which is
 #. * supposed to launch a program fails.
@@ -1052,13 +938,8 @@ msgid ""
 "marco %s\n"
 "Copyright (C) 2001-%s Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
-"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
-"PARTICULAR PURPOSE.\n"
-msgstr ""
-"marco %s\nCopyright (C) 2001-%s Havoc Pennington, Red Hat, Inc., és mások\nEz "
-"egy szabad szoftver; lásd a forrást a másolás feltételeiről.\nNINCS garancia; "
-"még az ELADHATÓSÁGRA vagy EGY ADOTT CÉLRA VALÓ ALKALMASSÁGRA vonatkozólag "
-"sem.\n"
+"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr "marco %s\nCopyright (C) 2001-%s Havoc Pennington, Red Hat, Inc., és mások\nEz egy szabad szoftver; lásd a forrást a másolás feltételeiről.\nNINCS garancia; még az ELADHATÓSÁGRA vagy EGY ADOTT CÉLRA VALÓ ALKALMASSÁGRA vonatkozólag sem.\n"
 
 #: ../src/core/main.c:269
 msgid "Disable connection to session manager"
@@ -1099,9 +980,7 @@ msgstr "Kompozitálás kikapcsolása"
 #: ../src/core/main.c:322
 msgid ""
 "Don't make fullscreen windows that are maximized and have no decorations"
-msgstr ""
-"Ne tegye teljes képernyőssé a maximalizált és díszítésekkel nem rendelkező "
-"ablakokat"
+msgstr "Ne tegye teljes képernyőssé a maximalizált és díszítésekkel nem rendelkező ablakokat"
 
 #: ../src/core/main.c:522
 #, c-format
@@ -1112,9 +991,7 @@ msgstr "Témakönyvtár beolvasása sikertelen: %s\n"
 #, c-format
 msgid ""
 "Could not find a theme! Be sure %s exists and contains the usual themes.\n"
-msgstr ""
-"Nem található téma! Bizonyosodjon meg róla hogy a(z) %s létezik és "
-"tartalmazza a szokásos témákat.\n"
+msgstr "Nem található téma! Bizonyosodjon meg róla hogy a(z) %s létezik és tartalmazza a szokásos témákat.\n"
 
 #: ../src/core/main.c:597
 #, c-format
@@ -1127,42 +1004,32 @@ msgstr "Újraindítás sikertelen: %s\n"
 #: ../src/core/prefs.c:584 ../src/core/prefs.c:737
 #, c-format
 msgid "%d stored in GSettings key %s is out of range %d to %d\n"
-msgstr ""
-"%d, ami a(z) %s GSettings kulcsban van tárolva, a tartományon (%d - %d) kívül "
-"van\n"
+msgstr "%d, ami a(z) %s GSettings kulcsban van tárolva, a tartományon (%d - %d) kívül van\n"
 
 #: ../src/core/prefs.c:1031
 msgid ""
 "Workarounds for broken applications disabled. Some applications may not "
 "behave properly.\n"
-msgstr ""
-"A hibás alkalmazások hibáinak megkerülése nincs engedélyezve. Néhány "
-"alkalmazás lehet, hogy nem fog helyesen működni.\n"
+msgstr "A hibás alkalmazások hibáinak megkerülése nincs engedélyezve. Néhány alkalmazás lehet, hogy nem fog helyesen működni.\n"
 
 #: ../src/core/prefs.c:1098
 #, c-format
 msgid "Could not parse font description \"%s\" from GSettings key %s\n"
-msgstr ""
-"Nem sikerült feldolgozni a(z) „%s” betűkészlet leírását a(z) „%s” GSettings "
-"kulcsból\n"
+msgstr "Nem sikerült feldolgozni a(z) „%s” betűkészlet leírását a(z) „%s” GSettings kulcsból\n"
 
 #: ../src/core/prefs.c:1160
 #, c-format
 msgid ""
 "\"%s\" found in configuration database is not a valid value for mouse button"
 " modifier\n"
-msgstr ""
-"A konfigurációs adatbázisban talált „%s” érvénytelen érték az egérgomb "
-"módosítóhoz\n"
+msgstr "A konfigurációs adatbázisban talált „%s” érvénytelen érték az egérgomb módosítóhoz\n"
 
 #: ../src/core/prefs.c:1683
 #, c-format
 msgid ""
 "\"%s\" found in configuration database is not a valid value for keybinding "
 "\"%s\"\n"
-msgstr ""
-"A konfigurációs adatbázisban talált „%s” nem érvényes érték a következő "
-"billentyűkombinációhoz: „%s”\n"
+msgstr "A konfigurációs adatbázisban talált „%s” nem érvényes érték a következő billentyűkombinációhoz: „%s”\n"
 
 #: ../src/core/prefs.c:1986
 #, c-format
@@ -1179,17 +1046,12 @@ msgstr "A(z) %d képernyő a(z) „%s” megjelenítőn érvénytelen\n"
 msgid ""
 "Screen %d on display \"%s\" already has a window manager; try using the "
 "--replace option to replace the current window manager.\n"
-msgstr ""
-"A(z) %d képernyő a(z) „%s” megjelenítőn már rendelkezik egy ablakkezelővel; "
-"próbálja a --replace opcióval helyettesíteni a jelenlegi ablakkezelőt.\n"
+msgstr "A(z) %d képernyő a(z) „%s” megjelenítőn már rendelkezik egy ablakkezelővel; próbálja a --replace opcióval helyettesíteni a jelenlegi ablakkezelőt.\n"
 
 #: ../src/core/screen.c:401
 #, c-format
-msgid ""
-"Could not acquire window manager selection on screen %d display \"%s\"\n"
-msgstr ""
-"Nem sikerült beolvasni az ablakkezelő kiválasztását a(z) %d képernyőn a(z) „%"
-"s” megjelenítőn\n"
+msgid "Could not acquire window manager selection on screen %d display \"%s\"\n"
+msgstr "Nem sikerült beolvasni az ablakkezelő kiválasztását a(z) %d képernyőn a(z) „%s” megjelenítőn\n"
 
 #: ../src/core/screen.c:459
 #, c-format
@@ -1229,9 +1091,7 @@ msgstr "Nem sikerült feldolgozni a mentett munkamenet fájlt: %s\n"
 #: ../src/core/session.c:1184
 #, c-format
 msgid "<marco_session> attribute seen but we already have the session ID"
-msgstr ""
-"A <marco_session> attribútum megjelent, de már rendelkezünk a "
-"munkamenet-azonosítóval"
+msgstr "A <marco_session> attribútum megjelent, de már rendelkezünk a munkamenet-azonosítóval"
 
 #: ../src/core/session.c:1197 ../src/core/session.c:1272
 #: ../src/core/session.c:1304 ../src/core/session.c:1376
@@ -1254,10 +1114,7 @@ msgstr "Ismeretlen elem: %s"
 msgid ""
 "These windows do not support &quot;save current setup&quot; and will have to"
 " be restarted manually next time you log in."
-msgstr ""
-"Az alábbi ablakok nem támogatják az &quot;aktuális beállítások "
-"mentését&quot;, emiatt ezeket a legközelebbi bejelentkezéskor manuálisan újra "
-"kell indítania."
+msgstr "Az alábbi ablakok nem támogatják az &quot;aktuális beállítások mentését&quot;, emiatt ezeket a legközelebbi bejelentkezéskor manuálisan újra kell indítania."
 
 #: ../src/core/util.c:101
 #, c-format
@@ -1307,9 +1164,7 @@ msgstr "Marco"
 msgid ""
 "Window %s sets SM_CLIENT_ID on itself, instead of on the WM_CLIENT_LEADER "
 "window as specified in the ICCCM.\n"
-msgstr ""
-"%s ablak az ICCCM specifikációval ellentétben a SM_CLIENT_ID-t magára "
-"állította be, a WM_CLIENT_LEADER helyett.\n"
+msgstr "%s ablak az ICCCM specifikációval ellentétben a SM_CLIENT_ID-t magára állította be, a WM_CLIENT_LEADER helyett.\n"
 
 #. We ignore mwm_has_resize_func because WM_NORMAL_HINTS is the
 #. * authoritative source for that info. Some apps such as mplayer or
@@ -1322,10 +1177,7 @@ msgstr ""
 msgid ""
 "Window %s sets an MWM hint indicating it isn't resizable, but sets min size "
 "%d x %d and max size %d x %d; this doesn't make much sense.\n"
-msgstr ""
-"A(z) %s ablak egy MWM javaslatot állít be, ami szerint nem méretezhető át, de "
-"mégis %d x %d minimális és %d x %d maximális értéket ad meg, amelynek így "
-"nincs értelme.\n"
+msgstr "A(z) %s ablak egy MWM javaslatot állít be, ami szerint nem méretezhető át, de mégis %d x %d minimális és %d x %d maximális értéket ad meg, amelynek így nincs értelme.\n"
 
 #: ../src/core/window-props.c:306
 #, c-format
@@ -1361,9 +1213,7 @@ msgstr "%s (másik felhasználóként)"
 #: ../src/core/window-props.c:1499
 #, c-format
 msgid "Invalid WM_TRANSIENT_FOR window 0x%lx specified for %s.\n"
-msgstr ""
-"Érvénytelen WM_TRANSIENT_FOR ablak (0x%lx) került megadásra a következőhöz: %"
-"s.\n"
+msgstr "Érvénytelen WM_TRANSIENT_FOR ablak (0x%lx) került megadásra a következőhöz: %s.\n"
 
 #: ../src/core/xprops.c:155
 #, c-format
@@ -1373,26 +1223,19 @@ msgid ""
 "and actually has type %s format %d n_items %d.\n"
 "This is most likely an application bug, not a window manager bug.\n"
 "The window has title=\"%s\" class=\"%s\" name=\"%s\"\n"
-msgstr ""
-"A 0x%lx ablak %s tulajdonsággal rendelkezik\nennek %s típusúnak és %d "
-"formátumúnak kellett volna lennie, de\njelenleg %s típusú és %d formátumú a %"
-"d n_items.\nEz valószínűleg az alkalmazás hibája, nem pedig az "
-"ablakkezelőé.\nAz ablak címe=„%s” osztálya=„%s” neve=„%s”\n"
+msgstr "A 0x%lx ablak %s tulajdonsággal rendelkezik\nennek %s típusúnak és %d formátumúnak kellett volna lennie, de\njelenleg %s típusú és %d formátumú a %d n_items.\nEz valószínűleg az alkalmazás hibája, nem pedig az ablakkezelőé.\nAz ablak címe=„%s” osztálya=„%s” neve=„%s”\n"
 
 #: ../src/core/xprops.c:411
 #, c-format
 msgid "Property %s on window 0x%lx contained invalid UTF-8\n"
-msgstr ""
-"A(z) %s tulajdonság a 0x%lx ablakon érvénytelen UTF-8 adatot tartalmazott\n"
+msgstr "A(z) %s tulajdonság a 0x%lx ablakon érvénytelen UTF-8 adatot tartalmazott\n"
 
 #: ../src/core/xprops.c:494
 #, c-format
 msgid ""
 "Property %s on window 0x%lx contained invalid UTF-8 for item %d in the "
 "list\n"
-msgstr ""
-"A(z) %s tulajdonság a 0x%lx ablakon érvénytelen UTF-8 adatot tartalmazott a "
-"lista %d. elemében\n"
+msgstr "A(z) %s tulajdonság a 0x%lx ablakon érvénytelen UTF-8 adatot tartalmazott a lista %d. elemében\n"
 
 #: ../src/tools/marco-message.c:150
 #, c-format
@@ -1677,20 +1520,14 @@ msgstr "A színátmenetnek legalább két színűnek kell lennie"
 msgid ""
 "GTK color specification must have the state in brackets, e.g. gtk:fg[NORMAL]"
 " where NORMAL is the state; could not parse \"%s\""
-msgstr ""
-"GTK szín meghatározásnál az állapotnak szögletes zárójelben kell lennie, "
-"pl.gtk:fg[NORMAL] ahol NORMAL az állapot; nem lehetett feldolgozni a "
-"következőt: „%s”"
+msgstr "GTK szín meghatározásnál az állapotnak szögletes zárójelben kell lennie, pl.gtk:fg[NORMAL] ahol NORMAL az állapot; nem lehetett feldolgozni a következőt: „%s”"
 
 #: ../src/ui/theme.c:1276
 #, c-format
 msgid ""
 "GTK color specification must have a close bracket after the state, e.g. "
 "gtk:fg[NORMAL] where NORMAL is the state; could not parse \"%s\""
-msgstr ""
-"A GTK színmeghatározásnál kötelező záró szögletes zárójelet tenni az állapot "
-"után, például gtk:fg[NORMAL], ahol NORMAL az állapot; nem sikerült értelmezni "
-"a következőt: „%s”"
+msgstr "A GTK színmeghatározásnál kötelező záró szögletes zárójelet tenni az állapot után, például gtk:fg[NORMAL], ahol NORMAL az állapot; nem sikerült értelmezni a következőt: „%s”"
 
 #: ../src/ui/theme.c:1287
 #, c-format
@@ -1707,8 +1544,7 @@ msgstr "Nem sikerült értelmezni „%s” színösszetevőt a színmeghatároz�
 msgid ""
 "Blend format is \"blend/bg_color/fg_color/alpha\", \"%s\" does not fit the "
 "format"
-msgstr ""
-"A keverés formátuma: „blend/bg_color/fg_color/alpha”, „%s” nem felel meg ennek"
+msgstr "A keverés formátuma: „blend/bg_color/fg_color/alpha”, „%s” nem felel meg ennek"
 
 #: ../src/ui/theme.c:1340
 #, c-format
@@ -1722,10 +1558,8 @@ msgstr "A(z) „%s” alfa érték a kevert színben nem 0.0 és 1.0 között va
 
 #: ../src/ui/theme.c:1397
 #, c-format
-msgid ""
-"Shade format is \"shade/base_color/factor\", \"%s\" does not fit the format"
-msgstr ""
-"Az árnyék formátuma: „shade/base_color/factor”, „%s” nem felel meg ennek"
+msgid "Shade format is \"shade/base_color/factor\", \"%s\" does not fit the format"
+msgstr "Az árnyék formátuma: „shade/base_color/factor”, „%s” nem felel meg ennek"
 
 #: ../src/ui/theme.c:1408
 #, c-format
@@ -1752,25 +1586,19 @@ msgstr "A koordinátakifejezés „%s” karaktert tartalmaz, ami nem megengedet
 msgid ""
 "Coordinate expression contains floating point number '%s' which could not be"
 " parsed"
-msgstr ""
-"A koordinátakifejezés „%s” lebegőpontos számot tartalmaz, amit nem sikerült "
-"feldolgozni"
+msgstr "A koordinátakifejezés „%s” lebegőpontos számot tartalmaz, amit nem sikerült feldolgozni"
 
 #: ../src/ui/theme.c:1889
 #, c-format
 msgid "Coordinate expression contains integer '%s' which could not be parsed"
-msgstr ""
-"A koordinátakifejezés „%s” egész számot tartalmaz, amit nem sikerült "
-"feldolgozni"
+msgstr "A koordinátakifejezés „%s” egész számot tartalmaz, amit nem sikerült feldolgozni"
 
 #: ../src/ui/theme.c:2011
 #, c-format
 msgid ""
 "Coordinate expression contained unknown operator at the start of this text: "
 "\"%s\""
-msgstr ""
-"A koordinátakifejezés ismeretlen operátort tartalmaz ennek a szövegnek az "
-"elején: „%s”"
+msgstr "A koordinátakifejezés ismeretlen operátort tartalmaz ennek a szövegnek az elején: „%s”"
 
 #: ../src/ui/theme.c:2068
 #, c-format
@@ -1786,13 +1614,11 @@ msgstr "A koordinátakifejezés nullával való osztást okozott."
 #, c-format
 msgid ""
 "Coordinate expression tries to use mod operator on a floating-point number"
-msgstr ""
-"A koordinátakifejezés mod operátort próbált használni lebegőpontos számon"
+msgstr "A koordinátakifejezés mod operátort próbált használni lebegőpontos számon"
 
 #: ../src/ui/theme.c:2287
 #, c-format
-msgid ""
-"Coordinate expression has an operator \"%s\" where an operand was expected"
+msgid "Coordinate expression has an operator \"%s\" where an operand was expected"
 msgstr "A koordinátakifejezésben egy operandus helyén „%s” operátor volt"
 
 #: ../src/ui/theme.c:2296
@@ -1810,9 +1636,7 @@ msgstr "A koordinátakifejezés operátorral végződött, nem operandussal"
 msgid ""
 "Coordinate expression has operator \"%c\" following operator \"%c\" with no "
 "operand in between"
-msgstr ""
-"A koordinátakifejezésben „%c” operátort „%c” operátor követi úgy, hogy nincs "
-"köztük operandus"
+msgstr "A koordinátakifejezésben „%c” operátort „%c” operátor követi úgy, hogy nincs köztük operandus"
 
 #: ../src/ui/theme.c:2461 ../src/ui/theme.c:2502
 #, c-format
@@ -1831,14 +1655,14 @@ msgstr "A koordinátakifejezésben záró zárójel szerepelt kezdő nélkül"
 
 #: ../src/ui/theme.c:2649
 #, c-format
-msgid "Coordinate expression had an open parenthesis with no close parenthesis"
+msgid ""
+"Coordinate expression had an open parenthesis with no close parenthesis"
 msgstr "A koordinátakifejezésben kezdő zárójel szerepelt záró nélkül"
 
 #: ../src/ui/theme.c:2660
 #, c-format
 msgid "Coordinate expression doesn't seem to have any operators or operands"
-msgstr ""
-"A koordinátakifejezésben úgy tűnik nincsenek sem operátorok, sem operandusok"
+msgstr "A koordinátakifejezésben úgy tűnik nincsenek sem operátorok, sem operandusok"
 
 #: ../src/ui/theme.c:2864 ../src/ui/theme.c:2884 ../src/ui/theme.c:2904
 #, c-format
@@ -1850,16 +1674,12 @@ msgstr "A téma által tartalmazott kifejezés hibát okozott: %s\n"
 msgid ""
 "<button function=\"%s\" state=\"%s\" draw_ops=\"whatever\"/> must be "
 "specified for this frame style"
-msgstr ""
-"Ehhez a keretstílushoz meg kell határozni a következő elemet: <button "
-"function=\"%s\" state=\"%s\" draw_ops=\"bármi\"/>"
+msgstr "Ehhez a keretstílushoz meg kell határozni a következő elemet: <button function=\"%s\" state=\"%s\" draw_ops=\"bármi\"/>"
 
 #: ../src/ui/theme.c:5434 ../src/ui/theme.c:5459
 #, c-format
-msgid ""
-"Missing <frame state=\"%s\" resize=\"%s\" focus=\"%s\" style=\"whatever\"/>"
-msgstr ""
-"Hiányzó <frame state=\"%s\" resize=\"%s\" focus=\"%s\" style=\"bármi\"/> elem"
+msgid "Missing <frame state=\"%s\" resize=\"%s\" focus=\"%s\" style=\"whatever\"/>"
+msgstr "Hiányzó <frame state=\"%s\" resize=\"%s\" focus=\"%s\" style=\"bármi\"/> elem"
 
 #: ../src/ui/theme.c:5503
 #, c-format
@@ -1877,17 +1697,12 @@ msgstr "Nincs <%s> beállítva a(z) „%s” témához"
 msgid ""
 "No frame style set for window type \"%s\" in theme \"%s\", add a <window "
 "type=\"%s\" style_set=\"whatever\"/> element"
-msgstr ""
-"Nincs keretstílus beállítva a(z) „%s” ablaktípushoz a(z) „%s” témában, adjon "
-"hozzá egy <window type=\"%s\" style_set=\"bármi\"/> elemet"
+msgstr "Nincs keretstílus beállítva a(z) „%s” ablaktípushoz a(z) „%s” témában, adjon hozzá egy <window type=\"%s\" style_set=\"bármi\"/> elemet"
 
 #: ../src/ui/theme.c:6146 ../src/ui/theme.c:6208 ../src/ui/theme.c:6271
 #, c-format
-msgid ""
-"User-defined constants must begin with a capital letter; \"%s\" does not"
-msgstr ""
-"A felhasználó által meghatározott konstansoknak nagybetűvel kell kezdődniük, "
-"a(z) „%s” nem ilyen"
+msgid "User-defined constants must begin with a capital letter; \"%s\" does not"
+msgstr "A felhasználó által meghatározott konstansoknak nagybetűvel kell kezdődniük, a(z) „%s” nem ilyen"
 
 #: ../src/ui/theme.c:6154 ../src/ui/theme.c:6216 ../src/ui/theme.c:6279
 #, c-format
@@ -1924,8 +1739,7 @@ msgstr "„%s” nem értelmezhető egész számként"
 #: ../src/ui/theme-parser.c:556 ../src/ui/theme-parser.c:611
 #, c-format
 msgid "Did not understand trailing characters \"%s\" in string \"%s\""
-msgstr ""
-"Nem lehetett „%s” zárókaraktereket értelmezni a(z) „%s” karakterláncban"
+msgstr "Nem lehetett „%s” zárókaraktereket értelmezni a(z) „%s” karakterláncban"
 
 #: ../src/ui/theme-parser.c:566
 #, c-format
@@ -1955,18 +1769,14 @@ msgstr "Szögnek 0.0 és 360.0 között kell lennie, %g volt\n"
 #: ../src/ui/theme-parser.c:751
 #, c-format
 msgid "Alpha must be between 0.0 (invisible) and 1.0 (fully opaque), was %g\n"
-msgstr ""
-"Az alfának 0.0 (átlátszó) és 1.0 (teljesen átlátszatlan) között kell lennie, %"
-"g volt\n"
+msgstr "Az alfának 0.0 (átlátszó) és 1.0 (teljesen átlátszatlan) között kell lennie, %g volt\n"
 
 #: ../src/ui/theme-parser.c:816
 #, c-format
 msgid ""
 "Invalid title scale \"%s\" (must be one of xx-"
 "small,x-small,small,medium,large,x-large,xx-large)\n"
-msgstr ""
-" „%s” érvénytelen címméret (lehetséges értékek: "
-"xx-small,x-small,small,medium,large,x-large,xx-large)\n"
+msgstr " „%s” érvénytelen címméret (lehetséges értékek: xx-small,x-small,small,medium,large,x-large,xx-large)\n"
 
 #: ../src/ui/theme-parser.c:972 ../src/ui/theme-parser.c:1035
 #: ../src/ui/theme-parser.c:1069 ../src/ui/theme-parser.c:1172
@@ -1988,9 +1798,7 @@ msgstr "<%s> „%s” geometria nincs meghatározva"
 #: ../src/ui/theme-parser.c:1107
 #, c-format
 msgid "<%s> must specify either a geometry or a parent that has a geometry"
-msgstr ""
-"<%s> vagy meg kell határozni a geometriát vagy szükség van egy szülőre aminek "
-"van geometriája"
+msgstr "<%s> vagy meg kell határozni a geometriát vagy szükség van egy szülőre aminek van geometriája"
 
 #: ../src/ui/theme-parser.c:1149
 msgid "You must specify a background for an alpha value to be meaningful"
@@ -2026,9 +1834,7 @@ msgstr "<%s> elem nem engedélyezett <%s> alatt"
 msgid ""
 "Cannot specify both \"button_width\"/\"button_height\" and \"aspect_ratio\" "
 "for buttons"
-msgstr ""
-"Nem lehet egyszerre megadni a gombok „button_width” vagy „button_height” és "
-"az „aspect_ratio” paraméterét"
+msgstr "Nem lehet egyszerre megadni a gombok „button_width” vagy „button_height” és az „aspect_ratio” paraméterét"
 
 #: ../src/ui/theme-parser.c:1402
 #, c-format
@@ -2114,8 +1920,7 @@ msgstr "„%s” funkció ismeretlen a gombhoz"
 #: ../src/ui/theme-parser.c:2918
 #, c-format
 msgid "Button function \"%s\" does not exist in this version (%d, need %d)"
-msgstr ""
-"A(z) „%s” gombfunkció nem létezik ebben a verzióban (%d, szükséges: %d)"
+msgstr "A(z) „%s” gombfunkció nem létezik ebben a verzióban (%d, szükséges: %d)"
 
 #: ../src/ui/theme-parser.c:2930
 #, c-format
@@ -2125,8 +1930,7 @@ msgstr "„%s” állapot ismeretlen a gombhoz"
 #: ../src/ui/theme-parser.c:2938
 #, c-format
 msgid "Frame style already has a button for function %s state %s"
-msgstr ""
-"A keretstílusnak már van gombja a(z) „%s” funkcióra a(z) „%s” állapotban"
+msgstr "A keretstílusnak már van gombja a(z) „%s” funkcióra a(z) „%s” állapotban"
 
 #: ../src/ui/theme-parser.c:3019
 #, c-format
@@ -2153,23 +1957,17 @@ msgstr "„%s” érték érvénytelen az átméretezés attribútumhoz"
 msgid ""
 "Should not have \"resize\" attribute on <%s> element for maximized/shaded "
 "states"
-msgstr ""
-"A(z) <%s> elemnek nem szabadna „resize” attribútummal rendelkeznie a teljes "
-"méretű/felgördített állapothoz"
+msgstr "A(z) <%s> elemnek nem szabadna „resize” attribútummal rendelkeznie a teljes méretű/felgördített állapothoz"
 
 #: ../src/ui/theme-parser.c:3107
 #, c-format
-msgid ""
-"Should not have \"resize\" attribute on <%s> element for maximized states"
-msgstr ""
-"A(z) <%s> elemnek nem szabadna „resize” attribútummal rendelkeznie a teljes "
-"méretű állapothoz"
+msgid "Should not have \"resize\" attribute on <%s> element for maximized states"
+msgstr "A(z) <%s> elemnek nem szabadna „resize” attribútummal rendelkeznie a teljes méretű állapothoz"
 
 #: ../src/ui/theme-parser.c:3121 ../src/ui/theme-parser.c:3165
 #, c-format
 msgid "Style has already been specified for state %s resize %s focus %s"
-msgstr ""
-"%s állapothoz, %s átméretezéshez és %s fókuszhoz már meg van határozva stílus"
+msgstr "%s állapothoz, %s átméretezéshez és %s fókuszhoz már meg van határozva stílus"
 
 #: ../src/ui/theme-parser.c:3132 ../src/ui/theme-parser.c:3143
 #: ../src/ui/theme-parser.c:3154 ../src/ui/theme-parser.c:3176
@@ -2182,39 +1980,30 @@ msgstr "%s állapothoz és %s fókuszhoz már meg van határozva stílus"
 msgid ""
 "Can't have a two draw_ops for a <piece> element (theme specified a draw_ops "
 "attribute and also a <draw_ops> element, or specified two elements)"
-msgstr ""
-"Nem lehet két draw_ops-a egy <piece> elemnek (a téma meghatározott egy "
-"draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet határozott "
-"meg)"
+msgstr "Nem lehet két draw_ops-a egy <piece> elemnek (a téma meghatározott egy draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet határozott meg)"
 
 #: ../src/ui/theme-parser.c:3275
 msgid ""
 "Can't have a two draw_ops for a <button> element (theme specified a draw_ops"
 " attribute and also a <draw_ops> element, or specified two elements)"
-msgstr ""
-"Nem lehet két draw_ops-a egy <button> elemnek (a téma meghatározott egy "
-"draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet)"
+msgstr "Nem lehet két draw_ops-a egy <button> elemnek (a téma meghatározott egy draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet)"
 
 #: ../src/ui/theme-parser.c:3347
 msgid ""
 "Can't have a two draw_ops for a <menu_icon> element (theme specified a "
 "draw_ops attribute and also a <draw_ops> element, or specified two elements)"
-msgstr ""
-"Nem lehet két draw_ops-a egy <menu_icon> elemnek (a téma meghatározott egy "
-"draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet)"
+msgstr "Nem lehet két draw_ops-a egy <menu_icon> elemnek (a téma meghatározott egy draw_ops attribútumot és egy <draw_ops> elemet, vagy két elemet)"
 
 #: ../src/ui/theme-parser.c:3395
 #, c-format
 msgid "Outermost element in theme must be <metacity_theme> not <%s>"
-msgstr ""
-"A menüfájl legkülső eleme <metacity_theme> kell, hogy legyen, nem pedig <%s>"
+msgstr "A menüfájl legkülső eleme <metacity_theme> kell, hogy legyen, nem pedig <%s>"
 
 #: ../src/ui/theme-parser.c:3415
 #, c-format
 msgid ""
 "Element <%s> is not allowed inside a name/author/date/description element"
-msgstr ""
-"A(z) <%s> elem nem megengedett egy name/author/date/description elemen belül"
+msgstr "A(z) <%s> elem nem megengedett egy name/author/date/description elemen belül"
 
 #: ../src/ui/theme-parser.c:3420
 #, c-format
@@ -2225,8 +2014,7 @@ msgstr "A(z) <%s> elem nem megengedett egy <constant> elemen belül"
 #, c-format
 msgid ""
 "Element <%s> is not allowed inside a distance/border/aspect_ratio element"
-msgstr ""
-"<%s> elem nem megengedett egy distance/border/aspect_ratio elemen belül"
+msgstr "<%s> elem nem megengedett egy distance/border/aspect_ratio elemen belül"
 
 #: ../src/ui/theme-parser.c:3454
 #, c-format
@@ -2416,10 +2204,7 @@ msgid ""
 "Drew %d frames in %g client-side seconds (%g milliseconds per frame) and %g "
 "seconds wall clock time including X server resources (%g milliseconds per "
 "frame)\n"
-msgstr ""
-"%d keret kirajzolása %g kliens-oldali másodperc alatt (%g ezredmásodperc "
-"képkeretenként) és %g összes idő beleértve az X szerver erőforrásokat (%g "
-"ezredmásodperc képkeretenként)\n"
+msgstr "%d keret kirajzolása %g kliens-oldali másodperc alatt (%g ezredmásodperc képkeretenként) és %g összes idő beleértve az X szerver erőforrásokat (%g ezredmásodperc képkeretenként)\n"
 
 #: ../src/ui/theme-viewer.c:1269
 msgid "position expression test returned TRUE but set error"
@@ -2427,8 +2212,7 @@ msgstr "a pozíció kifejezés teszt IGAZ értéket adott vissza, de hiba tört�
 
 #: ../src/ui/theme-viewer.c:1271
 msgid "position expression test returned FALSE but didn't set error"
-msgstr ""
-"a pozíció kifejezés teszt HAMIS értéket adott vissza, de nem történt hiba"
+msgstr "a pozíció kifejezés teszt HAMIS értéket adott vissza, de nem történt hiba"
 
 #: ../src/ui/theme-viewer.c:1275
 msgid "Error was expected but none given"
@@ -2457,7 +2241,4 @@ msgstr "y értéke %d volt, de a várt érték %d volt"
 #: ../src/ui/theme-viewer.c:1355
 #, c-format
 msgid "%d coordinate expressions parsed in %g seconds (%g seconds average)\n"
-msgstr ""
-"A %d koordináta kifejezések %g másodperc alatt lettek feldolgozva (átlagosan %"
-"g másodperc)\n"
-
+msgstr "A %d koordináta kifejezések %g másodperc alatt lettek feldolgozva (átlagosan %g másodperc)\n"

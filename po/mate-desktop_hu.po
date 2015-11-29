@@ -4,7 +4,8 @@
 # Translators:
 # Egy Játékos <mcserver131@gmail.com>, 2015.
 # Falu.Me, 2015.
-# kami911 <kami911@gmail.com>, 2014, 2015.
+# kami911 <kami911@gmail.com>, 2014.
+# kami911 <kami911@gmail.com>, 2014-2015.
 # Nagy Gábor <jackson.gabor@gmail.com>, 2014.
 # Rezső Páder <rezso@rezso.net>, 2013-2015.
 # Takler Tamás <taklertamas@gmail.com>, 2015.
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 15:16+0300\n"
-"PO-Revision-Date: 2015-11-28 21:00+0100\n"
+"PO-Revision-Date: 2015-11-30 00:44+0100\n"
 "Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -483,8 +484,7 @@ msgid ""
 msgstr ""
 "Kattintson erre a palettabejegyzésre, hogy ez legyen a jelenlegi szín. A "
 "bejegyzés megváltoztatásához húzzon ide egy színt a pipetta melletti "
-"színmezőből vagy a jobb gombos menüben kattintson a „Szín mentése ide” "
-"pontra."
+"színmezőből vagy a jobb gombos menüben kattintson a „Szín mentése ide” pontra."
 
 #: ../libmate-desktop/mate-colorseldialog.c:99
 #: ../libmate-desktop/mate-colorseldialog.c:168
@@ -929,7 +929,6 @@ msgid "Have MATE draw the desktop background."
 msgstr "A MATE megrajzolja-e az asztal hátterét?"
 
 #: ../schemas/org.mate.background.gschema.xml.in.h:3
-#, fuzzy
 msgid "Show Desktop Icons"
 msgstr "Asztal ikonok megjelenítése"
 
@@ -946,8 +945,8 @@ msgid ""
 "If set to true, then MATE will change the desktop background with a fading "
 "effect."
 msgstr ""
-"Ha ez igazra van állítva, akkor a MATE elhalványítási effektust használ "
-"az asztalháttér megváltoztatásához."
+"Ha ez igazra van állítva, akkor a MATE elhalványítási effektust használ az "
+"asztalháttér megváltoztatásához."
 
 #: ../schemas/org.mate.background.gschema.xml.in.h:7
 msgid "Picture Options"
@@ -997,8 +996,8 @@ msgstr "Másodlagos szín"
 #: ../schemas/org.mate.background.gschema.xml.in.h:16
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
-"Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén "
-"nem használt."
+"Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén nem "
+"használt."
 
 #: ../schemas/org.mate.background.gschema.xml.in.h:17
 msgid "Color Shading Type"
@@ -1009,9 +1008,9 @@ msgid ""
 "How to shade the background color. Possible values are \"horizontal-"
 "gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr ""
-"Hogyan legyen árnyalva a háttérszín. Lehetséges értékek: „horizontal-"
-"gradient” (vízszintes színátmenet), „vertical-gradient” (függőleges "
-"színátmenet), és „solid” (egyszínű)."
+"Hogyan legyen árnyalva a háttérszín. Lehetséges értékek: "
+"„horizontal-gradient” (vízszintes színátmenet), „vertical-gradient” "
+"(függőleges színátmenet), és „solid” (egyszínű)."
 
 #: ../schemas/org.mate.file-views.gschema.xml.in.h:1
 msgid "File Icon Theme"
@@ -1030,7 +1029,6 @@ msgid "Whether Applications should have accessibility support."
 msgstr "Az alkalmazások támogassák-e az akadálymentesítést?"
 
 #: ../schemas/org.mate.interface.gschema.xml.in.h:3
-#, fuzzy
 msgid "Enable Animations"
 msgstr "Animáció engedélyezése"
 
@@ -1266,8 +1264,8 @@ msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
 msgstr ""
-"A GtkFileChooser elemhez fájlrendszermodellként használandó modul. "
-"Lehetséges értékek: „gio” és „gtk+”."
+"A GtkFileChooser elemhez fájlrendszermodellként használandó modul. Lehetséges "
+"értékek: „gio” és „gtk+”."
 
 #: ../schemas/org.mate.interface.gschema.xml.in.h:55
 msgid "Menubar accelerator"
@@ -1322,8 +1320,8 @@ msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
-"A hívóbetűk automatikusan megjelenjenek és eltűnjenek-e, amikor a "
-"felhasználó megnyomja az Alt billentyűt."
+"A hívóbetűk automatikusan megjelenjenek és eltűnjenek-e, amikor a felhasználó "
+"megnyomja az Alt billentyűt."
 
 #: ../schemas/org.mate.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
@@ -1337,8 +1335,7 @@ msgid ""
 msgstr ""
 "A felhasználó megakadályozása a terminálhoz való hozzáférésben vagy egy "
 "végrehajtandó parancssor végrehajtásában. Például, ez letiltja a hozzáférést "
-"a "
-"panel „Alkalmazás futtatása” párbeszédablakához."
+"a panel „Alkalmazás futtatása” párbeszédablakához."
 
 #: ../schemas/org.mate.lockdown.gschema.xml.in.h:3
 msgid "Disable saving files to disk"
@@ -1349,8 +1346,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
 msgstr ""
-"A felhasználó megakadályozása fájlok lemezre mentésében. Például, ez "
-"letiltja a hozzáférést az alkalmazások „Mentés másként” párbeszédablakaihoz."
+"A felhasználó megakadályozása fájlok lemezre mentésében. Például, ez letiltja "
+"a hozzáférést az alkalmazások „Mentés másként” párbeszédablakaihoz."
 
 #: ../schemas/org.mate.lockdown.gschema.xml.in.h:5
 msgid "Disable printing"
@@ -1470,8 +1467,7 @@ msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
 msgstr ""
-"Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer "
-"alapértelmezése."
+"Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer alapértelmezése."
 
 #: ../schemas/org.mate.peripherals-mouse.gschema.xml.in.h:5
 msgid "Motion Threshold"
@@ -1690,7 +1686,7 @@ msgstr "Engedélyezve legyen-e a billentyűzetzárolás vagy sem."
 #: ../tools/mate-color-select.c:63
 #: ../tools/mate-color-select.desktop.in.in.h:1
 msgid "MATE Color Selection"
-msgstr "MATE Színválasztó"
+msgstr "MATE Szín választás"
 
 #: ../tools/mate-color-select.desktop.in.in.h:2
 msgid "Color selection dialog"
@@ -1706,5 +1702,5 @@ msgstr "MATE 1.4 beállítások migrálása"
 
 #: ../tools/mate-conf-import.desktop.in.in.h:2
 msgid "Tool to migrate MATE 1.4 settings to MATE 1.6"
-msgstr "MATE 1.4 beállítások migrálása MATE 1.6 verzióba"
+msgstr "MATE 1.4 beállítások migrálása 1.6-ba"
 

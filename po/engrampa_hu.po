@@ -1,27 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Andras Timar <timar at mate dot hu>, 2002, 2003, 2004.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2009, 2010.
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
-# Mate ORY <orymate at gmail d0t com>, 2006, 2008.
-# Rezső Páder <rezso@rezso.net>, 2014-2015.
-# Kálmán "KAMI" Szalai <kami911@gmail.com>, 2015.
+# Andras Timar <timar at mate dot hu>, 2002-2004
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010
+# kami911 <kami911@gmail.com>, 2015
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006,2008
+# Rezső Páder <rezso@rezso.net>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-11 21:26+0200\n"
-"PO-Revision-Date: 2015-11-28 22:14+0100\n"
-"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-11-28 21:15+0000\n"
+"Last-Translator: kami911 <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: ../copy-n-paste/eggdesktopfile.c:165
 #, c-format
@@ -228,10 +228,7 @@ msgid ""
 "<i><b>Note:</b> the password will be used to encrypt files you add to the "
 "current archive, and to decrypt files you extract from the current archive. "
 "When the archive is closed the password will be deleted.</i>"
-msgstr ""
-"<i><b>Megjegyzés:</b> a jelszó segítségével lesznek titkosítva a jelenlegi "
-"archívumhoz adott fájlok, és ezzel lesznek visszafejtve a jelenlegi "
-"archívumból kibontott fájlok. Az archívum bezárásakor a jelszó törlődik.</i>"
+msgstr "<i><b>Megjegyzés:</b> a jelszó segítségével lesznek titkosítva a jelenlegi archívumhoz adott fájlok, és ezzel lesznek visszafejtve a jelenlegi archívumból kibontott fájlok. Az archívum bezárásakor a jelszó törlődik.</i>"
 
 #. secondary text
 #: ../data/ui/update.ui.h:1 ../src/dlg-update.c:176 ../src/dlg-update.c:204
@@ -242,12 +239,8 @@ msgid ""
 msgid_plural ""
 "%d files have been modified with an external application. If you don't "
 "update the files in the archive, all of your changes will be lost."
-msgstr[0] ""
-"A fájlt egy külső alkalmazás módosította. Ha nem frissíti az archívumban "
-"található fájlt, akkor minden változtatás elvész."
-msgstr[1] ""
-"%d fájlt egy külső alkalmazás módosított. Ha nem frissíti az archívumban "
-"található fájlokat, akkor minden változtatás elvész."
+msgstr[0] "A fájlt egy külső alkalmazás módosította. Ha nem frissíti az archívumban található fájlt, akkor minden változtatás elvész."
+msgstr[1] "%d fájlt egy külső alkalmazás módosított. Ha nem frissíti az archívumban található fájlokat, akkor minden változtatás elvész."
 
 #: ../data/ui/update.ui.h:2
 msgid "_Update"
@@ -265,9 +258,7 @@ msgstr "Fájlok rendezési módja"
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
-msgstr ""
-"Fájlok rendezésének szempontja. Lehetséges értékek: name (név), size "
-"(méret), type (típus), time (idő), path (útvonal)."
+msgstr "Fájlok rendezésének szempontja. Lehetséges értékek: name (név), size (méret), type (típus), time (idő), path (útvonal)."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:3
 msgid "Sort type"
@@ -277,9 +268,7 @@ msgstr "Rendezés típusa"
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
-msgstr ""
-"Rendezés iránya. Lehetséges értékek: „ascending” (növekvő), „descending” "
-"(csökkenő)."
+msgstr "Rendezés iránya. Lehetséges értékek: „ascending” (növekvő), „descending” (csökkenő)."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:5
 msgid "List Mode"
@@ -289,9 +278,7 @@ msgstr "Lista mód"
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
-msgstr ""
-"Lehetséges értékek: „all_files”: az archívum összes fájljának megjelenítése "
-"egyetlen listában, „as_folder”: navigáció az archívumban mappaként."
+msgstr "Lehetséges értékek: „all_files”: az archívum összes fájljának megjelenítése egyetlen listában, „as_folder”: navigáció az archívumban mappaként."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:7
 msgid "Display type"
@@ -383,9 +370,7 @@ msgstr "Szerkesztők"
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
-msgstr ""
-"A „Fájl megnyitása” ablakban megadott, és a fájltípushoz nem társított "
-"alkalmazások listája."
+msgstr "A „Fájl megnyitása” ablakban megadott, és a fájltípushoz nem társított alkalmazások listája."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:29
 msgid "Compression level"
@@ -395,9 +380,7 @@ msgstr "Tömörítési szint"
 msgid ""
 "Compression level used when adding files to an archive. Possible values : "
 "very_fast, fast, normal, maximum."
-msgstr ""
-"Fájlok archívumhoz adásakor használt tömörítési szint. Lehetséges értékek: "
-"very_fast (nagyon gyors), fast (gyors), normal, maximum."
+msgstr "Fájlok archívumhoz adásakor használt tömörítési szint. Lehetséges értékek: very_fast (nagyon gyors), fast (gyors), normal, maximum."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
@@ -407,9 +390,7 @@ msgstr "Archívum fejlécének titkosítása"
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
-msgstr ""
-"Az archívumfejléc titkosítandó-e? Ha a fejléc titkosított, akkor a jelszó az "
-"archívum tartalmának kiírásához is szükséges lesz."
+msgstr "Az archívumfejléc titkosítandó-e? Ha a fejléc titkosított, akkor a jelszó az archívum tartalmának kiírásához is szükséges lesz."
 
 #: ../data/org.mate.engrampa.gschema.xml.in.h:33
 msgid "Overwrite existing files"
@@ -512,10 +493,7 @@ msgid ""
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr ""
-"A Engrampa szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software "
-"Foundation által kiadott GNU General Public License második (vagy bármely "
-"későbbi) változatában foglaltak alapján."
+msgstr "A Engrampa szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software Foundation által kiadott GNU General Public License második (vagy bármely későbbi) változatában foglaltak alapján."
 
 #: ../src/actions.c:864
 msgid ""
@@ -523,21 +501,14 @@ msgid ""
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr ""
-"A Engrampa programot abban a reményben terjesztjük, hogy hasznos lesz, de nem "
-"vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program "
-"alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További "
-"részletekért tanulmányozza a GNU GPL licencet."
+msgstr "A Engrampa programot abban a reményben terjesztjük, hogy hasznos lesz, de nem vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További részletekért tanulmányozza a GNU GPL licencet."
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
-msgstr ""
-"A Engrampa programhoz a GNU General Public License egy példánya is jár, ha "
-"nem kapta meg, írjon a Free Software Foundation Inc.-nek. Levélcímük: 51 "
-"Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "A Engrampa programhoz a GNU General Public License egy példánya is jár, ha nem kapta meg, írjon a Free Software Foundation Inc.-nek. Levélcímük: 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/actions.c:878
 msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
@@ -549,9 +520,7 @@ msgstr "Archívumkezelő a MATE-hoz."
 
 #: ../src/actions.c:882
 msgid "translator-credits"
-msgstr ""
-"Dvornik László <dvornik@mate.hu>\nKelemen Gábor <kelemeng@mate.hu>\nTímár "
-"András <timar@mate.hu>"
+msgstr "Dvornik László <dvornik@mate.hu>\nKelemen Gábor <kelemeng@mate.hu>\nTímár András <timar@mate.hu>"
 
 #: ../src/dlg-add-files.c:107 ../src/dlg-add-folder.c:141
 msgid "Could not add the files to the archive"
@@ -632,9 +601,7 @@ msgid ""
 "The name \"%s\" is not valid because it cannot contain the characters: %s\n"
 "\n"
 "%s"
-msgstr ""
-"A(z) „%s” név érvénytelen, mert nem tartalmazhatja a következő karaktereket: %"
-"s\n\n%s"
+msgstr "A(z) „%s” név érvénytelen, mert nem tartalmazhatja a következő karaktereket: %s\n\n%s"
 
 #: ../src/dlg-batch-add.c:180 ../src/fr-window.c:7647 ../src/fr-window.c:7649
 msgid "Please use a different name."
@@ -686,8 +653,7 @@ msgstr "A kibontás nem történt meg"
 msgid ""
 "You don't have the right permissions to extract archives in the folder "
 "\"%s\""
-msgstr ""
-"Nincs megfelelő jogosultsága archívumok kibontásához ebbe a könyvtárba: „%s”"
+msgstr "Nincs megfelelő jogosultsága archívumok kibontásához ebbe a könyvtárba: „%s”"
 
 #: ../src/dlg-extract.c:338 ../src/dlg-extract.c:436 ../src/ui.h:122
 msgid "Extract"
@@ -728,9 +694,7 @@ msgstr "Belső hiba történt az alkalmazások keresésekor:"
 msgid ""
 "There is no command installed for %s files.\n"
 "Do you want to search for a command to open this file?"
-msgstr ""
-"Nincs telepítve a(z) %s fájlokat kezelni tudó program.\nKíván a fájl "
-"megnyitására képes programot keresni?"
+msgstr "Nincs telepítve a(z) %s fájlokat kezelni tudó program.\nKíván a fájl megnyitására képes programot keresni?"
 
 #: ../src/dlg-package-installer.c:295
 msgid "Could not open this file type"
@@ -816,10 +780,7 @@ msgid ""
 "The program was not able to find out the file format you want to use for "
 "`%s'. Please make sure to use a known extension for that file or manually "
 "choose a file format from the list below."
-msgstr ""
-"A program nem tudta meghatározni a(z) %s fájlhoz használandó fájlformátumot. "
-"Győződjön meg, hogy ismert kiterjesztést használ a fájlhoz, vagy a lenti "
-"listából saját kezűleg válassza ki a fájlformátumot."
+msgstr "A program nem tudta meghatározni a(z) %s fájlhoz használandó fájlformátumot. Győződjön meg, hogy ismert kiterjesztést használ a fájlhoz, vagy a lenti listából saját kezűleg válassza ki a fájlformátumot."
 
 #: ../src/eggfileformatchooser.c:677
 msgid "File format not recognized"
@@ -1181,9 +1142,7 @@ msgstr "A művelet nem hajtható végre"
 msgid ""
 "Do you want to add this file to the current archive or open it as a new "
 "archive?"
-msgstr ""
-"Ezt a fájlt a jelenlegi archívumhoz szeretné hozzáadni, vagy megnyitja új "
-"archívumként?"
+msgstr "Ezt a fájlt a jelenlegi archívumhoz szeretné hozzáadni, vagy megnyitja új archívumként?"
 
 #: ../src/fr-window.c:4134
 msgid "Do you want to create a new archive with these files?"
@@ -1285,9 +1244,7 @@ msgstr "Az új név megyezik a régivel, adjon meg másik nevet."
 msgid ""
 "Name \"%s\" is not valid because it contains at least one of the following "
 "characters: %s, please type other name."
-msgstr ""
-"\"%s\" név érvénytelen, mert legalább egyet tartalmaz a következő karakterek "
-"közül: %s. Adjon meg másik nevet."
+msgstr "\"%s\" név érvénytelen, mert legalább egyet tartalmaz a következő karakterek közül: %s. Adjon meg másik nevet."
 
 #: ../src/fr-window.c:7647
 #, c-format
@@ -1372,8 +1329,7 @@ msgstr "ARCHÍVUM"
 
 #: ../src/main.c:58
 msgid "Add files asking the name of the archive and quit the program"
-msgstr ""
-"Fájlok hozzáadása az archívum nevének bekérésével, majd kilépés a programból"
+msgstr "Fájlok hozzáadása az archívum nevének bekérésével, majd kilépés a programból"
 
 #: ../src/main.c:62
 msgid "Extract archives to the specified folder and quit the program"
@@ -1385,21 +1341,17 @@ msgstr "MAPPA"
 
 #: ../src/main.c:66
 msgid "Extract archives asking the destination folder and quit the program"
-msgstr ""
-"Archívumok kibontása a célmappa nevének bekérésével, majd kilépés a programból"
+msgstr "Archívumok kibontása a célmappa nevének bekérésével, majd kilépés a programból"
 
 #: ../src/main.c:70
 msgid ""
 "Extract the contents of the archives in the archive folder and quit the "
 "program"
-msgstr ""
-"Az archívum tartalmának kibontása az archívummappába, majd kilépés a "
-"programból"
+msgstr "Az archívum tartalmának kibontása az archívummappába, majd kilépés a programból"
 
 #: ../src/main.c:74
 msgid "Default folder to use for the '--add' and '--extract' commands"
-msgstr ""
-"A „--add” és „--extract” kapcsolókhoz használandó alapértelmezett mappa"
+msgstr "A „--add” és „--extract” kapcsolókhoz használandó alapértelmezett mappa"
 
 #: ../src/main.c:78
 msgid "Create destination folder without asking confirmation"
@@ -1683,4 +1635,3 @@ msgstr "He_ly szerint"
 #: ../src/ui.h:269
 msgid "Sort file list by location"
 msgstr "A fájlok rendezése útvonal szerint"
-
