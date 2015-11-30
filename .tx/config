@@ -165,3 +165,54 @@ source_lang = en
 file_filter = po/marco_<lang>.po
 source_file = po/marco.pot
 source_lang = en
+
+[MATE.libmatemixer]
+file_filter = po/libmatemixer_<lang>.po
+source_file = po/libmatemixer.pot
+source_lang = en
+
+[MATE.mate-utils]
+file_filter = po/mate-utils_<lang>.po
+source_file = po/mate-utils.pot
+source_lang = en
+
+[MATE.mate-user-share]
+file_filter = po/mate-user-share_<lang>.po
+source_file = po/mate-user-share.pot
+source_lang = en
+
+[MATE.mate-media]
+file_filter = po/mate-media_<lang>.po
+source_file = po/mate-media.pot
+source_lang = en
+
+[MATE.mate-netspeed]
+file_filter = po/mate-netspeed_<lang>.po
+source_file = po/mate-netspeed.pot
+source_lang = en
+
+[MATE.mate-netbook]
+file_filter = po/mate-netbook_<lang>.po
+source_file = po/mate-netbook.pot
+source_lang = en
+
+[MATE.caja-extensions]
+file_filter = po/caja-extensions_<lang>.po
+source_file = po/caja-extensions.pot
+source_lang = en
+
+[MATE.mate-indicator-applet]
+file_filter = po/mate-indicator-applet_<lang>.po
+source_file = po/mate-indicator-applet.pot
+source_lang = en
+
+[MATE.mate-sensors-applet]
+file_filter = po/mate-sensors-applet_<lang>.po
+source_file = po/mate-sensors-applet.pot
+source_lang = en
+
+[MATE.python-caja]
+file_filter = po/python-caja_<lang>.po
+source_file = po/python-caja.pot
+source_lang = en
+
