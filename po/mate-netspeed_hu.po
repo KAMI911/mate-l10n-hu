@@ -1,48 +1,50 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Falu.Me, 2015
-# kami911 <kami911@gmail.com>, 2014
-# Rezső Páder <rezso@rezso.net>, 2013-2015
+# Falu.Me, 2015.
+# kami911 <kami911@gmail.com>, 2014, 2015.
+# Rezső Páder <rezso@rezso.net>, 2013-2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-03 17:16+0300\n"
-"PO-Revision-Date: 2015-09-09 05:39+0000\n"
-"Last-Translator: Falu.Me\n"
-"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"PO-Revision-Date: 2015-11-30 01:10+0100\n"
+"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:1
 msgid "Device to monitor"
-msgstr ""
+msgstr "Figyelendő eszköz"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:2
 msgid "The name of the device to monitor"
-msgstr ""
+msgstr "A megfigyel eszköz neve"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:3
 msgid "Show sum speed"
-msgstr ""
+msgstr "Sebesség összegzése"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:4
 msgid "If true, show sum of inbound/outbound speed instead of separated ones."
 msgstr ""
+"Ha igaz, akkor a bejövő és kimenő sebesség összege jelenik meg, az egyenkénti "
+"érték helyett."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:5
 msgid "Show bits"
-msgstr ""
+msgstr "Bit mennyiség megjelenítése"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:6
 msgid "If true, show speed in bits instead of bytes."
-msgstr ""
+msgstr "Bitek megjelenítése bájtok helyett."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:7
 msgid "Show icon"
@@ -50,11 +52,11 @@ msgstr "Ikon megjelenítése"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:8
 msgid "If true, show main icon."
-msgstr ""
+msgstr "Ha igaz, a fő ikon jelenik meg."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:9
 msgid "Short unit legend"
-msgstr ""
+msgstr "Rövid jelmagyarázat"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:10
 msgid ""
@@ -64,59 +66,59 @@ msgstr ""
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:11
 msgid "Change icon"
-msgstr ""
+msgstr "Ikon megváltoztatása"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:12
 msgid "If true, change the icon due to selected device."
-msgstr ""
+msgstr "Ha igaz, az Ikon megváltozik a kijelölt eszköznek megfelelően."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:13
 msgid "Auto change device"
-msgstr ""
+msgstr "Automatikus eszközválasztás"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:14
 msgid "If true, change automatically the selected device."
-msgstr ""
+msgstr "Ha igaz, akkor automatikusan kiválasztja a megfelelő eszközt."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:15
 msgid "In color"
-msgstr ""
+msgstr "Bejvő szín"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:16
 msgid "The color of the graph of the inbound traffic"
-msgstr ""
+msgstr "A bejövő forgalom grafikonjának színe"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:17
 msgid "Out color"
-msgstr ""
+msgstr "Kimenő szín"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:18
 msgid "The color of the graph of the outbound traffic"
-msgstr ""
+msgstr "A kimenő forgalom grafikonjának színe"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:19
 msgid "Up command"
-msgstr ""
+msgstr "Eszközindítás parancs"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:20
 msgid "Command the execute to activate the device"
-msgstr ""
+msgstr "Az eszköz elindításához szükséges parancs"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:21
 msgid "Down command"
-msgstr ""
+msgstr "Eszközleállítás parancs"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:22
 msgid "Command the execute to shut down the device"
-msgstr ""
+msgstr "Az eszköz leállításához szükséges parancs"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:23
 msgid "Show signal quality icon"
-msgstr ""
+msgstr "Jelminőség ikon megjelenítése"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:24
 msgid "If true, show signal quality icon for wireless devices."
-msgstr ""
+msgstr "Ha igaz, a jelminőség ikon jelenik meg a vezeték nélküli eszközökhöz"
 
 #. translators: bits (short)
 #: ../src/netspeed.c:395
@@ -207,7 +209,9 @@ msgstr "Hiba történt a súgó megjelenítése közben:\n%s"
 msgid ""
 "A little applet that displays some information on the traffic on the "
 "specified network device"
-msgstr "Egy meghatározott hálózati eszközön áthaladó forgalommal kapcsolatos információkat megjelenítő kisalkalmazás"
+msgstr ""
+"Egy meghatározott hálózati eszközön áthaladó forgalommal kapcsolatos "
+"információkat megjelenítő kisalkalmazás"
 
 #: ../src/netspeed.c:812
 msgid "translator-credits"
@@ -379,3 +383,4 @@ msgstr "ismeretlen"
 #: ../src/netspeed.c:1624
 msgid "Mate Netspeed"
 msgstr "Mate Netspeed"
+

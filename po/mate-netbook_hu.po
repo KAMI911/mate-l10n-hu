@@ -1,25 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Falu.Me, 2015
-# kami911 <kami911@gmail.com>, 2014
-# Kyle Nitzsche <kyle.nitzsche@canonical.com>, 2009
-# Rezső Páder <rezso@rezso.net>, 2013
+# Falu.Me, 2015.
+# kami911 <kami911@gmail.com>, 2014, 2015.
+# Kyle Nitzsche <kyle.nitzsche@canonical.com>, 2009.
+# Rezső Páder <rezso@rezso.net>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-09 10:52+0200\n"
-"PO-Revision-Date: 2015-11-06 12:25+0000\n"
-"Last-Translator: Falu.Me\n"
-"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"PO-Revision-Date: 2015-11-30 01:00+0100\n"
+"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../mate-window-picker-applet/org.mate.panel.applet.mate-window-picker-applet.gschema.xml.in.h:1
 msgid "Show windows from all workspaces."
@@ -59,7 +59,9 @@ msgstr "Kezdőlap"
 #: ../mate-window-picker-applet/task-title.c:333
 #: ../mate-window-picker-applet/task-title.c:557
 msgid "Log off, switch user, lock screen or power down the computer"
-msgstr "Kijelentkezés, felhasználóváltás, képernyő zárolása vagy a számítógép kikapcsolása"
+msgstr ""
+"Kijelentkezés, felhasználóváltás, képernyő zárolása vagy a számítógép "
+"kikapcsolása"
 
 #: ../mate-window-picker-applet/task-title.c:305
 msgid "Close window"
@@ -79,26 +81,31 @@ msgstr "Ablak feladat gomb"
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:1
 msgid "A list of exclusion strings which apply to the window class."
-msgstr ""
+msgstr "Az ablakosztályra alkalmazandó kivétellista "
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:2
 msgid "A list of exclusion strings which apply to the window class"
-msgstr ""
+msgstr "Az ablakosztályra alkalmazandó kivétellista "
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:3
 msgid "A binding"
-msgstr ""
+msgstr "Hozzárendelés"
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:4
 msgid "Undecorate windows when maximized"
-msgstr ""
+msgstr "Maximalizált ablak dekoráció nélkül"
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:5
 msgid "Do not automatically maximize newly opened windows"
-msgstr ""
+msgstr "Újonnan megnyitott ablakok maximalizálása"
 
 #: ../maximus/org.mate.maximus.gschema.xml.in.h:6
 msgid ""
 "Do not automatically maximize newly opened windows. If undecorate is set, "
 "will still undecorate maximized windows."
 msgstr ""
+"Ne maximalizálja automatikusan az újonnan megnyitott ablakokat. Ha a "
+"dekoráció "
+"nélküli megjelenítés be van kapcsolva, akkor dekoráció nélkül jelenik meg az "
+"ablak."
+

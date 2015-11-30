@@ -1,31 +1,32 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Andras Timar <timar@mate.hu>, 2001, 2002, 2003
-# Emese Kovacs <emese@mate.hu>, 2002
-# Falu.Me, 2015
-# Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010
-# Gergely Nagy <greg@mate.hu>, 2001
-# Laszlo Dvornik <dvornik@mate.hu>, 2004
-# Mate ORY <orymate at gmail d0t com>, 2006
-# Miklos Szel <mukka@freemail.hu>, 2000
-# Rezső Páder <rezso@rezso.net>, 2014
-# Szabolcs Ban <shooby@mate.hu>, 1999, 2000
+# Andras Timar <timar@mate.hu>, 2001, 2002, 2003.
+# Emese Kovacs <emese@mate.hu>, 2002.
+# Falu.Me, 2015.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+# Gergely Nagy <greg@mate.hu>, 2001.
+# Laszlo Dvornik <dvornik@mate.hu>, 2004.
+# Mate ORY <orymate at gmail d0t com>, 2006.
+# Miklos Szel <mukka@freemail.hu>, 2000.
+# Rezső Páder <rezso@rezso.net>, 2014.
+# Szabolcs Ban <shooby@mate.hu>, 1999, 2000.
+# Kálmán "KAMI" Szalai <kami911@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-09 13:02+0200\n"
-"PO-Revision-Date: 2015-10-10 18:59+0000\n"
-"Last-Translator: Falu.Me\n"
-"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"PO-Revision-Date: 2015-11-30 01:16+0100\n"
+"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/mate-volume-control.desktop.in.in.h:1
 msgid "Sound"
@@ -386,7 +387,7 @@ msgstr "Közép első"
 
 #: ../mate-volume-control/gvc-utils.c:65
 msgid "LFE"
-msgstr ""
+msgstr "LFE"
 
 #: ../mate-volume-control/gvc-utils.c:66
 msgid "Rear Left"
@@ -402,11 +403,11 @@ msgstr "Közép hátső"
 
 #: ../mate-volume-control/gvc-utils.c:69
 msgid "Front Left of Center"
-msgstr ""
+msgstr "Első közép-bal"
 
 #: ../mate-volume-control/gvc-utils.c:70
 msgid "Front Right of Center"
-msgstr ""
+msgstr "Első közép-jobb"
 
 #: ../mate-volume-control/gvc-utils.c:71
 msgid "Side Left"
@@ -467,3 +468,4 @@ msgstr "Surround 5.1"
 #: ../mate-volume-control/gvc-utils.c:152
 msgid "Surround 7.1"
 msgstr "Surround 7.1"
+
