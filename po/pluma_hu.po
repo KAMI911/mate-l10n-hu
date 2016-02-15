@@ -4,17 +4,17 @@
 # 
 # Translators:
 # Falu.Me, 2015
-# Falu.Me, 2015
+# Faludi Zoltán, 2015
 # István Szőllősi <szollosi.istv4n@gmail.com>, 2014
 # kami911 <kami911@gmail.com>, 2015
-# Rezső Páder <rezso@rezso.net>, 2013
+# Rezső Páder <rezso@rezso.net>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-08 17:18+0200\n"
-"PO-Revision-Date: 2015-11-29 19:23+0000\n"
-"Last-Translator: kami911 <kami911@gmail.com>\n"
+"POT-Creation-Date: 2015-12-14 13:37+0300\n"
+"PO-Revision-Date: 2016-01-22 23:19+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -463,23 +463,23 @@ msgstr "Szövegfájlok szerkesztése"
 msgid "Pluma Text Editor"
 msgstr "Pluma szövegszerkesztő"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:140
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:145
 msgid "Log Out _without Saving"
 msgstr "Kijelentkezés mentés _nélkül"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:144
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:149
 msgid "_Cancel Logout"
 msgstr "Kijelentkezés _megszakítása"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:151
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:156
 msgid "Close _without Saving"
 msgstr "Bezárás mentés _nélkül"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:211
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:216
 msgid "Question"
 msgstr "Kérdés"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:411
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:416
 #, c-format
 msgid ""
 "If you don't save, changes from the last %ld second will be permanently "
@@ -490,12 +490,12 @@ msgid_plural ""
 msgstr[0] "Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen elvesznek."
 msgstr[1] "Ha nem menti, akkor az elmúlt %ld másodpercben történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:420
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:425
 msgid ""
 "If you don't save, changes from the last minute will be permanently lost."
 msgstr "Ha nem menti, akkor az elmúlt percben történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:426
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:431
 #, c-format
 msgid ""
 "If you don't save, changes from the last minute and %ld second will be "
@@ -506,7 +506,7 @@ msgid_plural ""
 msgstr[0] "Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt változások véglegesen elvesznek."
 msgstr[1] "Ha nem menti, akkor az elmúlt egy percben és %ld másodpercben történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:436
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:441
 #, c-format
 msgid ""
 "If you don't save, changes from the last %ld minute will be permanently "
@@ -517,12 +517,12 @@ msgid_plural ""
 msgstr[0] "Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen elvesznek."
 msgstr[1] "Ha nem menti, akkor az elmúlt %ld percben történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:451
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:456
 msgid ""
 "If you don't save, changes from the last hour will be permanently lost."
 msgstr "Ha nem menti, akkor az elmúlt órában történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:457
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:462
 #, c-format
 msgid ""
 "If you don't save, changes from the last hour and %d minute will be "
@@ -533,7 +533,7 @@ msgid_plural ""
 msgstr[0] "Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások véglegesen elvesznek."
 msgstr[1] "Ha nem menti, akkor az elmúlt egy órában és %d percben történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:472
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:477
 #, c-format
 msgid ""
 "If you don't save, changes from the last %d hour will be permanently lost."
@@ -542,29 +542,29 @@ msgid_plural ""
 msgstr[0] "Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen elvesznek."
 msgstr[1] "Ha nem menti, akkor az elmúlt %d órában történt változások véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:516
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:534
 #, c-format
 msgid "Changes to document \"%s\" will be permanently lost."
 msgstr "A(z) „%s” dokumentum változásai véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:521
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:539
 #, c-format
 msgid "Save changes to document \"%s\" before closing?"
 msgstr "Menti a változásokat a(z) „%s” dokumentumba, mielőtt bezárja?"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:535
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:747
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:553
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:786
 msgid "Saving has been disabled by the system administrator."
 msgstr "A rendszergazda letiltotta a mentést."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:702
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:737
 #, c-format
 msgid "Changes to %d document will be permanently lost."
 msgid_plural "Changes to %d documents will be permanently lost."
 msgstr[0] "%d dokumentum változásai véglegesen elvesznek."
 msgstr[1] "%d dokumentum változásai véglegesen elvesznek."
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:708
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:743
 #, c-format
 msgid ""
 "There is %d document with unsaved changes. Save changes before closing?"
@@ -573,15 +573,15 @@ msgid_plural ""
 msgstr[0] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
 msgstr[1] "%d mentetlen dokumentum van. Menti a változásokat, mielőtt bezárja?"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:726
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:761
 msgid "Docum_ents with unsaved changes:"
 msgstr "Dokum_entumok mentetlen módosításokkal:"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:728
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:763
 msgid "S_elect the documents you want to save:"
 msgstr "_Válassza ki a menteni kívánt dokumentumokat:"
 
-#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:749
+#: ../pluma/dialogs/pluma-close-confirmation-dialog.c:788
 msgid "If you don't save, all your changes will be permanently lost."
 msgstr "Ha nem menti, akkor az összes változás véglegesen elveszik."
 
@@ -647,8 +647,8 @@ msgid "Could not remove color scheme \"%s\"."
 msgstr "Nem távolítható el a(z) „%s” színséma."
 
 #: ../pluma/dialogs/pluma-preferences-dialog.c:1090
-msgid "pluma Preferences"
-msgstr "A pluma beállításai"
+msgid "Pluma Preferences"
+msgstr "A Pluma beállításai"
 
 #: ../pluma/dialogs/pluma-preferences-dialog.ui.h:1
 msgid "Preferences"
@@ -683,7 +683,7 @@ msgstr "Ne _törje a szavakat két sorba"
 msgid "Line Numbers"
 msgstr "Sorszámok"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:7 ../pluma/pluma-view.c:2017
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:7 ../pluma/pluma-view.c:2029
 msgid "_Display line numbers"
 msgstr "Sorok számának _megjelenítése"
 
@@ -788,11 +788,11 @@ msgid "Plugins"
 msgstr "Bővítmények"
 
 #: ../pluma/dialogs/pluma-search-dialog.c:302
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:1 ../pluma/pluma-window.c:1458
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:1 ../pluma/pluma-window.c:1462
 msgid "Replace"
 msgstr "Csere"
 
-#: ../pluma/dialogs/pluma-search-dialog.c:313 ../pluma/pluma-window.c:1456
+#: ../pluma/dialogs/pluma-search-dialog.c:313 ../pluma/pluma-window.c:1460
 msgid "Find"
 msgstr "Keresés"
 
@@ -996,11 +996,11 @@ msgstr[1] "A dokumentum elmúlt %d órában történt változásai véglegesen e
 msgid "_Revert"
 msgstr "_Visszaállítás"
 
-#: ../pluma/pluma-commands-help.c:84
-msgid "pluma is a small and lightweight text editor for the MATE Desktop"
-msgstr "A pluma egy kicsi és könnyű szövegszerkesztő a MATE asztali környezethez"
+#: ../pluma/pluma-commands-help.c:86
+msgid "Pluma is a small and lightweight text editor for the MATE Desktop"
+msgstr "A Pluma egy kicsi és könnyű szövegszerkesztő a MATE asztali környezethez"
 
-#: ../pluma/pluma-commands-help.c:95
+#: ../pluma/pluma-commands-help.c:102
 msgid "translator-credits"
 msgstr "Bán Szabolcs <shooby at mate dot hu>\nDoma Péter <zelin at pointernet dot hu>\nDvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate dot hu>\nKovács Emese <emese at mate dot hu>\nŐry Máté <orymate at gmail dot com>\nSári Gábor <saga at mate dot hu>\nTímár András <timar at mate dot hu>"
 
@@ -1027,12 +1027,12 @@ msgstr "„%s” nem található"
 msgid "Unsaved Document %d"
 msgstr "%d. mentetlen dokumentum"
 
-#: ../pluma/pluma-documents-panel.c:97 ../pluma/pluma-documents-panel.c:111
-#: ../pluma/pluma-window.c:2183 ../pluma/pluma-window.c:2188
+#: ../pluma/pluma-documents-panel.c:101 ../pluma/pluma-documents-panel.c:115
+#: ../pluma/pluma-window.c:2187 ../pluma/pluma-window.c:2192
 msgid "Read-Only"
 msgstr "Csak olvasható"
 
-#: ../pluma/pluma-documents-panel.c:783 ../pluma/pluma-window.c:3566
+#: ../pluma/pluma-documents-panel.c:796 ../pluma/pluma-window.c:3570
 msgid "Documents"
 msgstr "Dokumentumok"
 
@@ -1170,23 +1170,23 @@ msgstr "Hozzáadás vagy eltávolítás…"
 msgid "All Text Files"
 msgstr "Minden szövegfájl"
 
-#: ../pluma/pluma-file-chooser-dialog.c:84
+#: ../pluma/pluma-file-chooser-dialog.c:88
 msgid "C_haracter Encoding:"
 msgstr "_Karakterkódolás:"
 
-#: ../pluma/pluma-file-chooser-dialog.c:149
+#: ../pluma/pluma-file-chooser-dialog.c:157
 msgid "L_ine Ending:"
 msgstr "S_or vége:"
 
-#: ../pluma/pluma-file-chooser-dialog.c:168
+#: ../pluma/pluma-file-chooser-dialog.c:180
 msgid "Unix/Linux"
 msgstr "Unix/Linux"
 
-#: ../pluma/pluma-file-chooser-dialog.c:174
+#: ../pluma/pluma-file-chooser-dialog.c:186
 msgid "Mac OS Classic"
 msgstr "Mac OS klasszikus"
 
-#: ../pluma/pluma-file-chooser-dialog.c:180
+#: ../pluma/pluma-file-chooser-dialog.c:192
 msgid "Windows"
 msgstr "Windows"
 
@@ -1194,191 +1194,191 @@ msgstr "Windows"
 msgid "There was an error displaying the help."
 msgstr "Hiba történt a súgó megjelenítése közben."
 
-#: ../pluma/pluma-io-error-message-area.c:178
-#: ../pluma/pluma-io-error-message-area.c:480
+#: ../pluma/pluma-io-error-message-area.c:195
+#: ../pluma/pluma-io-error-message-area.c:497
 msgid "_Retry"
 msgstr "Új_ra"
 
-#: ../pluma/pluma-io-error-message-area.c:199
+#: ../pluma/pluma-io-error-message-area.c:216
 #, c-format
 msgid "Could not find the file %s."
 msgstr "Nem található a(z) „%s” fájl."
 
-#: ../pluma/pluma-io-error-message-area.c:201
-#: ../pluma/pluma-io-error-message-area.c:240
-#: ../pluma/pluma-io-error-message-area.c:247
+#: ../pluma/pluma-io-error-message-area.c:218
+#: ../pluma/pluma-io-error-message-area.c:257
+#: ../pluma/pluma-io-error-message-area.c:264
 msgid "Please check that you typed the location correctly and try again."
 msgstr "Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
 #. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
-#: ../pluma/pluma-io-error-message-area.c:216
+#: ../pluma/pluma-io-error-message-area.c:233
 #, c-format
 msgid "pluma cannot handle %s locations."
 msgstr "A pluma nem tudja a(z) %s típusú helyeket kezelni."
 
-#: ../pluma/pluma-io-error-message-area.c:222
+#: ../pluma/pluma-io-error-message-area.c:239
 msgid "pluma cannot handle this location."
 msgstr "A pluma nem tudja ezt a helyet kezelni."
 
-#: ../pluma/pluma-io-error-message-area.c:230
+#: ../pluma/pluma-io-error-message-area.c:247
 msgid "The location of the file cannot be mounted."
 msgstr "A fájl helye nem csatolható."
 
-#: ../pluma/pluma-io-error-message-area.c:234
+#: ../pluma/pluma-io-error-message-area.c:251
 msgid "The location of the file cannot be accessed because it is not mounted."
 msgstr "A fájl helye nem érhető el, mivel nincs csatolva."
 
-#: ../pluma/pluma-io-error-message-area.c:238
+#: ../pluma/pluma-io-error-message-area.c:255
 #, c-format
 msgid "%s is a directory."
 msgstr "„%s” egy könyvtár."
 
-#: ../pluma/pluma-io-error-message-area.c:245
+#: ../pluma/pluma-io-error-message-area.c:262
 #, c-format
 msgid "%s is not a valid location."
 msgstr "„%s” érvénytelen hely."
 
-#: ../pluma/pluma-io-error-message-area.c:275
+#: ../pluma/pluma-io-error-message-area.c:292
 #, c-format
 msgid ""
 "Host %s could not be found. Please check that your proxy settings are "
 "correct and try again."
 msgstr "„%s” nevű gép nem található. Ellenőrizze a proxy beállítások helyességét, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:288
+#: ../pluma/pluma-io-error-message-area.c:305
 #, c-format
 msgid ""
 "Hostname was invalid. Please check that you typed the location correctly and"
 " try again."
 msgstr "A gépnév érvénytelen. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:296
+#: ../pluma/pluma-io-error-message-area.c:313
 #, c-format
 msgid "%s is not a regular file."
 msgstr "A(z) %s nem egy szabályos fájl."
 
-#: ../pluma/pluma-io-error-message-area.c:301
+#: ../pluma/pluma-io-error-message-area.c:318
 msgid "Connection timed out. Please try again."
 msgstr "Időtúllépés a kapcsolatban. Próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:324
+#: ../pluma/pluma-io-error-message-area.c:341
 msgid "The file is too big."
 msgstr "A fájl túl nagy."
 
-#: ../pluma/pluma-io-error-message-area.c:365
+#: ../pluma/pluma-io-error-message-area.c:382
 #, c-format
 msgid "Unexpected error: %s"
 msgstr "Váratlan hiba: %s"
 
-#: ../pluma/pluma-io-error-message-area.c:401
+#: ../pluma/pluma-io-error-message-area.c:418
 msgid "pluma cannot find the file. Perhaps it has recently been deleted."
 msgstr "A pluma nem találja a fájlt. Lehet, hogy nemrég le lett törölve."
 
-#: ../pluma/pluma-io-error-message-area.c:411
+#: ../pluma/pluma-io-error-message-area.c:428
 #, c-format
 msgid "Could not revert the file %s."
 msgstr "Nem sikerült visszaállítani a(z) „%s” fájlt."
 
-#: ../pluma/pluma-io-error-message-area.c:437
+#: ../pluma/pluma-io-error-message-area.c:454
 msgid "Ch_aracter Encoding:"
 msgstr "_Karakterkódolás:"
 
 #. Translators: the access key chosen for this string should be
 #. different from other main menu access keys (Open, Edit, View...)
-#: ../pluma/pluma-io-error-message-area.c:489
-#: ../pluma/pluma-io-error-message-area.c:763
+#: ../pluma/pluma-io-error-message-area.c:506
+#: ../pluma/pluma-io-error-message-area.c:792
 msgid "Edit Any_way"
 msgstr "Szerkesztés _mindenképp"
 
 #. Translators: the access key chosen for this string should be
 #. different from other main menu access keys (Open, Edit, View...)
-#: ../pluma/pluma-io-error-message-area.c:494
-#: ../pluma/pluma-io-error-message-area.c:768
+#: ../pluma/pluma-io-error-message-area.c:511
+#: ../pluma/pluma-io-error-message-area.c:797
 msgid "D_on't Edit"
 msgstr "Ne _legyen szerkesztve"
 
-#: ../pluma/pluma-io-error-message-area.c:589
+#: ../pluma/pluma-io-error-message-area.c:618
 msgid ""
 "The number of followed links is limited and the actual file could not be "
 "found within this limit."
 msgstr "A követett hivatkozások száma korlátozott és a tényleges fájl nem található ezen a korláton belül."
 
-#: ../pluma/pluma-io-error-message-area.c:593
+#: ../pluma/pluma-io-error-message-area.c:622
 msgid "You do not have the permissions necessary to open the file."
 msgstr "Nincs jogosultsága a fájl megnyitásához."
 
-#: ../pluma/pluma-io-error-message-area.c:599
+#: ../pluma/pluma-io-error-message-area.c:628
 msgid "pluma has not been able to detect the character encoding."
 msgstr "A pluma nem volt képes megállapítani a karakterkódolást."
 
-#: ../pluma/pluma-io-error-message-area.c:601
-#: ../pluma/pluma-io-error-message-area.c:623
+#: ../pluma/pluma-io-error-message-area.c:630
+#: ../pluma/pluma-io-error-message-area.c:652
 msgid "Please check that you are not trying to open a binary file."
 msgstr "Ellenőrizze, hogy nem egy bináris fájlt próbált megnyitni."
 
-#: ../pluma/pluma-io-error-message-area.c:602
+#: ../pluma/pluma-io-error-message-area.c:631
 msgid "Select a character encoding from the menu and try again."
 msgstr "Válasszon egy karakterkódolást a menüből, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:608
+#: ../pluma/pluma-io-error-message-area.c:637
 #, c-format
 msgid "There was a problem opening the file %s."
 msgstr "Hiba történt a fájl (%s) megnyitásakor."
 
-#: ../pluma/pluma-io-error-message-area.c:610
+#: ../pluma/pluma-io-error-message-area.c:639
 msgid ""
 "The file you opened has some invalid characters. If you continue editing "
 "this file you could make this document useless."
 msgstr "A megnyitott fájl érvénytelen karaktereket tartalmazott. Ha folytatja a fájl szerkesztését, az használhatatlanná teheti a dokumentumot."
 
-#: ../pluma/pluma-io-error-message-area.c:613
+#: ../pluma/pluma-io-error-message-area.c:642
 msgid "You can also choose another character encoding and try again."
 msgstr "Választhat másik karakterkódolást a menüből, és újra próbálhatja."
 
-#: ../pluma/pluma-io-error-message-area.c:620
+#: ../pluma/pluma-io-error-message-area.c:649
 #, c-format
 msgid "Could not open the file %s using the %s character encoding."
 msgstr "A fájl („%s”) nem nyitható meg %s karakterkódolás használatával."
 
-#: ../pluma/pluma-io-error-message-area.c:624
-#: ../pluma/pluma-io-error-message-area.c:699
+#: ../pluma/pluma-io-error-message-area.c:653
+#: ../pluma/pluma-io-error-message-area.c:728
 msgid "Select a different character encoding from the menu and try again."
 msgstr "Válasszon másik karakterkódolást a menüből, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:634
+#: ../pluma/pluma-io-error-message-area.c:663
 #, c-format
 msgid "Could not open the file %s."
 msgstr "A(z) „%s” fájl nem nyitható meg."
 
-#: ../pluma/pluma-io-error-message-area.c:694
+#: ../pluma/pluma-io-error-message-area.c:723
 #, c-format
 msgid "Could not save the file %s using the %s character encoding."
 msgstr "A fájl („%s”) nem menthető %s karakterkódolás használatával."
 
-#: ../pluma/pluma-io-error-message-area.c:697
+#: ../pluma/pluma-io-error-message-area.c:726
 msgid ""
 "The document contains one or more characters that cannot be encoded using "
 "the specified character encoding."
 msgstr "A dokumentumban a megadott karakterkódolás használatával nem kódolható karakter van."
 
-#: ../pluma/pluma-io-error-message-area.c:782
+#: ../pluma/pluma-io-error-message-area.c:815
 #, c-format
 msgid "This file (%s) is already open in another pluma window."
 msgstr "Ez a fájl (%s) már meg van nyitva egy másik pluma ablakban."
 
-#: ../pluma/pluma-io-error-message-area.c:796
+#: ../pluma/pluma-io-error-message-area.c:833
 msgid ""
 "pluma opened this instance of the file in a non-editable way. Do you want to"
 " edit it anyway?"
 msgstr "A pluma ezt a fájlt csak olvasható módban nyitotta meg. Mindenképpen szerkeszti?"
 
-#: ../pluma/pluma-io-error-message-area.c:855
-#: ../pluma/pluma-io-error-message-area.c:950
+#: ../pluma/pluma-io-error-message-area.c:896
+#: ../pluma/pluma-io-error-message-area.c:1003
 msgid "S_ave Anyway"
 msgstr "_Mentés mindenképp"
 
-#: ../pluma/pluma-io-error-message-area.c:859
-#: ../pluma/pluma-io-error-message-area.c:954
+#: ../pluma/pluma-io-error-message-area.c:900
+#: ../pluma/pluma-io-error-message-area.c:1007
 msgid "D_on't Save"
 msgstr "Ne _legyen mentve"
 
@@ -1387,27 +1387,27 @@ msgstr "Ne _legyen mentve"
 #. could be interpreted as the changes he made in the document. beside
 #. "reading" is
 #. not accurate (since last load/save)
-#: ../pluma/pluma-io-error-message-area.c:876
+#: ../pluma/pluma-io-error-message-area.c:921
 #, c-format
 msgid "The file %s has been modified since reading it."
 msgstr "A(z) %s fájl változott az utolsó beolvasása óta."
 
-#: ../pluma/pluma-io-error-message-area.c:891
+#: ../pluma/pluma-io-error-message-area.c:940
 msgid ""
 "If you save it, all the external changes could be lost. Save it anyway?"
 msgstr "Ha most elmenti ezt a változatot, minden külső módosítás el fog veszni. Biztosan menti?"
 
-#: ../pluma/pluma-io-error-message-area.c:971
+#: ../pluma/pluma-io-error-message-area.c:1028
 #, c-format
 msgid "Could not create a backup file while saving %s"
 msgstr "Nem sikerült biztonsági mentést készíteni %s mentésekor"
 
-#: ../pluma/pluma-io-error-message-area.c:974
+#: ../pluma/pluma-io-error-message-area.c:1031
 #, c-format
 msgid "Could not create a temporary backup file while saving %s"
 msgstr "Nem sikerült ideiglenes biztonsági mentést készíteni %s mentésekor"
 
-#: ../pluma/pluma-io-error-message-area.c:990
+#: ../pluma/pluma-io-error-message-area.c:1051
 msgid ""
 "pluma could not back up the old copy of the file before saving the new one. "
 "You can ignore this warning and save the file anyway, but if an error occurs"
@@ -1415,62 +1415,62 @@ msgid ""
 msgstr "A pluma nem tudja elkészíteni a régi másolat biztonsági mentését az új mentése előtt. Figyelmen kívül hagyhatja ezt a figyelmeztetést, és mentheti a fájlt, de ha hiba lép fel a mentésnél, elvesztheti a fájl régi másolatát. Mindenképp menti?"
 
 #. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
-#: ../pluma/pluma-io-error-message-area.c:1050
+#: ../pluma/pluma-io-error-message-area.c:1115
 #, c-format
 msgid ""
 "pluma cannot handle %s locations in write mode. Please check that you typed "
 "the location correctly and try again."
 msgstr "A pluma nem tudja kezelni a(z) %s típusú helyeket írás módban. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1058
+#: ../pluma/pluma-io-error-message-area.c:1123
 msgid ""
 "pluma cannot handle this location in write mode. Please check that you typed"
 " the location correctly and try again."
 msgstr "A pluma nem tudja ezt a helyet írás módban kezelni. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1067
+#: ../pluma/pluma-io-error-message-area.c:1132
 #, c-format
 msgid ""
 "%s is not a valid location. Please check that you typed the location "
 "correctly and try again."
 msgstr "A(z) „%s” egy érvénytelen hely. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1073
+#: ../pluma/pluma-io-error-message-area.c:1138
 msgid ""
 "You do not have the permissions necessary to save the file. Please check "
 "that you typed the location correctly and try again."
 msgstr "Nincs jogosultsága a fájl mentéséhez erre a helyre. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1079
+#: ../pluma/pluma-io-error-message-area.c:1144
 msgid ""
 "There is not enough disk space to save the file. Please free some disk space"
 " and try again."
 msgstr "Nincs elég hely a lemezen a fájl mentéséhez. Szabadítson fel egy kis helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1084
+#: ../pluma/pluma-io-error-message-area.c:1149
 msgid ""
 "You are trying to save the file on a read-only disk. Please check that you "
 "typed the location correctly and try again."
 msgstr "Egy csak olvasható lemezre próbált fájlt menteni. Ellenőrizze, hogy pontosan írta-e be a helyet, és próbálja újra."
 
-#: ../pluma/pluma-io-error-message-area.c:1090
+#: ../pluma/pluma-io-error-message-area.c:1155
 msgid "A file with the same name already exists. Please use a different name."
 msgstr "Egy ugyanilyen nevű fájl már létezik. Használjon más nevet."
 
-#: ../pluma/pluma-io-error-message-area.c:1095
+#: ../pluma/pluma-io-error-message-area.c:1160
 msgid ""
 "The disk where you are trying to save the file has a limitation on length of"
 " the file names. Please use a shorter name."
 msgstr "Az a lemez, amire a fájlt próbálja menteni, nem kezeli a hosszú fájlneveket. Használjon rövidebb nevet."
 
-#: ../pluma/pluma-io-error-message-area.c:1102
+#: ../pluma/pluma-io-error-message-area.c:1167
 msgid ""
 "The disk where you are trying to save the file has a limitation on file "
 "sizes. Please try saving a smaller file or saving it to a disk that does not"
 " have this limitation."
 msgstr "Az a lemez, amelyre a fájlt próbálja menteni, fájlméret-korlátozással rendelkezik. Próbáljon meg kisebb fájlt menteni, vagy egy olyan lemezre mentsen, amelyen nincs korlátozás."
 
-#: ../pluma/pluma-io-error-message-area.c:1118
+#: ../pluma/pluma-io-error-message-area.c:1183
 #, c-format
 msgid "Could not save the file %s."
 msgstr "Nem sikerült elmenteni a(z) „%s” fájlt."
@@ -1480,28 +1480,28 @@ msgstr "Nem sikerült elmenteni a(z) „%s” fájlt."
 #. could be interpreted as the changes he made in the document. beside
 #. "reading" is
 #. not accurate (since last load/save)
-#: ../pluma/pluma-io-error-message-area.c:1162
+#: ../pluma/pluma-io-error-message-area.c:1227
 #, c-format
 msgid "The file %s changed on disk."
 msgstr "A(z) %s fájl megváltozott a lemezen."
 
-#: ../pluma/pluma-io-error-message-area.c:1167
+#: ../pluma/pluma-io-error-message-area.c:1232
 msgid "Do you want to drop your changes and reload the file?"
 msgstr "El kívánja vetni a módosításait és újratölti a fájlt?"
 
-#: ../pluma/pluma-io-error-message-area.c:1169
+#: ../pluma/pluma-io-error-message-area.c:1234
 msgid "Do you want to reload the file?"
 msgstr "Újratölti a fájlt?"
 
-#: ../pluma/pluma-io-error-message-area.c:1174
+#: ../pluma/pluma-io-error-message-area.c:1239
 msgid "_Reload"
 msgstr "Újr_atöltés"
 
-#: ../pluma/pluma-panel.c:358 ../pluma/pluma-panel.c:530
+#: ../pluma/pluma-panel.c:372 ../pluma/pluma-panel.c:549
 msgid "Empty"
 msgstr "Üres"
 
-#: ../pluma/pluma-panel.c:420
+#: ../pluma/pluma-panel.c:439
 msgid "Hide panel"
 msgstr "Panel elrejtése"
 
@@ -1513,35 +1513,35 @@ msgstr "Bővítmény"
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: ../pluma/pluma-plugin-manager.c:504
+#: ../pluma/pluma-plugin-manager.c:508
 msgid "_About"
 msgstr "_Névjegy"
 
-#: ../pluma/pluma-plugin-manager.c:512
+#: ../pluma/pluma-plugin-manager.c:516
 msgid "C_onfigure"
 msgstr "B_eállítás"
 
-#: ../pluma/pluma-plugin-manager.c:521
+#: ../pluma/pluma-plugin-manager.c:525
 msgid "A_ctivate"
 msgstr "_Aktiválás"
 
-#: ../pluma/pluma-plugin-manager.c:532
+#: ../pluma/pluma-plugin-manager.c:536
 msgid "Ac_tivate All"
 msgstr "Összes a_ktiválása"
 
-#: ../pluma/pluma-plugin-manager.c:537
+#: ../pluma/pluma-plugin-manager.c:541
 msgid "_Deactivate All"
 msgstr "Összes _deaktiválása"
 
-#: ../pluma/pluma-plugin-manager.c:800
+#: ../pluma/pluma-plugin-manager.c:809
 msgid "Active _Plugins:"
 msgstr "A_ktív bővítmények:"
 
-#: ../pluma/pluma-plugin-manager.c:825
+#: ../pluma/pluma-plugin-manager.c:842
 msgid "_About Plugin"
 msgstr "Bővítmény _névjegye"
 
-#: ../pluma/pluma-plugin-manager.c:829
+#: ../pluma/pluma-plugin-manager.c:846
 msgid "C_onfigure Plugin"
 msgstr "Bővítmény b_eállítása"
 
@@ -1570,10 +1570,14 @@ msgstr "_Szintaxiskiemelés nyomtatása"
 msgid "Print line nu_mbers"
 msgstr "_Sorszámok nyomtatása"
 
+#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the
+#. print preferences.
 #: ../pluma/pluma-print-preferences.ui.h:6
 msgid "_Number every"
 msgstr "S_orszám"
 
+#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print
+#. preferences.
 #: ../pluma/pluma-print-preferences.ui.h:8
 msgid "lines"
 msgstr "soronként"
@@ -1606,69 +1610,69 @@ msgstr "Élő_fej és élőláb:"
 msgid "_Restore Default Fonts"
 msgstr "_Alapértelmezett betűkészletek visszaállítása"
 
-#: ../pluma/pluma-print-preview.c:564
+#: ../pluma/pluma-print-preview.c:572
 msgid "Show the previous page"
 msgstr "Előző oldal megjelenítése"
 
-#: ../pluma/pluma-print-preview.c:576
+#: ../pluma/pluma-print-preview.c:584
 msgid "Show the next page"
 msgstr "Következő oldal megjelenítése"
 
-#: ../pluma/pluma-print-preview.c:592
+#: ../pluma/pluma-print-preview.c:600
 msgid "Current page (Alt+P)"
 msgstr "A jelenlegi oldal (Alt+P)"
 
 #. Translators: the "of" from "1 of 19" in print preview.
-#: ../pluma/pluma-print-preview.c:615
+#: ../pluma/pluma-print-preview.c:623
 msgid "of"
 msgstr "/"
 
-#: ../pluma/pluma-print-preview.c:623
+#: ../pluma/pluma-print-preview.c:631
 msgid "Page total"
 msgstr "Összes oldal"
 
-#: ../pluma/pluma-print-preview.c:624
+#: ../pluma/pluma-print-preview.c:632
 msgid "The total number of pages in the document"
 msgstr "Dokumentum oldalainak száma"
 
-#: ../pluma/pluma-print-preview.c:641
+#: ../pluma/pluma-print-preview.c:649
 msgid "Show multiple pages"
 msgstr "Több oldal megjelenítése"
 
-#: ../pluma/pluma-print-preview.c:654
+#: ../pluma/pluma-print-preview.c:662
 msgid "Zoom 1:1"
 msgstr "1:1 arányú nagyítás"
 
-#: ../pluma/pluma-print-preview.c:663
+#: ../pluma/pluma-print-preview.c:671
 msgid "Zoom to fit the whole page"
 msgstr "Teljes oldal megjelenítése"
 
-#: ../pluma/pluma-print-preview.c:672
+#: ../pluma/pluma-print-preview.c:680
 msgid "Zoom the page in"
 msgstr "Oldal nagyítása"
 
-#: ../pluma/pluma-print-preview.c:681
+#: ../pluma/pluma-print-preview.c:689
 msgid "Zoom the page out"
 msgstr "Oldal kicsinyítése"
 
-#: ../pluma/pluma-print-preview.c:693
+#: ../pluma/pluma-print-preview.c:701
 msgid "_Close Preview"
 msgstr "N_yomtatási kép bezárása"
 
-#: ../pluma/pluma-print-preview.c:696
+#: ../pluma/pluma-print-preview.c:704
 msgid "Close print preview"
 msgstr "Nyomtatási kép bezárása"
 
-#: ../pluma/pluma-print-preview.c:766
+#: ../pluma/pluma-print-preview.c:774
 #, c-format
 msgid "Page %d of %d"
 msgstr "%d/%d oldal"
 
-#: ../pluma/pluma-print-preview.c:950
+#: ../pluma/pluma-print-preview.c:958
 msgid "Page Preview"
 msgstr "Nyomtatási kép"
 
-#: ../pluma/pluma-print-preview.c:951
+#: ../pluma/pluma-print-preview.c:959
 msgid "The preview of a page in the document to be printed"
 msgstr "A dokumentum egy oldalának nyomtatási előnézete"
 
@@ -1676,23 +1680,23 @@ msgstr "A dokumentum egy oldalának nyomtatási előnézete"
 msgid "It is not possible to detect the encoding automatically"
 msgstr "A kódolás nem ismerhető fel automatikusan"
 
-#: ../pluma/pluma-statusbar.c:70 ../pluma/pluma-statusbar.c:76
+#: ../pluma/pluma-statusbar.c:74 ../pluma/pluma-statusbar.c:80
 msgid "OVR"
 msgstr "ÁTÍR"
 
-#: ../pluma/pluma-statusbar.c:70 ../pluma/pluma-statusbar.c:76
+#: ../pluma/pluma-statusbar.c:74 ../pluma/pluma-statusbar.c:80
 msgid "INS"
 msgstr "BESZ"
 
 #. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for
 #. "Column". Please,
 #. use abbreviations if possible to avoid space problems.
-#: ../pluma/pluma-statusbar.c:251
+#: ../pluma/pluma-statusbar.c:266
 #, c-format
 msgid "  Ln %d, Col %d"
 msgstr " %d. sor, %d. oszlop"
 
-#: ../pluma/pluma-statusbar.c:352
+#: ../pluma/pluma-statusbar.c:367
 #, c-format
 msgid "There is a tab with errors"
 msgid_plural "There are %d tabs with errors"
@@ -1706,77 +1710,77 @@ msgstr "A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() h
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: ../pluma/pluma-tab.c:656
+#: ../pluma/pluma-tab.c:664
 #, c-format
 msgid "Reverting %s from %s"
 msgstr "%s visszaállítása innen: %s"
 
-#: ../pluma/pluma-tab.c:663
+#: ../pluma/pluma-tab.c:671
 #, c-format
 msgid "Reverting %s"
 msgstr "%s visszaállítása"
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: ../pluma/pluma-tab.c:679
+#: ../pluma/pluma-tab.c:687
 #, c-format
 msgid "Loading %s from %s"
 msgstr "%s fájl betöltése innen: %s"
 
-#: ../pluma/pluma-tab.c:686
+#: ../pluma/pluma-tab.c:694
 #, c-format
 msgid "Loading %s"
 msgstr "%s fájl betöltése"
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: ../pluma/pluma-tab.c:769
+#: ../pluma/pluma-tab.c:777
 #, c-format
 msgid "Saving %s to %s"
 msgstr "%s mentése ide: %s"
 
-#: ../pluma/pluma-tab.c:776
+#: ../pluma/pluma-tab.c:784
 #, c-format
 msgid "Saving %s"
 msgstr "%s mentése"
 
 #. Read only
-#: ../pluma/pluma-tab.c:1649
+#: ../pluma/pluma-tab.c:1662
 msgid "RO"
 msgstr "RO"
 
-#: ../pluma/pluma-tab.c:1696
+#: ../pluma/pluma-tab.c:1709
 #, c-format
 msgid "Error opening file %s"
 msgstr "Hiba a(z) „%s” fájl megnyitása közben"
 
-#: ../pluma/pluma-tab.c:1701
+#: ../pluma/pluma-tab.c:1714
 #, c-format
 msgid "Error reverting file %s"
 msgstr "Hiba a(z) „%s” fájl visszaállítása közben"
 
-#: ../pluma/pluma-tab.c:1706
+#: ../pluma/pluma-tab.c:1719
 #, c-format
 msgid "Error saving file %s"
 msgstr "Hiba a(z) „%s” fájl mentése közben"
 
-#: ../pluma/pluma-tab.c:1727
+#: ../pluma/pluma-tab.c:1740
 msgid "Unicode (UTF-8)"
 msgstr "Unicode (UTF-8)"
 
-#: ../pluma/pluma-tab.c:1734
+#: ../pluma/pluma-tab.c:1747
 msgid "Name:"
 msgstr "Név:"
 
-#: ../pluma/pluma-tab.c:1735
+#: ../pluma/pluma-tab.c:1748
 msgid "MIME Type:"
 msgstr "MIME-típus:"
 
-#: ../pluma/pluma-tab.c:1736
+#: ../pluma/pluma-tab.c:1749
 msgid "Encoding:"
 msgstr "Kódolás:"
 
-#: ../pluma/pluma-tab-label.c:273
+#: ../pluma/pluma-tab-label.c:285
 msgid "Close document"
 msgstr "Dokumentum bezárása"
 
@@ -1817,7 +1821,7 @@ msgstr "Új dokumentum létrehozása"
 msgid "_Open..."
 msgstr "_Megnyitás…"
 
-#: ../pluma/pluma-ui.h:59 ../pluma/pluma-window.c:1386
+#: ../pluma/pluma-ui.h:59 ../pluma/pluma-window.c:1390
 msgid "Open a file"
 msgstr "Fájl megnyitása"
 
@@ -2058,57 +2062,57 @@ msgstr "_Alsó ablaktábla"
 msgid "Show or hide the bottom pane in the current window"
 msgstr "Alsó ablaktábla megjelenítése vagy rejtése a jelenlegi ablakban"
 
-#: ../pluma/pluma-utils.c:1092
+#: ../pluma/pluma-utils.c:1100
 msgid "Please check your installation."
 msgstr "Ellenőrizze a telepítést."
 
-#: ../pluma/pluma-utils.c:1162
+#: ../pluma/pluma-utils.c:1177
 #, c-format
 msgid "Unable to open UI file %s. Error: %s"
 msgstr "Nem nyitható meg a(z) „%s” felületfájl. Hiba: %s"
 
-#: ../pluma/pluma-utils.c:1182
+#: ../pluma/pluma-utils.c:1197
 #, c-format
 msgid "Unable to find the object '%s' inside file %s."
 msgstr "Az objektum („%s”) nem található meg a(z) %s fájlban."
 
 #. Translators: '/ on <remote-share>'
-#: ../pluma/pluma-utils.c:1342
+#: ../pluma/pluma-utils.c:1357
 #, c-format
 msgid "/ on %s"
 msgstr "/ ezen: %s"
 
 #. create "Wrap Around" menu item.
-#: ../pluma/pluma-view.c:1233
+#: ../pluma/pluma-view.c:1245
 msgid "_Wrap Around"
 msgstr "_Keresés elölről"
 
 #. create "Match Entire Word Only" menu item.
-#: ../pluma/pluma-view.c:1243
+#: ../pluma/pluma-view.c:1255
 msgid "Match _Entire Word Only"
 msgstr "Csak _teljes szóra"
 
 #. create "Match Case" menu item.
-#: ../pluma/pluma-view.c:1253
+#: ../pluma/pluma-view.c:1265
 msgid "_Match Case"
 msgstr "Kis- és _nagybetű"
 
 #. create "Parse escapes" menu item.
-#: ../pluma/pluma-view.c:1263
+#: ../pluma/pluma-view.c:1275
 msgid ""
 "_Parse escape sequences (e.g. \n"
 ")"
 msgstr "Esca_pe szekvenciák feldolgozása (pl. \n)"
 
-#: ../pluma/pluma-view.c:1377
+#: ../pluma/pluma-view.c:1389
 msgid "String you want to search for"
 msgstr "A keresendő karaktersorozat"
 
-#: ../pluma/pluma-view.c:1386
+#: ../pluma/pluma-view.c:1398
 msgid "Line you want to move the cursor to"
 msgstr "A kurzor mozgatása a megadott sor elejére"
 
-#: ../pluma/pluma-window.c:939
+#: ../pluma/pluma-window.c:943
 #, c-format
 msgid "Use %s highlight mode"
 msgstr "%s kiemelési mód használata"
@@ -2116,7 +2120,7 @@ msgstr "%s kiemelési mód használata"
 #. add the "Plain Text" item before all the others
 #. Translators: "Plain Text" means that no highlight mode is selected in the
 #. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
-#: ../pluma/pluma-window.c:996 ../pluma/pluma-window.c:1888
+#: ../pluma/pluma-window.c:1000 ../pluma/pluma-window.c:1892
 #: ../plugins/externaltools/tools/manager.py:121
 #: ../plugins/externaltools/tools/manager.py:419
 #: ../plugins/externaltools/tools/manager.py:529
@@ -2124,43 +2128,43 @@ msgstr "%s kiemelési mód használata"
 msgid "Plain Text"
 msgstr "Egyszerű szöveg"
 
-#: ../pluma/pluma-window.c:997
+#: ../pluma/pluma-window.c:1001
 msgid "Disable syntax highlighting"
 msgstr "Nyelvtani kiemelések tiltása"
 
 #. Translators: %s is a URI
-#: ../pluma/pluma-window.c:1283
+#: ../pluma/pluma-window.c:1287
 #, c-format
 msgid "Open '%s'"
 msgstr "„%s” megnyitása"
 
-#: ../pluma/pluma-window.c:1388
+#: ../pluma/pluma-window.c:1392
 msgid "Open a recently used file"
 msgstr "Nemrég használt fájl megnyitása"
 
-#: ../pluma/pluma-window.c:1394
+#: ../pluma/pluma-window.c:1398
 msgid "Open"
 msgstr "Megnyitás"
 
-#: ../pluma/pluma-window.c:1452
+#: ../pluma/pluma-window.c:1456
 msgid "Save"
 msgstr "Mentés"
 
-#: ../pluma/pluma-window.c:1454
+#: ../pluma/pluma-window.c:1458
 msgid "Print"
 msgstr "Nyomtatás"
 
 #. Translators: %s is a URI
-#: ../pluma/pluma-window.c:1613
+#: ../pluma/pluma-window.c:1617
 #, c-format
 msgid "Activate '%s'"
 msgstr "„%s” aktiválása"
 
-#: ../pluma/pluma-window.c:1866
+#: ../pluma/pluma-window.c:1870
 msgid "Use Spaces"
 msgstr "Szóközök használata"
 
-#: ../pluma/pluma-window.c:1937
+#: ../pluma/pluma-window.c:1941
 msgid "Tab Width"
 msgstr "Tabulátorszélesség"
 
@@ -2685,154 +2689,154 @@ msgid ""
 "settings to make the directory visible"
 msgstr "Az új fájl jelenleg ki van szűrve. A fájl megjelenítéséhez módosítania kell a szűrőbeállításokat"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:711
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:724
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:792
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:805
 msgid "_Filter"
 msgstr "_Szűrés"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:797
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:810
 msgid "_Move to Trash"
 msgstr "Á_thelyezés a Kukába"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:798
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:811
 msgid "Move selected file or folder to trash"
 msgstr "A kijelölt fájl vagy mappa áthelyezése a Kukába"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:800
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:813
 msgid "_Delete"
 msgstr "_Törlés"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:801
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:814
 msgid "Delete selected file or folder"
 msgstr "A kijelölt fájl vagy mappa törlése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:808
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:821
 msgid "Open selected file"
 msgstr "Kijelölt fájl megnyitása"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:814
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:827
 msgid "Up"
 msgstr "Fel"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:815
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:828
 msgid "Open the parent folder"
 msgstr "Szülőmappa megnyitása"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:820
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:833
 msgid "_New Folder"
 msgstr "Új _mappa"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:821
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:834
 msgid "Add new empty folder"
 msgstr "Új üres mappa hozzáadása"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:823
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:836
 msgid "New F_ile"
 msgstr "Új _fájl"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:824
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:837
 msgid "Add new empty file"
 msgstr "Új üres fájl hozzáadása"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:829
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:842
 msgid "_Rename"
 msgstr "Á_tnevezés"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:830
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:843
 msgid "Rename selected file or folder"
 msgstr "A kijelölt fájl vagy mappa átnevezése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:836
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:849
 msgid "_Previous Location"
 msgstr "_Előző hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:838
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:851
 msgid "Go to the previous visited location"
 msgstr "Ugrás az előző meglátogatott helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:840
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:853
 msgid "_Next Location"
 msgstr "_Következő hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:841
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:854
 msgid "Go to the next visited location"
 msgstr "Ugrás a következő meglátogatott helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:842
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:855
 msgid "Re_fresh View"
 msgstr "_Nézet frissítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:843
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:856
 msgid "Refresh the view"
 msgstr "A nézet frissítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:844
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:862
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:857
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:875
 msgid "_View Folder"
 msgstr "Ma_ppa megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:845
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:863
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:858
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:876
 msgid "View folder in file manager"
 msgstr "A mappa megjelenítése a fájlkezelőben"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:852
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:865
 msgid "Show _Hidden"
 msgstr "_Rejtett megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:853
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:866
 msgid "Show hidden files and folders"
 msgstr "Rejtett fájlok és mappák megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:855
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:868
 msgid "Show _Binary"
 msgstr "_Bináris megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:856
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:869
 msgid "Show binary files"
 msgstr "Bináris fájlok megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:988
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:997
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1018
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1001
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1010
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1031
 msgid "Previous location"
 msgstr "Előző hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:990
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1003
 msgid "Go to previous location"
 msgstr "Ugrás az előző helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:992
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1013
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1005
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1026
 msgid "Go to a previously opened location"
 msgstr "Ugrás az előzőleg megnyitott helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1009
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1022
 msgid "Next location"
 msgstr "Következő hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1011
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1024
 msgid "Go to next location"
 msgstr "Ugrás a következő helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1223
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1236
 msgid "_Match Filename"
 msgstr "Fájlné_v keresése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2127
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2168
 #, c-format
 msgid "No mount object for mounted volume: %s"
 msgstr "Nem található csatolási objektum a csatolt kötethez: %s"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2207
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2248
 #, c-format
 msgid "Could not open media: %s"
 msgstr "Az adathordozó nem nyitható meg: %s"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2254
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2295
 #, c-format
 msgid "Could not mount volume: %s"
 msgstr "A kötet nem csatolható: %s"
@@ -3144,6 +3148,10 @@ msgstr "_Kezdőoszlop:"
 msgid "You cannot undo a sort operation"
 msgstr "A rendezés nem vonható vissza"
 
+#: ../plugins/spell/org.mate.pluma.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Automatikus ellenőrzés típusa"
+
 #. Translators: Displayed in the "Check Spelling" dialog if there are no
 #. suggestions for the current misspelled word
 #. Translators: Displayed in the "Check Spelling" dialog if there are no
@@ -3159,16 +3167,16 @@ msgid "_More..."
 msgstr "_Több…"
 
 #. Ignore all
-#: ../plugins/spell/pluma-automatic-spell-checker.c:499
+#: ../plugins/spell/pluma-automatic-spell-checker.c:503
 msgid "_Ignore All"
 msgstr "Mindet á_tugorja"
 
 #. + Add to Dictionary
-#: ../plugins/spell/pluma-automatic-spell-checker.c:514
+#: ../plugins/spell/pluma-automatic-spell-checker.c:518
 msgid "_Add"
 msgstr "Hozzá_adás"
 
-#: ../plugins/spell/pluma-automatic-spell-checker.c:553
+#: ../plugins/spell/pluma-automatic-spell-checker.c:557
 msgid "_Spelling Suggestions..."
 msgstr "_Helyesírási javaslatok…"
 
@@ -3224,35 +3232,39 @@ msgstr "Nyelv megadása"
 msgid "Languages"
 msgstr "Nyelvek"
 
-#: ../plugins/spell/pluma-spell-plugin.c:80
+#: ../plugins/spell/pluma-spell-plugin.c:92
 msgid "_Check Spelling..."
 msgstr "_Helyesírás-ellenőrzés…"
 
-#: ../plugins/spell/pluma-spell-plugin.c:82
+#: ../plugins/spell/pluma-spell-plugin.c:94
 msgid "Check the current document for incorrect spelling"
 msgstr "A jelenlegi dokumentum helyesírásának ellenőrzése"
 
-#: ../plugins/spell/pluma-spell-plugin.c:88
+#: ../plugins/spell/pluma-spell-plugin.c:100
 msgid "Set _Language..."
 msgstr "_Nyelv megadása…"
 
-#: ../plugins/spell/pluma-spell-plugin.c:90
+#: ../plugins/spell/pluma-spell-plugin.c:102
 msgid "Set the language of the current document"
 msgstr "A jelenlegi dokumentum nyelvének megadása"
 
-#: ../plugins/spell/pluma-spell-plugin.c:99
+#: ../plugins/spell/pluma-spell-plugin.c:111
 msgid "_Autocheck Spelling"
 msgstr "Helyesírás a_utomatikus ellenőrzése"
 
-#: ../plugins/spell/pluma-spell-plugin.c:101
+#: ../plugins/spell/pluma-spell-plugin.c:113
 msgid "Automatically spell-check the current document"
 msgstr "A jelenlegi dokumentum automatikus helyesírás-ellenőrzése"
 
-#: ../plugins/spell/pluma-spell-plugin.c:746
+#: ../plugins/spell/pluma-spell-plugin.c:753
+msgid "Configure Spell Checker plugin..."
+msgstr "Helyesírás-ellenőrző bővítmény beállítása..."
+
+#: ../plugins/spell/pluma-spell-plugin.c:962
 msgid "The document is empty."
 msgstr "A dokumentum üres."
 
-#: ../plugins/spell/pluma-spell-plugin.c:776
+#: ../plugins/spell/pluma-spell-plugin.c:992
 msgid "No misspelled words"
 msgstr "Nincs hibás szó"
 
@@ -3316,6 +3328,26 @@ msgstr "Nyelv:"
 msgid "Language"
 msgstr "Nyelv"
 
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:1
+msgid "_Configure Spell Checker plugin..."
+msgstr "_Helyesírás-ellenőrző bővítmény beállítása..."
+
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:2
+msgid "Autocheck spelling on document load..."
+msgstr "Helyesírás automatikus ellenőrzése a dokumentum betöltésekor..."
+
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:3
+msgid "_Never autocheck"
+msgstr "_Soha"
+
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:4
+msgid "_Remember autocheck by document"
+msgstr "_Megjegyzés dokumentumonként"
+
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:5
+msgid "_Always autocheck"
+msgstr "_Mindig"
+
 #: ../plugins/spell/spell.pluma-plugin.desktop.in.h:1
 msgid "Spell Checker"
 msgstr "Helyesírás-ellenőrző"
@@ -3325,20 +3357,20 @@ msgid "Checks the spelling of the current document."
 msgstr "A jelenlegi dokumentum helyesírás-ellenőrzése"
 
 #: ../plugins/taglist/pluma-taglist-plugin.c:98
-#: ../plugins/taglist/pluma-taglist-plugin-panel.c:707
-#: ../plugins/taglist/pluma-taglist-plugin-panel.c:723
+#: ../plugins/taglist/pluma-taglist-plugin-panel.c:725
+#: ../plugins/taglist/pluma-taglist-plugin-panel.c:741
 msgid "Tags"
 msgstr "Elemek"
 
-#: ../plugins/taglist/pluma-taglist-plugin-panel.c:618
+#: ../plugins/taglist/pluma-taglist-plugin-panel.c:622
 msgid "Select the group of tags you want to use"
 msgstr "Válassza ki az elemcsoportok közül azt, amit használni szeretne"
 
-#: ../plugins/taglist/pluma-taglist-plugin-panel.c:637
+#: ../plugins/taglist/pluma-taglist-plugin-panel.c:641
 msgid "_Preview"
 msgstr "_Előnézet"
 
-#: ../plugins/taglist/pluma-taglist-plugin-panel.c:704
+#: ../plugins/taglist/pluma-taglist-plugin-panel.c:722
 msgid "Available Tag Lists"
 msgstr "Elérhető elemlisták"
 

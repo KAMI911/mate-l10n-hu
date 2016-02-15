@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Falu.Me, 2015
-# Falu.Me, 2015
+# Faludi Zoltán, 2015
 # kami911 <kami911@gmail.com>, 2015
+# kami911 <kami911@gmail.com>, 2016
 # Rezső Páder <rezso@rezso.net>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-06 14:50+0300\n"
-"PO-Revision-Date: 2015-11-28 21:01+0000\n"
+"PO-Revision-Date: 2016-01-23 21:39+0000\n"
 "Last-Translator: kami911 <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -493,7 +494,7 @@ msgid ""
 " minimize the window, 'shade' which will roll the window up, 'menu' which "
 "will display the window menu, 'lower' which will put the window behind all "
 "the others, and 'none' which will not do anything."
-msgstr ""
+msgstr "Ez az opció határozza meg, hogy mi történjen a címsoron való dupla kattintás esetén. Jelenleg érvényes opciók a „toggle_shade”, amely hatására az ablak felgördül/legördül, a „toggle_maximize”, amely hatására teljes képernyős/eredeti méretű lesz, „toggle_maximize_horizontally” és „toggle_maximize_vertically”, amelyek hatására az ablak csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely hatására kis méretű lesz az ablak, „shade”, amely hatására az ablak felgördül, „menu”, amely megjeleníti az ablak menüt, „lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt végre semmit."
 
 #: ../src/org.mate.marco.gschema.xml.h:15
 msgid "Action on title bar middle-click"
@@ -509,7 +510,7 @@ msgid ""
 " minimize the window, 'shade' which will roll the window up, 'menu' which "
 "will display the window menu, 'lower' which will put the window behind all "
 "the others, and 'none' which will not do anything."
-msgstr ""
+msgstr "Ez az opció határozza meg, hogy mi történjen a címsoron való középső gombos kattintás esetén. Jelenleg érvényes opciók a „toggle_shade”, amely hatására az ablak felgördül/legördül, a „toggle_maximize”, amely hatására teljes képernyős/eredeti méretű lesz, „toggle_maximize_horizontally” és „toggle_maximize_vertically”, amelyek hatására az ablak csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely hatására kis méretű lesz az ablak, „shade”, amely hatására az ablak felgördül, „menu”, amely megjeleníti az ablak menüt, „lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt végre semmit."
 
 #: ../src/org.mate.marco.gschema.xml.h:17
 msgid "Action on title bar right-click"
@@ -525,7 +526,7 @@ msgid ""
 " minimize the window, 'shade' which will roll the window up, 'menu' which "
 "will display the window menu, 'lower' which will put the window behind all "
 "the others, and 'none' which will not do anything."
-msgstr ""
+msgstr "Ez az opció határozza meg, hogy mi történjen a címsoron való jobb gombos kattintás esetén. Jelenleg érvényes opciók a „toggle_shade”, amely hatására az ablak felgördül/legördül, a „toggle_maximize”, amely hatására teljes képernyős/eredeti méretű lesz, „toggle_maximize_horizontally” és „toggle_maximize_vertically”, amelyek hatására az ablak csak vízszintesen/függőlegesen lesz maximalizálva, „minimize”, amely hatására kis méretű lesz az ablak, „shade”, amely hatására az ablak felgördül, „menu”, amely megjeleníti az ablak menüt, „lower”, amely az ablakot a többi ablak mögé viszi és „none”, amely nem hajt végre semmit."
 
 #: ../src/org.mate.marco.gschema.xml.h:19
 msgid "Automatically raises the focused window"
@@ -758,7 +759,7 @@ msgid ""
 "lower or upper case, and also abbreviations such as \"&lt;Ctl&gt;\" and "
 "\"&lt;Ctrl&gt;\". If you set the option to the special string \"disabled\", "
 "then there will be no keybinding for this action."
-msgstr ""
+msgstr "Az a billentyűkombináció, amely futtatja a megfelelő számú parancsot az /apps/marco/keybinding_commands kulcsból. Formátuma ehhez hasonló: „<Control>a” vagy „<Shift><Alt>F1”. Az elemző elég megengedő, nem érzékeny a kis- és nagybetűkre, valamint rövidítéseket (mint „<Ctl>” és „<Ctrl>”) is megenged. Ha az opciót a speciális „disabled” karakterláncra állítja be, akkor nem lesz billentyűkombináció társítva ehhez a művelethez."
 
 #: ../src/org.mate.marco.gschema.xml.h:60
 msgid ""
@@ -767,7 +768,7 @@ msgid ""
 "lower or upper case, and also abbreviations such as \"&lt;Ctl&gt;\" and "
 "\"&lt;Ctrl&gt;\". If you set the option to the special string \"disabled\", "
 "then there will be no keybinding for this action."
-msgstr ""
+msgstr "Formátuma ehhez hasonló: „<Control>a” vagy „<Shift><Alt>F1”.\n\nAz elemző elég megengedő, nem érzékeny a kis- és nagybetűkre, valamint rövidítéseket (mint „<Ctl>” és „<Ctrl>”) is megenged. Az opciót a speciális „disabled” karakterláncra állítva nem lesz billentyűkombináció társítva ehhez a művelethez."
 
 #: ../src/org.mate.marco.gschema.xml.h:78
 msgid ""
@@ -778,7 +779,7 @@ msgid ""
 "then there will be no keybinding for this action. This keybinding may be "
 "reversed by holding down the \"shift\" key; therefore, \"shift\" cannot be "
 "one of the keys it uses."
-msgstr ""
+msgstr "Formátuma ehhez hasonló: „<Control>a” vagy „<Shift><Alt>F1”.\n\nAz elemző elég engedékeny, nem érzékeny a kis- és nagybetűkre, valamint rövidítéseket (mint „<Ctl>” és „<Ctrl>”) is megenged. Az opciót a speciális „disabled” karakterláncra állítva nem lesz billentyűkombináció társítva ehhez a művelethez.\n\nEz a billentyűtársítás megfordítható a „Shift” billentyű lenyomásával, így a „Shift” itt nem használható."
 
 #: ../src/org.mate.marco.gschema.xml.h:79
 msgid "Move backward between windows of an application, using a popup window"
@@ -821,7 +822,7 @@ msgid ""
 "The /apps/marco/global_keybindings/run_command_N keys define keybindings "
 "that correspond to these commands. Pressing the keybinding for run_command_N"
 " will execute command_N."
-msgstr ""
+msgstr "Az /apps/marco/global_keybindings/run_command_N határozza meg a billentyűkombinációkat, amelyek ezekhez a parancsokhoz tartoznak. A run_command_N-hez tartozó billentyűkombináció lenyomásakor végre lesz hajtva a command_N."
 
 #: ../src/org.mate.marco.gschema.xml.h:100
 msgid "The screenshot command"
@@ -831,7 +832,7 @@ msgstr "A képernyőkép-készítő parancs"
 msgid ""
 "The /apps/marco/global_keybindings/run_command_screenshot key defines a "
 "keybinding which causes the command specified by this setting to be invoked."
-msgstr ""
+msgstr "Az /apps/marco/global_keybindings/run_command_screenshot kulcs definiálja azt a billentyűkombinációt, amely ezen beállítások által meghatározott parancsot hívja meg."
 
 #: ../src/org.mate.marco.gschema.xml.h:102
 msgid "The window screenshot command"
@@ -842,11 +843,11 @@ msgid ""
 "The /apps/marco/global_keybindings/run_command_window_screenshot key defines"
 " a keybinding which causes the command specified by this setting to be "
 "invoked."
-msgstr ""
+msgstr "Az /apps/marco/global_keybindings/run_command_window_screenshot kulcs definiálja azt a billentyűkombinációt, amely ezen beállítások által meghatározott parancsot hívja meg."
 
 #: ../src/org.mate.marco.gschema.xml.h:107
 msgid "Toggle whether a window will always be visible over other windows"
-msgstr ""
+msgstr "Az ablak mindig látható lesz más ablakok fölött"
 
 #: ../src/core/bell.c:294
 msgid "Bell event"

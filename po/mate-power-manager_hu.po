@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Falu.Me, 2015
-# Falu.Me, 2015
+# Faludi Zoltán, 2015
 # István Szőllősi <szollosi.istv4n@gmail.com>, 2014
 # kami911 <kami911@gmail.com>, 2015
 # Rezső Páder <rezso@rezso.net>, 2013
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-09 13:07+0200\n"
-"PO-Revision-Date: 2015-11-29 19:25+0000\n"
+"PO-Revision-Date: 2015-12-12 23:07+0000\n"
 "Last-Translator: kami911 <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"

@@ -1,24 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Falu.Me, 2015.
-# kami911 <kami911@gmail.com>, 2014, 2015.
-# Rezső Páder <rezso@rezso.net>, 2013-2015.
+# Falu.Me, 2015
+# Faludi Zoltán, 2015
+# kami911 <kami911@gmail.com>, 2014
+# kami911 <kami911@gmail.com>, 2014-2015
+# Rezső Páder <rezso@rezso.net>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-03 17:16+0300\n"
-"PO-Revision-Date: 2015-11-30 01:10+0100\n"
-"Last-Translator: Kálmán \"KAMI\" Szalai <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2016-01-22 23:30+0000\n"
+"Last-Translator: kami911 <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:1
 msgid "Device to monitor"
@@ -34,9 +36,7 @@ msgstr "Sebesség összegzése"
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:4
 msgid "If true, show sum of inbound/outbound speed instead of separated ones."
-msgstr ""
-"Ha igaz, akkor a bejövő és kimenő sebesség összege jelenik meg, az egyenkénti "
-"érték helyett."
+msgstr "Ha igaz, akkor a bejövő és kimenő sebesség összege jelenik meg, az egyenkénti érték helyett."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:5
 msgid "Show bits"
@@ -62,7 +62,7 @@ msgstr "Rövid jelmagyarázat"
 msgid ""
 "If true, shorten unit legend to one letter: lowercase for bits / uppercase "
 "for Bytes."
-msgstr ""
+msgstr "Ha igaz, akkor a mértékegység egy karakterre lesz lerövidítve: kisbetű - bitek, nagybetűk - bájtok."
 
 #: ../data/org.mate.panel.applet.netspeed.gschema.xml.in.h:11
 msgid "Change icon"
@@ -209,9 +209,7 @@ msgstr "Hiba történt a súgó megjelenítése közben:\n%s"
 msgid ""
 "A little applet that displays some information on the traffic on the "
 "specified network device"
-msgstr ""
-"Egy meghatározott hálózati eszközön áthaladó forgalommal kapcsolatos "
-"információkat megjelenítő kisalkalmazás"
+msgstr "Egy meghatározott hálózati eszközön áthaladó forgalommal kapcsolatos információkat megjelenítő kisalkalmazás"
 
 #: ../src/netspeed.c:812
 msgid "translator-credits"
@@ -383,4 +381,3 @@ msgstr "ismeretlen"
 #: ../src/netspeed.c:1624
 msgid "Mate Netspeed"
 msgstr "Mate Netspeed"
-

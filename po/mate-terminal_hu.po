@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Falu.Me, 2015
+# Faludi Zoltán, 2015
 # Rezső Páder <rezso@rezso.net>, 2014-2015
 # Takler Tamás <taklertamas@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-08 15:44+0200\n"
-"PO-Revision-Date: 2015-09-09 16:24+0000\n"
-"Last-Translator: Falu.Me\n"
+"POT-Creation-Date: 2015-12-14 13:31+0300\n"
+"PO-Revision-Date: 2015-12-19 03:22+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,13 +36,13 @@ msgid ""
 msgstr "<p> A MATE Terminál egy terminál emulátor, melynek segítségével hozzáférhet a UNIX rendszerhéjhoz a MATE asztali környezetben. A MATE Terminál emulálja az xterm programot, melyet az X Consortium fejlesztett ki. A MATE Terminál támogatja az áttetsző hátteret, valamint több terminált egy ablakon belül (lapfülek) és a kattintható hiperlinkeket. </p> <p> A MATE Terminál a GNOME Terminál továbbfejlesztett változata és a MATE asztali környezet szerves része. Amennyiben többet is szeretne megtudni a MATE-ről valamint a MATE Terminálról, látogassa meg a projekt honlapját. </p>"
 
 #: ../mate-terminal.desktop.in.in.h:1 ../src/terminal-options.c:189
-#: ../src/terminal-window.c:4161
+#: ../src/terminal-window.c:4196
 msgid "MATE Terminal"
 msgstr "MATE Terminál"
 
 #: ../mate-terminal.desktop.in.in.h:2 ../src/terminal-accels.c:321
 #: ../src/terminal.c:593 ../src/terminal-profile.c:161
-#: ../src/terminal-window.c:2146
+#: ../src/terminal-window.c:2162
 msgid "Terminal"
 msgstr "Terminál"
 
@@ -997,32 +997,32 @@ msgstr "Zöld a feketén"
 msgid "White on black"
 msgstr "Fehér a feketén"
 
-#: ../src/profile-editor.c:490
+#: ../src/profile-editor.c:512
 #, c-format
 msgid "Error parsing command: %s"
 msgstr "Hiba történt a(z) %s parancs értelmezésekor"
 
-#: ../src/profile-editor.c:507
+#: ../src/profile-editor.c:529
 #, c-format
 msgid "Editing Profile “%s”"
 msgstr "A(z) „%s” profil szerkesztése"
 
 #. Translators: This is the name of a colour scheme
-#: ../src/profile-editor.c:540 ../src/profile-preferences.ui.h:11
+#: ../src/profile-editor.c:562 ../src/profile-preferences.ui.h:11
 #: ../src/extra-strings.c:80
 msgid "Custom"
 msgstr "Egyéni"
 
-#: ../src/profile-editor.c:675
+#: ../src/profile-editor.c:626
 msgid "Images"
 msgstr "Képek"
 
-#: ../src/profile-editor.c:849
+#: ../src/profile-editor.c:770
 #, c-format
 msgid "Choose Palette Color %d"
 msgstr "%d. paletta szín kiválasztása"
 
-#: ../src/profile-editor.c:853
+#: ../src/profile-editor.c:774
 #, c-format
 msgid "Palette entry %d"
 msgstr "%d. palettabejegyzés"
@@ -1449,46 +1449,50 @@ msgid "S_hade transparent or image background:"
 msgstr "Átlátszó _háttér vagy képháttér:"
 
 #: ../src/profile-preferences.ui.h:76
+msgid "S_hade transparent background:"
+msgstr "Átlátszó _háttér árnyék:"
+
+#: ../src/profile-preferences.ui.h:77
 msgid "<small><i>None</i></small>"
 msgstr "<small><i>Nincs</i></small>"
 
-#: ../src/profile-preferences.ui.h:77
+#: ../src/profile-preferences.ui.h:78
 msgid "<small><i>Maximum</i></small>"
 msgstr "<small><i>Maximum</i></small>"
 
-#: ../src/profile-preferences.ui.h:78
+#: ../src/profile-preferences.ui.h:79
 msgid "Background"
 msgstr "Háttér"
 
-#: ../src/profile-preferences.ui.h:79
+#: ../src/profile-preferences.ui.h:80
 msgid "_Scrollbar is:"
 msgstr "A gö_rdítősáv:"
 
-#: ../src/profile-preferences.ui.h:80
+#: ../src/profile-preferences.ui.h:81
 msgid "Scroll_back:"
 msgstr "_Visszagördítés:"
 
-#: ../src/profile-preferences.ui.h:81
+#: ../src/profile-preferences.ui.h:82
 msgid "Scroll on _keystroke"
 msgstr "_Billentyűleütésre gördül"
 
-#: ../src/profile-preferences.ui.h:82
+#: ../src/profile-preferences.ui.h:83
 msgid "Scroll on _output"
 msgstr "Új _kimenethez gördül"
 
-#: ../src/profile-preferences.ui.h:83
+#: ../src/profile-preferences.ui.h:84
 msgid "_Unlimited"
 msgstr "_Végtelen"
 
-#: ../src/profile-preferences.ui.h:84
+#: ../src/profile-preferences.ui.h:85
 msgid "lines"
 msgstr "sor"
 
-#: ../src/profile-preferences.ui.h:85
+#: ../src/profile-preferences.ui.h:86
 msgid "Scrolling"
 msgstr "Gördülés"
 
-#: ../src/profile-preferences.ui.h:86
+#: ../src/profile-preferences.ui.h:87
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
@@ -1496,19 +1500,19 @@ msgid ""
 "behavior.</i></small>"
 msgstr "<small><i><b>Megjegyzés:</b> Ezek az opciók néhány program helytelen működését eredményezhetik. Csak azért vannak itt, hogy biztosítsák a terminál bizonyos programokkal és operációs rendszerekkel való együttműködését, amelyek más igényeket támasztanak a terminállal szemben.</i></small>"
 
-#: ../src/profile-preferences.ui.h:87
+#: ../src/profile-preferences.ui.h:88
 msgid "_Delete key generates:"
 msgstr "A _Delete billentyű ezt generálja:"
 
-#: ../src/profile-preferences.ui.h:88
+#: ../src/profile-preferences.ui.h:89
 msgid "_Backspace key generates:"
 msgstr "A Ba_ckspace billentyű ezt generálja:"
 
-#: ../src/profile-preferences.ui.h:89
+#: ../src/profile-preferences.ui.h:90
 msgid "_Reset Compatibility Options to Defaults"
 msgstr "_Kompatibilitási beállítások alapértelmezettre állítása"
 
-#: ../src/profile-preferences.ui.h:90
+#: ../src/profile-preferences.ui.h:91
 msgid "Compatibility"
 msgstr "Kompatibilitás"
 
@@ -1576,7 +1580,7 @@ msgstr "Kicsinyítés"
 msgid "Normal Size"
 msgstr "Normál méret"
 
-#: ../src/terminal-accels.c:206 ../src/terminal-window.c:3937
+#: ../src/terminal-accels.c:206 ../src/terminal-window.c:3972
 msgid "Set Title"
 msgstr "Cím beállítása"
 
@@ -1718,28 +1722,28 @@ msgstr "Törli a(z) „%s” profilt?"
 msgid "Delete Profile"
 msgstr "Profil törlése"
 
-#: ../src/terminal-app.c:1069
+#: ../src/terminal-app.c:1084
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr "Már rendelkezik „%s” nevű profillal. Létre akar hozni egy másik profilt ugyanazzal a névvel?"
 
-#: ../src/terminal-app.c:1164
+#: ../src/terminal-app.c:1179
 msgid "Choose base profile"
 msgstr "Alap profil kiválasztása"
 
-#: ../src/terminal-app.c:1756
+#: ../src/terminal-app.c:1771
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Nincs „%s” nevű profil, az alapértelmezettet használom helyette\n"
 
-#: ../src/terminal-app.c:1780
+#: ../src/terminal-app.c:1795
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Érvénytelen geometria-karakterlánc: „%s”\n"
 
-#: ../src/terminal-app.c:1986
+#: ../src/terminal-app.c:2001
 msgid "User Defined"
 msgstr "Felhasználó által megadott"
 
@@ -2089,29 +2093,29 @@ msgstr "Terminálonkénti kapcsolók megjelenítése"
 msgid "Unnamed"
 msgstr "Névtelen"
 
-#: ../src/terminal-screen.c:1518
+#: ../src/terminal-screen.c:1596
 msgid "_Profile Preferences"
 msgstr "_Profil beállításai"
 
-#: ../src/terminal-screen.c:1519 ../src/terminal-screen.c:1908
+#: ../src/terminal-screen.c:1597 ../src/terminal-screen.c:1997
 msgid "_Relaunch"
 msgstr "Újr_aindítás"
 
-#: ../src/terminal-screen.c:1522
+#: ../src/terminal-screen.c:1600
 msgid "There was an error creating the child process for this terminal"
 msgstr "Hiba történt a terminál gyermekfolyamatának létrehozásakor"
 
-#: ../src/terminal-screen.c:1913
+#: ../src/terminal-screen.c:2002
 #, c-format
 msgid "The child process exited normally with status %d."
 msgstr "A gyermekfolyamat normálisan lépett ki a következő állapottal: %d."
 
-#: ../src/terminal-screen.c:1918
+#: ../src/terminal-screen.c:2007
 #, c-format
 msgid "The child process was terminated by signal %d."
 msgstr "A gyermekfolyamat befejeztetve %d szignállal."
 
-#: ../src/terminal-screen.c:1923
+#: ../src/terminal-screen.c:2012
 msgid "The child process was terminated."
 msgstr "A gyermekfolyamat befejeztetve."
 
@@ -2123,16 +2127,16 @@ msgstr "Lap bezárása"
 msgid "Switch to this tab"
 msgstr "Váltás erre a lapra"
 
-#: ../src/terminal-util.c:167
+#: ../src/terminal-util.c:165
 msgid "There was an error displaying help"
 msgstr "Hiba történt a súgó megjelenítése közben"
 
-#: ../src/terminal-util.c:239
+#: ../src/terminal-util.c:237
 #, c-format
 msgid "Could not open the address “%s”"
 msgstr "Nem lehet a(z) „%s” címet megnyitni"
 
-#: ../src/terminal-util.c:347
+#: ../src/terminal-util.c:345
 msgid ""
 "MATE Terminal is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -2140,7 +2144,7 @@ msgid ""
 "any later version."
 msgstr "A MATE Terminál szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software Foundation által kiadott GNU General Public License harmadik (vagy bármely későbbi) változatában foglaltak alapján."
 
-#: ../src/terminal-util.c:351
+#: ../src/terminal-util.c:349
 msgid ""
 "MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
 " ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -2148,7 +2152,7 @@ msgid ""
 "more details."
 msgstr "A MATE Terminál programot abban a reményben terjesztjük, hogy hasznos lesz, de nem vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További részletekért tanulmányozza a GNU GPL licencet."
 
-#: ../src/terminal-util.c:355
+#: ../src/terminal-util.c:353
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
@@ -2172,253 +2176,253 @@ msgid "_%c. %s"
 msgstr "_%c. %s"
 
 #. Toplevel
-#: ../src/terminal-window.c:1820
+#: ../src/terminal-window.c:1836
 msgid "_File"
 msgstr "_Fájl"
 
-#: ../src/terminal-window.c:1821 ../src/terminal-window.c:1834
-#: ../src/terminal-window.c:2075
+#: ../src/terminal-window.c:1837 ../src/terminal-window.c:1850
+#: ../src/terminal-window.c:2091
 msgid "Open _Terminal"
 msgstr "Új _terminálablak"
 
-#: ../src/terminal-window.c:1822 ../src/terminal-window.c:1839
-#: ../src/terminal-window.c:2080
+#: ../src/terminal-window.c:1838 ../src/terminal-window.c:1855
+#: ../src/terminal-window.c:2096
 msgid "Open Ta_b"
 msgstr "Új _lap"
 
-#: ../src/terminal-window.c:1823
+#: ../src/terminal-window.c:1839
 msgid "_Edit"
 msgstr "S_zerkesztés"
 
-#: ../src/terminal-window.c:1824
+#: ../src/terminal-window.c:1840
 msgid "_View"
 msgstr "_Nézet"
 
-#: ../src/terminal-window.c:1825
+#: ../src/terminal-window.c:1841
 msgid "_Search"
 msgstr "_Keresés"
 
-#: ../src/terminal-window.c:1826
+#: ../src/terminal-window.c:1842
 msgid "_Terminal"
 msgstr "_Terminál"
 
-#: ../src/terminal-window.c:1827
+#: ../src/terminal-window.c:1843
 msgid "Ta_bs"
 msgstr "_Lapok"
 
-#: ../src/terminal-window.c:1828
+#: ../src/terminal-window.c:1844
 msgid "_Help"
 msgstr "_Súgó"
 
-#: ../src/terminal-window.c:1844
+#: ../src/terminal-window.c:1860
 msgid "New _Profile…"
 msgstr "Új _profil…"
 
-#: ../src/terminal-window.c:1849
+#: ../src/terminal-window.c:1865
 msgid "_Save Contents"
 msgstr "_Tartalom mentése"
 
-#: ../src/terminal-window.c:1854 ../src/terminal-window.c:2090
+#: ../src/terminal-window.c:1870 ../src/terminal-window.c:2106
 msgid "C_lose Tab"
 msgstr "Lap _bezárása"
 
-#: ../src/terminal-window.c:1859
+#: ../src/terminal-window.c:1875
 msgid "_Close Window"
 msgstr "_Ablak bezárása"
 
-#: ../src/terminal-window.c:1876 ../src/terminal-window.c:2070
+#: ../src/terminal-window.c:1892 ../src/terminal-window.c:2086
 msgid "Paste _Filenames"
 msgstr "_Fájlnevek beillesztése"
 
-#: ../src/terminal-window.c:1886
+#: ../src/terminal-window.c:1902
 msgid "P_rofiles…"
 msgstr "Pro_filok…"
 
-#: ../src/terminal-window.c:1891
+#: ../src/terminal-window.c:1907
 msgid "_Keyboard Shortcuts…"
 msgstr "_Gyorsbillentyűk…"
 
-#: ../src/terminal-window.c:1896
+#: ../src/terminal-window.c:1912
 msgid "Pr_ofile Preferences"
 msgstr "_Profil beállításai"
 
-#: ../src/terminal-window.c:1920
+#: ../src/terminal-window.c:1936
 msgid "_Find..."
 msgstr "_Keresés…"
 
-#: ../src/terminal-window.c:1925
+#: ../src/terminal-window.c:1941
 msgid "Find Ne_xt"
 msgstr "Kö_vetkező találat"
 
-#: ../src/terminal-window.c:1930
+#: ../src/terminal-window.c:1946
 msgid "Find Pre_vious"
 msgstr "Elő_ző találat"
 
-#: ../src/terminal-window.c:1935
+#: ../src/terminal-window.c:1951
 msgid "_Clear Highlight"
 msgstr "Kiemelés _törlése"
 
-#: ../src/terminal-window.c:1941
+#: ../src/terminal-window.c:1957
 msgid "Go to _Line..."
 msgstr "Ugrá_s sorra…"
 
-#: ../src/terminal-window.c:1946
+#: ../src/terminal-window.c:1962
 msgid "_Incremental Search..."
 msgstr "_Növekményes keresés…"
 
 #. Terminal menu
-#: ../src/terminal-window.c:1953
+#: ../src/terminal-window.c:1969
 msgid "Change _Profile"
 msgstr "_Profil megváltoztatása"
 
-#: ../src/terminal-window.c:1955
+#: ../src/terminal-window.c:1971
 msgid "_Previous Profile"
 msgstr "_Előző profil"
 
-#: ../src/terminal-window.c:1960
+#: ../src/terminal-window.c:1976
 msgid "_Next Profile"
 msgstr "_Következő profil"
 
-#: ../src/terminal-window.c:1965
+#: ../src/terminal-window.c:1981
 msgid "_Set Title…"
 msgstr "_Cím beállítása…"
 
-#: ../src/terminal-window.c:1969
+#: ../src/terminal-window.c:1985
 msgid "Set _Character Encoding"
 msgstr "_Karakterkódolás beállítása"
 
-#: ../src/terminal-window.c:1971
+#: ../src/terminal-window.c:1987
 msgid "_Reset"
 msgstr "_Visszaállítás"
 
-#: ../src/terminal-window.c:1976
+#: ../src/terminal-window.c:1992
 msgid "Reset and C_lear"
 msgstr "Visszaállítás és _törlés"
 
-#: ../src/terminal-window.c:1983
+#: ../src/terminal-window.c:1999
 msgid "_Add or Remove…"
 msgstr "Hozzá_adás vagy eltávolítás…"
 
-#: ../src/terminal-window.c:1990
+#: ../src/terminal-window.c:2006
 msgid "_Previous Tab"
 msgstr "_Előző lap"
 
-#: ../src/terminal-window.c:1995
+#: ../src/terminal-window.c:2011
 msgid "_Next Tab"
 msgstr "_Következő lap"
 
-#: ../src/terminal-window.c:2000
+#: ../src/terminal-window.c:2016
 msgid "Move Tab _Left"
 msgstr "Lap mozgatása _balra"
 
-#: ../src/terminal-window.c:2005
+#: ../src/terminal-window.c:2021
 msgid "Move Tab _Right"
 msgstr "Lap mozgatása j_obbra"
 
-#: ../src/terminal-window.c:2010
+#: ../src/terminal-window.c:2026
 msgid "_Detach tab"
 msgstr "_Lap leválasztása"
 
-#: ../src/terminal-window.c:2017
+#: ../src/terminal-window.c:2033
 msgid "_Contents"
 msgstr "_Tartalom"
 
-#: ../src/terminal-window.c:2022
+#: ../src/terminal-window.c:2038
 msgid "_About"
 msgstr "_Névjegy"
 
-#: ../src/terminal-window.c:2029
+#: ../src/terminal-window.c:2045
 msgid "_Send Mail To…"
 msgstr "E-mail küldé_se…"
 
-#: ../src/terminal-window.c:2034
+#: ../src/terminal-window.c:2050
 msgid "_Copy E-mail Address"
 msgstr "_E-mail cím másolása"
 
-#: ../src/terminal-window.c:2039
+#: ../src/terminal-window.c:2055
 msgid "C_all To…"
 msgstr "_Hívás…"
 
-#: ../src/terminal-window.c:2044
+#: ../src/terminal-window.c:2060
 msgid "_Copy Call Address"
 msgstr "Hívási cím _másolása"
 
-#: ../src/terminal-window.c:2049
+#: ../src/terminal-window.c:2065
 msgid "_Open Link"
 msgstr "_Megnyitás böngészőben"
 
-#: ../src/terminal-window.c:2054
+#: ../src/terminal-window.c:2070
 msgid "_Copy Link Address"
 msgstr "_Cím másolása"
 
-#: ../src/terminal-window.c:2058
+#: ../src/terminal-window.c:2074
 msgid "P_rofiles"
 msgstr "P_rofilok"
 
-#: ../src/terminal-window.c:2085 ../src/terminal-window.c:3338
+#: ../src/terminal-window.c:2101 ../src/terminal-window.c:3365
 msgid "C_lose Window"
 msgstr "_Ablak bezárása"
 
-#: ../src/terminal-window.c:2095
+#: ../src/terminal-window.c:2111
 msgid "L_eave Full Screen"
 msgstr "_Teljes képernyő elhagyása"
 
-#: ../src/terminal-window.c:2099
+#: ../src/terminal-window.c:2115
 msgid "_Input Methods"
 msgstr "_Beviteli mód"
 
-#: ../src/terminal-window.c:2106
+#: ../src/terminal-window.c:2122
 msgid "Show _Menubar"
 msgstr "_Menü megjelenítése"
 
-#: ../src/terminal-window.c:2112
+#: ../src/terminal-window.c:2128
 msgid "_Full Screen"
 msgstr "_Teljes képernyő"
 
-#: ../src/terminal-window.c:3325
+#: ../src/terminal-window.c:3352
 msgid "Close this window?"
 msgstr "Bezárja ezt az ablakot"
 
-#: ../src/terminal-window.c:3325
+#: ../src/terminal-window.c:3352
 msgid "Close this terminal?"
 msgstr "Bezárja ezt a terminált?"
 
-#: ../src/terminal-window.c:3329
+#: ../src/terminal-window.c:3356
 msgid ""
 "There are still processes running in some terminals in this window. Closing "
 "the window will kill all of them."
 msgstr "Még vannak futó folyamatok ezen ablak termináljain. Az ablak bezárása ezeket mind befejezteti."
 
-#: ../src/terminal-window.c:3333
+#: ../src/terminal-window.c:3360
 msgid ""
 "There is still a process running in this terminal. Closing the terminal will"
 " kill it."
 msgstr "Még van futó folyamat ebben a terminálban. A terminál bezárása ezeket mind befejezteti."
 
-#: ../src/terminal-window.c:3338
+#: ../src/terminal-window.c:3365
 msgid "C_lose Terminal"
 msgstr "_Terminál bezárása"
 
-#: ../src/terminal-window.c:3411
+#: ../src/terminal-window.c:3438
 msgid "Could not save contents"
 msgstr "A tartalom mentése nem sikerült"
 
-#: ../src/terminal-window.c:3435
+#: ../src/terminal-window.c:3462
 msgid "Save as..."
 msgstr "Mentés másként…"
 
-#: ../src/terminal-window.c:3954
+#: ../src/terminal-window.c:3989
 msgid "_Title:"
 msgstr "_Cím:"
 
-#: ../src/terminal-window.c:4144
+#: ../src/terminal-window.c:4179
 msgid "Contributors:"
 msgstr "Hozzájárultak:"
 
-#: ../src/terminal-window.c:4163
+#: ../src/terminal-window.c:4198
 msgid "A terminal emulator for the MATE desktop"
 msgstr "Terminálemulátor a MATE asztali környezethez"
 
-#: ../src/terminal-window.c:4170
+#: ../src/terminal-window.c:4205
 msgid "translator-credits"
 msgstr "Bán Szabolcs <shooby at mate dot hu>\nDoma Péter <zelin at pointernet dot hu>\nDvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate dot hu>\nŐry Máté <orymate at gmail dot com>\nTímár András <timar at mate dot hu>"

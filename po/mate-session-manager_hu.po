@@ -6,7 +6,7 @@
 # Andras Timar <timar at mate dot hu>, 2001-2003
 # Emese Kovacs <emese at mate dot hu>, 2000-2002
 # Gabor Kelemen <kelemeng at mate dot hu>, 2004-2010
-# kami911 <kami911@gmail.com>, 2014
+# kami911 <kami911@gmail.com>, 2014,2016
 # kami911 <kami911@gmail.com>, 2014-2015
 # Laszlo Dvornik <dvornik at mate dot hu>, 2004
 # Mate ORY <orymate at gmail d0t com>, 2006,2008
@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-08 15:06+0200\n"
-"PO-Revision-Date: 2015-11-28 21:17+0000\n"
+"POT-Creation-Date: 2015-12-14 13:15+0300\n"
+"PO-Revision-Date: 2016-01-23 21:40+0000\n"
 "Last-Translator: kami911 <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr "Ikon"
 msgid "Program"
 msgstr "Program"
 
-#: ../capplet/gsm-properties-dialog.c:746
+#: ../capplet/gsm-properties-dialog.c:748
 msgid "Startup Applications Preferences"
 msgstr "Indítópult beállításai"
 
@@ -70,7 +70,7 @@ msgstr "Névtelen"
 msgid "No description"
 msgstr "Nincs leírás"
 
-#: ../capplet/main.c:35 ../mate-session/main.c:574
+#: ../capplet/main.c:35 ../mate-session/main.c:589
 msgid "Version of this application"
 msgstr "Ezen alkalmazás verziója"
 
@@ -181,6 +181,16 @@ msgid ""
 "The file manager provides the desktop icons and allows you to interact with "
 "your saved files."
 msgstr "A fájlkezelő biztosítja az asztali ikonokat, és lehetőséget ad a mentett fájlok kezelésére."
+
+#: ../data/org.mate.session.gschema.xml.in.h:23
+msgid "Dock"
+msgstr "Dock"
+
+#: ../data/org.mate.session.gschema.xml.in.h:24
+msgid ""
+"A dock provides a dockable area, similar to a panel, for launching and "
+"switching applications."
+msgstr "A Dock, a Panelhez hasonló, dokkolható terület, amely az alkalmazások elindítására, és az alkalmazások között váltásra szolgál."
 
 #: ../data/mate.desktop.in.h:1
 msgid "MATE"
@@ -413,7 +423,7 @@ msgstr "Újr_aindítás"
 msgid "_Shut Down"
 msgstr "_Leállítás"
 
-#: ../mate-session/gsm-manager.c:1442 ../mate-session/gsm-manager.c:2161
+#: ../mate-session/gsm-manager.c:1435 ../mate-session/gsm-manager.c:2154
 msgid "Not responding"
 msgstr "Nem válaszol"
 
@@ -445,64 +455,65 @@ msgstr "Nem hozható létre az ICE-figyelő foglalat: %s"
 msgid "Unable to start login session (and unable to connect to the X server)"
 msgstr "A bejelentkező munkamenet indítása sikertelen (és sikertelen a csatlakozás az X-kiszolgálóhoz)"
 
-#: ../mate-session/main.c:571
+#: ../mate-session/main.c:586
 msgid "Override standard autostart directories"
 msgstr "Szabványos automatikus indítási könyvtárak felülbírálása"
 
-#: ../mate-session/main.c:572
+#: ../mate-session/main.c:587
 msgid "Enable debugging code"
 msgstr "Hibakeresési kód engedélyezése"
 
-#: ../mate-session/main.c:573
+#: ../mate-session/main.c:588
 msgid "Do not load user-specified applications"
 msgstr "Ne töltsön be felhasználó által megadott alkalmazásokat"
 
-#: ../mate-session/main.c:594
+#: ../mate-session/main.c:609
 msgid " - the MATE session manager"
 msgstr " – A MATE munkamenet-kezelője"
 
-#: ../tools/mate-session-save.c:65
+#: ../tools/mate-session-save.c:69
 msgid "Log out"
 msgstr "Kijelentkezés"
 
-#: ../tools/mate-session-save.c:66
+#: ../tools/mate-session-save.c:70
 msgid "Log out, ignoring any existing inhibitors"
 msgstr "Kijelentkezés a meglévő korlátozók mellőzésével"
 
-#: ../tools/mate-session-save.c:67
+#: ../tools/mate-session-save.c:71
 msgid "Show logout dialog"
 msgstr "Kijelentkezés párbeszédablak megjelenítése"
 
-#: ../tools/mate-session-save.c:68
+#: ../tools/mate-session-save.c:72
 msgid "Show shutdown dialog"
 msgstr "Leállítás párbeszédablak megjelenítése"
 
-#: ../tools/mate-session-save.c:69
+#: ../tools/mate-session-save.c:73
 msgid "Use dialog boxes for errors"
 msgstr "Párbeszédablakok használata hibákhoz"
 
 #. deprecated options
-#: ../tools/mate-session-save.c:71
+#: ../tools/mate-session-save.c:75
 msgid "Set the current session name"
 msgstr "A jelenlegi munkamenet nevének beállítása"
 
-#: ../tools/mate-session-save.c:71
+#: ../tools/mate-session-save.c:75
 msgid "NAME"
 msgstr "NÉV"
 
-#: ../tools/mate-session-save.c:72
+#: ../tools/mate-session-save.c:76
 msgid "Kill session"
 msgstr "Munkamenet kilövése"
 
-#: ../tools/mate-session-save.c:73
+#: ../tools/mate-session-save.c:77
 msgid "Do not require confirmation"
 msgstr "Ne kérjen megerősítést"
 
-#: ../tools/mate-session-save.c:117 ../tools/mate-session-save.c:125
+#. Okay, it wasn't the upgrade case, so now we can give up.
+#: ../tools/mate-session-save.c:135 ../tools/mate-session-save.c:150
 msgid "Could not connect to the session manager"
 msgstr "Sikertelen kapcsolatfelvétel a munkamenet-kezelővel"
 
-#: ../tools/mate-session-save.c:287
+#: ../tools/mate-session-save.c:276
 msgid "Program called with conflicting options"
 msgstr "A program kapcsolói ütköznek"
 
