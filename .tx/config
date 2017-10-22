@@ -65,6 +65,11 @@ source_lang = en
 file_filter = po/atril_<lang>.po
 source_file = po/atril.pot
 source_lang = en
+
+[MATE.blueman]
+file_filter = po/blueman_<lang>.po
+source_file = po/blueman.pot
+source_lang = en
  
 [MATE.engrampa]
 file_filter = po/engrampa_<lang>.po
@@ -99,6 +104,11 @@ source_lang = en
 [MATE.mate-menus]
 file_filter = po/mate-menus_<lang>.po
 source_file = po/mate-menus.pot
+source_lang = en
+
+[MATE.mate-menu]
+file_filter = po/mate-menu_<lang>.po
+source_file = po/mate-menu.pot
 source_lang = en
  
 [MATE.mate-notification-daemon]
@@ -196,6 +206,16 @@ file_filter = po/mate-netbook_<lang>.po
 source_file = po/mate-netbook.pot
 source_lang = en
 
+[MATE.mate-user-guide]
+file_filter = po/mate-user-guide_<lang>.po
+source_file = po/mate-user-guide.pot
+source_lang = en
+
+[MATE.mate-tweak]
+file_filter = po/mate-tweak_<lang>.po
+source_file = po/mate-tweak.pot
+source_lang = en
+
 [MATE.caja-extensions]
 file_filter = po/caja-extensions_<lang>.po
 source_file = po/caja-extensions.pot
@@ -216,3 +236,12 @@ file_filter = po/python-caja_<lang>.po
 source_file = po/python-caja.pot
 source_lang = en
 
+[MATE.galculator]
+file_filter = po/galculator_<lang>.po
+source_file = po/galculator.pot
+source_lang = en
+
+[MATE.mozo]
+file_filter = po/mozo_<lang>.po
+source_file = po/mozo.pot
+source_lang = en
