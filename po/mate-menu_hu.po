@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Falu <info@falu.me>, 2017
+# Rezső Páder <rezso@rezso.net>, 2015,2017
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-23 19:04+0100\n"
+"PO-Revision-Date: 2017-10-03 06:35+0000\n"
+"Last-Translator: Falu <info@falu.me>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/mate-menu.py:57
+msgid "Menu"
+msgstr "Menü"
+
+#. Fake class for MyPlugin
+#: ../lib/mate-menu.py:223
+msgid "Couldn't load plugin:"
+msgstr "Nem sikerült betölteni a bővítményt:"
+
+#: ../lib/mate-menu.py:296
+msgid "Couldn't initialize plugin"
+msgstr "Nem sikerült beállítani a bővítményt"
+
+#: ../lib/mate-menu.py:729
+msgid "Advanced MATE Menu"
+msgstr "Haladó MATE menü"
+
+#: ../lib/mate-menu.py:843
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../lib/mate-menu.py:846
+msgid "Edit menu"
+msgstr "Menü szerkesztése"
+
+#: ../lib/mate-menu.py:849
+msgid "Reload plugins"
+msgstr "Bővítmények újratöltése"
+
+#: ../lib/mate-menu.py:852
+msgid "About"
+msgstr "Névjegy"
+
+#. i18n
+#: ../lib/mate-menu-config.py:53
+msgid "Menu preferences"
+msgstr "A menü beállításai"
+
+#: ../lib/mate-menu-config.py:56
+msgid "Always start with favorites pane"
+msgstr "Induláskor a kedvencek megjelenítése"
+
+#: ../lib/mate-menu-config.py:57
+msgid "Show button icon"
+msgstr "Ikon megjelenítése a menügombon"
+
+#: ../lib/mate-menu-config.py:58
+msgid "Use custom colors"
+msgstr "Egyéni színek használata"
+
+#: ../lib/mate-menu-config.py:59
+msgid "Show recent documents plugin"
+msgstr "Legutóbbi dokumentumok bővítmény megjelenítése"
+
+#: ../lib/mate-menu-config.py:60
+msgid "Show applications plugin"
+msgstr "Alkalmazások bővítmény megjelenítése"
+
+#: ../lib/mate-menu-config.py:61
+msgid "Show system plugin"
+msgstr "Rendszer bővítmény megjelenítése"
+
+#: ../lib/mate-menu-config.py:62
+msgid "Show places plugin"
+msgstr "Helyek bővítmény megjelenítése"
+
+#: ../lib/mate-menu-config.py:64
+msgid "Show application comments"
+msgstr "Alkalmazásleírások megjelenítése"
+
+#: ../lib/mate-menu-config.py:65
+msgid "Show category icons"
+msgstr "Kategóriaikonok megjelenítése"
+
+#: ../lib/mate-menu-config.py:66
+msgid "Hover"
+msgstr "Kategóriatartalom automatikus megjelenítése"
+
+#: ../lib/mate-menu-config.py:67
+msgid "Remember the last category or search"
+msgstr "Utolsó kategória vagy keresés megjegyzése"
+
+#: ../lib/mate-menu-config.py:68
+msgid "Swap name and generic name"
+msgstr "Név és általános név cseréje"
+
+#: ../lib/mate-menu-config.py:70
+msgid "Border width:"
+msgstr "Szegély szélessége:"
+
+#: ../lib/mate-menu-config.py:71
+msgid "pixels"
+msgstr "képpont"
+
+#: ../lib/mate-menu-config.py:73
+msgid "Button text:"
+msgstr "Menügomb felirata:"
+
+#: ../lib/mate-menu-config.py:74
+msgid "Options"
+msgstr "Beállítások"
+
+#: ../lib/mate-menu-config.py:75 ../mate_menu/plugins/applications.py:202
+msgid "Applications"
+msgstr "Alkalmazások"
+
+#: ../lib/mate-menu-config.py:77
+msgid "Theme"
+msgstr "Téma"
+
+#: ../lib/mate-menu-config.py:78 ../mate_menu/plugins/applications.py:199
+#: ../mate_menu/plugins/applications.py:200
+msgid "Favorites"
+msgstr "Kedvencek"
+
+#: ../lib/mate-menu-config.py:79
+msgid "Main button"
+msgstr "Menügomb"
+
+#: ../lib/mate-menu-config.py:80
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: ../lib/mate-menu-config.py:82
+msgid "Always show search suggestions"
+msgstr ""
+
+#: ../lib/mate-menu-config.py:83
+msgid "Search Engines:"
+msgstr "Keresőmotorok:"
+
+#: ../lib/mate-menu-config.py:84
+msgid "DuckDuckGo"
+msgstr "DuckDuckGo"
+
+#: ../lib/mate-menu-config.py:85
+msgid "Google"
+msgstr "Google"
+
+#: ../lib/mate-menu-config.py:86
+msgid "Wikipedia"
+msgstr "Wikipédia"
+
+#: ../lib/mate-menu-config.py:87
+msgid "Dictionary"
+msgstr "Szótár"
+
+#: ../lib/mate-menu-config.py:88 ../lib/mate-menu-config.py:111
+#: ../mate_menu/plugins/places.py:149
+msgid "Computer"
+msgstr "Számítógép"
+
+#: ../lib/mate-menu-config.py:90
+msgid "Background:"
+msgstr "Háttér:"
+
+#: ../lib/mate-menu-config.py:91
+msgid "Headings:"
+msgstr "Címsor:"
+
+#: ../lib/mate-menu-config.py:92
+msgid "Borders:"
+msgstr "Szegély:"
+
+#: ../lib/mate-menu-config.py:93
+msgid "Theme:"
+msgstr "Téma:"
+
+#. self.builder.get_object("applicationsLabel").set_text(_("Applications"))
+#. self.builder.get_object("favoritesLabel").set_text(_("Favorites"))
+#: ../lib/mate-menu-config.py:97
+msgid "Number of columns:"
+msgstr "Oszlopok száma:"
+
+#: ../lib/mate-menu-config.py:98 ../lib/mate-menu-config.py:99
+#: ../lib/mate-menu-config.py:100 ../lib/mate-menu-config.py:101
+msgid "Icon size:"
+msgstr "Ikonméret:"
+
+#: ../lib/mate-menu-config.py:102
+msgid "Hover delay (ms):"
+msgstr "Az automatikus megjelenítés késleltetése (ms):"
+
+#: ../lib/mate-menu-config.py:103
+msgid "Button icon:"
+msgstr "Menügomb ikonja:"
+
+#: ../lib/mate-menu-config.py:104
+msgid "Search command:"
+msgstr "Keresőparancs:"
+
+#. Set 'heading' property for plugin
+#: ../lib/mate-menu-config.py:106 ../mate_menu/plugins/places.py:54
+msgid "Places"
+msgstr "Helyek"
+
+#: ../lib/mate-menu-config.py:107 ../lib/mate-menu-config.py:119
+msgid "Allow Scrollbar"
+msgstr "Görgetés engedélyezése"
+
+#: ../lib/mate-menu-config.py:108
+msgid "Show GTK+ Bookmarks"
+msgstr "GTK könyvjelzők megjelenítése"
+
+#: ../lib/mate-menu-config.py:109 ../lib/mate-menu-config.py:120
+msgid "Height:"
+msgstr "Magasság:"
+
+#: ../lib/mate-menu-config.py:110
+msgid "Toggle Default Places:"
+msgstr "Alapértelmezett helyek megjelenítése:"
+
+#: ../lib/mate-menu-config.py:112 ../mate_menu/plugins/places.py:160
+msgid "Home Folder"
+msgstr "Saját mappa"
+
+#: ../lib/mate-menu-config.py:113 ../mate_menu/plugins/places.py:173
+msgid "Network"
+msgstr "Hálózat"
+
+#: ../lib/mate-menu-config.py:114 ../mate_menu/plugins/places.py:196
+msgid "Desktop"
+msgstr "Asztal"
+
+#: ../lib/mate-menu-config.py:115 ../mate_menu/plugins/places.py:207
+msgid "Trash"
+msgstr "Kuka"
+
+#: ../lib/mate-menu-config.py:116
+msgid "Custom Places:"
+msgstr "Egyéni helyek megjelenítése:"
+
+#. Set 'heading' property for plugin
+#: ../lib/mate-menu-config.py:118 ../mate_menu/plugins/system_management.py:55
+msgid "System"
+msgstr "Rendszer"
+
+#: ../lib/mate-menu-config.py:121
+msgid "Toggle Default Items:"
+msgstr "Alapértelmezett elemek megjelenítése:"
+
+#: ../lib/mate-menu-config.py:122
+#: ../mate_menu/plugins/system_management.py:153
+#: ../mate_menu/plugins/system_management.py:156
+#: ../mate_menu/plugins/system_management.py:159
+#: ../mate_menu/plugins/system_management.py:162
+msgid "Package Manager"
+msgstr "Csomagkezelő"
+
+#: ../lib/mate-menu-config.py:123
+#: ../mate_menu/plugins/system_management.py:172
+msgid "Control Center"
+msgstr "Vezérlőpult"
+
+#: ../lib/mate-menu-config.py:124
+#: ../mate_menu/plugins/system_management.py:179
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../lib/mate-menu-config.py:125
+#: ../mate_menu/plugins/system_management.py:193
+msgid "Lock Screen"
+msgstr "Képernyő zárolása"
+
+#: ../lib/mate-menu-config.py:126
+msgid "Log Out"
+msgstr "Kijelentkezés"
+
+#: ../lib/mate-menu-config.py:127
+#: ../mate_menu/plugins/system_management.py:211
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../lib/mate-menu-config.py:129
+msgid "Edit Place"
+msgstr "Hely szerkesztése"
+
+#: ../lib/mate-menu-config.py:130
+msgid "New Place"
+msgstr "Új hely"
+
+#: ../lib/mate-menu-config.py:131
+msgid "Select a folder"
+msgstr "Mappa kiválasztása"
+
+#: ../lib/mate-menu-config.py:165
+msgid "Keyboard shortcut:"
+msgstr "Gyorsbillentyű:"
+
+#: ../lib/mate-menu-config.py:171
+msgid "Images"
+msgstr "Képek"
+
+#: ../lib/mate-menu-config.py:286
+msgid "Name"
+msgstr "Név"
+
+#: ../lib/mate-menu-config.py:287
+msgid "Path"
+msgstr "Útvonal"
+
+#: ../lib/mate-menu-config.py:303
+msgid "Desktop theme"
+msgstr "Asztaltéma"
+
+#: ../lib/mate-menu-config.py:444 ../lib/mate-menu-config.py:475
+msgid "Name:"
+msgstr "Név:"
+
+#: ../lib/mate-menu-config.py:445 ../lib/mate-menu-config.py:476
+msgid "Path:"
+msgstr "Útvonal:"
+
+#. i18n
+#: ../mate_menu/plugins/applications.py:197
+msgid "Search:"
+msgstr "Keresés:"
+
+#: ../mate_menu/plugins/applications.py:201
+msgid "All applications"
+msgstr "Minden alkalmazás"
+
+#: ../mate_menu/plugins/applications.py:600
+#, python-format
+msgid "Search DuckDuckGo for %s"
+msgstr ""
+
+#: ../mate_menu/plugins/applications.py:611
+#, python-format
+msgid "Search Google for %s"
+msgstr "%s keresése a Google keresővel"
+
+#: ../mate_menu/plugins/applications.py:622
+#, python-format
+msgid "Search Wikipedia for %s"
+msgstr "%s keresése a Wikipédián"
+
+#: ../mate_menu/plugins/applications.py:643
+#, python-format
+msgid "Lookup %s in Dictionary"
+msgstr "%s keresése a szótárban"
+
+#: ../mate_menu/plugins/applications.py:654
+#, python-format
+msgid "Search Computer for %s"
+msgstr "%s keresése a számítógépen"
+
+#. i18n
+#: ../mate_menu/plugins/applications.py:788
+#: ../mate_menu/plugins/applications.py:853
+msgid "Add to desktop"
+msgstr "Hozzáadás az asztalhoz"
+
+#: ../mate_menu/plugins/applications.py:789
+#: ../mate_menu/plugins/applications.py:854
+msgid "Add to panel"
+msgstr "Hozzáadás a panelhez"
+
+#: ../mate_menu/plugins/applications.py:791
+#: ../mate_menu/plugins/applications.py:832
+msgid "Insert space"
+msgstr "Térköz beszúrása"
+
+#: ../mate_menu/plugins/applications.py:792
+#: ../mate_menu/plugins/applications.py:833
+msgid "Insert separator"
+msgstr "Elválasztó beszúrása"
+
+#: ../mate_menu/plugins/applications.py:794
+#: ../mate_menu/plugins/applications.py:857
+msgid "Launch"
+msgstr "Futtatás"
+
+#: ../mate_menu/plugins/applications.py:795
+msgid "Remove from favorites"
+msgstr "Eltávolítás a kedvencek közül"
+
+#: ../mate_menu/plugins/applications.py:797
+#: ../mate_menu/plugins/applications.py:860
+msgid "Edit properties"
+msgstr "Tulajdonságok szerkesztése"
+
+#. i18n
+#: ../mate_menu/plugins/applications.py:831
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: ../mate_menu/plugins/applications.py:856
+msgid "Show in my favorites"
+msgstr "Megjelenítés a kedvencek között"
+
+#: ../mate_menu/plugins/applications.py:858
+msgid "Delete from menu"
+msgstr "Törlés a menüből"
+
+#: ../mate_menu/plugins/applications.py:902
+msgid "Search DuckDuckGo"
+msgstr ""
+
+#: ../mate_menu/plugins/applications.py:909
+msgid "Search Google"
+msgstr "Keresés a Google keresővel"
+
+#: ../mate_menu/plugins/applications.py:916
+msgid "Search Wikipedia"
+msgstr "Keresés a Wikipédián"
+
+#: ../mate_menu/plugins/applications.py:926
+msgid "Lookup Dictionary"
+msgstr "Keresés a szótárban"
+
+#: ../mate_menu/plugins/applications.py:933
+msgid "Search Computer"
+msgstr "Keresés a számítógépen"
+
+#: ../mate_menu/plugins/applications.py:1344
+msgid ""
+"Couldn't save favorites. Check if you have write access to ~/.config/mate-"
+"menu"
+msgstr "Nem sikerült menteni a kedvenceket. Ellenőrizze a ~/.config/mate-menu mappa írási jogosultságait."
+
+#: ../mate_menu/plugins/applications.py:1549
+msgid "All"
+msgstr "Mind"
+
+#: ../mate_menu/plugins/applications.py:1549
+msgid "Show all applications"
+msgstr "Minden alkalmazás megjelenítése"
+
+#: ../mate_menu/plugins/system_management.py:167
+msgid "Install, remove and upgrade software packages"
+msgstr "Csomagok telepítése, eltávolítása és frissítése"
+
+#: ../mate_menu/plugins/system_management.py:176
+msgid "Configure your system"
+msgstr "A rendszer beállítása"
+
+#: ../mate_menu/plugins/system_management.py:190
+msgid "Use the command line"
+msgstr "Parancssor használata"
+
+#: ../mate_menu/plugins/system_management.py:201
+msgid "Requires password to unlock"
+msgstr "A zárolás feloldásához meg kelljen adni a jelszót"
+
+#: ../mate_menu/plugins/system_management.py:204
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: ../mate_menu/plugins/system_management.py:208
+msgid "Log out or switch user"
+msgstr "Kijelentkezés vagy felhasználóváltás"
+
+#: ../mate_menu/plugins/system_management.py:215
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "Leállítás, újraindítás, felfüggesztés vagy hibernálás"
+
+#: ../mate_menu/plugins/places.py:157
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr "A számítógépről elérhető összes helyi és távoli lemez és mappa tallózása"
+
+#: ../mate_menu/plugins/places.py:168
+msgid "Open your personal folder"
+msgstr "Saját mappa megnyitása"
+
+#: ../mate_menu/plugins/places.py:181
+msgid "Browse bookmarked and local network locations"
+msgstr "Könyvjelzőzött vagy helyi hálózati kapcsolatok tallózása"
+
+#: ../mate_menu/plugins/places.py:204
+msgid "Browse items placed on the desktop"
+msgstr "Az asztalra helyezett elemek tallózása"
+
+#: ../mate_menu/plugins/places.py:217
+msgid "Browse deleted files"
+msgstr "Törölt fájlok tallózása"
+
+#: ../mate_menu/plugins/places.py:271
+msgid "Empty trash"
+msgstr "Kuka ürítése"
+
+#. Set 'heading' property for plugin
+#: ../mate_menu/plugins/recent.py:48
+msgid "Recent documents"
+msgstr "Legutóbbi dokumentumok"
+
+#: ../mate_menu/keybinding.py:181
+msgid "Click to set a new accelerator key for opening and closing the menu.  "
+msgstr "Kattintson egy új gyorsbillentyű beállításához a menü megnyitásához és bezárásához.  "
+
+#: ../mate_menu/keybinding.py:182
+msgid "Press Escape or click again to cancel the operation.  "
+msgstr "Nyomja meg az ESC gombot vagy kattintson újra a művelet megszakításához.  "
+
+#: ../mate_menu/keybinding.py:183
+msgid "Press Backspace to clear the existing keybinding."
+msgstr "Nyomja meg a Backspace gombot a már létező billentyű összerendelés törléséhez."
+
+#: ../mate_menu/keybinding.py:202
+msgid "Pick an accelerator"
+msgstr "Gyorsbillentyű választása"
+
+#: ../mate_menu/keybinding.py:258
+msgid "<not set>"
+msgstr "<nincs beállítva>"
