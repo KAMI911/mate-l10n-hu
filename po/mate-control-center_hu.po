@@ -4,13 +4,15 @@
 # 
 # Translators:
 # Andras Timar <timar at mate dot hu>, 2001-2003
+# Balázs Meskó <meskobalazs@gmail.com>, 2016
 # Emese Kovacs <emese at mate dot hu>, 2001
-# Faludi Zoltán, 2015
+# Falu <info@falu.me>, 2017
+# Falu <info@falu.me>, 2015
 # Gabor Kelemen <kelemeng at mate dot hu>, 2004-2010
 # Gabor Sari <saga at mate dot hu>, 2003
 # István Szőllősi <szollosi.istv4n@gmail.com>, 2014
 # István Szőllősi <szollosi.istv4n@gmail.com>, 2014
-# kami911 <kami911@gmail.com>, 2014,2016
+# KAMI KAMI <kami911@gmail.com>, 2014,2016-2017
 # Laszlo Dvornik <dvornik at mate dot hu>, 2004
 # Mate ORY <orymate at gmail d0t com>, 2006
 # Peter Doma <zelin at pointernet dot hu>, 2002
@@ -20,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06 20:54+0300\n"
-"PO-Revision-Date: 2016-01-23 21:40+0000\n"
-"Last-Translator: kami911 <kami911@gmail.com>\n"
+"POT-Creation-Date: 2017-03-13 18:43+0300\n"
+"PO-Revision-Date: 2017-09-19 11:42+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -129,6 +131,7 @@ msgid "Command associated with a custom keybinding."
 msgstr "A parancs hozzárendelve az egyéni billentyűparancshoz."
 
 #: ../org.mate.control-center.keybinding.gschema.xml.in.h:5
+#: ../font-viewer/font-view.c:205
 msgid "Name"
 msgstr "Név"
 
@@ -160,29 +163,29 @@ msgstr "Figyelmeztetés gombok"
 msgid "The buttons shown in the alert dialog"
 msgstr "A figyelmeztető párbeszédablakon megjelenő gombok"
 
-#: ../capplets/about-me/eel-alert-dialog.c:194
+#: ../capplets/about-me/eel-alert-dialog.c:207
 msgid "Show more _details"
 msgstr "Több _részlet megjelenítése"
 
-#: ../capplets/about-me/mate-about-me.c:287
+#: ../capplets/about-me/mate-about-me.c:268
 msgid "Select Image"
 msgstr "Kép kiválasztása"
 
-#: ../capplets/about-me/mate-about-me.c:289
+#: ../capplets/about-me/mate-about-me.c:270
 msgid "No Image"
 msgstr "Nincs kép"
 
-#: ../capplets/about-me/mate-about-me.c:317
-#: ../capplets/appearance/appearance-desktop.c:650
+#: ../capplets/about-me/mate-about-me.c:298
+#: ../capplets/appearance/appearance-desktop.c:646
 msgid "Images"
 msgstr "Képek"
 
-#: ../capplets/about-me/mate-about-me.c:321
-#: ../capplets/appearance/theme-installer.c:783
+#: ../capplets/about-me/mate-about-me.c:302
+#: ../capplets/appearance/theme-installer.c:780
 msgid "All Files"
 msgstr "Minden fájl"
 
-#: ../capplets/about-me/mate-about-me.c:466
+#: ../capplets/about-me/mate-about-me.c:446
 #, c-format
 msgid "About %s"
 msgstr "%s névjegye"
@@ -379,86 +382,86 @@ msgstr "Hitelesítve!"
 #. * Ask the user to re-authenticate
 #. Update status message and auth state
 #. Authentication failure
-#: ../capplets/about-me/mate-about-me-password.c:475
-#: ../capplets/about-me/mate-about-me-password.c:560
+#: ../capplets/about-me/mate-about-me-password.c:472
+#: ../capplets/about-me/mate-about-me-password.c:557
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
 msgstr "A jelszava megváltozott a kezdeti bejelentkezés óta! Jelentkezzen be újra."
 
-#: ../capplets/about-me/mate-about-me-password.c:477
+#: ../capplets/about-me/mate-about-me-password.c:474
 msgid "That password was incorrect."
 msgstr "A jelszó hibás."
 
-#: ../capplets/about-me/mate-about-me-password.c:528
+#: ../capplets/about-me/mate-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "A jelszó módosítva."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/mate-about-me-password.c:538
+#: ../capplets/about-me/mate-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "Rendszerhiba: %s."
 
-#: ../capplets/about-me/mate-about-me-password.c:541
+#: ../capplets/about-me/mate-about-me-password.c:538
 msgid "The password is too short."
 msgstr "A jelszó túl rövid."
 
-#: ../capplets/about-me/mate-about-me-password.c:545
+#: ../capplets/about-me/mate-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "A jelszó túl egyszerű."
 
-#: ../capplets/about-me/mate-about-me-password.c:550
+#: ../capplets/about-me/mate-about-me-password.c:547
 msgid "The old and new passwords are too similar."
 msgstr "A régi és új jelszavak túlságosan hasonlítanak."
 
-#: ../capplets/about-me/mate-about-me-password.c:552
+#: ../capplets/about-me/mate-about-me-password.c:549
 msgid "The new password must contain numeric or special character(s)."
 msgstr "Az új jelszónak numerikus vagy speciális karaktereket kell tartalmaznia."
 
-#: ../capplets/about-me/mate-about-me-password.c:555
+#: ../capplets/about-me/mate-about-me-password.c:552
 msgid "The old and new passwords are the same."
 msgstr "A régi és új jelszavak megegyeznek."
 
-#: ../capplets/about-me/mate-about-me-password.c:557
+#: ../capplets/about-me/mate-about-me-password.c:554
 msgid "The new password has already been used recently."
 msgstr "Az új jelszót nemrég használta."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/mate-about-me-password.c:828
+#: ../capplets/about-me/mate-about-me-password.c:825
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "A(z) %s nem futtatható: %s"
 
-#: ../capplets/about-me/mate-about-me-password.c:832
+#: ../capplets/about-me/mate-about-me-password.c:829
 msgid "Unable to launch backend"
 msgstr "A háttér nem indítható"
 
-#: ../capplets/about-me/mate-about-me-password.c:833
+#: ../capplets/about-me/mate-about-me-password.c:830
 msgid "A system error has occurred"
 msgstr "Rendszerhiba történt"
 
 #. Update status message
-#: ../capplets/about-me/mate-about-me-password.c:853
+#: ../capplets/about-me/mate-about-me-password.c:850
 msgid "Checking password..."
 msgstr "Jelszó ellenőrzése…"
 
-#: ../capplets/about-me/mate-about-me-password.c:940
+#: ../capplets/about-me/mate-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Kattintson a <b>Jelszó megváltoztatása</b> gombra a jelszó megváltoztatásához."
 
-#: ../capplets/about-me/mate-about-me-password.c:943
+#: ../capplets/about-me/mate-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Írja be a jelszavát az <b>Új jelszó</b> mezőbe."
 
-#: ../capplets/about-me/mate-about-me-password.c:946
-#: ../capplets/about-me/mate-about-me-password.ui.h:9
+#: ../capplets/about-me/mate-about-me-password.c:940
+#: ../capplets/about-me/mate-about-me-password.ui.h:10
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr "Írja be újra a jelszót a <b>Írja be újra a jelszót</b> mezőbe."
 
-#: ../capplets/about-me/mate-about-me-password.c:949
+#: ../capplets/about-me/mate-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "A két jelszó nem egyezik."
 
@@ -467,201 +470,193 @@ msgid "Change password"
 msgstr "Jelszó megváltoztatása"
 
 #: ../capplets/about-me/mate-about-me-password.ui.h:2
+msgid "Change pa_ssword"
+msgstr "_Jelszó megváltoztatása"
+
+#: ../capplets/about-me/mate-about-me-password.ui.h:3
 msgid "Change your password"
 msgstr "Jelszómódosítás"
 
-#: ../capplets/about-me/mate-about-me-password.ui.h:3
+#: ../capplets/about-me/mate-about-me-password.ui.h:4
 msgid ""
 "To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
 "After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr "A jelszó módosításához adja meg jelenlegi jelszavát az alábbi mezőben és kattintson a <b>Hitelesítés</b> gombra.\nA hitelesítés után írja be az új jelszót, ellenőrzésként írja be újra, majd kattintson a <b>Jelszó megváltoztatása</b> gombra."
 
-#: ../capplets/about-me/mate-about-me-password.ui.h:5
+#: ../capplets/about-me/mate-about-me-password.ui.h:6
 msgid "Current _password:"
 msgstr "Jele_nlegi jelszó:"
 
-#: ../capplets/about-me/mate-about-me-password.ui.h:6
+#: ../capplets/about-me/mate-about-me-password.ui.h:7
 msgid "_New password:"
 msgstr "Új jels_zó:"
 
-#: ../capplets/about-me/mate-about-me-password.ui.h:7
+#: ../capplets/about-me/mate-about-me-password.ui.h:8
 msgid "_Retype new password:"
 msgstr "Írja b_e újra a jelszót:"
 
-#: ../capplets/about-me/mate-about-me-password.ui.h:8
+#: ../capplets/about-me/mate-about-me-password.ui.h:9
 msgid "_Authenticate"
 msgstr "_Hitelesítés"
-
-#: ../capplets/about-me/mate-about-me-password.ui.h:10
-msgid "Change pa_ssword"
-msgstr "_Jelszó megváltoztatása"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:1
 msgid "Assistive Technologies Preferences"
 msgstr "Akadálymentesítés beállításai"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
+msgid "Close and _Log Out"
+msgstr "Bezárás és _kilépés"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:3
 #: ../capplets/accessibility/at-properties/mate-at-properties.desktop.in.in.h:1
 msgid "Assistive Technologies"
 msgstr "Akadálymentesítési technológiák"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:3
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
 msgid "_Preferred Applications"
 msgstr "_Alapértelmezett alkalmazások"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Jump to Preferred Applications dialog"
 msgstr "Ugrás az Alapértelmezett alkalmazások párbeszédablakra"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:6
 msgid "_Enable assistive technologies"
 msgstr "A_kadálymentesítés engedélyezése"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:6
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
 msgid ""
 "Changes to enable assistive technologies will not take effect until your "
 "next log in."
 msgstr "Az akadálymentesítési technológiák engedélyezése csak a legközelebbi belépéskor lép életbe."
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
 msgid "_Keyboard Accessibility"
 msgstr "Bille_ntyűzet akadálymentesítése"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
 msgid "Jump to the Keyboard Accessibility dialog"
 msgstr "Ugrás a Billentyűzet akadálymentesítése párbeszédablakra"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
 msgid "_Mouse Accessibility"
 msgstr "_Egér akadálymentesítése"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "Jump to the Mouse Accessibility dialog"
 msgstr "Ugrás az Egér akadálymentesítése párbeszédablakra"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
 msgid "Accessible Lo_gin"
 msgstr "Aka_dálymentes bejelentkezés"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
 msgid "Jump to the Accessible Login dialog"
 msgstr "Ugrás az Akadálymentes bejelentkezés párbeszédablakra"
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
-msgid "Close and _Log Out"
-msgstr "Bezárás és _kilépés"
 
 #: ../capplets/accessibility/at-properties/mate-at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "A bejelentkezéskor bekapcsolandó akadálymentesítési szolgáltatások kiválasztása"
 
-#: ../capplets/appearance/appearance-desktop.c:619
+#: ../capplets/appearance/appearance-desktop.c:615
 msgid "Add Wallpaper"
 msgstr "Háttér hozzáadása"
 
-#: ../capplets/appearance/appearance-desktop.c:654
+#: ../capplets/appearance/appearance-desktop.c:650
 msgid "All files"
 msgstr "Minden fájl"
 
-#: ../capplets/appearance/appearance-main.c:58
+#: ../capplets/appearance/appearance-main.c:56
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "A felhasználóifelület-fájl nem tölthető be: %s"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:157
 msgid "Specify the filename of a theme to install"
 msgstr "Adja meg a telepítendő téma fájlnevét"
 
-#: ../capplets/appearance/appearance-main.c:159
+#: ../capplets/appearance/appearance-main.c:158
 msgid "filename"
 msgstr "fájlnév"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:166
+#: ../capplets/appearance/appearance-main.c:165
 msgid ""
 "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Adja meg a megjelenítendő oldal nevét (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:167
-#: ../capplets/default-applications/mate-da-capplet.c:694
-#: ../capplets/mouse/mate-mouse-properties.c:539
+#: ../capplets/appearance/appearance-main.c:166
+#: ../capplets/default-applications/mate-da-capplet.c:693
+#: ../capplets/mouse/mate-mouse-properties.c:397
 msgid "page"
 msgstr "oldal"
 
-#: ../capplets/appearance/appearance-main.c:174
+#: ../capplets/appearance/appearance-main.c:173
 msgid "[WALLPAPER...]"
 msgstr "[HÁTTÉRKÉP…]"
 
 #: ../capplets/appearance/appearance-style.c:171
-#: ../capplets/common/mate-theme-info.c:497
-#: ../capplets/common/mate-theme-info.c:690
+#: ../capplets/common/mate-theme-info.c:494
 msgid "Default Pointer"
 msgstr "Alapértelmezett egérmutató"
 
 #: ../capplets/appearance/appearance-style.c:233
-#: ../capplets/appearance/appearance-themes.c:661
+#: ../capplets/appearance/appearance-themes.c:658
+#: ../font-viewer/font-view.c:301 ../font-viewer/font-view.c:536
 msgid "Install"
 msgstr "Telepítés"
 
-#: ../capplets/appearance/appearance-style.c:256
-#: ../capplets/common/mate-theme-info.c:1727
-#, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ témamotor nincs telepítve."
-
-#: ../capplets/appearance/appearance-themes.c:649
+#: ../capplets/appearance/appearance-themes.c:646
 msgid "Apply Background"
 msgstr "Háttér alkalmazása"
 
-#: ../capplets/appearance/appearance-themes.c:653
+#: ../capplets/appearance/appearance-themes.c:650
 msgid "Apply Font"
 msgstr "Betűkészlet alkalmazása"
 
-#: ../capplets/appearance/appearance-themes.c:657
+#: ../capplets/appearance/appearance-themes.c:654
 msgid "Revert Font"
 msgstr "Betűkészlet visszaállítása"
 
-#: ../capplets/appearance/appearance-themes.c:688
+#: ../capplets/appearance/appearance-themes.c:691
 msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
 msgstr "Az aktuális téma hátteret és betűkészletet is javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
 
-#: ../capplets/appearance/appearance-themes.c:690
+#: ../capplets/appearance/appearance-themes.c:693
 msgid ""
 "The current theme suggests a background. Also, the last applied font "
 "suggestion can be reverted."
 msgstr "Az aktuális téma hátteret javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
 
-#: ../capplets/appearance/appearance-themes.c:692
+#: ../capplets/appearance/appearance-themes.c:695
 msgid "The current theme suggests a background and a font."
 msgstr "Az aktuális téma hátteret és betűkészletet is javasol."
 
-#: ../capplets/appearance/appearance-themes.c:694
+#: ../capplets/appearance/appearance-themes.c:697
 msgid ""
 "The current theme suggests a font. Also, the last applied font suggestion "
 "can be reverted."
 msgstr "Az aktuális téma betűkészletet javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
 
-#: ../capplets/appearance/appearance-themes.c:696
+#: ../capplets/appearance/appearance-themes.c:699
 msgid "The current theme suggests a background."
 msgstr "Az aktuális téma hátteret is javasol."
 
-#: ../capplets/appearance/appearance-themes.c:698
+#: ../capplets/appearance/appearance-themes.c:701
 msgid "The last applied font suggestion can be reverted."
 msgstr "Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
 
-#: ../capplets/appearance/appearance-themes.c:700
+#: ../capplets/appearance/appearance-themes.c:703
 msgid "The current theme suggests a font."
 msgstr "Az aktuális téma betűkészletet is javasol."
 
-#: ../capplets/appearance/appearance-themes.c:1016
+#: ../capplets/appearance/appearance-themes.c:1019
 msgid "Custom"
 msgstr "Egyéni"
 
@@ -682,16 +677,16 @@ msgid "Smoothing"
 msgstr "Simítás"
 
 #: ../capplets/appearance/data/appearance.ui.h:5
-msgid "_None"
-msgstr "_Nincs"
-
-#: ../capplets/appearance/data/appearance.ui.h:6
 msgid "Gra_yscale"
 msgstr "_Szürkeárnyalatos"
 
-#: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance.ui.h:6
 msgid "Sub_pixel (LCDs)"
 msgstr "_Képponton belül (LCD)"
+
+#: ../capplets/appearance/data/appearance.ui.h:7
+msgid "_None"
+msgstr "_Nincs"
 
 #. font hinting
 #: ../capplets/appearance/data/appearance.ui.h:9
@@ -707,12 +702,12 @@ msgid "_Slight"
 msgstr "_Enyhe"
 
 #: ../capplets/appearance/data/appearance.ui.h:12
-msgid "_Medium"
-msgstr "Kö_zepes"
-
-#: ../capplets/appearance/data/appearance.ui.h:13
 msgid "_Full"
 msgstr "_Teljes"
+
+#: ../capplets/appearance/data/appearance.ui.h:13
+msgid "_Medium"
+msgstr "Kö_zepes"
 
 #: ../capplets/appearance/data/appearance.ui.h:14
 msgid "Subpixel Order"
@@ -728,289 +723,285 @@ msgstr "_RGB"
 msgid "_BGR"
 msgstr "_BGR"
 
-#. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:20
-msgid "_VRGB"
-msgstr "_VRGB"
-
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:22
+#: ../capplets/appearance/data/appearance.ui.h:20
 msgid "VB_GR"
 msgstr "VB_GR"
 
+#. vertical hinting, pixel order red, green, blue
+#: ../capplets/appearance/data/appearance.ui.h:22
+msgid "_VRGB"
+msgstr "_VRGB"
+
 #: ../capplets/appearance/data/appearance.ui.h:23
-msgid "Appearance Preferences"
-msgstr "Megjelenés beállításai"
-
-#: ../capplets/appearance/data/appearance.ui.h:24
-msgid "Save _As..."
-msgstr "Mentés _másként…"
-
-#: ../capplets/appearance/data/appearance.ui.h:25
-msgid "C_ustomize..."
-msgstr "T_estreszabás…"
-
-#: ../capplets/appearance/data/appearance.ui.h:26
-msgid "_Install..."
-msgstr "Tele_pítés…"
-
-#: ../capplets/appearance/data/appearance.ui.h:27
-msgid "Get more themes online"
-msgstr "További témák letöltése"
-
-#: ../capplets/appearance/data/appearance.ui.h:28
-msgid "Theme"
-msgstr "Téma"
-
-#: ../capplets/appearance/data/appearance.ui.h:29
-msgid "_Style:"
-msgstr "Stíl_us:"
-
-#: ../capplets/appearance/data/appearance.ui.h:30
-msgid "C_olors:"
-msgstr "S_zínek:"
-
-#: ../capplets/appearance/data/appearance.ui.h:31
-msgid "Open a dialog to specify the color"
-msgstr "Párbeszédablak megnyitása a szín megadásához"
-
-#: ../capplets/appearance/data/appearance.ui.h:32
-msgid "Get more backgrounds online"
-msgstr "További háttérképek letöltése"
-
-#: ../capplets/appearance/data/appearance.ui.h:33
-#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:17
-msgid "_Add..."
-msgstr "Hozzá_adás…"
-
-#: ../capplets/appearance/data/appearance.ui.h:34
-msgid "Background"
-msgstr "Háttér"
-
-#: ../capplets/appearance/data/appearance.ui.h:35
-msgid "_Document font:"
-msgstr "_Dokumentum betűkészlete:"
-
-#: ../capplets/appearance/data/appearance.ui.h:36
-msgid "Des_ktop font:"
-msgstr "As_ztal betűkészlete:"
-
-#: ../capplets/appearance/data/appearance.ui.h:37
-msgid "_Window title font:"
-msgstr "Ablak _címsorának betűkészlete:"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
-msgid "_Fixed width font:"
-msgstr "_Rögzített szélességű betűkészlet:"
-
-#: ../capplets/appearance/data/appearance.ui.h:39
-msgid "_Application font:"
-msgstr "_Alkalmazás betűkészlete:"
-
-#: ../capplets/appearance/data/appearance.ui.h:40
-msgid "Rendering"
-msgstr "Megjelenítés"
-
-#: ../capplets/appearance/data/appearance.ui.h:41
-msgid "Sub_pixel smoothing (LCDs)"
-msgstr "Simítás a _képponton belül (LCD)"
-
-#: ../capplets/appearance/data/appearance.ui.h:42
-msgid "Best co_ntrast"
-msgstr "A legjobb _kontraszt"
-
-#: ../capplets/appearance/data/appearance.ui.h:43
-msgid "Best _shapes"
-msgstr "A le_gszebb betűforma"
-
-#: ../capplets/appearance/data/appearance.ui.h:44
-msgid "_Monochrome"
-msgstr "_Fekete-fehér"
-
-#: ../capplets/appearance/data/appearance.ui.h:45
-msgid "D_etails..."
-msgstr "_Részletek…"
-
-#: ../capplets/appearance/data/appearance.ui.h:46
-msgid "Fonts"
-msgstr "Betűkészletek"
-
-#: ../capplets/appearance/data/appearance.ui.h:47
-msgid "Menus and Toolbars"
-msgstr "Menük és eszköztárak"
-
-#: ../capplets/appearance/data/appearance.ui.h:48
-msgid "Show _icons in menus"
-msgstr "_Ikonok megjelenítése a menükben"
-
-#: ../capplets/appearance/data/appearance.ui.h:49
-msgid "_Editable menu shortcut keys"
-msgstr "Sz_erkeszthető billenytűparancsok"
-
-#: ../capplets/appearance/data/appearance.ui.h:50
-msgid "Toolbar _button labels:"
-msgstr "Eszköztár gom_bfeliratok:"
-
-#: ../capplets/appearance/data/appearance.ui.h:51
-msgid "Preview"
-msgstr "Előnézet"
-
-#: ../capplets/appearance/data/appearance.ui.h:52
-msgid "_File"
-msgstr "_Fájl"
-
-#: ../capplets/appearance/data/appearance.ui.h:53
-msgid "Edit"
-msgstr "Szerkesztés"
-
-#: ../capplets/appearance/data/appearance.ui.h:54
-msgid "Interface"
-msgstr "Felület"
-
-#: ../capplets/appearance/data/appearance.ui.h:55
-msgid "Tile"
-msgstr "Mozaik"
-
-#: ../capplets/appearance/data/appearance.ui.h:56
-msgid "Zoom"
-msgstr "Nagyítás"
-
-#: ../capplets/appearance/data/appearance.ui.h:57
-msgid "Center"
-msgstr "Középre"
-
-#: ../capplets/appearance/data/appearance.ui.h:58
-msgid "Scale"
-msgstr "Kifeszített"
-
-#: ../capplets/appearance/data/appearance.ui.h:59
-msgid "Stretch"
-msgstr "Nyújtás"
-
-#: ../capplets/appearance/data/appearance.ui.h:60
-msgid "Span"
-msgstr "Megnyújtás"
-
-#: ../capplets/appearance/data/appearance.ui.h:61
-msgid "Solid color"
-msgstr "Homogén szín"
-
-#: ../capplets/appearance/data/appearance.ui.h:62
-msgid "Horizontal gradient"
-msgstr "Vízszintes színátmenet"
-
-#: ../capplets/appearance/data/appearance.ui.h:63
-msgid "Vertical gradient"
-msgstr "Függőleges színátmenet"
-
-#: ../capplets/appearance/data/appearance.ui.h:64
-msgid "Text below items"
-msgstr "Szöveg az elemek alatt"
-
-#: ../capplets/appearance/data/appearance.ui.h:65
-msgid "Text beside items"
-msgstr "Szöveg az elemek mellett"
-
-#: ../capplets/appearance/data/appearance.ui.h:66
-msgid "Icons only"
-msgstr "Csak ikonok"
-
-#: ../capplets/appearance/data/appearance.ui.h:67
-msgid "Text only"
-msgstr "Csak szöveg"
-
-#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "Customize Theme"
 msgstr "Téma személyre szabása"
 
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:24
 msgid "Controls"
 msgstr "Felhasználói felület elemei"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:25
 msgid "The current controls theme does not support color schemes."
 msgstr "A felhasználói felület elemeinek jelenlegi témája nem támogatja a színsémákat."
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:26
 msgid "_Tooltips:"
 msgstr "_Eszköztippek:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
-msgid "_Selected items:"
-msgstr "Ki_választott elemek:"
-
-#: ../capplets/appearance/data/appearance.ui.h:73
-msgid "_Input boxes:"
-msgstr "Be_meneti mezők:"
-
-#: ../capplets/appearance/data/appearance.ui.h:74
-msgid "_Windows:"
-msgstr "_Ablakok:"
-
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:27
 msgid "Text"
 msgstr "Szöveg"
 
-#: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance.ui.h:28
+msgid "Background"
+msgstr "Háttér"
+
+#: ../capplets/appearance/data/appearance.ui.h:29
+msgid "_Selected items:"
+msgstr "Ki_választott elemek:"
+
+#: ../capplets/appearance/data/appearance.ui.h:30
+msgid "_Input boxes:"
+msgstr "Be_meneti mezők:"
+
+#: ../capplets/appearance/data/appearance.ui.h:31
+msgid "_Windows:"
+msgstr "_Ablakok:"
+
+#: ../capplets/appearance/data/appearance.ui.h:32
 msgid "_Reset to Defaults"
 msgstr "_Alapértelmezések visszaállítása"
 
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:33
 msgid "Colors"
 msgstr "Színek"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:34
 msgid "Window Border"
 msgstr "Ablakkeret"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:35
 msgid "Icons"
 msgstr "Ikonok"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
-msgid "Changing your cursor theme takes effect the next time you log in."
-msgstr "A kurzortéma módosítása a következő bejelentkezéskor lép életbe."
-
-#: ../capplets/appearance/data/appearance.ui.h:81
+#: ../capplets/appearance/data/appearance.ui.h:36
 msgid "_Size:"
 msgstr "_Méret:"
 
 #. small threshold
-#: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance.ui.h:37
 #: ../capplets/mouse/mate-mouse-properties.ui.h:21
 msgid "Small"
 msgstr "Kicsi"
 
 #. large threshold
-#: ../capplets/appearance/data/appearance.ui.h:83
+#: ../capplets/appearance/data/appearance.ui.h:38
 #: ../capplets/mouse/mate-mouse-properties.ui.h:24
 msgid "Large"
 msgstr "Nagy"
 
-#: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Pointer"
 msgstr "Egérmutató"
 
-#: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Save Theme As..."
 msgstr "Téma mentése másként…"
 
-#: ../capplets/appearance/data/appearance.ui.h:86
-#: ../capplets/keybindings/mate-keybinding-properties.ui.h:4
-msgid "_Name:"
-msgstr "_Név:"
-
-#: ../capplets/appearance/data/appearance.ui.h:87
-msgid "_Description:"
-msgstr "_Leírás:"
-
-#: ../capplets/appearance/data/appearance.ui.h:88
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Save _background image"
 msgstr "_Háttérkép mentése"
 
-#: ../capplets/appearance/data/appearance.ui.h:89
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Save _notification theme"
 msgstr "Figyelmeztetési téma me_ntése"
+
+#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/keybindings/mate-keybinding-properties.ui.h:2
+msgid "_Name:"
+msgstr "_Név:"
+
+#: ../capplets/appearance/data/appearance.ui.h:44
+msgid "_Description:"
+msgstr "_Leírás:"
+
+#: ../capplets/appearance/data/appearance.ui.h:45
+msgid "Text below items"
+msgstr "Szöveg az elemek alatt"
+
+#: ../capplets/appearance/data/appearance.ui.h:46
+msgid "Text beside items"
+msgstr "Szöveg az elemek mellett"
+
+#: ../capplets/appearance/data/appearance.ui.h:47
+msgid "Icons only"
+msgstr "Csak ikonok"
+
+#: ../capplets/appearance/data/appearance.ui.h:48
+msgid "Text only"
+msgstr "Csak szöveg"
+
+#: ../capplets/appearance/data/appearance.ui.h:49
+msgid "Solid color"
+msgstr "Homogén szín"
+
+#: ../capplets/appearance/data/appearance.ui.h:50
+msgid "Horizontal gradient"
+msgstr "Vízszintes színátmenet"
+
+#: ../capplets/appearance/data/appearance.ui.h:51
+msgid "Vertical gradient"
+msgstr "Függőleges színátmenet"
+
+#: ../capplets/appearance/data/appearance.ui.h:52
+msgid "Tile"
+msgstr "Mozaik"
+
+#: ../capplets/appearance/data/appearance.ui.h:53
+msgid "Zoom"
+msgstr "Nagyítás"
+
+#: ../capplets/appearance/data/appearance.ui.h:54
+msgid "Center"
+msgstr "Középre"
+
+#: ../capplets/appearance/data/appearance.ui.h:55
+msgid "Scale"
+msgstr "Kifeszített"
+
+#: ../capplets/appearance/data/appearance.ui.h:56
+msgid "Stretch"
+msgstr "Nyújtás"
+
+#: ../capplets/appearance/data/appearance.ui.h:57
+msgid "Span"
+msgstr "Megnyújtás"
+
+#: ../capplets/appearance/data/appearance.ui.h:58
+msgid "Appearance Preferences"
+msgstr "Megjelenés beállításai"
+
+#: ../capplets/appearance/data/appearance.ui.h:59
+msgid "Save _As..."
+msgstr "Mentés _másként…"
+
+#: ../capplets/appearance/data/appearance.ui.h:60
+msgid "C_ustomize..."
+msgstr "T_estreszabás…"
+
+#: ../capplets/appearance/data/appearance.ui.h:61
+msgid "_Install..."
+msgstr "Tele_pítés…"
+
+#: ../capplets/appearance/data/appearance.ui.h:62
+msgid "Get more themes online"
+msgstr "További témák letöltése"
+
+#: ../capplets/appearance/data/appearance.ui.h:63
+msgid "Theme"
+msgstr "Téma"
+
+#: ../capplets/appearance/data/appearance.ui.h:64
+msgid "_Style:"
+msgstr "Stíl_us:"
+
+#: ../capplets/appearance/data/appearance.ui.h:65
+msgid "C_olors:"
+msgstr "S_zínek:"
+
+#: ../capplets/appearance/data/appearance.ui.h:66
+msgid "Open a dialog to specify the color"
+msgstr "Párbeszédablak megnyitása a szín megadásához"
+
+#: ../capplets/appearance/data/appearance.ui.h:67
+msgid "Get more backgrounds online"
+msgstr "További háttérképek letöltése"
+
+#: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:17
+msgid "_Add..."
+msgstr "Hozzá_adás…"
+
+#: ../capplets/appearance/data/appearance.ui.h:69
+msgid "_Application font:"
+msgstr "_Alkalmazás betűkészlete:"
+
+#: ../capplets/appearance/data/appearance.ui.h:70
+msgid "_Document font:"
+msgstr "_Dokumentum betűkészlete:"
+
+#: ../capplets/appearance/data/appearance.ui.h:71
+msgid "Des_ktop font:"
+msgstr "As_ztal betűkészlete:"
+
+#: ../capplets/appearance/data/appearance.ui.h:72
+msgid "_Window title font:"
+msgstr "Ablak _címsorának betűkészlete:"
+
+#: ../capplets/appearance/data/appearance.ui.h:73
+msgid "_Fixed width font:"
+msgstr "_Rögzített szélességű betűkészlet:"
+
+#: ../capplets/appearance/data/appearance.ui.h:74
+msgid "Rendering"
+msgstr "Megjelenítés"
+
+#: ../capplets/appearance/data/appearance.ui.h:75
+msgid "Sub_pixel smoothing (LCDs)"
+msgstr "Simítás a _képponton belül (LCD)"
+
+#: ../capplets/appearance/data/appearance.ui.h:76
+msgid "Best _shapes"
+msgstr "A le_gszebb betűforma"
+
+#: ../capplets/appearance/data/appearance.ui.h:77
+msgid "_Monochrome"
+msgstr "_Fekete-fehér"
+
+#: ../capplets/appearance/data/appearance.ui.h:78
+msgid "Best co_ntrast"
+msgstr "A legjobb _kontraszt"
+
+#: ../capplets/appearance/data/appearance.ui.h:79
+msgid "D_etails..."
+msgstr "_Részletek…"
+
+#: ../capplets/appearance/data/appearance.ui.h:80
+msgid "Fonts"
+msgstr "Betűkészletek"
+
+#: ../capplets/appearance/data/appearance.ui.h:81
+msgid "Menus and Toolbars"
+msgstr "Menük és eszköztárak"
+
+#: ../capplets/appearance/data/appearance.ui.h:82
+msgid "Show _icons in menus"
+msgstr "_Ikonok megjelenítése a menükben"
+
+#: ../capplets/appearance/data/appearance.ui.h:83
+msgid "_Editable menu shortcut keys"
+msgstr "Sz_erkeszthető billenytűparancsok"
+
+#: ../capplets/appearance/data/appearance.ui.h:84
+msgid "Toolbar _button labels:"
+msgstr "Eszköztár gom_bfeliratok:"
+
+#: ../capplets/appearance/data/appearance.ui.h:85
+msgid "Preview"
+msgstr "Előnézet"
+
+#: ../capplets/appearance/data/appearance.ui.h:86
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../capplets/appearance/data/appearance.ui.h:87
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: ../capplets/appearance/data/appearance.ui.h:88
+msgid "Interface"
+msgstr "Felület"
 
 #: ../capplets/appearance/data/mate-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
@@ -1160,22 +1151,22 @@ msgstr "Nem sikerült átmeneti könyvtárat létrehozni"
 msgid "New themes have been successfully installed."
 msgstr "Az új témák sikeresen telepítve."
 
-#: ../capplets/appearance/theme-installer.c:661
+#: ../capplets/appearance/theme-installer.c:658
 msgid "No theme file location specified to install"
 msgstr "Nincs megadva a témafájl elérési útvonala a telepítéshez"
 
-#: ../capplets/appearance/theme-installer.c:685
+#: ../capplets/appearance/theme-installer.c:682
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
 "%s"
 msgstr "Nincs megfelelő jogosultsága téma telepítéséhez a következő helyre:\n%s"
 
-#: ../capplets/appearance/theme-installer.c:765
+#: ../capplets/appearance/theme-installer.c:762
 msgid "Select Theme"
 msgstr "Téma kiválasztása"
 
-#: ../capplets/appearance/theme-installer.c:776
+#: ../capplets/appearance/theme-installer.c:773
 msgid "Theme Packages"
 msgstr "Témacsomagok"
 
@@ -1189,7 +1180,7 @@ msgid "The theme already exists. Would you like to replace it?"
 msgstr "A téma már létezik. Le kívánja cserélni?"
 
 #: ../capplets/appearance/theme-save.c:158
-#: ../capplets/common/file-transfer-dialog.c:450
+#: ../capplets/common/file-transfer-dialog.c:446
 msgid "_Overwrite"
 msgstr "_Felülírás"
 
@@ -1232,7 +1223,7 @@ msgid "Copying '%s'"
 msgstr "„%s” másolása"
 
 #: ../capplets/common/file-transfer-dialog.c:185
-#: ../capplets/common/file-transfer-dialog.c:313
+#: ../capplets/common/file-transfer-dialog.c:312
 msgid "Copying files"
 msgstr "Fájlok másolása"
 
@@ -1284,62 +1275,34 @@ msgstr "URI címek összesen"
 msgid "Total number of URIs"
 msgstr "URI címek teljes száma"
 
-#: ../capplets/common/file-transfer-dialog.c:444
+#: ../capplets/common/file-transfer-dialog.c:440
 #, c-format
 msgid "File '%s' already exists. Do you want to overwrite it?"
 msgstr "A fájl („%s”) már létezik. Felül kívánja írni?"
 
-#: ../capplets/common/file-transfer-dialog.c:447
+#: ../capplets/common/file-transfer-dialog.c:443
 msgid "_Skip"
 msgstr "_Kihagyás"
 
-#: ../capplets/common/file-transfer-dialog.c:448
+#: ../capplets/common/file-transfer-dialog.c:444
 msgid "Overwrite _All"
 msgstr "Összes _felülírása"
 
-#: ../capplets/common/mate-theme-info.c:691
-msgid "Default Pointer - Current"
-msgstr "Alapértelmezett egérmutató – Jelenlegi"
-
-#: ../capplets/common/mate-theme-info.c:695
-msgid "White Pointer"
-msgstr "Fehér egérmutató"
-
-#: ../capplets/common/mate-theme-info.c:696
-msgid "White Pointer - Current"
-msgstr "Fehér egérmutató – Jelenlegi"
-
-#: ../capplets/common/mate-theme-info.c:700
-msgid "Large Pointer"
-msgstr "Nagy egérmutató"
-
-#: ../capplets/common/mate-theme-info.c:701
-msgid "Large Pointer - Current"
-msgstr "Nagy egérmutató – Jelenlegi"
-
-#: ../capplets/common/mate-theme-info.c:705
-msgid "Large White Pointer - Current"
-msgstr "Nagy fehér egérmutató – Jelenlegi"
-
-#: ../capplets/common/mate-theme-info.c:706
-msgid "Large White Pointer"
-msgstr "Nagy fehér egérmutató"
-
-#: ../capplets/common/mate-theme-info.c:1697
+#: ../capplets/common/mate-theme-info.c:1578
 #, c-format
 msgid ""
 "This theme will not look as intended because the required GTK+ theme '%s' is"
 " not installed."
 msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ téma nincs telepítve."
 
-#: ../capplets/common/mate-theme-info.c:1707
+#: ../capplets/common/mate-theme-info.c:1588
 #, c-format
 msgid ""
 "This theme will not look as intended because the required window manager "
 "theme '%s' is not installed."
 msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ablakkezelő-téma nincs telepítve."
 
-#: ../capplets/common/mate-theme-info.c:1715
+#: ../capplets/common/mate-theme-info.c:1596
 #, c-format
 msgid ""
 "This theme will not look as intended because the required icon theme '%s' is"
@@ -1355,20 +1318,20 @@ msgstr "Alapértelmezett alkalmazások"
 msgid "Select your default applications"
 msgstr "Alapértelmezett alkalmazások kiválasztása"
 
-#: ../capplets/default-applications/mate-da-capplet.c:543
+#: ../capplets/default-applications/mate-da-capplet.c:542
 msgid "Could not load the main interface"
 msgstr "A fő kezelőfelület nem tölthető be"
 
-#: ../capplets/default-applications/mate-da-capplet.c:544
+#: ../capplets/default-applications/mate-da-capplet.c:543
 msgid "Please make sure that the applet is properly installed"
 msgstr "Ellenőrizze, hogy ez a kisalkalmazás megfelelően van-e telepítve"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/mate-da-capplet.c:693
+#: ../capplets/default-applications/mate-da-capplet.c:692
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "Adja meg a megjelenítendő oldal nevét (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/mate-da-capplet.c:699
+#: ../capplets/default-applications/mate-da-capplet.c:698
 msgid "- MATE Default Applications"
 msgstr " – MATE alapértelmezett alkalmazások"
 
@@ -1517,7 +1480,7 @@ msgid "Off"
 msgstr "Ki"
 
 #: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:507
+#: ../capplets/display/xrandr-capplet.c:496
 msgid "Monitor"
 msgstr "Monitor"
 
@@ -1538,20 +1501,20 @@ msgid "Sets the selected monitor as primary."
 msgstr "Kiválasztott monitor beállítása elsődlegesként."
 
 #: ../capplets/display/display-capplet.ui.h:17
-#: ../capplets/display/xrandr-capplet.c:310
-#: ../capplets/display/xrandr-capplet.c:349
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
 msgid "Normal"
 msgstr "Normál"
 
 #: ../capplets/display/display-capplet.ui.h:18
-#: ../capplets/display/xrandr-capplet.c:311
-#: ../capplets/windows/mate-window-properties.c:493
+#: ../capplets/display/xrandr-capplet.c:308
+#: ../capplets/windows/mate-window-properties.c:512
 msgid "Left"
 msgstr "Balra"
 
 #: ../capplets/display/display-capplet.ui.h:19
-#: ../capplets/display/xrandr-capplet.c:312
-#: ../capplets/windows/mate-window-properties.c:492
+#: ../capplets/display/xrandr-capplet.c:309
+#: ../capplets/windows/mate-window-properties.c:511
 msgid "Right"
 msgstr "Jobbra"
 
@@ -1657,11 +1620,11 @@ msgid ""
 "Authentication is required to install multi-monitor settings for all users"
 msgstr "Hitelesítés szükséges többmonitoros beállítások telepítéséhez az összes felhasználó számára"
 
-#: ../capplets/display/xrandr-capplet.c:313
+#: ../capplets/display/xrandr-capplet.c:310
 msgid "Upside Down"
 msgstr "Fejjel lefelé"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:352
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
@@ -1670,53 +1633,53 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: ../capplets/display/xrandr-capplet.c:492
-#: ../capplets/display/xrandr-capplet.c:1668
+#: ../capplets/display/xrandr-capplet.c:485
+#: ../capplets/display/xrandr-capplet.c:1631
 #, c-format
 msgid "Mirror Screens"
 msgstr "Képernyők\ntükrözése"
 
-#: ../capplets/display/xrandr-capplet.c:494
+#: ../capplets/display/xrandr-capplet.c:487
 #, c-format
 msgid "Monitor: %s"
 msgstr "Monitor: %s"
 
-#: ../capplets/display/xrandr-capplet.c:590
+#: ../capplets/display/xrandr-capplet.c:557
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:1524
+#: ../capplets/display/xrandr-capplet.c:1487
 msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
 msgstr "Válassza ki a monitort a tulajdonságai módosításához, húzza az elhelyezésének megváltoztatásához."
 
-#: ../capplets/display/xrandr-capplet.c:2137
+#: ../capplets/display/xrandr-capplet.c:2067
 msgid "Could not save the monitor configuration"
 msgstr "A monitor beállításai nem menthetők"
 
-#: ../capplets/display/xrandr-capplet.c:2159
+#: ../capplets/display/xrandr-capplet.c:2089
 msgid "Could not get session bus while applying display configuration"
 msgstr "Nem kérhető le a munkamenetbusz a képernyő beállításainak alkalmazásakor"
 
-#: ../capplets/display/xrandr-capplet.c:2178
+#: ../capplets/display/xrandr-capplet.c:2108
 msgid "Could not detect displays"
 msgstr "A kijelzők nem ismerhetők fel"
 
-#: ../capplets/display/xrandr-capplet.c:2390
+#: ../capplets/display/xrandr-capplet.c:2316
 msgid "The monitor configuration has been saved"
 msgstr "A monitorbeállítások mentve"
 
-#: ../capplets/display/xrandr-capplet.c:2392
+#: ../capplets/display/xrandr-capplet.c:2318
 msgid "This configuration will be used the next time someone logs in."
 msgstr "A beállítások a következő bejelentkezés után kerülnek felhasználásra."
 
-#: ../capplets/display/xrandr-capplet.c:2401
+#: ../capplets/display/xrandr-capplet.c:2327
 msgid "Could not set the default configuration for monitors"
 msgstr "A monitor alapértelmezett beállításai nem állíthatók be"
 
-#: ../capplets/display/xrandr-capplet.c:2485
+#: ../capplets/display/xrandr-capplet.c:2411
 msgid "Could not get screen information"
 msgstr "A képernyő-információk nem kérhetők le"
 
@@ -1749,7 +1712,7 @@ msgstr "A gyorsbillentyű típusa."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:231
 #: ../capplets/keybindings/mate-keybinding-properties.c:134
-#: ../capplets/mouse/mate-mouse-properties.c:439
+#: ../capplets/mouse/mate-mouse-properties.c:302
 #: ../typing-break/drwright.c:501
 msgid "Disabled"
 msgstr "Tiltva"
@@ -1804,43 +1767,43 @@ msgstr "Gyorsbillentyű"
 
 #. * vim: sw=2 ts=8 cindent noai bs=2
 #: ../capplets/keybindings/mate-keybinding-properties.ui.h:1
+msgid "Custom Shortcut"
+msgstr "Egyéni gyorsbillentyű"
+
+#: ../capplets/keybindings/mate-keybinding-properties.ui.h:3
+msgid "C_ommand:"
+msgstr "Pa_rancs:"
+
+#: ../capplets/keybindings/mate-keybinding-properties.ui.h:4
 #: ../capplets/keybindings/mate-keybinding.desktop.in.in.h:1
 msgid "Keyboard Shortcuts"
 msgstr "Gyorsbillentyűk"
 
-#: ../capplets/keybindings/mate-keybinding-properties.ui.h:2
+#: ../capplets/keybindings/mate-keybinding-properties.ui.h:5
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
 msgstr "Gyorsbillentyű szerkesztéséhez kattintson a megfelelő sorra és nyomja le az új gyorsbillentyűt, vagy nyomja meg a Backspace billentyűt a törléshez."
 
-#: ../capplets/keybindings/mate-keybinding-properties.ui.h:3
-msgid "Custom Shortcut"
-msgstr "Egyéni gyorsbillentyű"
-
-#: ../capplets/keybindings/mate-keybinding-properties.ui.h:5
-msgid "C_ommand:"
-msgstr "Pa_rancs:"
-
 #: ../capplets/keybindings/mate-keybinding.desktop.in.in.h:2
 msgid "Assign shortcut keys to commands"
 msgstr "Gyorsbillentyűk parancsokhoz rendelése"
 
-#: ../capplets/keyboard/mate-keyboard-properties.c:213
-#: ../capplets/keyboard/mate-keyboard-properties.c:218
+#: ../capplets/keyboard/mate-keyboard-properties.c:209
+#: ../capplets/keyboard/mate-keyboard-properties.c:214
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Csak alkalmazza a beállításokat, és lépjen ki (csak kompatibilitás; most már egy démon kezeli)"
 
-#: ../capplets/keyboard/mate-keyboard-properties.c:223
+#: ../capplets/keyboard/mate-keyboard-properties.c:219
 msgid "Start the page with the typing break settings showing"
 msgstr "Oldal indítása a gépelési szünet beállításaival"
 
-#: ../capplets/keyboard/mate-keyboard-properties.c:228
+#: ../capplets/keyboard/mate-keyboard-properties.c:224
 msgid "Start the page with the accessibility settings showing"
 msgstr "Oldal indítása az akadálymentesítés beállításaival"
 
-#: ../capplets/keyboard/mate-keyboard-properties.c:234
+#: ../capplets/keyboard/mate-keyboard-properties.c:230
 msgid "- MATE Keyboard Preferences"
 msgstr "– MATE billentyűzetbeállítások"
 
@@ -1850,8 +1813,8 @@ msgstr "Billentyűzet hangos akadálymentesítési visszajelzése"
 
 #: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:2
 #: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:15
-#: ../capplets/mouse/mate-mouse-properties.ui.h:30
-#: ../capplets/windows/mate-window-properties.c:368
+#: ../capplets/mouse/mate-mouse-properties.ui.h:32
+#: ../capplets/windows/mate-window-properties.c:376
 msgid "General"
 msgstr "Általános"
 
@@ -1864,55 +1827,55 @@ msgid "Beep when a _toggle key is pressed"
 msgstr "Hangjelzés _váltóbillentyű lenyomásakor"
 
 #: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:5
-msgid "Visual cues for sounds"
-msgstr "Vizuális jelzések hangokra"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:6
-msgid "Show _visual feedback for the alert sound"
-msgstr "Figyelmeztető hang vi_zuális jelzése"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:7
-msgid "Flash _window titlebar"
-msgstr "Ablak címsorának meg_villantása"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:8
-msgid "Flash entire _screen"
-msgstr "_Teljes képernyő megvillantása"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:9
-#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:39
-msgid "Slow Keys"
-msgstr "Lassú billentyűk"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:10
-msgid "Beep when a key is pr_essed"
-msgstr "Hangjelzés billentyű le_nyomásakor"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:11
-msgid "Beep when key is _accepted"
-msgstr "Hangjelzés billentyű _elfogadásakor"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:12
-msgid "Beep when key is _rejected"
-msgstr "Hangjelzés billentyű elut_asításakor"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:13
-#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:41
-msgid "Bounce Keys"
-msgstr "Billentyűszűrés"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:14
-msgid "Beep when a key is reje_cted"
-msgstr "Hangjelzés billentyű el_utasításakor"
-
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:15
 #: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:36
 msgid "Sticky Keys"
 msgstr "Ragadós billentyűk"
 
-#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:16
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:6
 msgid "Beep when a _modifier key is pressed"
 msgstr "Hangjelzés _módosító billentyű lenyomásakor"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:7
+msgid "Visual cues for sounds"
+msgstr "Vizuális jelzések hangokra"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:8
+msgid "Show _visual feedback for the alert sound"
+msgstr "Figyelmeztető hang vi_zuális jelzése"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:9
+msgid "Flash _window titlebar"
+msgstr "Ablak címsorának meg_villantása"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:10
+msgid "Flash entire _screen"
+msgstr "_Teljes képernyő megvillantása"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:11
+#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:39
+msgid "Slow Keys"
+msgstr "Lassú billentyűk"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:12
+msgid "Beep when a key is pr_essed"
+msgstr "Hangjelzés billentyű le_nyomásakor"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:13
+msgid "Beep when key is _accepted"
+msgstr "Hangjelzés billentyű _elfogadásakor"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:14
+msgid "Beep when key is _rejected"
+msgstr "Hangjelzés billentyű elut_asításakor"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:15
+#: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:41
+msgid "Bounce Keys"
+msgstr "Billentyűszűrés"
+
+#: ../capplets/keyboard/mate-keyboard-properties-a11y-notifications.ui.h:16
+msgid "Beep when a key is reje_cted"
+msgstr "Hangjelzés billentyű el_utasításakor"
 
 #: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:1
 msgid "Keyboard Preferences"
@@ -1941,7 +1904,7 @@ msgstr "Rövid"
 
 #. slow acceleration
 #: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:7
-#: ../capplets/mouse/mate-mouse-properties.ui.h:11
+#: ../capplets/mouse/mate-mouse-properties.ui.h:10
 msgid "Slow"
 msgstr "Lassú"
 
@@ -1956,7 +1919,7 @@ msgstr "Hosszú"
 
 #. fast acceleration
 #: ../capplets/keyboard/mate-keyboard-properties-dialog.ui.h:10
-#: ../capplets/mouse/mate-mouse-properties.ui.h:13
+#: ../capplets/mouse/mate-mouse-properties.ui.h:12
 msgid "Fast"
 msgstr "Gyors"
 
@@ -2139,12 +2102,12 @@ msgid "Choose a Layout"
 msgstr "Válasszon egy kiosztást"
 
 #: ../capplets/keyboard/mate-keyboard-properties-layout-chooser.ui.h:2
-msgid "_Variants:"
-msgstr "_Változatok:"
-
-#: ../capplets/keyboard/mate-keyboard-properties-layout-chooser.ui.h:3
 msgid "_Country:"
 msgstr "_Ország:"
+
+#: ../capplets/keyboard/mate-keyboard-properties-layout-chooser.ui.h:3
+msgid "_Variants:"
+msgstr "_Változatok:"
 
 #: ../capplets/keyboard/mate-keyboard-properties-layout-chooser.ui.h:4
 msgid "By _country"
@@ -2206,24 +2169,24 @@ msgstr "Billentyűzet"
 msgid "Set your keyboard preferences"
 msgstr "Billentyűzet beállításai"
 
-#: ../capplets/mouse/mate-mouse-properties.c:439
+#: ../capplets/mouse/mate-mouse-properties.c:302
 msgid "Left button"
 msgstr "Bal gomb"
 
-#: ../capplets/mouse/mate-mouse-properties.c:439
+#: ../capplets/mouse/mate-mouse-properties.c:302
 msgid "Middle button"
 msgstr "Középső gomb"
 
-#: ../capplets/mouse/mate-mouse-properties.c:439
+#: ../capplets/mouse/mate-mouse-properties.c:302
 msgid "Right button"
 msgstr "Jobb gomb"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/mate-mouse-properties.c:538
+#: ../capplets/mouse/mate-mouse-properties.c:396
 msgid "Specify the name of the page to show (general)"
 msgstr "A megjelenítendő oldal neve (általános)"
 
-#: ../capplets/mouse/mate-mouse-properties.c:543
+#: ../capplets/mouse/mate-mouse-properties.c:401
 msgid "- MATE Mouse Preferences"
 msgstr "– MATE egérbeállítások"
 
@@ -2255,19 +2218,19 @@ msgstr "A m_utató helyének megjelenítése a Ctrl billentyű megnyomásakor"
 msgid "Pointer Speed"
 msgstr "Mutató sebessége"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:9
-msgid "_Sensitivity:"
-msgstr "Érzéke_nység:"
-
 #. low sensitivity
-#: ../capplets/mouse/mate-mouse-properties.ui.h:15
+#: ../capplets/mouse/mate-mouse-properties.ui.h:14
 msgid "Low"
 msgstr "Alacsony"
 
 #. high sensitivity
-#: ../capplets/mouse/mate-mouse-properties.ui.h:17
+#: ../capplets/mouse/mate-mouse-properties.ui.h:16
 msgid "High"
 msgstr "Magas"
+
+#: ../capplets/mouse/mate-mouse-properties.ui.h:17
+msgid "_Sensitivity:"
+msgstr "Érzéke_nység:"
 
 #: ../capplets/mouse/mate-mouse-properties.ui.h:18
 msgid "Drag and Drop"
@@ -2290,57 +2253,58 @@ msgid ""
 "To test your double-click settings, try to double-click on the light bulb."
 msgstr "A dupla kattintás beállításainak teszteléséhez próbáljon duplán kattintani a villanykörtére."
 
+#: ../capplets/mouse/mate-mouse-properties.ui.h:30
+#: ../capplets/mouse/mate-settings-mouse.desktop.in.in.h:1
+msgid "Mouse"
+msgstr "Egér"
+
 #: ../capplets/mouse/mate-mouse-properties.ui.h:31
 msgid "Enable _touchpad"
 msgstr "Érintő_tábla engedélyezése"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:32
+#: ../capplets/mouse/mate-mouse-properties.ui.h:33
 msgid "Disable touchpad _while typing"
 msgstr "É_rintőtábla kikapcsolása gépelés közben"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:33
+#: ../capplets/mouse/mate-mouse-properties.ui.h:34
 msgid "Enable _mouse clicks with touchpad"
 msgstr "_Egérkattintások engedélyezése érintőtáblával"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:34
+#: ../capplets/mouse/mate-mouse-properties.ui.h:35
 msgid "Two-finger click emulation:"
 msgstr "Kétujjas kattintás emuláció:"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:35
+#: ../capplets/mouse/mate-mouse-properties.ui.h:36
 msgid "Three-finger click emulation:"
 msgstr "Háromujjas kattintás emuláció:"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:36
+#: ../capplets/mouse/mate-mouse-properties.ui.h:37
 msgid "Scrolling"
 msgstr "Görgetés"
 
-#: ../capplets/mouse/mate-mouse-properties.ui.h:37
-msgid "_Disabled"
-msgstr "_Tiltva"
-
 #: ../capplets/mouse/mate-mouse-properties.ui.h:38
-msgid "_Edge scrolling"
-msgstr "Görgetés a s_zélen"
+msgid "_Vertical edge scrolling"
+msgstr "_Függőleges peremgörgetés"
 
 #: ../capplets/mouse/mate-mouse-properties.ui.h:39
-msgid "Two-_finger scrolling"
-msgstr "_Kétujjas görgetés"
+msgid "H_orizontal edge scrolling"
+msgstr "_Vízszintes peremgörgetés"
 
 #: ../capplets/mouse/mate-mouse-properties.ui.h:40
-msgid "Enable n_atural scrolling"
-msgstr "Természetes görgetés bek_apcsolása"
+msgid "V_ertical two-finger scrolling"
+msgstr "Függő_leges kétujjas görgetés"
 
 #: ../capplets/mouse/mate-mouse-properties.ui.h:41
-msgid "Enable h_orizontal scrolling"
-msgstr "_Vízszintes görgetés engedélyezése"
+msgid "Hor_izontal two-finger scrolling"
+msgstr "Ví_zszintes kétujjas görgetés"
 
 #: ../capplets/mouse/mate-mouse-properties.ui.h:42
+msgid "Enable _natural scrolling"
+msgstr "Természetes görgetés bek_apcsolása"
+
+#: ../capplets/mouse/mate-mouse-properties.ui.h:43
 msgid "Touchpad"
 msgstr "Érintőtábla"
-
-#: ../capplets/mouse/mate-settings-mouse.desktop.in.in.h:1
-msgid "Mouse"
-msgstr "Egér"
 
 #: ../capplets/mouse/mate-settings-mouse.desktop.in.in.h:2
 msgid "Set your mouse preferences"
@@ -2355,76 +2319,76 @@ msgid "Set your network proxy preferences"
 msgstr "Hálózati proxy beállításai"
 
 #: ../capplets/network/mate-network-properties.ui.h:1
-msgid "HTTP Proxy Details"
-msgstr "HTTP-proxy beállításai"
-
-#: ../capplets/network/mate-network-properties.ui.h:2
-msgid "<b>_Use authentication</b>"
-msgstr "<b>_Hitelesítés használata</b>"
-
-#: ../capplets/network/mate-network-properties.ui.h:3
-msgid "U_sername:"
-msgstr "_Felhasználónév:"
-
-#: ../capplets/network/mate-network-properties.ui.h:4
-msgid "_Password:"
-msgstr "_Jelszó:"
-
-#: ../capplets/network/mate-network-properties.ui.h:5
 msgid "Network Proxy Preferences"
 msgstr "Hálózati proxy beállításai"
 
-#: ../capplets/network/mate-network-properties.ui.h:6
+#: ../capplets/network/mate-network-properties.ui.h:2
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>_Közvetlen internetkapcsolat</b>"
 
-#: ../capplets/network/mate-network-properties.ui.h:7
+#: ../capplets/network/mate-network-properties.ui.h:3
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Ké_zi proxybeállítás</b>"
 
-#: ../capplets/network/mate-network-properties.ui.h:8
-msgid "H_TTP proxy:"
-msgstr "_HTTP-proxy:"
-
-#: ../capplets/network/mate-network-properties.ui.h:9
-msgid "_Secure HTTP proxy:"
-msgstr "Bi_ztonságos HTTP-proxy:"
-
-#: ../capplets/network/mate-network-properties.ui.h:10
-msgid "_FTP proxy:"
-msgstr "_FTP-proxy:"
-
-#: ../capplets/network/mate-network-properties.ui.h:11
-msgid "S_ocks host:"
-msgstr "S_ocks kiszolgáló:"
-
-#: ../capplets/network/mate-network-properties.ui.h:12
+#: ../capplets/network/mate-network-properties.ui.h:4
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/mate-network-properties.ui.h:13
+#: ../capplets/network/mate-network-properties.ui.h:5
 msgid "_Details"
 msgstr "_Részletek"
 
-#: ../capplets/network/mate-network-properties.ui.h:14
+#: ../capplets/network/mate-network-properties.ui.h:6
+msgid "H_TTP proxy:"
+msgstr "_HTTP-proxy:"
+
+#: ../capplets/network/mate-network-properties.ui.h:7
+msgid "_Secure HTTP proxy:"
+msgstr "Bi_ztonságos HTTP-proxy:"
+
+#: ../capplets/network/mate-network-properties.ui.h:8
+msgid "_FTP proxy:"
+msgstr "_FTP-proxy:"
+
+#: ../capplets/network/mate-network-properties.ui.h:9
+msgid "S_ocks host:"
+msgstr "S_ocks kiszolgáló:"
+
+#: ../capplets/network/mate-network-properties.ui.h:10
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Automatikus proxybeállítás</b>"
 
-#: ../capplets/network/mate-network-properties.ui.h:15
+#: ../capplets/network/mate-network-properties.ui.h:11
 msgid "Autoconfiguration _URL:"
 msgstr "Autokonfigurációs _URL:"
 
-#: ../capplets/network/mate-network-properties.ui.h:16
+#: ../capplets/network/mate-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Proxy beállításai"
 
-#: ../capplets/network/mate-network-properties.ui.h:17
+#: ../capplets/network/mate-network-properties.ui.h:13
 msgid "Ignore Host List"
 msgstr "Mellőzött kiszolgálók listája"
 
-#: ../capplets/network/mate-network-properties.ui.h:18
+#: ../capplets/network/mate-network-properties.ui.h:14
 msgid "Ignored Hosts"
 msgstr "Mellőzött kiszolgálók"
+
+#: ../capplets/network/mate-network-properties.ui.h:15
+msgid "HTTP Proxy Details"
+msgstr "HTTP-proxy beállításai"
+
+#: ../capplets/network/mate-network-properties.ui.h:16
+msgid "<b>_Use authentication</b>"
+msgstr "<b>_Hitelesítés használata</b>"
+
+#: ../capplets/network/mate-network-properties.ui.h:17
+msgid "U_sername:"
+msgstr "_Felhasználónév:"
+
+#: ../capplets/network/mate-network-properties.ui.h:18
+msgid "_Password:"
+msgstr "_Jelszó:"
 
 #: ../capplets/windows/mate-metacity-support.c:40
 msgid "Metacity Preferences"
@@ -2432,12 +2396,12 @@ msgstr "Metacity beállításai"
 
 #. Compositing manager
 #: ../capplets/windows/mate-metacity-support.c:51
-#: ../capplets/windows/mate-window-properties.c:382
+#: ../capplets/windows/mate-window-properties.c:392
 msgid "Compositing Manager"
 msgstr "Kompozíciókezelő"
 
-#: ../capplets/windows/mate-metacity-support.c:58
-#: ../capplets/windows/mate-window-properties.c:388
+#: ../capplets/windows/mate-metacity-support.c:62
+#: ../capplets/windows/mate-window-properties.c:399
 msgid "Enable software _compositing window manager"
 msgstr "Szoftveres kompoziciónálási alapú ablakkezelő bekapcsolása"
 
@@ -2446,135 +2410,135 @@ msgid "The current window manager is unsupported"
 msgstr "A jelenlegi ablakkezelő nem támogatott"
 
 #. Window
-#: ../capplets/windows/mate-window-properties.c:352
+#: ../capplets/windows/mate-window-properties.c:358
 msgid "Window Preferences"
 msgstr "Az ablak beállításai"
 
-#: ../capplets/windows/mate-window-properties.c:372
+#: ../capplets/windows/mate-window-properties.c:381
 msgid "Behaviour"
 msgstr "Viselkedés"
 
-#: ../capplets/windows/mate-window-properties.c:376
+#: ../capplets/windows/mate-window-properties.c:386
 msgid "Placement"
 msgstr "Elhelyezés"
 
-#: ../capplets/windows/mate-window-properties.c:389
+#: ../capplets/windows/mate-window-properties.c:400
 msgid "Disable _thumbnails in Alt-Tab"
 msgstr "Bélyegképek _tiltása Alt-Tab esetén"
 
 #. Titlebar buttons
-#: ../capplets/windows/mate-window-properties.c:397
+#: ../capplets/windows/mate-window-properties.c:408
 msgid "Titlebar Buttons"
 msgstr "Címsor gombok"
 
-#: ../capplets/windows/mate-window-properties.c:401
+#: ../capplets/windows/mate-window-properties.c:412
 msgid "Position:"
 msgstr "Pozíció:"
 
 #. New Windows
-#: ../capplets/windows/mate-window-properties.c:408
+#: ../capplets/windows/mate-window-properties.c:419
 msgid "New Windows"
 msgstr "Új ablakok"
 
-#: ../capplets/windows/mate-window-properties.c:412
+#: ../capplets/windows/mate-window-properties.c:423
 msgid "Center _new windows"
 msgstr "Új a_blakok középre"
 
 #. Window Snapping
-#: ../capplets/windows/mate-window-properties.c:417
+#: ../capplets/windows/mate-window-properties.c:428
 msgid "Window Snapping"
 msgstr "Ablakigazítás"
 
-#: ../capplets/windows/mate-window-properties.c:421
+#: ../capplets/windows/mate-window-properties.c:432
 msgid "Enable side by side _tiling"
 msgstr "Oldalsó _igazítás engedélyezése"
 
 #. Window Selection
-#: ../capplets/windows/mate-window-properties.c:426
+#: ../capplets/windows/mate-window-properties.c:437
 msgid "Window Selection"
 msgstr "Ablakkijelölés"
 
-#: ../capplets/windows/mate-window-properties.c:436
+#: ../capplets/windows/mate-window-properties.c:447
 msgid "_Select windows when the mouse moves over them"
 msgstr "_Ablakok kiválasztása, ha az egér föléjük ér"
 
-#: ../capplets/windows/mate-window-properties.c:439
+#: ../capplets/windows/mate-window-properties.c:450
 msgid "U_nselect windows when the mouse leaves them"
 msgstr "_Ablakok kiválasztásának megszüntetése, ha az egér elhagyja a területét"
 
-#: ../capplets/windows/mate-window-properties.c:443
+#: ../capplets/windows/mate-window-properties.c:454
 msgid "_Raise selected windows after an interval"
 msgstr "Kij_elölt ablakok előtérbe hozásának késleltetése"
 
-#: ../capplets/windows/mate-window-properties.c:449
+#: ../capplets/windows/mate-window-properties.c:461
 msgid "_Interval before raising:"
 msgstr "Késleltetés az előtérbe ho_zás előtt:"
 
-#: ../capplets/windows/mate-window-properties.c:453
+#: ../capplets/windows/mate-window-properties.c:465
 msgid "seconds"
 msgstr "másodperc"
 
 #. Titlebar Action
-#: ../capplets/windows/mate-window-properties.c:464
+#: ../capplets/windows/mate-window-properties.c:476
 msgid "Titlebar Action"
 msgstr "Címsorművelet"
 
-#: ../capplets/windows/mate-window-properties.c:468
+#: ../capplets/windows/mate-window-properties.c:480
 msgid "_Double-click titlebar to perform this action:"
 msgstr "_Kattintson duplán a címsoron a művelet végrehajtásához:"
 
 #. Movement Key
-#: ../capplets/windows/mate-window-properties.c:476
+#: ../capplets/windows/mate-window-properties.c:488
 msgid "Movement Key"
 msgstr "Mozgásbillentyű"
 
-#: ../capplets/windows/mate-window-properties.c:481
+#: ../capplets/windows/mate-window-properties.c:494
 msgid "To move a window, press-and-hold this key then grab the window:"
 msgstr "Ablak áthelyezéséhez tartsa lenyomva ezt a billentyűt és húzza el az ablakot:"
 
-#: ../capplets/windows/mate-window-properties.c:499
+#: ../capplets/windows/mate-window-properties.c:518
 #: ../libwindow-settings/marco-window-manager.c:394
 msgid "Roll up"
 msgstr "Felgördítés"
 
-#: ../capplets/windows/mate-window-properties.c:500
+#: ../capplets/windows/mate-window-properties.c:519
 #: ../libwindow-settings/marco-window-manager.c:395
 msgid "Maximize"
 msgstr "Maximalizálás"
 
-#: ../capplets/windows/mate-window-properties.c:501
+#: ../capplets/windows/mate-window-properties.c:520
 #: ../libwindow-settings/marco-window-manager.c:396
 msgid "Maximize Horizontally"
 msgstr "Vízszintes maximalizálás"
 
-#: ../capplets/windows/mate-window-properties.c:502
+#: ../capplets/windows/mate-window-properties.c:521
 #: ../libwindow-settings/marco-window-manager.c:397
 msgid "Maximize Vertically"
 msgstr "Függőleges maximalizálás"
 
-#: ../capplets/windows/mate-window-properties.c:503
+#: ../capplets/windows/mate-window-properties.c:522
 #: ../libwindow-settings/marco-window-manager.c:398
 msgid "Minimize"
 msgstr "Minimalizálás"
 
-#: ../capplets/windows/mate-window-properties.c:504
+#: ../capplets/windows/mate-window-properties.c:523
 #: ../libwindow-settings/marco-window-manager.c:399
 msgid "None"
 msgstr "Nincs"
 
-#: ../capplets/windows/mate-window-properties.c:704
+#: ../capplets/windows/mate-window-properties.c:724
 msgid "_Alt"
 msgstr "Al_t"
 
-#: ../capplets/windows/mate-window-properties.c:710
+#: ../capplets/windows/mate-window-properties.c:730
 msgid "H_yper"
 msgstr "H_yper"
 
-#: ../capplets/windows/mate-window-properties.c:717
+#: ../capplets/windows/mate-window-properties.c:737
 msgid "S_uper (or \"Windows logo\")"
 msgstr "S_uper (vagy „Windows logó”)"
 
-#: ../capplets/windows/mate-window-properties.c:724
+#: ../capplets/windows/mate-window-properties.c:744
 msgid "_Meta"
 msgstr "_Meta"
 
@@ -2591,41 +2555,41 @@ msgstr "Az ablakok tulajdonságainak beállítása"
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
 msgstr "A(z) „%s” ablakkezelő nem regisztrálta a beállítóeszközét.\n"
 
-#: ../shell/control-center.c:61
+#: ../shell/control-center.c:58
 #, c-format
 msgid "%s key is empty\n"
 msgstr "%s kulcs üres\n"
 
-#: ../shell/control-center.c:161
-msgid "Hide on start (useful to preload the shell)"
-msgstr "Elrejtés indításkor (hasznos a parancsértelmező előzetes betöltéséhez)"
-
-#: ../shell/control-center.c:201
+#: ../shell/control-center.c:135
 msgid "Filter"
 msgstr "Szűrő"
 
-#: ../shell/control-center.c:201
+#: ../shell/control-center.c:135
 msgid "Groups"
 msgstr "Csoportok"
 
-#: ../shell/control-center.c:201
+#: ../shell/control-center.c:135
 msgid "Common Tasks"
 msgstr "Általános feladatok"
 
-#: ../shell/control-center.c:203 ../shell/matecc.desktop.in.in.h:1
+#: ../shell/control-center.c:143 ../shell/matecc.desktop.in.in.h:1
 #: ../shell/matecc.directory.in.h:1
 msgid "Control Center"
 msgstr "Vezérlőközpont"
+
+#: ../shell/control-center.c:162
+msgid "Hide on start (useful to preload the shell)"
+msgstr "Elrejtés indításkor (hasznos a parancsértelmező előzetes betöltéséhez)"
 
 #: ../shell/matecc.desktop.in.in.h:2
 msgid "The MATE configuration tool"
 msgstr "A MATE beállítóeszköze"
 
-#: ../typing-break/drw-break-window.c:195
+#: ../typing-break/drw-break-window.c:190
 msgid "_Postpone Break"
 msgstr "_Szünet elhalasztása"
 
-#: ../typing-break/drw-break-window.c:256
+#: ../typing-break/drw-break-window.c:247
 msgid "Take a break!"
 msgstr "Tartson szünetet!"
 
@@ -2674,7 +2638,7 @@ msgstr "A csinosításokat Anders Carlsson végezte"
 msgid "A computer break reminder."
 msgstr "Emlékeztető gépelési szünet tartására."
 
-#: ../typing-break/drwright.c:639
+#: ../typing-break/drwright.c:639 ../font-viewer/font-view.c:749
 msgid "translator-credits"
 msgstr "Dvornik László <dvornik at mate dot hu>\nKelemen Gábor <kelemeng at mate dot hu>\nTímár András <timar at mate dot hu>"
 
@@ -2698,121 +2662,123 @@ msgid ""
 "'Notification area' and clicking 'Add'."
 msgstr "A gépelésfigyelő az értesítési területet használja információk megjelenítésére. Úgy tűnik, az Ön paneljén nincs értesítési terület. A panel helyi menüjében a „Hozzáadás” pont alatt az „Értesítési terület” elemet kiválasztva hozzáadhatja a panelhez."
 
-#: ../font-viewer/font-view.c:341 ../font-viewer/font-view.c:343
-msgid "Name:"
-msgstr "Név:"
+#: ../font-viewer/font-view.c:208
+msgid "Style"
+msgstr "Stílus"
 
-#: ../font-viewer/font-view.c:348 ../font-viewer/font-view.c:350
-msgid "Style:"
-msgstr "Stílus:"
+#: ../font-viewer/font-view.c:218
+msgid "Type"
+msgstr "Típus"
 
-#: ../font-viewer/font-view.c:364 ../font-viewer/font-view.c:366
-msgid "Type:"
-msgstr "Típus:"
+#: ../font-viewer/font-view.c:264 ../font-viewer/font-view.c:279
+msgid "Version"
+msgstr "Verzió"
 
-#: ../font-viewer/font-view.c:372 ../font-viewer/font-view.c:374
-msgid "Size:"
-msgstr "Méret:"
+#: ../font-viewer/font-view.c:269 ../font-viewer/font-view.c:281
+msgid "Copyright"
+msgstr "Szerzői jog"
 
-#: ../font-viewer/font-view.c:420 ../font-viewer/font-view.c:422
-#: ../font-viewer/font-view.c:445 ../font-viewer/font-view.c:447
-msgid "Version:"
-msgstr "Verzió:"
+#: ../font-viewer/font-view.c:274
+msgid "Description"
+msgstr "Leírás"
 
-#: ../font-viewer/font-view.c:428 ../font-viewer/font-view.c:430
-#: ../font-viewer/font-view.c:451 ../font-viewer/font-view.c:453
-msgid "Copyright:"
-msgstr "Copyright:"
-
-#: ../font-viewer/font-view.c:436 ../font-viewer/font-view.c:438
-msgid "Description:"
-msgstr "Leírás:"
-
-#: ../font-viewer/font-view.c:515
-msgid "Installed"
-msgstr "Telepítve"
-
-#: ../font-viewer/font-view.c:517
+#: ../font-viewer/font-view.c:292
 msgid "Install Failed"
 msgstr "A telepítés meghiúsult"
 
-#: ../font-viewer/font-view.c:593
-#, c-format
-msgid "Usage: %s fontfile\n"
-msgstr "Használat: %s fontfile\n"
+#: ../font-viewer/font-view.c:298
+msgid "Installed"
+msgstr "Telepítve"
 
-#: ../font-viewer/font-view.c:693
-msgid "I_nstall Font"
-msgstr "Betűkészlet _telepítése"
+#: ../font-viewer/font-view.c:435
+msgid "This font could not be displayed."
+msgstr "Ez a betűkészlet nem jeleníthető meg."
 
-#: ../font-viewer/mate-font-viewer.desktop.in.in.h:1
+#: ../font-viewer/font-view.c:498 ../font-viewer/font-view.c:529
+msgid "Info"
+msgstr "Infó"
+
+#: ../font-viewer/font-view.c:542
+msgid "Back"
+msgstr "Vissza"
+
+#: ../font-viewer/font-view.c:642
+msgid "All Fonts"
+msgstr "Minden betűkészlet"
+
+#: ../font-viewer/font-view.c:746 ../font-viewer/font-view.c:790
 msgid "Font Viewer"
 msgstr "Betűkészlet-megjelenítő"
 
+#: ../font-viewer/font-view.c:747
 #: ../font-viewer/mate-font-viewer.desktop.in.in.h:2
-msgid "Preview fonts"
-msgstr "Betűkészletek előnézete"
+msgid "View fonts on your system"
+msgstr "A rendszer betűkészleteinek megtekintése"
 
-#: ../font-viewer/font-thumbnailer.c:267
+#: ../font-viewer/mate-font-viewer.desktop.in.in.h:1
+msgid "MATE Font Viewer"
+msgstr "MATE Betűkészlet-megjelenítő"
+
+#: ../font-viewer/font-thumbnailer.c:191
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Bélyegkép szövege (alapértelmezés: Aa)"
 
-#: ../font-viewer/font-thumbnailer.c:267
+#: ../font-viewer/font-thumbnailer.c:191
 msgid "TEXT"
 msgstr "SZÖVEG"
 
-#: ../font-viewer/font-thumbnailer.c:269
-msgid "Font size (default: 64)"
-msgstr "Betűméret (alapértelmezett: 64)"
+#: ../font-viewer/font-thumbnailer.c:193
+msgid "Thumbnail size (default: 128)"
+msgstr "Bélyegkép méret (alapértelmezett: 128)"
 
-#: ../font-viewer/font-thumbnailer.c:269
+#: ../font-viewer/font-thumbnailer.c:193
 msgid "SIZE"
 msgstr "MÉRET"
 
-#: ../font-viewer/font-thumbnailer.c:271
+#: ../font-viewer/font-thumbnailer.c:195
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "BETŰKÉSZLETFÁJL KIMENETIFÁJL"
 
-#: ../libslab/app-shell.c:759
+#: ../libslab/app-shell.c:772
 #, c-format
 msgid "Your filter \"%s\" does not match any items."
 msgstr "A megadott szűrőre („%s”) nincs találat."
 
-#: ../libslab/app-shell.c:761
+#: ../libslab/app-shell.c:774
 msgid "No matches found."
 msgstr "Nincs találat."
 
-#: ../libslab/app-shell.c:862
+#: ../libslab/app-shell.c:874
 msgid "New Applications"
 msgstr "Új alkalmazások"
 
-#: ../libslab/app-shell.c:917
+#: ../libslab/app-shell.c:929
 msgid "Other"
 msgstr "Egyéb"
 
 #. make start action
-#: ../libslab/application-tile.c:340
+#: ../libslab/application-tile.c:339
 #, c-format
 msgid "Start %s"
 msgstr "%s indítása"
 
-#: ../libslab/application-tile.c:361
+#: ../libslab/application-tile.c:360
 msgid "Help"
 msgstr "Súgó"
 
-#: ../libslab/application-tile.c:629 ../libslab/document-tile.c:735
+#: ../libslab/application-tile.c:636 ../libslab/document-tile.c:743
 msgid "Remove from Favorites"
 msgstr "Eltávolítás a Kedvencek közül"
 
-#: ../libslab/application-tile.c:631 ../libslab/document-tile.c:737
+#: ../libslab/application-tile.c:638 ../libslab/document-tile.c:745
 msgid "Add to Favorites"
 msgstr "Hozzáadás a Kedvencekhez"
 
-#: ../libslab/application-tile.c:716
+#: ../libslab/application-tile.c:723
 msgid "Remove from Startup Programs"
 msgstr "Eltávolítás az Indítópultból"
 
-#: ../libslab/application-tile.c:718
+#: ../libslab/application-tile.c:725
 msgid "Add to Startup Programs"
 msgstr "Hozzáadás az Indítópulthoz"
 
@@ -2870,17 +2836,17 @@ msgstr "Küldés..."
 msgid "Move to Trash"
 msgstr "Áthelyezés a kukába"
 
-#: ../libslab/directory-tile.c:243 ../libslab/directory-tile.c:453
-#: ../libslab/document-tile.c:300 ../libslab/document-tile.c:851
+#: ../libslab/directory-tile.c:243 ../libslab/directory-tile.c:461
+#: ../libslab/document-tile.c:300 ../libslab/document-tile.c:863
 msgid "Delete"
 msgstr "Törlés"
 
-#: ../libslab/directory-tile.c:530 ../libslab/document-tile.c:1014
+#: ../libslab/directory-tile.c:538 ../libslab/document-tile.c:1026
 #, c-format
 msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr "Biztos, hogy véglegesen törli ezt: \"%s\"?"
 
-#: ../libslab/directory-tile.c:531 ../libslab/document-tile.c:1015
+#: ../libslab/directory-tile.c:539 ../libslab/document-tile.c:1027
 msgid "If you delete an item, it is permanently lost."
 msgstr "Ha töröl egy elemet, az véglegesen elvész."
 
@@ -2935,7 +2901,7 @@ msgstr "%b %d, %H:%M"
 msgid "%b %d %Y"
 msgstr "%Y. %b %d"
 
-#: ../libslab/search-bar.c:255
+#: ../libslab/search-bar.c:256
 msgid "Find Now"
 msgstr "Keresés most"
 
