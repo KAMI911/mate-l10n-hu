@@ -1,23 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Falu <info@falu.me>, 2017
-# Rezső Páder <rezso@rezso.net>, 2015,2017
+# Falu <info@falu.me>, 2017.
+# Rezső Páder <rezso@rezso.net>, 2015,2017.
+# Kálmán szalai (KAMI) <kami911@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-23 19:04+0100\n"
-"PO-Revision-Date: 2017-10-03 06:35+0000\n"
-"Last-Translator: Falu <info@falu.me>\n"
-"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"PO-Revision-Date: 2017-10-22 19:55+0100\n"
+"Last-Translator: Kálmán szalai (KAMI) <kami911@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../lib/mate-menu.py:57
 msgid "Menu"
@@ -144,7 +145,7 @@ msgstr "Bővítmények"
 
 #: ../lib/mate-menu-config.py:82
 msgid "Always show search suggestions"
-msgstr ""
+msgstr "Keresési javaslatok megjelenítése"
 
 #: ../lib/mate-menu-config.py:83
 msgid "Search Engines:"
@@ -344,7 +345,7 @@ msgstr "Minden alkalmazás"
 #: ../mate_menu/plugins/applications.py:600
 #, python-format
 msgid "Search DuckDuckGo for %s"
-msgstr ""
+msgstr "%s keresése a DuckDuckGo keresővel"
 
 #: ../mate_menu/plugins/applications.py:611
 #, python-format
@@ -416,7 +417,7 @@ msgstr "Törlés a menüből"
 
 #: ../mate_menu/plugins/applications.py:902
 msgid "Search DuckDuckGo"
-msgstr ""
+msgstr "Keresés a DuckDuckGo keresővel"
 
 #: ../mate_menu/plugins/applications.py:909
 msgid "Search Google"
@@ -438,7 +439,9 @@ msgstr "Keresés a számítógépen"
 msgid ""
 "Couldn't save favorites. Check if you have write access to ~/.config/mate-"
 "menu"
-msgstr "Nem sikerült menteni a kedvenceket. Ellenőrizze a ~/.config/mate-menu mappa írási jogosultságait."
+msgstr ""
+"Nem sikerült menteni a kedvenceket. Ellenőrizze a ~/.config/mate-menu mappa"
+" írási jogosultságait."
 
 #: ../mate_menu/plugins/applications.py:1549
 msgid "All"
@@ -479,7 +482,8 @@ msgstr "Leállítás, újraindítás, felfüggesztés vagy hibernálás"
 #: ../mate_menu/plugins/places.py:157
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
-msgstr "A számítógépről elérhető összes helyi és távoli lemez és mappa tallózása"
+msgstr ""
+"A számítógépről elérhető összes helyi és távoli lemez és mappa tallózása"
 
 #: ../mate_menu/plugins/places.py:168
 msgid "Open your personal folder"
@@ -508,15 +512,19 @@ msgstr "Legutóbbi dokumentumok"
 
 #: ../mate_menu/keybinding.py:181
 msgid "Click to set a new accelerator key for opening and closing the menu.  "
-msgstr "Kattintson egy új gyorsbillentyű beállításához a menü megnyitásához és bezárásához.  "
+msgstr ""
+"Kattintson egy új gyorsbillentyű beállításához a menü megnyitásához és"
+" bezárásához.  "
 
 #: ../mate_menu/keybinding.py:182
 msgid "Press Escape or click again to cancel the operation.  "
-msgstr "Nyomja meg az ESC gombot vagy kattintson újra a művelet megszakításához.  "
+msgstr ""
+"Nyomja meg az ESC gombot vagy kattintson újra a művelet megszakításához.  "
 
 #: ../mate_menu/keybinding.py:183
 msgid "Press Backspace to clear the existing keybinding."
-msgstr "Nyomja meg a Backspace gombot a már létező billentyű összerendelés törléséhez."
+msgstr ""
+"Nyomja meg a Backspace gombot a már létező billentyű összerendelés törléséhez."
 
 #: ../mate_menu/keybinding.py:202
 msgid "Pick an accelerator"
@@ -525,3 +533,4 @@ msgstr "Gyorsbillentyű választása"
 #: ../mate_menu/keybinding.py:258
 msgid "<not set>"
 msgstr "<nincs beállítva>"
+
