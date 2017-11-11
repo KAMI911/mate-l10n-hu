@@ -1,40 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
-# Faludi Zoltán, 2015.
-# Falu <info@falu.me>, 2016.
-# Falu <info@falu.me>, 2016-2017.
-# Falu.Me, 2015.
-# Falu <info@falu.me>, 2015.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010.
-# KAMI KAMI <kami911@gmail.com>, 2015.
-# KAMI KAMI <kami911@gmail.com>, 2016.
-# KAMI KAMI <kami911@gmail.com>, 2015-2016, 2017.
-# Rezső Páder <rezso@rezso.net>, 2013-2015.
-# Zoltán Rápolthy <real_zolee@hotmail.com>, 2017.
+# Faludi Zoltán, 2015
+# Falu <info@falu.me>, 2016
+# Falu <info@falu.me>, 2015-2017
+# Falu.Me, 2015
+# Falu <info@falu.me>, 2015
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010
+# KAMI KAMI <kami911@gmail.com>, 2015
+# KAMI KAMI <kami911@gmail.com>, 2016
+# KAMI KAMI <kami911@gmail.com>, 2015-2016
+# KAMI KAMI <kami911@gmail.com>, 2015-2016
+# KAMI KAMI <kami911@gmail.com>, 2017
+# Rezső Páder <rezso@rezso.net>, 2013-2015
+# Zoltán Rápolthy <real_zolee@hotmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-03 23:10+0200\n"
-"PO-Revision-Date: 2017-10-22 19:00+0100\n"
-"Last-Translator: Kálmán szalai (KAMI) <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kami911@gmail.com>\n"
+"PO-Revision-Date: 2017-10-22 17:12+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: ../backend/comics/comics-document.c:208
 #, c-format
 msgid ""
 "Error launching the command “%s” in order to decompress the comic book: %s"
-msgstr ""
-"Hiba történt a parancs („%s”) indításakor a következő képregény"
-" kicsomagolásakor: %s"
+msgstr "Hiba történt a parancs („%s”) indításakor a következő képregény kicsomagolásakor: %s"
 
 #: ../backend/comics/comics-document.c:222
 #, c-format
@@ -52,7 +52,8 @@ msgid "Not a comic book MIME type: %s"
 msgstr "Nem képregény MIME-típus: %s"
 
 #: ../backend/comics/comics-document.c:466
-msgid "Can't find an appropriate command to decompress this type of comic book"
+msgid ""
+"Can't find an appropriate command to decompress this type of comic book"
 msgstr "Nem található megfelelő parancs ezen képregény kibontásához"
 
 #: ../backend/comics/comics-document.c:540 ../backend/epub/epub-document.c:627
@@ -481,15 +482,7 @@ msgid ""
 " <p> Atril is a fork of Evince and part of the MATE Desktop Environment. If "
 "you would like to know more about MATE and Atril, please visit the project's"
 " home page. </p>"
-msgstr ""
-"<p>Az Atril egy egyszerű több-oldalas dokumentum megjelenítő. Meg tud"
-" jeleníteni és ki tud nyomtatni PostScript (PS), Encapsulated PostScript"
-" (EPS), DJVU, DVI, XPS és Portable Document Format (PDF) fájlokat, valamint"
-" képregény archívum fájlokat. Ha a dokumentum támogatja,lehetőség van szöveg"
-" keresésére, vágólap másolásra, hypertext navigációra és tartalomjegyzék"
-" könyvjelzőkre. </p> <p>Az Atril az Evince forkja, és a MATE asztali"
-" környezet része. További információk a MATE-ról és az Atril-ról a project"
-" honlapján találhatóak. </p>"
+msgstr "<p>Az Atril egy egyszerű több-oldalas dokumentum megjelenítő. Meg tud jeleníteni és ki tud nyomtatni PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS és Portable Document Format (PDF) fájlokat, valamint képregény archívum fájlokat. Ha a dokumentum támogatja,lehetőség van szöveg keresésére, vágólap másolásra, hypertext navigációra és tartalomjegyzék könyvjelzőkre. </p> <p>Az Atril az Evince forkja, és a MATE asztali környezet része. További információk a MATE-ról és az Atril-ról a project honlapján találhatóak. </p>"
 
 #: ../data/atril.desktop.in.in.h:1
 msgid "Atril Document Viewer"
@@ -511,9 +504,7 @@ msgstr "A dokumentum korlátozásainak felülbírálása"
 
 #: ../data/org.mate.Atril.gschema.xml.h:2
 msgid "Override document restrictions, like restriction to copy or to print."
-msgstr ""
-"Dokumentum (például: a másolásra vagy nyomtatásra vonatkozó) korlátozásainak"
-" felülbírálása."
+msgstr "Dokumentum (például: a másolásra vagy nyomtatásra vonatkozó) korlátozásainak felülbírálása."
 
 #: ../data/org.mate.Atril.gschema.xml.h:3
 msgid "Automatically reload the document"
@@ -539,9 +530,7 @@ msgstr "Oldal gyorsítótár mérete MiB-ban"
 msgid ""
 "The maximum size that will be used to cache rendered pages, limits maximum "
 "zoom level."
-msgstr ""
-"A renderelt oldalak gyorsítótárának maximális mérete korlátozza a maximális"
-" nagyítási szintet. "
+msgstr "A renderelt oldalak gyorsítótárának maximális mérete korlátozza a maximális nagyítási szintet. "
 
 #: ../previewer/ev-previewer.c:35
 msgid "Delete the temporary file"
@@ -795,23 +784,14 @@ msgstr "Illesztés a nyomtatható területhez"
 
 #: ../libview/ev-print-operation.c:1911
 msgid ""
-"Scale document pages to fit the selected printer page. Select from one of the"
-" following:\n"
+"Scale document pages to fit the selected printer page. Select from one of the following:\n"
 "\n"
 "• \"None\": No page scaling is performed.\n"
 "\n"
-"• \"Shrink to Printable Area\": Document pages larger than the printable area"
-" are reduced to fit the printable area of the printer page.\n"
+"• \"Shrink to Printable Area\": Document pages larger than the printable area are reduced to fit the printable area of the printer page.\n"
 "\n"
-"• \"Fit to Printable Area\": Document pages are enlarged or reduced as"
-" required to fit the printable area of the printer page.\n"
-msgstr ""
-"Dokumentumoldalak átméretezése a kijelölt nyomtatóoldalhoz. Válasszon az"
-" alábbiak közül:\n\n• „Nincs”: Az oldal nem lesz átméretezve.\n\n•"
-" „Zsugorítás a nyomtatható területre”: A nyomtatható területnél nagyobb"
-" dokumentumoldalak mérete a nyomtatóoldal méretére lesz csökkentve.\n\n•"
-" „Illesztés a nyomtatható területhez”: A dokumentumoldalak szükség szerint a"
-" nyomtatóoldal nyomtatható területére lesznek növelve vagy csökkentve.\n"
+"• \"Fit to Printable Area\": Document pages are enlarged or reduced as required to fit the printable area of the printer page.\n"
+msgstr "Dokumentumoldalak átméretezése a kijelölt nyomtatóoldalhoz. Válasszon az alábbiak közül:\n\n• „Nincs”: Az oldal nem lesz átméretezve.\n\n• „Zsugorítás a nyomtatható területre”: A nyomtatható területnél nagyobb dokumentumoldalak mérete a nyomtatóoldal méretére lesz csökkentve.\n\n• „Illesztés a nyomtatható területhez”: A dokumentumoldalak szükség szerint a nyomtatóoldal nyomtatható területére lesznek növelve vagy csökkentve.\n"
 
 #: ../libview/ev-print-operation.c:1923
 msgid "Auto Rotate and Center"
@@ -821,10 +801,7 @@ msgstr "Automatikus forgatás és középre igazítás"
 msgid ""
 "Rotate printer page orientation of each page to match orientation of each "
 "document page. Document pages will be centered within the printer page."
-msgstr ""
-"Minden oldal nyomtatóoldal-tájolásának forgatása a dokumentumoldalnak"
-" megfelelően. A dokumentumoldalak az nyomtatóoldalon belül középre lesznek"
-" igazítva."
+msgstr "Minden oldal nyomtatóoldal-tájolásának forgatása a dokumentumoldalnak megfelelően. A dokumentumoldalak az nyomtatóoldalon belül középre lesznek igazítva."
 
 #: ../libview/ev-print-operation.c:1931
 msgid "Select page size using document page size"
@@ -834,9 +811,7 @@ msgstr "Oldalméret kiválasztása a dokumentum oldalméretének használatával
 msgid ""
 "When enabled, each page will be printed on the same size paper as the "
 "document page."
-msgstr ""
-"Ha engedélyezi, minden oldal a dokumentumoldallal egyező méretű papírra lesz"
-" nyomtatva."
+msgstr "Ha engedélyezi, minden oldal a dokumentumoldallal egyező méretű papírra lesz nyomtatva."
 
 #: ../libview/ev-print-operation.c:2015
 msgid "Page Handling"
@@ -1040,9 +1015,7 @@ msgstr "Nemrég használt dokumentum megnyitása"
 msgid ""
 "This document is locked and can only be read by entering the correct "
 "password."
-msgstr ""
-"Ez a dokumentum zárolva van és csak a megfelelő jelszó megadásával lehet"
-" elolvasni."
+msgstr "Ez a dokumentum zárolva van és csak a megfelelő jelszó megadásával lehet elolvasni."
 
 #: ../shell/ev-password-view.c:149 ../shell/ev-password-view.c:265
 msgid "_Unlock Document"
@@ -1187,9 +1160,7 @@ msgstr "Oldal: %s – %s"
 msgid ""
 "Cannot enter presentation mode with ePub documents, use fullscreen mode "
 "instead."
-msgstr ""
-"A prezentáció üzemmód nem érhető el az ePub dokumentumok számára. Használja a"
-" teljes képernyős üzemmódot helyette."
+msgstr "A prezentáció üzemmód nem érhető el az ePub dokumentumok számára. Használja a teljes képernyős üzemmódot helyette."
 
 #: ../shell/ev-window.c:1655
 msgid "The document contains no pages"
@@ -1293,17 +1264,13 @@ msgstr "„%s” feladat nyomtatása"
 msgid ""
 "Document contains form fields that have been filled out. If you don't save a"
 " copy, changes will be permanently lost."
-msgstr ""
-"A dokumentum kitöltött űrlapmezőket tartalmaz. Ha nem ment egy példányt,"
-" akkor a módosítások véglegesen elvesznek."
+msgstr "A dokumentum kitöltött űrlapmezőket tartalmaz. Ha nem ment egy példányt, akkor a módosítások véglegesen elvesznek."
 
 #: ../shell/ev-window.c:3735
 msgid ""
 "Document contains new or modified annotations. If you don't save a copy, "
 "changes will be permanently lost."
-msgstr ""
-"A dokumentum új vagy módosított megjegyzéseket tartalmaz. Ha nem ment egy"
-" példányt, akkor a módosítások véglegesen elvesznek."
+msgstr "A dokumentum új vagy módosított megjegyzéseket tartalmaz. Ha nem ment egy példányt, akkor a módosítások véglegesen elvesznek."
 
 #: ../shell/ev-window.c:3742
 #, c-format
@@ -1328,20 +1295,16 @@ msgstr "Bezárás előtt megvárja a(z) „%s” nyomtatási feladat befejeződ�
 #. so the ngettext is needed.
 #: ../shell/ev-window.c:3840
 #, c-format
-msgid "There is %d print job active. Wait until print finishes before closing?"
+msgid ""
+"There is %d print job active. Wait until print finishes before closing?"
 msgid_plural ""
 "There are %d print jobs active. Wait until print finishes before closing?"
-msgstr[0] ""
-"%d nyomtatási feladat aktív. Megvárja a nyomtatás befejeződését a bezárás"
-" előtt?"
-msgstr[1] ""
-"%d nyomtatási feladat aktív. Megvárja a nyomtatás befejeződését a bezárás"
-" előtt?"
+msgstr[0] "%d nyomtatási feladat aktív. Megvárja a nyomtatás befejeződését a bezárás előtt?"
+msgstr[1] "%d nyomtatási feladat aktív. Megvárja a nyomtatás befejeződését a bezárás előtt?"
 
 #: ../shell/ev-window.c:3855
 msgid "If you close the window, pending print jobs will not be printed."
-msgstr ""
-"Ha bezárja az ablakot, a függőben lévő nyomtatási feladatok megszakadnak."
+msgstr "Ha bezárja az ablakot, a függőben lévő nyomtatási feladatok megszakadnak."
 
 #: ../shell/ev-window.c:3859
 msgid "Cancel _print and Close"
@@ -1376,10 +1339,7 @@ msgid ""
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version.\n"
-msgstr ""
-"Az Atril szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software"
-" Foundation által kiadott GNU General Public License második (vagy bármely"
-" későbbi) változatában foglaltak alapján.\n"
+msgstr "Az Atril szabad szoftver, terjesztheti és/vagy módosíthatja a Free Software Foundation által kiadott GNU General Public License második (vagy bármely későbbi) változatában foglaltak alapján.\n"
 
 #: ../shell/ev-window.c:5189
 msgid ""
@@ -1387,21 +1347,14 @@ msgid ""
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details.\n"
-msgstr ""
-"Az Atril programot abban a reményben terjesztjük, hogy hasznos lesz, de nem"
-" vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program"
-" alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További"
-" részletekért tanulmányozza a GNU GPL licencet.\n"
+msgstr "Az Atril programot abban a reményben terjesztjük, hogy hasznos lesz, de nem vállalunk SEMMIFÉLE GARANCIÁT, még olyan értelemben sem, hogy a program alkalmas-e a KÖZREADÁSRA vagy EGY BIZONYOS FELADAT ELVÉGZÉSÉRE. További részletekért tanulmányozza a GNU GPL licencet.\n"
 
 #: ../shell/ev-window.c:5193
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Atril; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA 02110-1301  USA\n"
-msgstr ""
-"Az Atril programhoz a GNU General Public License egy példánya is jár, ha nem"
-" kapta meg, írjon a Free Software Foundation Inc.-nek. Levélcímük: 51"
-" Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+msgstr "Az Atril programhoz a GNU General Public License egy példánya is jár, ha nem kapta meg, írjon a Free Software Foundation Inc.-nek. Levélcímük: 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.\n"
 
 #: ../shell/ev-window.c:5218
 msgid "Atril"
@@ -1840,4 +1793,3 @@ msgstr "KARAKTERLÁNC"
 #: ../shell/main.c:76
 msgid "[FILE…]"
 msgstr "[FÁJL…]"
-

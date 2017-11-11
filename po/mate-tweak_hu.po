@@ -6,14 +6,15 @@
 # Falu <info@falu.me>, 2016-2017
 # Falu <info@falu.me>, 2015
 # KAMI KAMI <kami911@gmail.com>, 2016
+# KAMI KAMI <kami911@gmail.com>, 2017
 # Rezső Páder <rezso@rezso.net>, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-23 18:59+0100\n"
-"PO-Revision-Date: 2017-09-22 02:09+0000\n"
-"Last-Translator: Falu <info@falu.me>\n"
+"PO-Revision-Date: 2017-11-10 17:12+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -203,7 +204,7 @@ msgstr "Asztal ikonok megjelenítése"
 msgid ""
 "When disabled the desktop will be unmanaged with no icons or file manager "
 "access"
-msgstr ""
+msgstr "Kikapcsolva, az asztalon nem jelennek meg ikonok, és a fájlkezelőhöz sem lehet hozzáférni"
 
 #: ../mate-tweak:1462
 msgid "Computer"
@@ -231,7 +232,7 @@ msgstr "Animációk engedélyezése"
 
 #: ../mate-tweak:1469
 msgid "Whether animations should be displayed by the window manager and panel"
-msgstr ""
+msgstr "Megjelenjenek-e az ablakkezelő és panel animációk"
 
 #: ../mate-tweak:1470
 msgid "Do not show window content when moving windows"
@@ -239,7 +240,7 @@ msgstr "Ne mutassa az ablak tartalmát mozgatás közben"
 
 #: ../mate-tweak:1471
 msgid "Provide less feedback when moving windows by using wireframes"
-msgstr ""
+msgstr "Csak az ablakkeret megjelenítése az ablak mozgatásakor"
 
 #: ../mate-tweak:1472
 msgid "Window manager performance tuning."
@@ -253,7 +254,7 @@ msgstr "Ablakigazítás engedélyezés"
 msgid ""
 "Dropping windows on screen edges maximizes them vertically and resizes them "
 "horizontally to cover half the available area"
-msgstr ""
+msgstr "A képernyőélekre húzott ablakok függőlegesen maximalizálva lesznek, vízszintesen pedig az elérhető terület felét fogják elfoglalni."
 
 #: ../mate-tweak:1476
 msgid "Undecorate maximized windows"
@@ -261,7 +262,7 @@ msgstr "Maximalizált ablakok dekorációjának megszüntetése"
 
 #: ../mate-tweak:1477
 msgid "Undecorate windows when maximized"
-msgstr ""
+msgstr "Maximalizált ablak dekoráció nélkül"
 
 #: ../mate-tweak:1478
 msgid "Do not auto-maximize new windows"
@@ -269,7 +270,7 @@ msgstr "Ne maximalizálja automatikusan az új ablakokat"
 
 #: ../mate-tweak:1479
 msgid "Do not automatically maximize newly opened windows"
-msgstr ""
+msgstr "Ne maximalizálja automatikusan az újonnan megnyitott ablakokat"
 
 #: ../mate-tweak:1481
 msgid "Window control placement."
@@ -277,7 +278,7 @@ msgstr "Ablakkezelő elhelyezése."
 
 #: ../mate-tweak:1483
 msgid "Save the current panel layout as your own custom version"
-msgstr ""
+msgstr "A jelenlegi panel elrendezés mentése saját elrendezésként"
 
 #: ../mate-tweak:1484
 msgid "Delete the currently selected panel layout"
@@ -289,7 +290,7 @@ msgstr "CCSM megnyitása"
 
 #: ../mate-tweak:1486
 msgid "Open the Compiz configuration and settings manager"
-msgstr ""
+msgstr "Compiz beállítások megnyitása"
 
 #: ../mate-tweak:1487
 msgid "Reset Compiz"
@@ -297,7 +298,7 @@ msgstr "Compiz visszaállítása"
 
 #: ../mate-tweak:1488
 msgid "Reset the current Compiz configuration to factory defaults"
-msgstr ""
+msgstr "Compiz beállítások visszaállítása az alapértelmezésre"
 
 #: ../mate-tweak:1490
 msgid "Enable keyboard LED"
@@ -305,7 +306,7 @@ msgstr "Billentyűzet LED engedélyezése"
 
 #: ../mate-tweak:1491
 msgid "Show keyboard LED indicators in the notifcation tray"
-msgstr ""
+msgstr "Billentyűzet LED jelző megjelenítése az értesítési területen"
 
 #: ../mate-tweak:1492
 msgid "Enable pull-down terminal"
@@ -313,7 +314,7 @@ msgstr "Legördülő terminál engedélyezése"
 
 #: ../mate-tweak:1493
 msgid "When enabled press F12 to pull down terminal"
-msgstr ""
+msgstr "Ha engedélyezve van, a legördülő terminál elérhető az F12 billentyűvel"
 
 #: ../mate-tweak:1495
 msgid "Show Applications"
@@ -321,7 +322,7 @@ msgstr "Alkalmazások megjelenítése"
 
 #: ../mate-tweak:1496
 msgid "Show Applications item in the menu bar"
-msgstr ""
+msgstr "Alkalmazások elem megjelenítése a menüsorban"
 
 #: ../mate-tweak:1497
 msgid "Show Places"
@@ -329,7 +330,7 @@ msgstr "Helyek megjelenítése"
 
 #: ../mate-tweak:1498
 msgid "Show Places item in the menu bar"
-msgstr ""
+msgstr "Helyek elem megjelenítése a menüsorban"
 
 #: ../mate-tweak:1499
 msgid "Show System"
@@ -337,7 +338,7 @@ msgstr "Rendszer megjelenítése"
 
 #: ../mate-tweak:1500
 msgid "Show System item in the menu bar"
-msgstr ""
+msgstr "Rendszer elem megjelenítése a menüsorban"
 
 #: ../mate-tweak:1502
 msgid "Show icons on menus"
@@ -345,7 +346,7 @@ msgstr "Ikonok megjelenítése a menükben"
 
 #: ../mate-tweak:1503
 msgid "Whether menus may display an icon next to a menu entry"
-msgstr ""
+msgstr "A menükben megjelenjenek-e ikonok a menüelemek mellett"
 
 #: ../mate-tweak:1504
 msgid "Show icons on buttons"
@@ -353,7 +354,7 @@ msgstr "Ikonok megjelenítése a gombokon"
 
 #: ../mate-tweak:1505
 msgid "Whether buttons may display an icon in addition to the button text"
-msgstr ""
+msgstr "A gombokon megjelenjenek-e ikonok a gombok szövege mellett"
 
 #: ../mate-tweak:1506
 msgid "Show Input Methods menu in context menus"
@@ -363,7 +364,7 @@ msgstr "Beviteli módok menü megjelenítése a helyi menükben"
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method"
-msgstr ""
+msgstr "A beviteli mezők és szövegnézetek helyi menüi felajánlják-e a beviteli módszer megváltoztatását"
 
 #: ../mate-tweak:1508
 msgid "Show Unicode Control Character menu in context menus"
@@ -373,7 +374,7 @@ msgstr "Unicode vezérlőkarakterek menü megjelenítése a helyi menükben"
 msgid ""
 "Whether the context menu of entries and text views should offer the insert "
 "control characters"
-msgstr ""
+msgstr "A beviteli mezők és szövegnézetek felajánlják-e vezérlőkarakterek beszúrását"
 
 #: ../mate-tweak:1511
 msgid "Style:"
