@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-10 16:39+0000\n"
+"PO-Revision-Date: 2017-11-21 13:20+0000\n"
 "Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -151,7 +151,7 @@ msgstr "Tört"
 #. percentage property
 #: ../src/gsm_color_button.c:197
 msgid "Percentage full for pie color pickers"
-msgstr "Teljes százalékos arány a torta diagrammban"
+msgstr "Teljes százalékos arány a torta diagramban"
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"

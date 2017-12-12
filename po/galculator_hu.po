@@ -6,14 +6,15 @@
 # Balázs Meskó <meskobalazs@gmail.com>, 2016
 # KAMI KAMI <kami911@gmail.com>, 2014,2016
 # KAMI KAMI <kami911@gmail.com>, 2014
+# KAMI KAMI <kami911@gmail.com>, 2017
 # Rezső Páder <rezso@rezso.net>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-17 16:18+0100\n"
-"PO-Revision-Date: 2017-09-20 01:01+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
+"PO-Revision-Date: 2017-11-21 14:42+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr "mentés ide"
 #: ../src/callbacks.c:1427
 #, c-format
 msgid "[%s] on_prefs_number_combo_changed failed to retrieve iter. %s\n"
-msgstr "[%s] on_prefs_number_combo_changed failed to retrieve iter. %s\n"
+msgstr "[%s] Az „on_prefs_number_combo_changed” nem tudta lekérni az elemeket. %s\n"
 
 #: ../src/callbacks.c:1590
 #, c-format
@@ -60,7 +61,7 @@ msgstr "\n%s v%s, (c) 2002-2014 Simon Flöry\n\nHasználat: %s [opciók]\n\nopci
 #: ../src/main.c:196
 #, c-format
 msgid "[%s] configuration file: Failed to create directory %s.\n"
-msgstr "[%s] konfigurációs fájl: %s könyvtár létrehozása nem sikerült.\n"
+msgstr "[%s] beállítófájl: %s könyvtár létrehozása nem sikerült.\n"
 
 #: ../src/main.c:201
 #, c-format
@@ -68,7 +69,7 @@ msgid ""
 "[%s] configuration file: We will move the configuration file from %s to %s. "
 "After you quit %s, you may remove the configuration file from its old "
 "location %s.\n"
-msgstr "[%s] konfigurációs fájl: Átmozgatása kerül a konfigurációs fájl innen: %s, ide: %s. Amikor kilép innen: %s, letörölheti a konfigurációs fájlt a régi helyéről: %s.\n"
+msgstr "[%s] beállítófájl: Átmozgatása kerül a konfigurációs fájl innen: %s, ide: %s. Amikor kilép innen: %s, letörölheti a konfigurációs fájlt a régi helyéről: %s.\n"
 
 #: ../src/galculator.h:92
 msgid "Please submit a bugreport."
@@ -84,14 +85,14 @@ msgstr "[%s] %c - ismeretlen műveleti karakter. %s\n"
 msgid ""
 "[%s] Conversion of floating point number in float2string failed because buffer was too small. %s\n"
 ")"
-msgstr "[%s] A lebegőpontos szám átalakítása float2string-ben nem sikerült, mert túl kicsi volt a buffer. %s\n)"
+msgstr "[%s] A lebegőpontos szám átalakítása float2string-ben nem sikerült, mert túl kicsi volt a puffer. %s\n)"
 
 #: ../src/calc_basic.c:719
 #, c-format
 msgid ""
 "[%s] Conversion of floating point number in float2stringP failed because buffer was too small. %s\n"
 ")"
-msgstr "[%s] A lebegőpontos szám átalakítása float2stringP-ben nem sikerült, mert túl kicsi volt a buffer. %s\n)"
+msgstr "[%s] A lebegőpontos szám átalakítása float2stringP-ben nem sikerült, mert túl kicsi volt a puffer. %s\n)"
 
 #: ../src/config_file.c:180
 msgid "Pi"
@@ -112,26 +113,26 @@ msgstr "e"
 #: ../src/config_file.c:232
 #, c-format
 msgid "[%s] configuration file: ignoring unknown entry %s=%s. %s\n"
-msgstr "[%s] konfigurációs fájl: ismeretlen bejegyzés figyelmen kívül hagyása: %s=%s. %s\n"
+msgstr "[%s] beállítófájl: ismeretlen bejegyzés figyelmen kívül hagyása: %s=%s. %s\n"
 
 #: ../src/config_file.c:256
 #, c-format
 msgid ""
 "[%s] configuration file: %s has to be TRUE or FALSE. Using defaults. %s\n"
-msgstr "[%s] konfigurációs fájl: %s értéke TRUE vagy FALSE lehet. Az alapértelmezést használom. %s\n"
+msgstr "[%s] beállítófájl: %s értéke TRUE vagy FALSE lehet. Az alapértelmezés használata. %s\n"
 
 #: ../src/config_file.c:262
 #, c-format
 msgid ""
 "[%s] configuration file: failed to convert %s to a number properly. Have you"
 " changed your locales? %s\n"
-msgstr "[%s] konfigurációs fájl: nem sikerült megfelően átalakítani számmá: %s. Megváltoztatta a területi beállításokat? %s\n"
+msgstr "[%s] beállítófájl: nem sikerült megfelelően átalakítani számmá: %s. Megváltoztatta a területi beállításokat? %s\n"
 
 #: ../src/config_file.c:265
 #, c-format
 msgid ""
 "[%s] configuration file: ignoring unknown key_type in config structure. %s\n"
-msgstr "[%s] configuration file: ignoriere unbekannten key_type in config structure. %s\n"
+msgstr "[%s] beállítófájl: ismeretlen „key_type” kulcs figyelmen kívül hagyása a beállításokban. %s\n"
 
 #: ../src/config_file.c:284
 #, c-format
@@ -168,12 +169,12 @@ msgstr "[%s] configuration file: Überspringe aktuellen (eventuell problematisch
 msgid ""
 "[%s] configuration file: ignoring unknown \"key_type\" in "
 "\"config_structure\". %s\n"
-msgstr "[%s] configuration file: ignoriere unbekannten \"key_type\" in \"config_structure\". %s\n"
+msgstr "[%s] beállítófájl: ismeretlen „key_type” kulcs figyelmen kívül hagyása a beállításokban. %s\n"
 
 #: ../src/config_file.c:501
 #, c-format
 msgid "[%s] configuration file: couldn't save/write to configuration file %s.\n"
-msgstr "[%s] configuration file: Die Einstellungen konnten nicht gespeichert werden %s.\n"
+msgstr "[%s] beállítófájl: A(z)%s beállítófájl mentése nem sikerült.\n"
 
 #: ../src/display.c:420
 #, c-format
@@ -193,7 +194,7 @@ msgstr "nicht unterstÃŒtzte inverse Funktion"
 
 #: ../src/general_functions.c:49
 msgid "unsupported hyperbolic function"
-msgstr "nicht unterstÃŒtzte hyperbolische Funktion"
+msgstr "nem támogatott hiperbolikus függvény"
 
 #: ../src/general_functions.c:112
 #, c-format
@@ -222,7 +223,7 @@ msgstr "[%s] Das Widget %s konnte von der Funktion \"activate_menu_item\" nicht 
 
 #: ../src/general_functions.c:437
 msgid "unknown number base"
-msgstr "unbekannte Zahlenbasis"
+msgstr "ismeretlen számrendszer"
 
 #: ../src/general_functions.c:438
 #, c-format
@@ -260,17 +261,17 @@ msgstr "[%s] unbekannte Zahlenbasis in der Funktion \"rad2dx\". %s\n"
 #: ../src/general_functions.c:773
 #, c-format
 msgid "[%s] unknown number base in function \"get_sep\". %s\n"
-msgstr "[%s] unbekannte Zahlenbasis in der Funktion \"get_sep\". %s\n"
+msgstr "[%s] ismeretlen számrendszer a „get_sep” függvényben: %s.\n"
 
 #: ../src/general_functions.c:790
 #, c-format
 msgid "[%s] unknown number base in function \"get_sep_length\". %s\n"
-msgstr "[%s] unbekannte Zahlenbasis in der Funktion \"get_sep_length\". %s\n"
+msgstr "[%s] ismeretlen számrendszer a „get_sep_length” függvényben: %s.\n"
 
 #: ../src/general_functions.c:807
 #, c-format
 msgid "[%s] unknown number base in function \"get_sep_char\". %s\n"
-msgstr "[%s] ismeretlen számrendszer a következő függvényben: „get_sep_char”. %s\n"
+msgstr "[%s] ismeretlen számrendszer a „get_sep_char” függvényben: %s.\n"
 
 #: ../src/general_functions.c:875
 msgid "unknown display option in function \"change_option\""
@@ -294,7 +295,7 @@ msgstr "[%s] Nem tölthető be: %s. Ez a fájl szükséges a galculator felhaszn
 
 #: ../src/ui.c:959 ../ui/main_frame.ui.h:17 ../ui/main_frame_hildon.ui.h:16
 msgid "Show _menu bar"
-msgstr "_Menüsor mutatása"
+msgstr "_Menüsor megjelenítése"
 
 #: ../src/ui.c:999
 #, c-format
