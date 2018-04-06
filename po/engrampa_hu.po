@@ -2,22 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Andras Timar <timar at mate dot hu>, 2002-2004
-# Balázs Meskó <meskobalazs@gmail.com>, 2016
-# Falu <info@falu.me>, 2016
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010
-# Kalman „KAMI” Szalai <kami911@gmail.com>, 2014-2018
-# Károly Papp <pkaroly82@gmail.com>, 2016-2017
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004
-# Mate ORY <orymate at gmail d0t com>, 2006,2008
-# Rezső Páder <rezso@rezso.net>, 2014-2015,2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 08:35+0100\n"
+"POT-Creation-Date: 2018-03-14 08:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Károly Papp <pkaroly82@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -462,11 +453,10 @@ msgstr ""
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
-"Károly Papp <pkaroly82 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
 "Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../src/dlg-add-files.c:103 ../src/dlg-add-folder.c:136
 msgid "Could not add the files to the archive"
@@ -1449,6 +1439,10 @@ msgstr "_Nézet"
 msgid "_Arrange Files"
 msgstr "_Fájlok rendezése"
 
+#: ../src/ui.h:39
+msgid "_About"
+msgstr "_Névjegy"
+
 #: ../src/ui.h:40
 msgid "Information about the program"
 msgstr "Információk a programról"
@@ -1473,6 +1467,10 @@ msgstr "Mappa hozzáadása az archívumhoz"
 msgid "Add Folder"
 msgstr "Mappa hozzáadása"
 
+#: ../src/ui.h:59
+msgid "_Close"
+msgstr "_Bezárás"
+
 #: ../src/ui.h:60
 msgid "Close the current archive"
 msgstr "A jelenlegi archívum bezárása"
@@ -1485,13 +1483,25 @@ msgstr "Tartalom"
 msgid "Display the Engrampa Manual"
 msgstr "A Engrampa kézikönyvének megjelenítése"
 
+#: ../src/ui.h:68 ../src/ui.h:89
+msgid "_Copy"
+msgstr "_Másolás"
+
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"
 msgstr "Kijelölés másolása"
 
+#: ../src/ui.h:72 ../src/ui.h:93
+msgid "Cu_t"
+msgstr "_Kivágás"
+
 #: ../src/ui.h:73 ../src/ui.h:94
 msgid "Cut the selection"
 msgstr "Kijelölés kivágása"
+
+#: ../src/ui.h:76 ../src/ui.h:97
+msgid "_Paste"
+msgstr "_Beillesztés"
 
 #: ../src/ui.h:77 ../src/ui.h:98
 msgid "Paste the clipboard"
@@ -1504,6 +1514,10 @@ msgstr "Át_nevezés…"
 #: ../src/ui.h:81 ../src/ui.h:102
 msgid "Rename the selection"
 msgstr "Kijelölés átnevezése"
+
+#: ../src/ui.h:84 ../src/ui.h:105
+msgid "_Delete"
+msgstr "_Törlés"
 
 #: ../src/ui.h:85 ../src/ui.h:106
 msgid "Delete the selection from the archive"
@@ -1553,6 +1567,11 @@ msgstr "Megnyitás…"
 msgid "Open archive"
 msgstr "Archívum megnyitása"
 
+#: ../src/ui.h:143 ../src/ui.h:179 ../src/ui.h:183 ../src/ui.h:187
+#: ../src/ui.h:191
+msgid "_Open"
+msgstr "_Megnyitás"
+
 #: ../src/ui.h:147
 msgid "_Open With…"
 msgstr "_Megnyitás mással…"
@@ -1569,9 +1588,17 @@ msgstr "_Jelszó…"
 msgid "Specify a password for this archive"
 msgstr "Jelszó megadása az archívumhoz"
 
+#: ../src/ui.h:155
+msgid "_Properties"
+msgstr "_Tulajdonságok"
+
 #: ../src/ui.h:156
 msgid "Show archive properties"
 msgstr "Az archívum tulajdonságainak megjelenítése"
+
+#: ../src/ui.h:159
+msgid "_Refresh"
+msgstr "_Frissítés"
 
 #: ../src/ui.h:160
 msgid "Reload current archive"
@@ -1585,9 +1612,17 @@ msgstr "Mentés másként…"
 msgid "Save the current archive with a different name"
 msgstr "A jelenlegi archívum mentése más néven"
 
+#: ../src/ui.h:167
+msgid "Select _All"
+msgstr "Min_dent kijelöl"
+
 #: ../src/ui.h:168
 msgid "Select all files"
 msgstr "Minden fájl kijelölése"
+
+#: ../src/ui.h:171
+msgid "_Stop"
+msgstr "_Leállítás"
 
 #: ../src/ui.h:172
 msgid "Stop current operation"

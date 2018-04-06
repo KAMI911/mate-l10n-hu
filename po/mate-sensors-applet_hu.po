@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 15:23+0100\n"
+"POT-Creation-Date: 2018-03-17 15:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -194,119 +194,136 @@ msgstr "Ambient"
 msgid "Sensors Applet Preferences"
 msgstr "Szenzor kisalkalmazás beállításai"
 
-#: ../sensors-applet/prefs-dialog.c:456
+#: ../sensors-applet/prefs-dialog.c:457
 #: ../sensors-applet/sensors-applet.c:1288
 msgid "No sensors found!"
 msgstr "Nem találtam szenzorokat!"
 
-#: ../sensors-applet/prefs-dialog.c:462
+#: ../sensors-applet/prefs-dialog.c:463
 msgid "Display"
 msgstr "Kijelző"
 
-#: ../sensors-applet/prefs-dialog.c:474
+#: ../sensors-applet/prefs-dialog.c:475
 msgid "label with value"
 msgstr "címke értékkel"
 
-#: ../sensors-applet/prefs-dialog.c:475
+#: ../sensors-applet/prefs-dialog.c:476
 msgid "icon with value"
 msgstr "felirat értékkel"
 
-#: ../sensors-applet/prefs-dialog.c:476
+#: ../sensors-applet/prefs-dialog.c:477
 msgid "value only"
 msgstr "csak érték"
 
-#: ../sensors-applet/prefs-dialog.c:477
+#: ../sensors-applet/prefs-dialog.c:478
 msgid "icon only"
 msgstr "csak ikon"
 
-#: ../sensors-applet/prefs-dialog.c:478
+#: ../sensors-applet/prefs-dialog.c:479
 msgid "graph only"
 msgstr "csak grafikon"
 
-#: ../sensors-applet/prefs-dialog.c:491
+#: ../sensors-applet/prefs-dialog.c:492
 msgid "_Display sensors in panel as"
 msgstr "_Mutasd a panelen a szenzorokat így"
 
-#: ../sensors-applet/prefs-dialog.c:503
+#: ../sensors-applet/prefs-dialog.c:504
 msgid "beside labels / icons"
 msgstr "címkék / ikonok egymás mellett"
 
-#: ../sensors-applet/prefs-dialog.c:504
+#: ../sensors-applet/prefs-dialog.c:505
 msgid "below labels / icons"
 msgstr "címkék / ikonok egymás alatt"
 
-#: ../sensors-applet/prefs-dialog.c:517
+#: ../sensors-applet/prefs-dialog.c:518
 msgid "Preferred _position of sensor values"
 msgstr "Szenzorértékek _pozíciója"
 
-#: ../sensors-applet/prefs-dialog.c:529
+#: ../sensors-applet/prefs-dialog.c:530
 msgid "Kelvin"
 msgstr "Kelvin"
 
-#: ../sensors-applet/prefs-dialog.c:530
+#: ../sensors-applet/prefs-dialog.c:531
 msgid "Celsius"
 msgstr "Celsius fok"
 
-#: ../sensors-applet/prefs-dialog.c:531
+#: ../sensors-applet/prefs-dialog.c:532
 msgid "Fahrenheit"
 msgstr "Fahrenheit"
 
-#: ../sensors-applet/prefs-dialog.c:544
+#: ../sensors-applet/prefs-dialog.c:545
 msgid "_Temperature scale"
 msgstr "_Hőmérséklet skála"
 
-#: ../sensors-applet/prefs-dialog.c:570
+#: ../sensors-applet/prefs-dialog.c:571
 msgid "Graph _size (pixels)"
 msgstr "_Grafikon méret (pixel)"
 
 #. hide/show units
-#: ../sensors-applet/prefs-dialog.c:582
+#: ../sensors-applet/prefs-dialog.c:583
 msgid "Show _units"
 msgstr "Mértékegységek megjelenítése"
 
-#: ../sensors-applet/prefs-dialog.c:590
+#: ../sensors-applet/prefs-dialog.c:591
 msgid "Update"
 msgstr "Frissítés"
 
-#: ../sensors-applet/prefs-dialog.c:617
+#: ../sensors-applet/prefs-dialog.c:618
 msgid "Update _interval (secs)"
 msgstr "_Frissítési idő (sec)"
 
-#: ../sensors-applet/prefs-dialog.c:627
+#: ../sensors-applet/prefs-dialog.c:628
 msgid "Notifications"
 msgstr "Értesítések"
 
-#: ../sensors-applet/prefs-dialog.c:637
+#: ../sensors-applet/prefs-dialog.c:638
 msgid "Display _notifications"
 msgstr "Mutasson értesítéseket"
 
-#: ../sensors-applet/prefs-dialog.c:771
+#: ../sensors-applet/prefs-dialog.c:772
 msgid "Sensor"
 msgstr "Szenzor"
 
-#: ../sensors-applet/prefs-dialog.c:778
+#: ../sensors-applet/prefs-dialog.c:779
 msgid "Label"
 msgstr "Címke"
 
-#: ../sensors-applet/prefs-dialog.c:788
+#: ../sensors-applet/prefs-dialog.c:789
 msgid "Labels can be edited directly by clicking on them."
 msgstr "A szerkesztéshez kattintson a címkére."
 
-#: ../sensors-applet/prefs-dialog.c:789
+#: ../sensors-applet/prefs-dialog.c:790
 msgid "Enabled"
 msgstr "Engedélyezve"
 
 #. icon stuff
-#: ../sensors-applet/prefs-dialog.c:798
-#: ../sensors-applet/sensor-config-dialog.c:440
+#: ../sensors-applet/prefs-dialog.c:799
+#: ../sensors-applet/sensor-config-dialog.c:443
 msgid "Icon"
 msgstr "Ikon"
 
-#: ../sensors-applet/prefs-dialog.c:916
+#. when selection is changed, make sure sensor_config button is activated
+#. Create buttons for user to interact with sensors tree
+#: ../sensors-applet/prefs-dialog.c:831
+msgid "_Up"
+msgstr "_Fel"
+
+#: ../sensors-applet/prefs-dialog.c:839
+msgid "_Down"
+msgstr "_Le"
+
+#. Sensor Config button
+#. initially make button insensitive until user selects a row
+#. from the sensors tree
+#: ../sensors-applet/prefs-dialog.c:873
+msgid "_Properties"
+msgstr "_Tulajdonságok"
+
+#: ../sensors-applet/prefs-dialog.c:920
 msgid "General Options"
 msgstr "Általános beállítások"
 
-#: ../sensors-applet/prefs-dialog.c:920
+#: ../sensors-applet/prefs-dialog.c:924
 msgid "Sensors"
 msgstr "Szenzorok"
 
@@ -335,74 +352,76 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
-"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Rezső Páder<rezso at rezso dot net>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
+"Falu<info at falu dot me>\n"
+"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../sensors-applet/sensor-config-dialog.c:388
 msgid "Sensor Properties"
 msgstr "Szenzor tulajdonságok"
 
 #. graph stuff
-#: ../sensors-applet/sensor-config-dialog.c:413
+#: ../sensors-applet/sensor-config-dialog.c:416
 msgid "Graph"
 msgstr "Grafikon"
 
-#: ../sensors-applet/sensor-config-dialog.c:426
+#: ../sensors-applet/sensor-config-dialog.c:429
 msgid "Graph Color"
 msgstr "Grafikon Szín"
 
-#: ../sensors-applet/sensor-config-dialog.c:429
+#: ../sensors-applet/sensor-config-dialog.c:432
 msgid "Graph _color"
 msgstr "Grafikon _szín"
 
-#: ../sensors-applet/sensor-config-dialog.c:483
+#: ../sensors-applet/sensor-config-dialog.c:486
 msgid "Sensor _icon"
 msgstr "_Szenzor ikon"
 
-#: ../sensors-applet/sensor-config-dialog.c:489
+#: ../sensors-applet/sensor-config-dialog.c:492
 msgid "Scaling Parameters"
 msgstr "Skálázási paraméterek"
 
-#: ../sensors-applet/sensor-config-dialog.c:518
+#: ../sensors-applet/sensor-config-dialog.c:521
 msgid "Sensor value _multiplier"
 msgstr "_Multiplikátor"
 
-#: ../sensors-applet/sensor-config-dialog.c:546
+#: ../sensors-applet/sensor-config-dialog.c:549
 msgid "Sensor value _offset"
 msgstr "_Indulóérték (Offset)"
 
 #. now do alarm widgets
-#: ../sensors-applet/sensor-config-dialog.c:555
+#: ../sensors-applet/sensor-config-dialog.c:558
 msgid "Sensor Limits"
 msgstr "Határérték"
 
-#: ../sensors-applet/sensor-config-dialog.c:583
+#: ../sensors-applet/sensor-config-dialog.c:586
 msgid "Sensor _low value"
 msgstr "M_inimum érték"
 
-#: ../sensors-applet/sensor-config-dialog.c:611
+#: ../sensors-applet/sensor-config-dialog.c:614
 msgid "Sensor _high value"
 msgstr "Ma_ximum érték"
 
-#: ../sensors-applet/sensor-config-dialog.c:619
+#: ../sensors-applet/sensor-config-dialog.c:622
 #: ../sensors-applet/sensors-applet.c:365
 msgid "Alarm"
 msgstr "Riasztás"
 
-#: ../sensors-applet/sensor-config-dialog.c:648
+#: ../sensors-applet/sensor-config-dialog.c:651
 msgid "Alarm _repeat interval (secs)"
 msgstr "_Riasztási időköz (sec)"
 
-#: ../sensors-applet/sensor-config-dialog.c:667
+#: ../sensors-applet/sensor-config-dialog.c:670
 msgid "Lo_w alarm command"
 msgstr "_Alacsony érték riasztás parancs"
 
-#: ../sensors-applet/sensor-config-dialog.c:688
+#: ../sensors-applet/sensor-config-dialog.c:691
 msgid "Hi_gh alarm command"
 msgstr "_Magas érték riasztás parancs"
 
-#: ../sensors-applet/sensor-config-dialog.c:701
+#: ../sensors-applet/sensor-config-dialog.c:704
 msgid "_Enable alarm"
 msgstr "_Engedélyezve"
 

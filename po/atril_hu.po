@@ -1,19 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Translators:
-# Falu <info@falu.me>, 2015-2017
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010
-# Rezső Páder <rezso@rezso.net>, 2013-2015,2017
-# Kalman „KAMI” Szalai <kami911@gmail.com>, 2015-2018
-# Zoltán Rápolthy <real_zolee@hotmail.com>, 2017
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 10:51+0100\n"
+"POT-Creation-Date: 2018-03-22 10:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ferenc Teknős <teknos.ferenc@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -1452,10 +1447,11 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
-"Rezső Páder <rezso@rezso.net>\n"
-"Kalman „KAMI” Szalai <kami911@gmail.com>\n"
-"Zoltán Rápolthy <real_zolee@hotmail.com>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
+"Falu<info at falu dot me>\n"
+"Rezső Páder<rezso at rezso dot net>\n"
+"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #. TRANS: Sometimes this could be better translated as
 #. "%d hit(s) on this page".  Therefore this string
@@ -1599,7 +1595,7 @@ msgstr "_Jelenlegi beállítások mentése alapértelmezettként"
 
 #: ../shell/ev-window.c:6385
 msgid "_Reset Zoom"
-msgstr "_Nagyítás visszaállítása"
+msgstr "_Nagyítás vissza állítása"
 
 #: ../shell/ev-window.c:6388
 msgid "_Reload"
@@ -1832,7 +1828,7 @@ msgstr "Kicsinyítés"
 #. translators: this is the label for toolbar button
 #: ../shell/ev-window.c:6745
 msgid "Reset Zoom"
-msgstr "Nagyítás vissza állítása 100%-ra"
+msgstr "Nagyítás vissza állítása"
 
 #: ../shell/ev-window.c:6886 ../shell/ev-window.c:6902
 msgid "Unable to launch external application."

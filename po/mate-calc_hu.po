@@ -1,23 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Andras Timar <timar at mate dot hu>, 2003
-# Falu <info@falu.me>, 2017
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005-2012
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004
-# Mate ORY <orymate at gmail d0t com>, 2006
-# Rezső Páder <rezso@rezso.net>, 2013
-# Zoltán Rápolthy <real_zolee@hotmail.com>, 2017
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 15:10+0100\n"
+"POT-Creation-Date: 2018-03-16 15:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Zoltán Rápolthy <real_zolee@hotmail.com>, 2018\n"
+"Last-Translator: Falu <info@falu.me>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -534,7 +527,7 @@ msgid "MATE Calculator"
 msgstr "MATE számológép"
 
 #. Title of main window
-#: ../data/mate-calc.desktop.in.h:2 ../src/math-window.c:533
+#: ../data/mate-calc.desktop.in.h:2 ../src/math-window.c:562
 msgid "Calculator"
 msgstr "Számológép"
 
@@ -1334,11 +1327,11 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
+"Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #. The license this software is under (GPL2+)
 #: ../src/math-window.c:246
@@ -1380,44 +1373,72 @@ msgid "Calculator with financial and scientific modes."
 msgstr "Számológép pénzügyi és tudományos üzemmódokkal."
 
 #. Calculator menu
-#: ../src/math-window.c:369
+#: ../src/math-window.c:395
 msgid "_Calculator"
 msgstr "_Számológép"
 
 #. Mode menu
-#: ../src/math-window.c:371
+#: ../src/math-window.c:397
 msgid "_Mode"
 msgstr "_Mód"
 
 #. Help menu label
-#: ../src/math-window.c:373
+#: ../src/math-window.c:399
 msgid "_Help"
 msgstr "_Súgó"
 
 #. Basic menu label
-#: ../src/math-window.c:375
+#: ../src/math-window.c:401
 msgid "_Basic"
 msgstr "_Alap"
 
 #. Advanced menu label
-#: ../src/math-window.c:377
+#: ../src/math-window.c:403
 msgid "_Advanced"
 msgstr "_Speciális"
 
 #. Financial menu label
-#: ../src/math-window.c:379
+#: ../src/math-window.c:405
 msgid "_Financial"
 msgstr "_Pénzügyi"
 
 #. Programming menu label
-#: ../src/math-window.c:381
+#: ../src/math-window.c:407
 msgid "_Programming"
 msgstr "_Programozói"
 
 #. Help>Contents menu label
-#: ../src/math-window.c:383
+#: ../src/math-window.c:409
 msgid "_Contents"
 msgstr "_Tartalom"
+
+#: ../src/math-window.c:412
+msgid "_Copy"
+msgstr "_Másolás"
+
+#: ../src/math-window.c:414
+msgid "_Paste"
+msgstr "_Beillesztés"
+
+#: ../src/math-window.c:416
+msgid "_Undo"
+msgstr "_Visszavonás"
+
+#: ../src/math-window.c:418
+msgid "_Redo"
+msgstr "Mé_gis"
+
+#: ../src/math-window.c:421
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: ../src/math-window.c:423
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: ../src/math-window.c:440
+msgid "_About"
+msgstr "_Névjegy"
 
 #. Translators: Error displayed when boolean AND attempted on non-integer
 #. values

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 15:12+0100\n"
+"POT-Creation-Date: 2018-03-17 15:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -102,7 +102,7 @@ msgstr "_Kijelentkezés"
 msgid "_Cancel"
 msgstr "Mé_gse"
 
-#: ../data/lock-dialog-default.ui.h:5 ../src/gs-lock-plug.c:1672
+#: ../data/lock-dialog-default.ui.h:5 ../src/gs-lock-plug.c:1676
 msgid "_Unlock"
 msgstr "_Feloldás"
 
@@ -757,19 +757,19 @@ msgstr "Az idő lejárt."
 msgid "You have the Caps Lock key on."
 msgstr "A Caps Lock be van kapcsolva."
 
-#: ../src/gs-lock-plug.c:1652
+#: ../src/gs-lock-plug.c:1656
 msgid "S_witch User..."
 msgstr "Felhasználó_váltás…"
 
-#: ../src/gs-lock-plug.c:1661
+#: ../src/gs-lock-plug.c:1665
 msgid "Log _Out"
 msgstr "_Kijelentkezés"
 
 #. To translators: This expands to USERNAME on HOSTNAME
-#: ../src/gs-lock-plug.c:1874
+#: ../src/gs-lock-plug.c:1878
 msgid "%U on %h"
 msgstr "%U ezen: %h"
 
-#: ../src/gs-lock-plug.c:1889
+#: ../src/gs-lock-plug.c:1893
 msgid "_Password:"
 msgstr "_Jelszó:"

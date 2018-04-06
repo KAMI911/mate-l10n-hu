@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 14:58+0100\n"
+"POT-Creation-Date: 2018-03-17 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -1340,7 +1340,7 @@ msgstr ""
 #: ../src/gpm-manager.c:1165
 msgid "Battery Charged"
 msgid_plural "Batteries Charged"
-msgstr[0] "Az akkumulátor feltöltve"
+msgstr[0] "Az akkumulátorok feltöltve"
 msgstr[1] "Az akkumulátorok feltöltve"
 
 #. TRANSLATORS: laptop battery is now discharging
@@ -2128,7 +2128,7 @@ msgstr ""
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #. TRANSLATORS: % is a timestring, e.g. "6 hours 10 minutes"
 #: ../src/gpm-tray-icon.c:297
@@ -2327,7 +2327,7 @@ msgstr "Töltés sebessége:"
 #: ../src/gpm-upower.c:487
 msgid "AC adapter"
 msgid_plural "AC adapters"
-msgstr[0] "Hálózati csatlakozó"
+msgstr[0] "Hálózati csatlakozók"
 msgstr[1] "Hálózati csatlakozók"
 
 #. TRANSLATORS: laptop primary battery

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 19:57+0100\n"
+"POT-Creation-Date: 2018-03-17 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takler Tamás <taklertamas@gmail.com>, 2018\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2067,16 +2067,24 @@ msgstr "Kattintson ide a profil kiválasztásához"
 msgid "Profile list"
 msgstr "Profil lista"
 
-#: ../src/terminal-app.c:684
+#: ../src/terminal-app.c:702
 #, c-format
 msgid "Delete profile “%s”?"
 msgstr "Törli a(z) „%s” profilt?"
 
-#: ../src/terminal-app.c:697
+#: ../src/terminal-app.c:706
+msgid "_Cancel"
+msgstr "Mé_gse"
+
+#: ../src/terminal-app.c:711
+msgid "_Delete"
+msgstr "_Törlés"
+
+#: ../src/terminal-app.c:718
 msgid "Delete Profile"
 msgstr "Profil törlése"
 
-#: ../src/terminal-app.c:1144
+#: ../src/terminal-app.c:1165
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
@@ -2085,21 +2093,21 @@ msgstr ""
 "Már rendelkezik „%s” nevű profillal. Létre akar hozni egy másik profilt "
 "ugyanazzal a névvel?"
 
-#: ../src/terminal-app.c:1239
+#: ../src/terminal-app.c:1260
 msgid "Choose base profile"
 msgstr "Alap profil kiválasztása"
 
-#: ../src/terminal-app.c:1827
+#: ../src/terminal-app.c:1848
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Nincs „%s” nevű profil, az alapértelmezettet használom helyette\n"
 
-#: ../src/terminal-app.c:1854
+#: ../src/terminal-app.c:1875
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Érvénytelen geometria-karakterlánc: „%s”\n"
 
-#: ../src/terminal-app.c:2060
+#: ../src/terminal-app.c:2081
 msgid "User Defined"
 msgstr "Felhasználó által megadott"
 
@@ -2612,9 +2620,21 @@ msgstr "Lap _bezárása"
 msgid "_Close Window"
 msgstr "Ablak _bezárása"
 
+#: ../src/terminal-window.c:1910 ../src/terminal-window.c:2104
+msgid "_Copy"
+msgstr "_Másolás"
+
+#: ../src/terminal-window.c:1915 ../src/terminal-window.c:2109
+msgid "_Paste"
+msgstr "_Beillesztés"
+
 #: ../src/terminal-window.c:1920 ../src/terminal-window.c:2114
 msgid "Paste _Filenames"
 msgstr "_Fájlnevek beillesztése"
+
+#: ../src/terminal-window.c:1925
+msgid "Select _All"
+msgstr "Min_dent kijelöl"
 
 #: ../src/terminal-window.c:1930
 msgid "P_rofiles…"
@@ -2627,6 +2647,18 @@ msgstr "_Gyorsbillentyűk…"
 #: ../src/terminal-window.c:1940
 msgid "Pr_ofile Preferences"
 msgstr "_Profil beállításai"
+
+#: ../src/terminal-window.c:1947
+msgid "Zoom _In"
+msgstr "_Nagyítás"
+
+#: ../src/terminal-window.c:1952
+msgid "Zoom _Out"
+msgstr "_Kicsinyítés"
+
+#: ../src/terminal-window.c:1957
+msgid "_Normal Size"
+msgstr "_Normál méret"
 
 #: ../src/terminal-window.c:1964
 msgid "_Find..."
@@ -2818,4 +2850,5 @@ msgstr ""
 "Rezső Páder<rezso at rezso dot net>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"

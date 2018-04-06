@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"POT-Creation-Date: 2018-03-22 12:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ferenc Teknős <teknos.ferenc@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -91,9 +91,11 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
-"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Rezső Páder<rezso at rezso dot net>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
+"Falu<info at falu dot me>\n"
+"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -216,6 +218,10 @@ msgstr "N_yitott fájlok keresése"
 msgid "Search for open files"
 msgstr "Nyitott fájlok keresése"
 
+#: ../src/interface.cpp:58
+msgid "_Quit"
+msgstr "_Kilépés"
+
 #: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Kilépés a programból"
@@ -259,6 +265,10 @@ msgstr "_Prioritás megváltoztatása"
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Folyamat prioritásának megváltoztatása"
+
+#: ../src/interface.cpp:73
+msgid "_Preferences"
+msgstr "_Beállítások"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
@@ -304,6 +314,10 @@ msgstr "_Tartalom"
 #: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "A kézikönyv megnyitása"
+
+#: ../src/interface.cpp:90
+msgid "_About"
+msgstr "_Névjegy"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
@@ -512,15 +526,15 @@ msgid "_Name contains:"
 msgstr "_Név tartalmazza:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:345
+#: ../src/lsof.cpp:357
 msgid "C_lear"
 msgstr "_Törlés"
 
-#: ../src/lsof.cpp:349
+#: ../src/lsof.cpp:361
 msgid "Case insensitive matching"
 msgstr "Kis- és nagybetű nem különböző"
 
-#: ../src/lsof.cpp:357
+#: ../src/lsof.cpp:369
 msgid "S_earch results:"
 msgstr "_Keresés eredménye:"
 

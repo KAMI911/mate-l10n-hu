@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-18 17:20+0100\n"
+"POT-Creation-Date: 2018-03-18 17:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
+"Last-Translator: Nagy Gábor <jackson.gabor@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,13 +694,13 @@ msgstr "Ha nem menti, akkor az összes változás véglegesen elveszik."
 msgid "Character Encodings"
 msgstr "Karakterkódolások"
 
-#: ../pluma/dialogs/pluma-encodings-dialog.c:384
-#: ../pluma/dialogs/pluma-encodings-dialog.c:445
+#: ../pluma/dialogs/pluma-encodings-dialog.c:387
+#: ../pluma/dialogs/pluma-encodings-dialog.c:448
 msgid "_Description"
 msgstr "_Leírás"
 
-#: ../pluma/dialogs/pluma-encodings-dialog.c:393
-#: ../pluma/dialogs/pluma-encodings-dialog.c:454
+#: ../pluma/dialogs/pluma-encodings-dialog.c:396
+#: ../pluma/dialogs/pluma-encodings-dialog.c:457
 msgid "_Encoding"
 msgstr "_Kódolás"
 
@@ -709,12 +709,49 @@ msgid "Character encodings"
 msgstr "Karakterkódolások"
 
 #: ../pluma/dialogs/pluma-encodings-dialog.ui.h:2
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:2 ../pluma/pluma-ui.h:53
+#: ../plugins/sort/sort.ui.h:4 ../plugins/spell/languages-dialog.ui.h:2
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:2
+#: ../plugins/time/pluma-time-dialog.ui.h:2
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:2
+msgid "_Help"
+msgstr "_Súgó"
+
+#. Add a cancel button
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:3
+#: ../plugins/filebrowser/pluma-file-browser-utils.c:171
+#: ../plugins/sort/sort.ui.h:2 ../plugins/spell/languages-dialog.ui.h:3
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:3
+#: ../plugins/time/pluma-time-dialog.ui.h:3
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:3
+msgid "_Cancel"
+msgstr "Mé_gse"
+
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:4
+#: ../plugins/spell/languages-dialog.ui.h:4
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:4
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:4
+msgid "_OK"
+msgstr "_OK"
+
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:5
 msgid "A_vailable encodings:"
 msgstr "_Elérhető kódolások:"
 
-#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:3
+#. + Add to Dictionary
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:6
+#: ../plugins/spell/pluma-automatic-spell-checker.c:514
+msgid "_Add"
+msgstr "Hozzá_adás"
+
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:7
 msgid "E_ncodings shown in menu:"
 msgstr "_Kódolások a menüben:"
+
+#: ../pluma/dialogs/pluma-encodings-dialog.ui.h:8
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:33
+msgid "_Remove"
+msgstr "_Eltávolítás"
 
 #: ../pluma/dialogs/pluma-preferences-dialog.c:572
 msgid "Click on this button to select the font to be used by the editor"
@@ -752,7 +789,7 @@ msgstr "Minden fájl"
 msgid "Could not remove color scheme \"%s\"."
 msgstr "Nem távolítható el a(z) „%s” színséma."
 
-#: ../pluma/dialogs/pluma-preferences-dialog.c:1088
+#: ../pluma/dialogs/pluma-preferences-dialog.c:1091
 msgid "Pluma Preferences"
 msgstr "A Pluma beállításai"
 
@@ -760,190 +797,203 @@ msgstr "A Pluma beállításai"
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:2
+#. ex:et:ts=4:
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:3
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:2 ../pluma/pluma-ui.h:142
+#: ../plugins/docinfo/docinfo.ui.h:2
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+msgid "_Close"
+msgstr "_Bezárás"
+
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:4
 #: ../pluma/pluma-print-preferences.ui.h:9
 msgid "Text Wrapping"
 msgstr "Szöveg tördelése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:3
-#: ../plugins/docinfo/docinfo.ui.h:4
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:5
+#: ../plugins/docinfo/docinfo.ui.h:5
 #: ../plugins/externaltools/tools/tools.ui.h:21
 #: ../plugins/snippets/snippets/snippets.ui.h:9
-#: ../plugins/time/pluma-time-dialog.ui.h:4
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:3
+#: ../plugins/time/pluma-time-dialog.ui.h:6
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:6
 msgid "    "
 msgstr "    "
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:4
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:6
 #: ../pluma/pluma-print-preferences.ui.h:10
 msgid "Enable text _wrapping"
 msgstr "_Sortörés engedélyezése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:5
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:7
 #: ../pluma/pluma-print-preferences.ui.h:11
 msgid "Do not _split words over two lines"
 msgstr "Ne _törje a szavakat két sorba"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:6
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:8
 #: ../pluma/pluma-print-preferences.ui.h:3
 msgid "Line Numbers"
 msgstr "Sorszámok"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:7 ../pluma/pluma-view.c:1968
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:9 ../pluma/pluma-view.c:1968
 msgid "_Display line numbers"
 msgstr "Sorok számának _megjelenítése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:8
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:10
 msgid "Current Line"
 msgstr "Jelenlegi sor"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:9
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:11
 msgid "Highlight current _line"
 msgstr "_Jelenlegi sor kiemelése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:10
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:12
 msgid "Right Margin"
 msgstr "Jobb oldali margó"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:11
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:13
 msgid "Display right _margin"
 msgstr "Jobb mar_gó megjelenítése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:12
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:14
 msgid "_Right margin at column:"
 msgstr "_Jobb oldali margó ennél az oszlopnál:"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:13
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:15
 msgid "Bracket Matching"
 msgstr "Zárójelek párosítása"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:14
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:16
 msgid "Highlight matching _bracket"
 msgstr "A zárójel _párjának kiemelése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:15
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:17
 msgid "View"
 msgstr "Nézet"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:16
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:18
 msgid "Tab Stops"
 msgstr "Tabulátorok"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:17
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:19
 msgid "_Tab width:"
 msgstr "_Tabulátorok szélessége:"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:18
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:20
 msgid "Insert _spaces instead of tabs"
 msgstr "_Szóközök beillesztése tabulátorok helyett"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:19
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:21
 msgid "Automatic Indentation"
 msgstr "Automatikus behúzás"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:20
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:22
 msgid "_Enable automatic indentation"
 msgstr "_Automatikus behúzás engedélyezése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:21
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:23
 msgid "File Saving"
 msgstr "Fájlmentés"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:22
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:24
 msgid "Create a _backup copy of files before saving"
 msgstr "_Biztonsági másolatok létrehozása mentés előtt"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:23
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:25
 msgid "_Autosave files every"
 msgstr "Fájlok a_utomatikus mentése"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:24
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:26
 msgid "_minutes"
 msgstr "p_ercenként"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:25
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:27
 msgid "Editor"
 msgstr "Szerkesztő"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:26
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:28
 msgid "Font"
 msgstr "Betűkészlet"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:27
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:29
 msgid "Editor _font: "
 msgstr "S_zerkesztő betűkészlete: "
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:28
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:30
 msgid "Pick the editor font"
 msgstr "Válassza ki a szerkesztő betűkészletét"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:29
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:31
 msgid "Color Scheme"
 msgstr "Színséma"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:30
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:32
 msgid "_Add..."
 msgstr "Ú_j..."
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:31
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:34
 msgid "Font & Colors"
 msgstr "Betűk és színek"
 
-#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:32
+#: ../pluma/dialogs/pluma-preferences-dialog.ui.h:35
 msgid "Plugins"
 msgstr "Bővítmények"
 
 #: ../pluma/dialogs/pluma-search-dialog.c:301
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:1 ../pluma/pluma-window.c:1497
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:1 ../pluma/pluma-window.c:1500
 msgid "Replace"
 msgstr "Csere"
 
-#: ../pluma/dialogs/pluma-search-dialog.c:310 ../pluma/pluma-window.c:1495
+#: ../pluma/dialogs/pluma-search-dialog.c:310 ../pluma/pluma-window.c:1498
 msgid "Find"
 msgstr "Keresés"
 
-#: ../pluma/dialogs/pluma-search-dialog.c:420
+#: ../pluma/dialogs/pluma-search-dialog.c:419
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:4
+msgid "_Find"
+msgstr "_Keresés"
+
+#: ../pluma/dialogs/pluma-search-dialog.c:422
 msgid "Replace _All"
 msgstr "Öss_zes cseréje"
 
-#: ../pluma/dialogs/pluma-search-dialog.c:421
+#: ../pluma/dialogs/pluma-search-dialog.c:423
 #: ../pluma/pluma-commands-file.c:587
 msgid "_Replace"
 msgstr "_Csere"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:2
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:3
 msgid "Replace All"
 msgstr "Mindet cseréli"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:3
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:5
 msgid "_Search for: "
 msgstr "_Keresés erre: "
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:4
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:6
 msgid "Replace _with: "
 msgstr "C_sere ezzel: "
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:5
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:7
 msgid "_Match case"
 msgstr "Kis- és _nagybetű"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:6
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:8
 msgid "Match _regular expression"
 msgstr "_Reguláris kifejezés illesztése"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:7
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:9
 msgid "Match _entire word only"
 msgstr "Csak _teljes szóra"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:8
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:10
 msgid "Search _backwards"
 msgstr "Keresés _visszafelé"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:9
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:11
 msgid "_Wrap around"
 msgstr "Kö_rbe"
 
-#: ../pluma/dialogs/pluma-search-dialog.ui.h:10
+#: ../pluma/dialogs/pluma-search-dialog.ui.h:12
 msgid "_Parse escape sequences (e.g. \\n)"
 msgstr "Esca_pe szekvenciák feldolgozása (pl. \\n)"
 
@@ -1122,7 +1172,7 @@ msgstr[0] ""
 msgstr[1] ""
 "A dokumentum elmúlt %d órában történt változásai véglegesen elvesznek."
 
-#: ../pluma/pluma-commands-file.c:1226
+#: ../pluma/pluma-commands-file.c:1226 ../pluma/pluma-ui.h:84
 msgid "_Revert"
 msgstr "_Visszaállítás"
 
@@ -1137,12 +1187,11 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
+"Rezső Páder<rezso at rezso dot net>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../pluma/pluma-commands-search.c:112
 #, c-format
@@ -1168,11 +1217,11 @@ msgid "Unsaved Document %d"
 msgstr "%d. mentetlen dokumentum"
 
 #: ../pluma/pluma-documents-panel.c:97 ../pluma/pluma-documents-panel.c:111
-#: ../pluma/pluma-window.c:2224 ../pluma/pluma-window.c:2229
+#: ../pluma/pluma-window.c:2227 ../pluma/pluma-window.c:2232
 msgid "Read-Only"
 msgstr "Csak olvasható"
 
-#: ../pluma/pluma-documents-panel.c:785 ../pluma/pluma-window.c:3626
+#: ../pluma/pluma-documents-panel.c:785 ../pluma/pluma-window.c:3646
 msgid "Documents"
 msgstr "Dokumentumok"
 
@@ -1913,7 +1962,7 @@ msgstr "MIME-típus:"
 msgid "Encoding:"
 msgstr "Kódolás:"
 
-#: ../pluma/pluma-tab-label.c:276
+#: ../pluma/pluma-tab-label.c:288
 msgid "Close document"
 msgstr "Dokumentum bezárása"
 
@@ -1942,9 +1991,10 @@ msgstr "_Eszközök"
 msgid "_Documents"
 msgstr "_Dokumentumok"
 
-#: ../pluma/pluma-ui.h:53
-msgid "_Help"
-msgstr "_Súgó"
+#. File menu
+#: ../pluma/pluma-ui.h:56
+msgid "_New"
+msgstr "Ú_j"
 
 #: ../pluma/pluma-ui.h:57
 msgid "Create a new document"
@@ -1954,7 +2004,7 @@ msgstr "Új dokumentum létrehozása"
 msgid "_Open..."
 msgstr "_Megnyitás…"
 
-#: ../pluma/pluma-ui.h:59 ../pluma/pluma-window.c:1425
+#: ../pluma/pluma-ui.h:59 ../pluma/pluma-window.c:1424
 msgid "Open a file"
 msgstr "Fájl megnyitása"
 
@@ -1976,13 +2026,27 @@ msgstr "_Tartalom"
 msgid "Open the pluma manual"
 msgstr "A pluma felhasználói kézikönyvének megnyitása"
 
+#: ../pluma/pluma-ui.h:68
+msgid "_About"
+msgstr "_Névjegy"
+
 #: ../pluma/pluma-ui.h:69
 msgid "About this application"
 msgstr "Az alkalmazás névjegye"
 
+#. Fullscreen toolbar
+#: ../pluma/pluma-ui.h:72
+msgid "_Leave Fullscreen"
+msgstr "Teljes képernyő _elhagyása"
+
 #: ../pluma/pluma-ui.h:73
 msgid "Leave fullscreen mode"
 msgstr "Teljes képernyő elhagyása"
+
+#. File menu
+#: ../pluma/pluma-ui.h:80
+msgid "_Save"
+msgstr "_Mentés"
 
 #: ../pluma/pluma-ui.h:81
 msgid "Save the current file"
@@ -2016,25 +2080,53 @@ msgstr "_Nyomtatás…"
 msgid "Print the current page"
 msgstr "A jelenlegi oldal nyomtatása"
 
+#. Edit menu
+#: ../pluma/pluma-ui.h:92
+msgid "_Undo"
+msgstr "_Visszavonás"
+
 #: ../pluma/pluma-ui.h:93
 msgid "Undo the last action"
 msgstr "Az utolsó művelet visszavonása"
+
+#: ../pluma/pluma-ui.h:94
+msgid "_Redo"
+msgstr "Mé_gis"
 
 #: ../pluma/pluma-ui.h:95
 msgid "Redo the last undone action"
 msgstr "A visszavont művelet ismételt végrehajtása"
 
+#: ../pluma/pluma-ui.h:96
+msgid "Cu_t"
+msgstr "_Kivágás"
+
 #: ../pluma/pluma-ui.h:97
 msgid "Cut the selection"
 msgstr "Kijelölés kivágása"
+
+#: ../pluma/pluma-ui.h:98
+msgid "_Copy"
+msgstr "_Másolás"
 
 #: ../pluma/pluma-ui.h:99
 msgid "Copy the selection"
 msgstr "Kijelölés másolása"
 
+#: ../pluma/pluma-ui.h:100
+msgid "_Paste"
+msgstr "_Beillesztés"
+
 #: ../pluma/pluma-ui.h:101
 msgid "Paste the clipboard"
 msgstr "A vágólap tartalmának beillesztése"
+
+#. Add delete button
+#: ../pluma/pluma-ui.h:102
+#: ../plugins/filebrowser/pluma-file-browser-utils.c:182
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:805
+msgid "_Delete"
+msgstr "_Törlés"
 
 #: ../pluma/pluma-ui.h:103
 msgid "Delete the selected text"
@@ -2155,6 +2247,10 @@ msgstr "A jelenlegi dokumentum áthelyezése egy másik ablakba"
 msgid "Close the current file"
 msgstr "A jelenlegi fájl bezárása"
 
+#: ../pluma/pluma-ui.h:149
+msgid "_Quit"
+msgstr "_Kilépés"
+
 #: ../pluma/pluma-ui.h:150
 msgid "Quit the program"
 msgstr "Kilépés a programból"
@@ -2174,6 +2270,10 @@ msgstr "Állapot_sor"
 #: ../pluma/pluma-ui.h:159
 msgid "Show or hide the statusbar in the current window"
 msgstr "Állapotsor megjelenítése vagy rejtése a jelenlegi ablakban"
+
+#: ../pluma/pluma-ui.h:161
+msgid "_Fullscreen"
+msgstr "_Teljes képernyő"
 
 #: ../pluma/pluma-ui.h:162
 msgid "Edit text in fullscreen"
@@ -2247,7 +2347,7 @@ msgstr "A keresendő karaktersorozat"
 msgid "Line you want to move the cursor to"
 msgstr "A kurzor mozgatása a megadott sor elejére"
 
-#: ../pluma/pluma-window.c:982
+#: ../pluma/pluma-window.c:983
 #, c-format
 msgid "Use %s highlight mode"
 msgstr "%s kiemelési mód használata"
@@ -2255,7 +2355,7 @@ msgstr "%s kiemelési mód használata"
 #. add the "Plain Text" item before all the others
 #. Translators: "Plain Text" means that no highlight mode is selected in the
 #. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
-#: ../pluma/pluma-window.c:1039 ../pluma/pluma-window.c:1925
+#: ../pluma/pluma-window.c:1040 ../pluma/pluma-window.c:1928
 #: ../plugins/externaltools/tools/manager.py:138
 #: ../plugins/externaltools/tools/manager.py:445
 #: ../plugins/externaltools/tools/manager.py:556
@@ -2263,43 +2363,43 @@ msgstr "%s kiemelési mód használata"
 msgid "Plain Text"
 msgstr "Egyszerű szöveg"
 
-#: ../pluma/pluma-window.c:1040
+#: ../pluma/pluma-window.c:1041
 msgid "Disable syntax highlighting"
 msgstr "Nyelvtani kiemelések tiltása"
 
 #. Translators: %s is a URI
-#: ../pluma/pluma-window.c:1322
+#: ../pluma/pluma-window.c:1323
 #, c-format
 msgid "Open '%s'"
 msgstr "„%s” megnyitása"
 
-#: ../pluma/pluma-window.c:1427
+#: ../pluma/pluma-window.c:1430
 msgid "Open a recently used file"
 msgstr "Nemrég használt fájl megnyitása"
 
-#: ../pluma/pluma-window.c:1433
+#: ../pluma/pluma-window.c:1436
 msgid "Open"
 msgstr "Megnyitás"
 
-#: ../pluma/pluma-window.c:1491
+#: ../pluma/pluma-window.c:1494
 msgid "Save"
 msgstr "Mentés"
 
-#: ../pluma/pluma-window.c:1493
+#: ../pluma/pluma-window.c:1496
 msgid "Print"
 msgstr "Nyomtatás"
 
 #. Translators: %s is a URI
-#: ../pluma/pluma-window.c:1650
+#: ../pluma/pluma-window.c:1653
 #, c-format
 msgid "Activate '%s'"
 msgstr "„%s” aktiválása"
 
-#: ../pluma/pluma-window.c:1903
+#: ../pluma/pluma-window.c:1906
 msgid "Use Spaces"
 msgstr "Szóközök használata"
 
-#: ../pluma/pluma-window.c:1974
+#: ../pluma/pluma-window.c:1977
 msgid "Tab Width"
 msgstr "Tabulátorszélesség"
 
@@ -2360,39 +2460,39 @@ msgstr ""
 "Az aktuális dokumentum elemzése, és a szavak, sorok, karakterek és nem "
 "szóköz karakterek számának jelentése"
 
-#: ../plugins/docinfo/docinfo.ui.h:2
+#: ../plugins/docinfo/docinfo.ui.h:3
 msgid "_Update"
 msgstr "_Frissítés"
 
-#: ../plugins/docinfo/docinfo.ui.h:3
+#: ../plugins/docinfo/docinfo.ui.h:4
 msgid "File Name"
 msgstr "Fájlnév"
 
-#: ../plugins/docinfo/docinfo.ui.h:5
+#: ../plugins/docinfo/docinfo.ui.h:6
 msgid "Bytes"
 msgstr "Bájt"
 
-#: ../plugins/docinfo/docinfo.ui.h:6
+#: ../plugins/docinfo/docinfo.ui.h:7
 msgid "Characters (no spaces)"
 msgstr "Karakter (szóköz nélkül)"
 
-#: ../plugins/docinfo/docinfo.ui.h:7
+#: ../plugins/docinfo/docinfo.ui.h:8
 msgid "Characters (with spaces)"
 msgstr "Karakter (szóközökkel)"
 
-#: ../plugins/docinfo/docinfo.ui.h:8
+#: ../plugins/docinfo/docinfo.ui.h:9
 msgid "Words"
 msgstr "Szó"
 
-#: ../plugins/docinfo/docinfo.ui.h:9
+#: ../plugins/docinfo/docinfo.ui.h:10
 msgid "Lines"
 msgstr "Sor"
 
-#: ../plugins/docinfo/docinfo.ui.h:10
+#: ../plugins/docinfo/docinfo.ui.h:11
 msgid "Document"
 msgstr "Dokumentum"
 
-#: ../plugins/docinfo/docinfo.ui.h:11
+#: ../plugins/docinfo/docinfo.ui.h:12
 msgid "Selection"
 msgstr "Kijelölés"
 
@@ -2798,16 +2898,16 @@ msgstr "A(z) „%s” fájl nem helyezhető át a Kukába."
 msgid "The selected files cannot be moved to the trash."
 msgstr "A kijelölt fájlok nem helyezhetők át a Kukába."
 
-#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1167
+#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1165
 #, c-format
 msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr "Biztos, hogy véglegesen törli ezt: \"%s\"?"
 
-#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1170
+#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1168
 msgid "Are you sure you want to permanently delete the selected files?"
 msgstr "Biztosan véglegesen törölni kívánja a kijelölt fájlokat?"
 
-#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1173
+#: ../plugins/filebrowser/pluma-file-browser-plugin.c:1171
 msgid "If you delete an item, it is permanently lost."
 msgstr "Ha töröl egy elemet, az véglegesen elvész."
 
@@ -2867,13 +2967,13 @@ msgstr "Á_thelyezés a Kukába"
 msgid "Move selected file or folder to trash"
 msgstr "A kijelölt fájl vagy mappa áthelyezése a Kukába"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:805
-msgid "_Delete"
-msgstr "_Törlés"
-
 #: ../plugins/filebrowser/pluma-file-browser-widget.c:806
 msgid "Delete selected file or folder"
 msgstr "A kijelölt fájl vagy mappa törlése"
+
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:812
+msgid "_Open"
+msgstr "_Megnyitás"
 
 #: ../plugins/filebrowser/pluma-file-browser-widget.c:813
 msgid "Open selected file"
@@ -2961,18 +3061,18 @@ msgstr "_Bináris megjelenítése"
 msgid "Show binary files"
 msgstr "Bináris fájlok megjelenítése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:993
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1002
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1023
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:991
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1004
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1027
 msgid "Previous location"
 msgstr "Előző hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:995
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:997
 msgid "Go to previous location"
 msgstr "Ugrás az előző helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:997
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1018
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:999
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1022
 msgid "Go to a previously opened location"
 msgstr "Ugrás az előzőleg megnyitott helyre"
 
@@ -2980,25 +3080,25 @@ msgstr "Ugrás az előzőleg megnyitott helyre"
 msgid "Next location"
 msgstr "Következő hely"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1016
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1020
 msgid "Go to next location"
 msgstr "Ugrás a következő helyre"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:1228
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:1232
 msgid "_Match Filename"
 msgstr "Fájlné_v keresése"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2140
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2144
 #, c-format
 msgid "No mount object for mounted volume: %s"
 msgstr "Nem található csatolási objektum a csatolt kötethez: %s"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2220
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2224
 #, c-format
 msgid "Could not open media: %s"
 msgstr "Az adathordozó nem nyitható meg: %s"
 
-#: ../plugins/filebrowser/pluma-file-browser-widget.c:2267
+#: ../plugins/filebrowser/pluma-file-browser-widget.c:2271
 #, c-format
 msgid "Could not mount volume: %s"
 msgstr "A kötet nem csatolható: %s"
@@ -3021,12 +3121,11 @@ msgstr "Python konzol"
 msgid "Interactive Python console standing in the bottom panel"
 msgstr "Interaktív Python konzol az alsó panelen"
 
-#. ex:et:ts=4:
-#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
 msgid "C_ommand color:"
 msgstr "_Parancsszín:"
 
-#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:3
 msgid "_Error color:"
 msgstr "_Hibaszín:"
 
@@ -3294,27 +3393,27 @@ msgstr "Rendezés"
 msgid "Sorts a document or selected text."
 msgstr "Dokumentum vagy kijelölt szöveg rendezése"
 
-#: ../plugins/sort/sort.ui.h:2
+#: ../plugins/sort/sort.ui.h:3
 msgid "_Sort"
 msgstr "_Rendezés"
 
-#: ../plugins/sort/sort.ui.h:3
+#: ../plugins/sort/sort.ui.h:5
 msgid "_Reverse order"
 msgstr "_Fordított sorrend"
 
-#: ../plugins/sort/sort.ui.h:4
+#: ../plugins/sort/sort.ui.h:6
 msgid "R_emove duplicates"
 msgstr "Másolatok _eltávolítása"
 
-#: ../plugins/sort/sort.ui.h:5
+#: ../plugins/sort/sort.ui.h:7
 msgid "_Ignore case"
 msgstr "_Kis- és nagybetű nem számít"
 
-#: ../plugins/sort/sort.ui.h:6
+#: ../plugins/sort/sort.ui.h:8
 msgid "S_tart at column:"
 msgstr "_Kezdőoszlop:"
 
-#: ../plugins/sort/sort.ui.h:7
+#: ../plugins/sort/sort.ui.h:9
 msgid "You cannot undo a sort operation"
 msgstr "A rendezés nem vonható vissza"
 
@@ -3340,11 +3439,6 @@ msgstr "_Több…"
 #: ../plugins/spell/pluma-automatic-spell-checker.c:499
 msgid "_Ignore All"
 msgstr "Mindet á_tugorja"
-
-#. + Add to Dictionary
-#: ../plugins/spell/pluma-automatic-spell-checker.c:514
-msgid "_Add"
-msgstr "Hozzá_adás"
 
 #: ../plugins/spell/pluma-automatic-spell-checker.c:553
 msgid "_Spelling Suggestions..."
@@ -3434,7 +3528,7 @@ msgstr "A dokumentum üres."
 msgid "No misspelled words"
 msgstr "Nincs hibás szó"
 
-#: ../plugins/spell/languages-dialog.ui.h:2
+#: ../plugins/spell/languages-dialog.ui.h:5
 msgid "Select the _language of the current document."
 msgstr "Válassza ki az aktuális _dokumentum nyelvét"
 
@@ -3498,19 +3592,19 @@ msgstr "Nyelv"
 msgid "_Configure Spell Checker plugin..."
 msgstr "_Helyesírás-ellenőrző bővítmény beállítása..."
 
-#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:2
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:5
 msgid "Autocheck spelling on document load..."
 msgstr "Helyesírás automatikus ellenőrzése a dokumentum betöltésekor..."
 
-#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:3
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:6
 msgid "_Never autocheck"
 msgstr "_Soha"
 
-#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:4
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:7
 msgid "_Remember autocheck by document"
 msgstr "_Megjegyzés dokumentumonként"
 
-#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:5
+#: ../plugins/spell/pluma-spell-setup-dialog.ui.h:8
 msgid "_Always autocheck"
 msgstr "_Mindig"
 
@@ -5126,31 +5220,31 @@ msgstr "Mentés előtt eltávolítja a befejező szóközöket."
 msgid "Insert Date and Time"
 msgstr "Dátum és idő beszúrása"
 
-#: ../plugins/time/pluma-time-dialog.ui.h:2
+#: ../plugins/time/pluma-time-dialog.ui.h:4
 msgid "_Insert"
 msgstr "_Beszúrás"
 
-#: ../plugins/time/pluma-time-dialog.ui.h:3
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:5
+#: ../plugins/time/pluma-time-dialog.ui.h:5
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:8
 msgid "Use the _selected format"
 msgstr "A _kiválasztott formátum használata"
 
-#: ../plugins/time/pluma-time-dialog.ui.h:5
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:6
+#: ../plugins/time/pluma-time-dialog.ui.h:7
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:9
 msgid "_Use custom format"
 msgstr "_Egyéni formátum használata"
 
 #. Translators: Use the more common date format in your locale
-#: ../plugins/time/pluma-time-dialog.ui.h:7
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:9
+#: ../plugins/time/pluma-time-dialog.ui.h:9
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:12
 #, no-c-format
 msgid "%d/%m/%Y %H:%M:%S"
 msgstr "%Y. %m. %d., %k.%M.%S"
 
 #. Translators: This example should follow the date format defined in the
 #. entry above
-#: ../plugins/time/pluma-time-dialog.ui.h:8
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:11
+#: ../plugins/time/pluma-time-dialog.ui.h:10
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:14
 msgid "01/11/2009 17:52:00"
 msgstr "2010. 03. 08., 9.52.00"
 
@@ -5158,10 +5252,10 @@ msgstr "2010. 03. 08., 9.52.00"
 msgid "Configure date/time plugin"
 msgstr "A dátum/idő bővítmény beállítása"
 
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:2
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:5
 msgid "When inserting date/time..."
 msgstr "Dátum/idő beszúrásakor…"
 
-#: ../plugins/time/pluma-time-setup-dialog.ui.h:4
+#: ../plugins/time/pluma-time-setup-dialog.ui.h:7
 msgid "_Prompt for a format"
 msgstr "_Formátum bekérése"

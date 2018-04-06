@@ -1,21 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Kalman „KAMI” Szalai <kami911@gmail.com>, 2014-2018
-# Balázs Meskó <meskobalazs@gmail.com>, 2016
-# Egy Játékos <mcserver131@gmail.com>, 2015
-# Falu <info@falu.me>, 2015,2017
-# István Nagy <kisbela@gmail.com>, 2016
-# Nagy Gábor <jackson.gabor@gmail.com>, 2014
-# Rezső Páder <rezso@rezso.net>, 2013-2017
-# Takler Tamás <taklertamas@gmail.com>, 2015
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 08:57+0100\n"
+"POT-Creation-Date: 2018-03-17 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Zoltán Rápolthy <real_zolee@hotmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -33,10 +26,11 @@ msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
 "Tímár András<timar at mate dot hu>\n"
+"Rezső Páder<rezso at rezso dot net>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../mate-about/mate-about.desktop.in.in.h:1
 msgid "About MATE"

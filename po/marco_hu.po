@@ -1,16 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Falu <info@falu.me>, 2015-2016
-# Rezső Páder <rezso@rezso.net>, 2013-2015,2017
-# Kalman „KAMI” Szalai <kami911@gmail.com>, 2015-2018
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 14:01+0100\n"
+"POT-Creation-Date: 2018-03-16 13:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -1461,7 +1459,7 @@ msgid "Marco"
 msgstr "Marco"
 
 #. first time through
-#: ../src/core/window.c:5880
+#: ../src/core/window.c:5893
 #, c-format
 msgid ""
 "Window %s sets SM_CLIENT_ID on itself, instead of on the WM_CLIENT_LEADER "
@@ -1476,7 +1474,7 @@ msgstr ""
 #. * leads to e.g. us not fullscreening their windows.  Apps that set
 #. * MWM but not WM_NORMAL_HINTS are basically broken. We complain
 #. * about these apps but make them work.
-#: ../src/core/window.c:6445
+#: ../src/core/window.c:6458
 #, c-format
 msgid ""
 "Window %s sets an MWM hint indicating it isn't resizable, but sets min size "
@@ -2423,97 +2421,101 @@ msgstr "<%s> kétszer lett meghatározva ehhez a témához"
 msgid "Failed to find a valid file for theme %s\n"
 msgstr "Nem található érvényes fájl a következő témához: %s\n"
 
-#: ../src/ui/theme-viewer.c:266
+#: ../src/ui/theme-viewer.c:256
+msgid "_OK"
+msgstr "_OK"
+
+#: ../src/ui/theme-viewer.c:268
 msgid "This is a sample message in a sample dialog"
 msgstr "Ez egy mintaüzenet egy minta párbeszédben"
 
-#: ../src/ui/theme-viewer.c:350
+#: ../src/ui/theme-viewer.c:352
 #, c-format
 msgid "Fake menu item %d\n"
 msgstr "%d. hamis menüelem\n"
 
-#: ../src/ui/theme-viewer.c:386
+#: ../src/ui/theme-viewer.c:388
 msgid "Border-only window"
 msgstr "Csak keretes ablak"
 
-#: ../src/ui/theme-viewer.c:388
+#: ../src/ui/theme-viewer.c:390
 msgid "Bar"
 msgstr "Sáv"
 
-#: ../src/ui/theme-viewer.c:405
+#: ../src/ui/theme-viewer.c:407
 msgid "Normal Application Window"
 msgstr "Normál alkalmazásablak"
 
-#: ../src/ui/theme-viewer.c:409
+#: ../src/ui/theme-viewer.c:411
 msgid "Dialog Box"
 msgstr "Párbeszédablak"
 
-#: ../src/ui/theme-viewer.c:413
+#: ../src/ui/theme-viewer.c:415
 msgid "Modal Dialog Box"
 msgstr "Kizárólagos párbeszéd doboz"
 
-#: ../src/ui/theme-viewer.c:417
+#: ../src/ui/theme-viewer.c:419
 msgid "Utility Palette"
 msgstr "Eszközpaletta"
 
-#: ../src/ui/theme-viewer.c:421
+#: ../src/ui/theme-viewer.c:423
 msgid "Torn-off Menu"
 msgstr "Leválasztott menü"
 
-#: ../src/ui/theme-viewer.c:425
+#: ../src/ui/theme-viewer.c:427
 msgid "Border"
 msgstr "Szegély"
 
-#: ../src/ui/theme-viewer.c:782
+#: ../src/ui/theme-viewer.c:784
 #, c-format
 msgid "Button layout test %d"
 msgstr "Gombelrendezés teszt %d"
 
-#: ../src/ui/theme-viewer.c:807
+#: ../src/ui/theme-viewer.c:809
 #, c-format
 msgid "%g milliseconds to draw one window frame"
 msgstr "%g ezredmásodpercig tartott egy ablakkeret kirajzolása"
 
-#: ../src/ui/theme-viewer.c:847
+#: ../src/ui/theme-viewer.c:849
 #, c-format
 msgid "Usage: marco-theme-viewer [THEMENAME]\n"
 msgstr "Használat: marco-theme-viewer [TÉMANÉV]\n"
 
-#: ../src/ui/theme-viewer.c:854
+#: ../src/ui/theme-viewer.c:856
 #, c-format
 msgid "Error loading theme: %s\n"
 msgstr "Hiba történt a téma betöltése közben: %s\n"
 
-#: ../src/ui/theme-viewer.c:860
+#: ../src/ui/theme-viewer.c:862
 #, c-format
 msgid "Loaded theme \"%s\" in %g seconds\n"
 msgstr "A(z) „%s” téma %g másodperc alatt betöltve\n"
 
-#: ../src/ui/theme-viewer.c:904
+#: ../src/ui/theme-viewer.c:906
 msgid "Normal Title Font"
 msgstr "Normál cím betűtípus"
 
-#: ../src/ui/theme-viewer.c:910
+#: ../src/ui/theme-viewer.c:912
 msgid "Small Title Font"
 msgstr "Kicsi cím betűtípus"
 
-#: ../src/ui/theme-viewer.c:916
+#: ../src/ui/theme-viewer.c:918
 msgid "Large Title Font"
 msgstr "Nagy cím betűtípus"
 
-#: ../src/ui/theme-viewer.c:921
+#: ../src/ui/theme-viewer.c:923
 msgid "Button Layouts"
 msgstr "Gombelrendezések"
 
-#: ../src/ui/theme-viewer.c:926
+#: ../src/ui/theme-viewer.c:928
 msgid "Benchmark"
 msgstr "Teljesítményteszt"
 
-#: ../src/ui/theme-viewer.c:983
+#: ../src/ui/theme-viewer.c:985
 msgid "Window Title Goes Here"
 msgstr "Ide kerül az ablak címe"
 
-#: ../src/ui/theme-viewer.c:1088
+#: ../src/ui/theme-viewer.c:1090
 #, c-format
 msgid ""
 "Drew %d frames in %g client-side seconds (%g milliseconds per frame) and %g "

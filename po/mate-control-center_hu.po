@@ -1,28 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Andras Timar <timar at mate dot hu>, 2001-2003
-# Balázs Meskó <meskobalazs@gmail.com>, 2016
-# Emese Kovacs <emese at mate dot hu>, 2001
-# Falu <info@falu.me>, 2015,2017
-# Gabor Kelemen <kelemeng at mate dot hu>, 2004-2010
-# Gabor Sari <saga at mate dot hu>, 2003
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
-# Kalman „KAMI” Szalai <kami911@gmail.com>, 2014-2018
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004
-# Mate ORY <orymate at gmail d0t com>, 2006
-# Peter Doma <zelin at pointernet dot hu>, 2002
-# Rezső Páder <rezso@rezso.net>, 2013-2015
-# Szabolcs Ban <shooby at mate dot hu>, 1998-2000
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 18:21+0100\n"
+"POT-Creation-Date: 2018-03-23 18:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Márton Fazekas <zseliakiraly@gmail.com>, 2018\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1367,6 +1355,11 @@ msgstr ""
 "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ikontéma "
 "nincs telepítve."
 
+#: ../capplets/common/theme-thumbnail.c:224
+#: ../capplets/common/theme-thumbnail.c:306
+msgid "_Open"
+msgstr "_Megnyitás"
+
 #: ../capplets/default-applications/mate-default-applications-properties.desktop.in.in.h:1
 #: ../capplets/default-applications/mate-default-applications-properties.ui.h:1
 msgid "Preferred Applications"
@@ -2706,6 +2699,14 @@ msgstr "_Szünet elhalasztása"
 msgid "Take a break!"
 msgstr "Tartson szünetet!"
 
+#: ../typing-break/drwright.c:138
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: ../typing-break/drwright.c:139
+msgid "_About"
+msgstr "_Névjegy"
+
 #: ../typing-break/drwright.c:140
 msgid "_Take a Break"
 msgstr "_Szünet tartása"
@@ -2763,7 +2764,7 @@ msgstr ""
 "Falu<info at falu dot me>\n"
 "Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko.balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>"
 
 #: ../typing-break/main.c:62
 msgid "Enable debugging code"
