@@ -1141,7 +1141,6 @@ msgstr ""
 "Falu<info at falu dot me>\n"
 "Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-
 "Meskó Balázs <mesko.balazs at fsf dot hu>"
 
 #: ../pluma/pluma-commands-search.c:112
