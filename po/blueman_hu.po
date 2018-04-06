@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# István Szőllősi <szollosi.istv4n@gmail.com>, 2014,2017
+# Rezső Páder <rezso@rezso.net>, 2014-2015,2017
+# KAMI KAMI <kami911@gmail.com>, 2014-2018
 # Balázs Meskó <meskobalazs@gmail.com>, 2017
 # Falu <info@falu.me>, 2017
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014,2017
-# KAMI KAMI <kami911@gmail.com>, 2014,2016-2017
-# Rezső Páder <rezso@rezso.net>, 2014-2015,2017
 # Zoltán Rápolthy <real_zolee@hotmail.com>, 2017
 msgid ""
 msgstr ""
@@ -797,7 +796,7 @@ msgstr "Tovább"
 
 #: ../blueman/gui/CommonUi.py:39
 msgid "translator-credits"
-msgstr "Meskó Balázs <meskobalazs at fedoraproject dot org>, 2017.\n\nLaunchpad Contributions:\n  Bálint Fekete https://launchpad.net/~kaktusztea\n  Csarlee https://launchpad.net/~karesz-cskr\n  Fox https://launchpad.net/~younfox\n  Gabor Kelemen https://launchpad.net/~kelemeng\n  Janusz https://launchpad.net/~janusz\n  Kántor Dániel https://launchpad.net/~kdani3\n  MBA https://launchpad.net/~mbalazs\n  Muszela Balázs https://launchpad.net/~bazsi86\n  Peter Nagy https://launchpad.net/~antronin\n  Pittmann Tamás https://launchpad.net/~zaivaldi\n  Szenográdi Norbert Péter https://launchpad.net/~sevoir\n  Thomas Martin Klein https://launchpad.net/~kleintamasmarton\n  Thuma Gábor https://launchpad.net/~thuma\n  TÖRÖK Attila https://launchpad.net/~torokati44\n  Valmantas Palikša https://launchpad.net/~walmis\n  Varga Zoltán https://launchpad.net/~wazzeg\n  kavkar https://launchpad.net/~kavkar\n  ricsko https://launchpad.net/~ricsi91"
+msgstr "István Szőllősi <szollosi.istv4n@gmail.com>, 2014,2017\nRezső Páder <rezso@rezso.net>, 2014-2015,2017\nKalman „KAMI” Szalai <kami911@gmail.com>, 2014-2018\nBalázs Meskó <meskobalazs@gmail.com>, 2017\nFalu <info@falu.me>, 2017\nZoltán Rápolthy <real_zolee@hotmail.com>, 2017\n\nLaunchpad Contributions:\n  Bálint Fekete https://launchpad.net/~kaktusztea\n  Csarlee https://launchpad.net/~karesz-cskr\n  Fox https://launchpad.net/~younfox\n  Gabor Kelemen https://launchpad.net/~kelemeng\n  Janusz https://launchpad.net/~janusz\n  Kántor Dániel https://launchpad.net/~kdani3\n  MBA https://launchpad.net/~mbalazs\n  Muszela Balázs https://launchpad.net/~bazsi86\n  Peter Nagy https://launchpad.net/~antronin\n  Pittmann Tamás https://launchpad.net/~zaivaldi\n  Szenográdi Norbert Péter https://launchpad.net/~sevoir\n  Thomas Martin Klein https://launchpad.net/~kleintamasmarton\n  Thuma Gábor https://launchpad.net/~thuma\n  TÖRÖK Attila https://launchpad.net/~torokati44\n  Valmantas Palikša https://launchpad.net/~walmis\n  Varga Zoltán https://launchpad.net/~wazzeg\n  kavkar https://launchpad.net/~kavkar\n  ricsko https://launchpad.net/~ricsi91"
 
 #: ../blueman/gui/CommonUi.py:44
 msgid "Blueman is a GTK+ Bluetooth manager"

@@ -213,7 +213,7 @@ msgstr "Egy meghatározott hálózati eszközön áthaladó forgalommal kapcsola
 
 #: ../src/netspeed.c:812
 msgid "translator-credits"
-msgstr "Kelemen Gábor <kelemeng@gnome.hu>\nTímár András <timar@fsf.hu>"
+msgstr "Kelemen Gábor <kelemeng@gnome.hu>\nTímár András <timar@fsf.hu>\nRezső Páder <rezso@rezso.net>\nKalman „KAMI” Szalai <kami911@gmail.com>"
 
 #: ../src/netspeed.c:970
 msgid "Mate Netspeed Preferences"
